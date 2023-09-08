@@ -321,7 +321,8 @@ length(x)
 y <-f(x)
 
 dev.new()
-plot(x,y, type="l", col="red", lwd=2) 
+plot(x,y, type="l", col="red", lwd=2)
+## type = line, color = red, line_wide = 2
 
 f12<-integrate(f, lower = 1, upper = 2)
 f12
@@ -329,12 +330,17 @@ f12
 
 #---------differentiation-----------------
 #install.packages("Deriv")
-library(Deriv)
+install.packages('Deriv')
+library(Deriv)  ## derivative 미분, 도함수
 
 f1<-Deriv(f)
 f1
 f1(1)
 
+plot(x, f1(x), type ='l', col = 'red', lwd = 2)
+plot(x, y, type ='l', col = 'red', lwd = 2)
+
+?Deriv
 
 f2<-Deriv(f1)
 f2
@@ -347,6 +353,8 @@ sigma<-1
 normal_pdf <- function(x) {
   (1/sqrt(2*pi*sigma^2))*exp( -((x-mu)^2)/(2*sigma^2) )
 }
+
+## 염병할 적률생성함수를 직접 입력해야 한다고? 말도안됨.
 
 x <- seq(-5,5,0.01)
 y <-normal_pdf(x)
