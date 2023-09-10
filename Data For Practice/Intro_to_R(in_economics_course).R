@@ -354,14 +354,23 @@ normal_pdf <- function(x) {
   (1/sqrt(2*pi*sigma^2))*exp( -((x-mu)^2)/(2*sigma^2) )
 }
 
-## 염병할 적률생성함수를 직접 입력해야 한다고? 말도안됨.
+## 염병할 표준정규분포 확률밀도함수 직접 입력해야 되는거 맞냐.
+
+mu <- 0
+sigma <- 1
+
+normal_pdf <- function(x) {
+  ((1/sqrt(2*pi*sigma^2))*exp(-(1/2)*((x-mu)/sigma)^2))
+}
 
 x <- seq(-5,5,0.01)
-y <-normal_pdf(x)
+y <- normal_pdf(x)
 y
 #Plot normal distributions 
 dev.new()
 plot(x,y, type="l", col="red", lwd=2) #lty=1,
+
+?plot()
 
 f.norm<-integrate(normal_pdf, lower = -1.96, upper = 1.96)
 f.norm
@@ -374,7 +383,7 @@ length(x)
 for (i in 1:(length(x)-1)){
   sum<-sum+0.0000001*normal_pdf(x[i])
 }
-sum
+print(sum)
 
 #------------Scatter Plot-------------------------------------------------------
 
@@ -382,9 +391,11 @@ n<-1000
 x<-4+rnorm(n,mean=1,sd=5)
 y<-1+2*x+rnorm(n,mean=0,sd=4)
 
+## 함수 y = 2x + 1로 회귀되는 원소들을 만드는 수식
+
 dev.new()
 plot(x,y, pch=16, col="blue", 
      main=expression(paste("Sampling under ", beta[0], 
                            "=1", " ", "and", " ", beta[1], "=2")))
-text(10, 2, "scatter plot", cex=1.5)
-abline(a=1,b=2, col="red", lwd=3)
+text(6, -15, "scatter plot", cex=1.5)
+abline(a=1,b=2, col="red", lwd=3) ## line with parameter a, b
