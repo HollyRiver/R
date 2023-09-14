@@ -316,16 +316,17 @@ plot(x,y, type="l", col="blue") #points: type="p"
 f <-function(x) {
   x^3+3*x^2+3*x+1
 } 
-x <- seq(-5,5,0.01)
+x <- seq(-5,5,0.01) ## 수를 나열하는 함수(수열), same as seq(-5, 5, length = 1001)
 length(x)
 y <-f(x)
 
 dev.new()
-plot(x,y, type="l", col="red", lwd=2)
-## type = line, color = red, line_wide = 2
 
-f12<-integrate(f, lower = 1, upper = 2)
-f12
+plot(x,y, type="l", col="red", lwd=2)
+## plot type = line, color = red, line_widge = 2
+
+f12<-integrate(f, lower = 1, upper = 2) ## integrate function "f"
+f12   ## > 16.25 with absolute error < 1.8e-13 : 실제 값과의 차이는 0.000000000000018보다 작음.
 
 
 #---------differentiation-----------------
@@ -333,10 +334,16 @@ f12
 install.packages('Deriv')
 library(Deriv)  ## derivative 미분, 도함수
 
+f
+
+x <- seq(-10, 10, by = 0.1)
+y <- f(x)
+
 f1<-Deriv(f)
 f1
 f1(1)
 
+dev.new()
 plot(x, f1(x), type ='l', col = 'red', lwd = 2)
 plot(x, y, type ='l', col = 'red', lwd = 2)
 
@@ -354,14 +361,14 @@ normal_pdf <- function(x) {
   (1/sqrt(2*pi*sigma^2))*exp( -((x-mu)^2)/(2*sigma^2) )
 }
 
-## 염병할 표준정규분포 확률밀도함수 직접 입력해야 되는거 맞냐.
+## 염병할 표준정규분포 확률밀도함수 직접 입력해야 되는거 맞냐. cf) 그냥 적분 시각화하려고 한듯?
 
 mu <- 0
 sigma <- 1
 
 normal_pdf <- function(x) {
-  ((1/sqrt(2*pi*sigma^2))*exp(-(1/2)*((x-mu)/sigma)^2))
-}
+  ((1/sqrt(2*pi*sigma^2))*exp(-(1/2)*((x-mu)/sigma)^2)) ## sqrt() : square root, pi : pie, exp() : exponence
+} ## probability distribution function
 
 x <- seq(-5,5,0.01)
 y <- normal_pdf(x)
@@ -373,9 +380,45 @@ plot(x,y, type="l", col="red", lwd=2) #lty=1,
 ?plot()
 
 f.norm<-integrate(normal_pdf, lower = -1.96, upper = 1.96)
-f.norm
+f.norm  ## console ; 0.9500042 with absolute error < 1e-11
 
 #-----------for loop: integration-----------------------------------------------
+
+## 구분구적법 직접 해보기
+
+x <- seq(-1.96, 1.96, by = 0.0000001)
+integrated_val <- 0
+
+'''
+## 틀린 코드
+for (i in (length(x)-1)) {
+  integrated_val <- integrated_val + normal_pdf(x[i])*0.0001
+}
+
+> 해설 :  i가 포함되는 곳이 행렬이 아닌 한 개의 숫자임
+'''
+
+for (i in 1:(length(x)-1)) {  ## length(x)만큼 점을 나누었으므로 하나를 빼주어야 범위내 사각형의 넓이를 구할 수 있음
+  integrated_val <- integrated_val + normal_pdf(x[i])*0.0000001
+}
+
+## 연산에 상당한 시간이 걸린다.
+
+print(integrated_val)   ## colsole : 0.9500042. integrate(normal_pdf, lower = -1.96, upper = 1.96)과 결과가 동일
+
+integrate_quadrature <- function(func, lower, upper) {  ## 구분구적법으로 미분하는 함수
+  seq_vector <- seq(lower, upper, by = 0.000001)
+  integrated_val <- 0
+  
+  for (i in 1:(length(seq_vector)-1)) {
+    integrated_val <- integrated_val + 0.000001*func(x[i])
+  }
+  integrated_val
+}
+
+integrate_quadrature(normal_pdf, -1.96, 1.96)   ## 왜 결과값이 안나올까
+
+
 
 x <- seq(-1.96,1.96,0.0000001)
 sum<-0
@@ -394,8 +437,21 @@ y<-1+2*x+rnorm(n,mean=0,sd=4)
 ## 함수 y = 2x + 1로 회귀되는 원소들을 만드는 수식
 
 dev.new()
-plot(x,y, pch=16, col="blue", 
+plot(x,y, pch=16, col="blue",  ## pch = 16 : marker = filled circle, if select pch option, output scattor plot -> 아닌듯?
      main=expression(paste("Sampling under ", beta[0], 
                            "=1", " ", "and", " ", beta[1], "=2")))
-text(6, -15, "scatter plot", cex=1.5)
-abline(a=1,b=2, col="red", lwd=3) ## line with parameter a, b
+text(6, -15, "scatter plot", cex=1.5) ## add texts in dev where (6,-15), charactor expansion = 1.5
+abline(a=1,b=2, col="red", lwd=3) ## line with parameter a(beta[0]), b(beta[1]). format is y = a + bx
+
+dev.new()
+plot(x,y, col="blue",
+     main=expression(paste("Sampling under ", beta[0], 
+                           "=1", " ", "and", " ", beta[1], "=2")))
+
+## plot() 함수에서 type을 지정하지 않으면 디폴트 값은 "p"(point), 즉, 스캐터 함수로 산출함.
+
+## main = 제목을 지정하는 옵션
+## expression() 안에 포함된 표현들을 살려서 charactor로 산출하는 함수. 즉, 마크다운으로 적힌 문자열을 변환시켜준다.
+## paste() 여러 개체들을 붙여서 하나의 charactor로 산출한다.
+
+paste(c(1:4), 'testing')  ## console : [1] "1 testing" "2 testing" "3 testing" "4 testing". 꼭 그런 것만은 아닌가보다.
