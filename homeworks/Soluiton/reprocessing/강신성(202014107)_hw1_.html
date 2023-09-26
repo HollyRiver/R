@@ -11,7 +11,7 @@
 
 
 
-<title>강신성(202014107).html</title>
+<title>강신성(202014107)_hw1.html</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -1746,144 +1746,59 @@ display: none;
 
 
 
-<h1 class="title toc-ignore">강신성(202014107).html</h1>
+<h1 class="title toc-ignore">강신성(202014107)_hw1.html</h1>
 
 </div>
 
 
 <!-- rnb-text-begin -->
-<p>————————————————homework 2————————————————</p>
-<div id="we-learned-the-following-r-code-in-class.-answer-the-following-questions-using-this-code." class="section level2">
-<h2>We learned the following R code in class. Answer the following
-questions using this code.</h2>
-<p>————————example: Scatter Plot————————</p>
+<div id="수열문제-a." class="section level3">
+<h3>수열문제 a.</h3>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubjwtMTAwMFxueDwtNCtybm9ybShuLG1lYW49MSxzZD01KVxueTwtMSsyKngrcm5vcm0obixtZWFuPTAsc2Q9NClcblxuZGV2Lm5ldygpXG5wbG90KHgseSwgcGNoPTE2LCBjb2w9XCJibHVlXCIsIFxuICAgICBtYWluPWV4cHJlc3Npb24ocGFzdGUoXCJTYW1wbGluZyB1bmRlciBcIiwgYmV0YVswXSwgXG4gICAgICAgICAgICAgICAgICAgICAgICAgICBcIj0xXCIsIFwiIFwiLCBcImFuZFwiLCBcIiBcIiwgYmV0YVsxXSwgXCI9MlwiKSkpXG50ZXh0KDEwLCAyLCBcInNjYXR0ZXIgcGxvdFwiLCBjZXg9MS41KVxuYWJsaW5lKGE9MSxiPTIsIGNvbD1cInJlZFwiLCBsd2Q9MylcbmBgYCJ9 -->
-<pre class="r"><code>n&lt;-1000
-x&lt;-4+rnorm(n,mean=1,sd=5)
-y&lt;-1+2*x+rnorm(n,mean=0,sd=4)
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxueCA9IDAgICAjIyB47JmAIGnsnZgg7LSI6riw6rCSIOyEpOyglVxuaSA9IDBcblxud2hpbGUgKGkgPD0gMjEpIHtcbiAgeCA9IHggKyAxLygyICogKC0yKV4oaSkpICAgICMjIOu2hOuqqOyXkCAoLTIpXmkg7KCc6rOx7J2EIO2VmOyXrCDrtoDtmLgg67OA6rK9XG4gIGkgPSBpICsgMVxuICBcbiAgaWYgKGkgPT0gMjApIHsgICAgIyMg67CY67O166y47J20IOyiheujjOuQoCDrlYwg6rKw6rO86rCSKHgpIOyCsOy2nFxuICAgIHByaW50KHgpICAgICMjIG91dHB1dCA6IDAuMzMzMzMzXG4gIH1cbn1cbmBgYCJ9 -->
+<pre class="r"><code>x = 0   ## x와 i의 초기값 설정
+i = 0
 
-dev.new()
-plot(x,y, pch=16, col=&quot;blue&quot;, 
-     main=expression(paste(&quot;Sampling under &quot;, beta[0], 
-                           &quot;=1&quot;, &quot; &quot;, &quot;and&quot;, &quot; &quot;, beta[1], &quot;=2&quot;)))
-text(10, 2, &quot;scatter plot&quot;, cex=1.5)
-abline(a=1,b=2, col=&quot;red&quot;, lwd=3)</code></pre>
-<!-- rnb-source-end -->
-<!-- rnb-chunk-end -->
-<!-- rnb-text-begin -->
-<hr />
-<div id="question-1-compute-the-mean-values-of-x-and-y-using-for-loop" class="section level3">
-<h3><strong>question 1: Compute the mean values of x and y using “for
-loop”!</strong></h3>
-<p><strong>Do not use built-in functions!!!</strong></p>
-<ul>
-<li>평균을 내주는 함수 : <code>mean_values()</code> 정의</li>
-</ul>
-<!-- rnb-text-end -->
-<!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubWVhbl92YWx1ZXMgPC0gZnVuY3Rpb24odmFsdWVzKSB7XG4gIG91dHB1dCA8LSAwXG4gIFxuICBmb3IgKGkgaW4gdmFsdWVzKSB7XG4gICAgb3V0cHV0IDwtIG91dHB1dCArIGlcbiAgfVxuXG4gIG91dHB1dCAvIGxlbmd0aCh2YWx1ZXMpICAgIyMg7Y+J6reg7J2EIOq1rO2VmOq4sCDsnITtlbQg7J6Q66OM7J2YIOyImChsZW5ndGgp66GcIOuCmOuIhOyWtOykgOuLpC5cbn1cblxubWVhbl92YWx1ZXMoeCkgICAjIyB47J2YIO2Pieq3oOydhCDqs4TsgrBcbm1lYW5fdmFsdWVzKHkpICAgIyMgeeydmCDtj4nqt6DsnYQg6rOE7IKwXG5gYGAifQ== -->
-<pre class="r"><code>mean_values &lt;- function(values) {
-  output &lt;- 0
+while (i &lt;= 21) {
+  x = x + 1/(2 * (-2)^(i))    ## 분모에 (-2)^i 제곱을 하여 부호 변경
+  i = i + 1
   
-  for (i in values) {
-    output &lt;- output + i
+  if (i == 20) {    ## 반복문이 종료될 때 결과값(x) 산출
+    print(x)    ## output : 0.333333
   }
-
-  output / length(values)   ## 평균을 구하기 위해 자료의 수(length)로 나누어준다.
-}
-
-mean_values(x)   ## x의 평균을 계산
-mean_values(y)   ## y의 평균을 계산</code></pre>
+}</code></pre>
 <!-- rnb-source-end -->
-<!-- rnb-chunk-end -->
-<!-- rnb-text-begin -->
-</div>
-<div id="question-2-compute-the-covariance-between-x-and-y-using-for-loop" class="section level3">
-<h3><strong>question 2: Compute the covariance between x and y using
-“for loop”!</strong></h3>
-<p><strong>Do not use built-in functions!!!</strong></p>
-<ul>
-<li>공분산을 내주는 함수 : <code>cov_values()</code> 정의</li>
-</ul>
-<!-- rnb-text-end -->
-<!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuY292X3ZhbHVlcyA8LSBmdW5jdGlvbihkYXRhXzEsIGRhdGFfMikge1xuICB4X2RpZmYgPC0gZGF0YV8xIC0gbWVhbl92YWx1ZXMoZGF0YV8xKSAgICMjIOychOyXkOyEnCDsoJXsnZjtlojrjZgg7ZWo7IiYIFwibWVhbl92YWx1ZXMoKVwiIOyCrOyaqVxuICB5X2RpZmYgPC0gZGF0YV8yIC0gbWVhbl92YWx1ZXMoZGF0YV8yKVxuXG4gIHh5X3Byb2R1Y3QgPC0geF9kaWZmICogeV9kaWZmXG4gIFxuICBwcm9kdWN0X3N1bSA8LSAwXG4gIFxuICBmb3IgKGkgaW4geHlfcHJvZHVjdCkge1xuICAgIHByb2R1Y3Rfc3VtIDwtIHByb2R1Y3Rfc3VtICsgaVxuICB9XG4gIFxuICBjb3YgPSBwcm9kdWN0X3N1bSAvIGxlbmd0aCh4eV9wcm9kdWN0KVxuICBcbiAgY292XG59XG5cbmNvdl92YWx1ZXMoeCx5KSAgICMjIG91dHB1dFxuYGBgIn0= -->
-<pre class="r"><code>cov_values &lt;- function(data_1, data_2) {
-  x_diff &lt;- data_1 - mean_values(data_1)   ## 위에서 정의했던 함수 &quot;mean_values()&quot; 사용
-  y_diff &lt;- data_2 - mean_values(data_2)
-
-  xy_product &lt;- x_diff * y_diff
-  
-  product_sum &lt;- 0
-  
-  for (i in xy_product) {
-    product_sum &lt;- product_sum + i
-  }
-  
-  cov = product_sum / length(xy_product)
-  
-  cov
-}
-
-cov_values(x,y)   ## output</code></pre>
-<!-- rnb-source-end -->
-<!-- rnb-chunk-end -->
-<!-- rnb-text-begin -->
-</div>
-<div id="question-3-compute-the-variance-x-using-for-loop" class="section level3">
-<h3><strong>question 3: Compute the variance x using “for
-loop”!</strong></h3>
-<p><strong>Do not use built-in functions!!!</strong></p>
-<ul>
-<li>분산을 내어주는 함수 : var_values() 정의</li>
-</ul>
-<!-- rnb-text-end -->
-<!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxudmFyX3ZhbHVlcyA8LSBmdW5jdGlvbih2YWx1ZXMpIHtcbiAgeF9kaWZmX3NxIDwtICh2YWx1ZXMgLSBtZWFuX3ZhbHVlcyh2YWx1ZXMpKV4yICAgIyMg7JyE7JeQ7IScIOygleydmO2WiOuNmCDtlajsiJggXCJtZWFuX3ZhbHVlcygpXCIg7IKs7Jqp7ZWY7JesIOywqOydmCDsoJzqs7Eg7ZaJ66CsIOyDneyEsVxuICBcbiAgc3VtX3hfc3EgPC0gMFxuICBcbiAgZm9yIChpIGluIHhfZGlmZl9zcSkge1xuICAgIHN1bV94X3NxIDwtIHN1bV94X3NxICsgaVxuICB9XG4gIFxuICB2YXJfeCA8LSBzdW1feF9zcSAvIGxlbmd0aCh2YWx1ZXMpICAjIyDsnpDro4zsnZgg7IiY66GcIOuCmOuIhOyWtCDrtoTsgrAg7IKw7LacXG4gIFxuICB2YXJfeFxufVxuXG52YXJfdmFsdWVzKHgpICAgICAjIyBvdXRwdXRcbmBgYCJ9 -->
-<pre class="r"><code>var_values &lt;- function(values) {
-  x_diff_sq &lt;- (values - mean_values(values))^2   ## 위에서 정의했던 함수 &quot;mean_values()&quot; 사용하여 차의 제곱 행렬 생성
-  
-  sum_x_sq &lt;- 0
-  
-  for (i in x_diff_sq) {
-    sum_x_sq &lt;- sum_x_sq + i
-  }
-  
-  var_x &lt;- sum_x_sq / length(values)  ## 자료의 수로 나누어 분산 산출
-  
-  var_x
-}
-
-var_values(x)     ## output</code></pre>
-<!-- rnb-source-end -->
-<!-- rnb-chunk-end -->
-<!-- rnb-text-begin -->
-</div>
-<div id="question-4-compute-the-parameter-beta1-slope-of-the-regression-line" class="section level3">
-<h3><strong>question 4: Compute the parameter beta[1] (slope of the
-regression line)!</strong></h3>
-<ul>
-<li>최소제곱법으로 beta[1]의 값을 추정해보자</li>
-</ul>
-<!-- rnb-text-end -->
-<!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuYmV0YV8xX2hhdCA8LSBjb3ZfdmFsdWVzKHgsIHkpIC8gdmFyX3ZhbHVlcyh4KSAgIyMg7JyE7JeQ7IScIOygleydmO2VnCDtlajsiJjrpbwg7IKs7JqpIDogeOyZgCB57J2YIOqzteu2hOyCsCAvIHjsnZgg67aE7IKwXG5cbmJldGFfMV9oYXQgICMjIG91dHB1dFxuYGBgIn0= -->
-<pre class="r"><code>beta_1_hat &lt;- cov_values(x, y) / var_values(x)  ## 위에서 정의한 함수를 사용 : x와 y의 공분산 / x의 분산
-
-beta_1_hat  ## output</code></pre>
-<!-- rnb-source-end -->
-<!-- rnb-output-begin eyJkYXRhIjoiWzFdIDIuMDQwNTUyXG4ifQ== -->
-<pre><code>[1] 2.040552</code></pre>
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIDAuMzMzMzMzXG4ifQ== -->
+<pre><code>[1] 0.333333</code></pre>
 <!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
-<!-- rnb-text-end -->
 </div>
+<div id="수열문제-b." class="section level3">
+<h3>수열문제 b.</h3>
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxueSA9IDEgICAjIyB57JmAIGnsnZgg7LSI6riw6rCSIOyEpOyglVxuaiA9IDFcblxud2hpbGUgKGogPD0gMTkpIHtcbiAgeSA9IHkgKyAxLygoaisxKSpqKVxuICBqID0gaiArIDFcbiAgXG4gIGlmIChqID09IDE5KSB7XG4gICAgcHJpbnQoeSkgICAgIyMgb3V0cHV0IDogMS45NjczNjhcbiAgfVxufVxuYGBgIn0= -->
+<pre class="r"><code>y = 1   ## y와 i의 초기값 설정
+j = 1
+
+while (j &lt;= 19) {
+  y = y + 1/((j+1)*j)
+  j = j + 1
+  
+  if (j == 19) {
+    print(y)    ## output : 1.967368
+  }
+}</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiWzFdIDEuOTQ3MzY4XG4ifQ== -->
+<pre><code>[1] 1.947368</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-chunk-end -->
 </div>
 
-<div id="rmd-source-code">LS0tDQp0aXRsZTogIuqwleyLoOyEsSgyMDIwMTQxMDcpLmh0bWwiDQpvdXRwdXQ6IGh0bWxfbm90ZWJvb2sNCi0tLQ0KDQotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS1ob21ld29yayAyLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tDQoNCiMjIFdlIGxlYXJuZWQgdGhlIGZvbGxvd2luZyBSIGNvZGUgaW4gY2xhc3MuIEFuc3dlciB0aGUgZm9sbG93aW5nIHF1ZXN0aW9ucyB1c2luZyB0aGlzIGNvZGUuDQoNCi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLWV4YW1wbGU6IFNjYXR0ZXIgUGxvdC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQ0KDQpgYGB7cn0NCm48LTEwMDANCng8LTQrcm5vcm0obixtZWFuPTEsc2Q9NSkNCnk8LTErMip4K3Jub3JtKG4sbWVhbj0wLHNkPTQpDQoNCmRldi5uZXcoKQ0KcGxvdCh4LHksIHBjaD0xNiwgY29sPSJibHVlIiwgDQogICAgIG1haW49ZXhwcmVzc2lvbihwYXN0ZSgiU2FtcGxpbmcgdW5kZXIgIiwgYmV0YVswXSwgDQogICAgICAgICAgICAgICAgICAgICAgICAgICAiPTEiLCAiICIsICJhbmQiLCAiICIsIGJldGFbMV0sICI9MiIpKSkNCnRleHQoMTAsIDIsICJzY2F0dGVyIHBsb3QiLCBjZXg9MS41KQ0KYWJsaW5lKGE9MSxiPTIsIGNvbD0icmVkIiwgbHdkPTMpDQpgYGANCg0KLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tDQoNCiMjIyAqKnF1ZXN0aW9uIDE6IENvbXB1dGUgdGhlIG1lYW4gdmFsdWVzIG9mIHggYW5kIHkgdXNpbmcgImZvciBsb29wIiEqKg0KDQoqKkRvIG5vdCB1c2UgYnVpbHQtaW4gZnVuY3Rpb25zISEhKioNCg0KLSAgIO2Pieq3oOydhCDrgrTso7zripQg7ZWo7IiYIDogYG1lYW5fdmFsdWVzKClgIOygleydmA0KDQpgYGB7cn0NCm1lYW5fdmFsdWVzIDwtIGZ1bmN0aW9uKHZhbHVlcykgew0KICBvdXRwdXQgPC0gMA0KICANCiAgZm9yIChpIGluIHZhbHVlcykgew0KICAgIG91dHB1dCA8LSBvdXRwdXQgKyBpDQogIH0NCg0KICBvdXRwdXQgLyBsZW5ndGgodmFsdWVzKSAgICMjIO2Pieq3oOydhCDqtaztlZjquLAg7JyE7ZW0IOyekOujjOydmCDsiJgobGVuZ3RoKeuhnCDrgpjriITslrTspIDri6QuDQp9DQoNCm1lYW5fdmFsdWVzKHgpICAgIyMgeOydmCDtj4nqt6DsnYQg6rOE7IKwDQptZWFuX3ZhbHVlcyh5KSAgICMjIHnsnZgg7Y+J6reg7J2EIOqzhOyCsA0KYGBgDQoNCiMjIyAqKnF1ZXN0aW9uIDI6IENvbXB1dGUgdGhlIGNvdmFyaWFuY2UgYmV0d2VlbiB4IGFuZCB5IHVzaW5nICJmb3IgbG9vcCIhKioNCg0KKipEbyBub3QgdXNlIGJ1aWx0LWluIGZ1bmN0aW9ucyEhISoqDQoNCi0gICDqs7XrtoTsgrDsnYQg64K07KO864qUIO2VqOyImCA6IGBjb3ZfdmFsdWVzKClgIOygleydmA0KDQpgYGB7cn0NCmNvdl92YWx1ZXMgPC0gZnVuY3Rpb24oZGF0YV8xLCBkYXRhXzIpIHsNCiAgeF9kaWZmIDwtIGRhdGFfMSAtIG1lYW5fdmFsdWVzKGRhdGFfMSkgICAjIyDsnITsl5DshJwg7KCV7J2Y7ZaI642YIO2VqOyImCAibWVhbl92YWx1ZXMoKSIg7IKs7JqpDQogIHlfZGlmZiA8LSBkYXRhXzIgLSBtZWFuX3ZhbHVlcyhkYXRhXzIpDQoNCiAgeHlfcHJvZHVjdCA8LSB4X2RpZmYgKiB5X2RpZmYNCiAgDQogIHByb2R1Y3Rfc3VtIDwtIDANCiAgDQogIGZvciAoaSBpbiB4eV9wcm9kdWN0KSB7DQogICAgcHJvZHVjdF9zdW0gPC0gcHJvZHVjdF9zdW0gKyBpDQogIH0NCiAgDQogIGNvdiA9IHByb2R1Y3Rfc3VtIC8gbGVuZ3RoKHh5X3Byb2R1Y3QpDQogIA0KICBjb3YNCn0NCg0KY292X3ZhbHVlcyh4LHkpICAgIyMgb3V0cHV0DQpgYGANCg0KIyMjICoqcXVlc3Rpb24gMzogQ29tcHV0ZSB0aGUgdmFyaWFuY2UgeCB1c2luZyAiZm9yIGxvb3AiISoqDQoNCioqRG8gbm90IHVzZSBidWlsdC1pbiBmdW5jdGlvbnMhISEqKg0KDQotICAg67aE7IKw7J2EIOuCtOyWtOyjvOuKlCDtlajsiJggOiB2YXJfdmFsdWVzKCkg7KCV7J2YDQoNCmBgYHtyfQ0KdmFyX3ZhbHVlcyA8LSBmdW5jdGlvbih2YWx1ZXMpIHsNCiAgeF9kaWZmX3NxIDwtICh2YWx1ZXMgLSBtZWFuX3ZhbHVlcyh2YWx1ZXMpKV4yICAgIyMg7JyE7JeQ7IScIOygleydmO2WiOuNmCDtlajsiJggIm1lYW5fdmFsdWVzKCkiIOyCrOyaqe2VmOyXrCDssKjsnZgg7KCc6rOxIO2WieugrCDsg53shLENCiAgDQogIHN1bV94X3NxIDwtIDANCiAgDQogIGZvciAoaSBpbiB4X2RpZmZfc3EpIHsNCiAgICBzdW1feF9zcSA8LSBzdW1feF9zcSArIGkNCiAgfQ0KICANCiAgdmFyX3ggPC0gc3VtX3hfc3EgLyBsZW5ndGgodmFsdWVzKSAgIyMg7J6Q66OM7J2YIOyImOuhnCDrgpjriITslrQg67aE7IKwIOyCsOy2nA0KICANCiAgdmFyX3gNCn0NCg0KdmFyX3ZhbHVlcyh4KSAgICAgIyMgb3V0cHV0DQpgYGANCg0KIyMjICoqcXVlc3Rpb24gNDogQ29tcHV0ZSB0aGUgcGFyYW1ldGVyIGJldGFbMV0gKHNsb3BlIG9mIHRoZSByZWdyZXNzaW9uIGxpbmUpISoqDQoNCi0gICDstZzshozsoJzqs7HrspXsnLzroZwgYmV0YVsxXeydmCDqsJLsnYQg7LaU7KCV7ZW067O07J6QDQoNCmBgYHtyfQ0KYmV0YV8xX2hhdCA8LSBjb3ZfdmFsdWVzKHgsIHkpIC8gdmFyX3ZhbHVlcyh4KSAgIyMg7JyE7JeQ7IScIOygleydmO2VnCDtlajsiJjrpbwg7IKs7JqpIDogeOyZgCB57J2YIOqzteu2hOyCsCAvIHjsnZgg67aE7IKwDQoNCmJldGFfMV9oYXQgICMjIG91dHB1dA0KYGBgDQoNCg==</div>
+<div id="rmd-source-code">LS0tDQp0aXRsZTogIuqwleyLoOyEsSgyMDIwMTQxMDcpX2h3MS5odG1sIg0Kb3V0cHV0OiBodG1sX25vdGVib29rDQotLS0NCg0KIyMjIOyImOyXtOusuOygnCBhLg0KDQpgYGB7cn0NCnggPSAwICAgIyMgeOyZgCBp7J2YIOy0iOq4sOqwkiDshKTsoJUNCmkgPSAwDQoNCndoaWxlIChpIDw9IDIxKSB7DQogIHggPSB4ICsgMS8oMiAqICgtMileKGkpKSAgICAjIyDrtoTrqqjsl5AgKC0yKV5pIOygnOqzseydhCDtlZjsl6wg67aA7Zi4IOuzgOqyvQ0KICBpID0gaSArIDENCiAgDQogIGlmIChpID09IDIwKSB7ICAgICMjIOuwmOuzteusuOydtCDsooXro4zrkKAg65WMIOqysOqzvOqwkih4KSDsgrDstpwNCiAgICBwcmludCh4KSAgICAjIyBvdXRwdXQgOiAwLjMzMzMzMw0KICB9DQp9DQpgYGANCg0KIyMjIOyImOyXtOusuOygnCBiLg0KDQpgYGB7cn0NCnkgPSAxICAgIyMgeeyZgCBp7J2YIOy0iOq4sOqwkiDshKTsoJUNCmogPSAxDQoNCndoaWxlIChqIDw9IDE5KSB7DQogIHkgPSB5ICsgMS8oKGorMSkqaikNCiAgaiA9IGogKyAxDQogIA0KICBpZiAoaiA9PSAxOSkgew0KICAgIHByaW50KHkpICAgICMjIG91dHB1dCA6IDEuOTY3MzY4DQogIH0NCn0NCmBgYA0K</div>
 
 
 
@@ -1930,7 +1845,7 @@ $(document).ready(function () {
 <!-- code folding -->
 <script>
 $(document).ready(function () {
-  window.initializeSourceEmbed("Economatrics_hw2.Rmd");
+  window.initializeSourceEmbed("Economatrics_hw1.Rmd");
   window.initializeCodeFolding("show" === "show");
 });
 </script>
