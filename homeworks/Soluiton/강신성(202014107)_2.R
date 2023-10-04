@@ -32,8 +32,8 @@ mean_values <- function(values) {
   output / length(values)   ## 평균을 구하기 위해 자료의 수(length)로 나누어준다.
 }
 
-mean_values(x)   ## x의 평균을 계산 | output : 4.96878
-mean_values(y)   ## y의 평균을 계산 | output : 10.93512
+mean_values(x)   ## x의 평균을 계산 | output : 5.088852
+mean_values(y)   ## y의 평균을 계산 | output : 11.21303
 
 
 #------------------------------------------------------------------
@@ -54,12 +54,12 @@ cov_values <- function(data_1, data_2) {
     product_sum <- product_sum + i
   }
   
-  cov = product_sum / length(xy_product)
+  cov = product_sum / (length(xy_product) - 1)  ## 표본 공분산
   
   cov
 }
 
-cov_values(x,y)   ## output : 51.79613
+cov_values(x,y)   ## output : 48.18198
 
 
 #------------------------------------------------------------------
@@ -77,12 +77,12 @@ var_values <- function(values) {
     sum_x_sq <- sum_x_sq + i
   }
   
-  var_x <- sum_x_sq / length(values)  ## 자료의 수로 나누어 분산 산출
+  var_x <- sum_x_sq / (length(values) - 1)  ## 표본 분산
   
   var_x
 }
 
-var_values(x)     ## output : 25.54854
+var_values(x)     ## output : 23.94029
 
 
 #--------------------------------------------------------------------------
@@ -92,4 +92,4 @@ var_values(x)     ## output : 25.54854
 
 beta_1_hat <- cov_values(x, y) / var_values(x)  ## 위에서 정의한 함수를 사용 : x와 y의 공분산 / x의 분산
 
-beta_1_hat  ## output : 2.027362
+beta_1_hat  ## output : 2.01259

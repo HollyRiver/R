@@ -66,7 +66,7 @@ cov_values <- function(data_1, data_2) {
     product_sum <- product_sum + i
   }
   
-  cov = product_sum / length(xy_product)
+  cov = product_sum / (length(xy_product) - 1)    ## 표본 공분산
   
   cov
 }
@@ -91,7 +91,7 @@ var_values <- function(values) {
     sum_x_sq <- sum_x_sq + i
   }
   
-  var_x <- sum_x_sq / length(values)  ## 자료의 수로 나누어 분산 산출
+  var_x <- sum_x_sq / (length(values) - 1)  ## 표본 분산
   
   var_x
 }
