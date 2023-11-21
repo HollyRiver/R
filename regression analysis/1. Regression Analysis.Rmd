@@ -1,4 +1,23 @@
 ```{r}
+##-----new code-----
+install.packages('UsingR')
+library(UsingR)
+
+lm(formula = target ~ feature, data = DataFrame)  ## linear model, input DataFrame, and direction target ~ feature variables.
+summary(lm_fitted) ## summary of fitted model. Included 'Residual', 'Coefficients', 'MSE' ...
+data(dataframe)  ## load and save this dataset in environment.
+names(lm_fitted)  ## display that can be calling method or columns
+lm_fitted$coefficients  ## or lm_fitted['coefficients ']
+
+plot(y~x, data = DataFrame,
+     pch = number"""usually 19""", cex = number"""chracter expenditure, default = 1""",
+     xlab = x_axis_label, ylab = y_axis_label, main = title_string)
+abline(lm_fitted, col = 'red')  ## add a line following fitted model.
+```
+
+
+
+```{r}
 rm(list = ls(all = T))
 lm()
 ```

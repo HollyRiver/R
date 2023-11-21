@@ -1,0 +1,471 @@
+## 회귀분석 1 | Ch04 단순선형회귀모형에 대한 추론 2
+
+### 잔차분석
+
+```{r}
+options(repr.plot.width = 12, repr.plot.height = 6)
+
+install.packages('lmtest')
+library(lmtest)
+```
+
+
+```{r}
+df <- data.frame(x = c(4,8,9,8,8,12,6,10,6,9),
+                 y = c(9,20,22,15,17,30,18,25,10,20))
+
+model1 <- lm(formula = y ~ x, data = df)
+summary(model1)
+```
+
+1. 잔차(residual) 구하기 : $e_i = y_i - \hat{y_i}$
+
+```{r}
+## 1. 무지성 직접 계산
+yhat <- fitted(model1)  ## fitted(model1) >> output fitted value(predict)
+df$y - yhat  ## df의 y열에서 yhat을 뺌, 즉, residual임
+
+## 2. 모듈 사용
+model1$residuals
+resid(model1)  ## 둘다 똑같음.
+
+residual1 <- resid(model1)
+```
+2. 잔차 그림(산점도)
+
+```{r}
+par(mfrow = c(1,2))  ## paragram, multiframe rowwise layout = c(1,2)
+plot(residual1 ~ df$x, pch = 16, xlab = 'Value of x', ylab = 'Residual')
+abline(h = 0, lty = 2, col = 'grey')  ## dashed line, need to add horizon line
+plot(residual1 ~ yhat, pch = 16, xlab = 'Prediction of y', ylab = 'Redisual')
+abline(h = 0, lty = 2, col = 'grey')
+```
+
+3. 모형의 타당성 검토(주관적인 경향이 있음)
+
+* 선형성 : 잔차그림이 0을 중심으로 대칭
+* 등분산성 : 잔차의 변동이 $x$값이 변함에 따라 달라지지 않는다.
+* 정규성 : 0을 중심으로 대칭이고, 등분산성을 만족하며 0을 중심으로 ±2(3)$\sigma$ 범위 안에 있음. (이때 $\sigma$는 잔차의 표준편차임; 데이터마다 잔차가 달라서 매번 값이 달라짐.)
+* 독립성 : 특별한 패턴 없이 랜덤하게 퍼져 있음
+
+정규성을 보이기 위해서는 잔치 $e_i$보다는 표준화 또는 스튜던트화된 잔차를 사용해야 한다. (이렇게 되면 2(3) 범위 안에 값들이 있어야 한다.)
+
+> 표준화된 잔차 $r_i = \frac{e_i}{s.d.(e_i)}$
+
+```{r}
+rstandard(model1)  ## residual, standarized
+rstudent(model1)  ## residual, studentized
+```
+```{r}
+par(mfrow = c(1,2))
+plot(rstandard(model1)~df$x, pch = 16, main = '표준화된 잔차그림', xlab = 'Value of x', ylab = 'Residual')
+abline(h = 0, lty = 2, col = 'grey')
+plot(rstudent(model1)~df$x, pch = 16, main = '스튜던트화된 잔차그림', xlab = 'Value of x', ylab = 'Residual')
+abline(h = 0, lty = 2, col = 'grey')
+```
+
+> 너무 이상하게만 이야기하지 않으면 등분산성을 만족한다고 그냥 말해야 함. 어쩔수가 없음...(그림으로만 얘기하는 건 한계가...)
+>
+> 경험상 이정도는 등분산성을 만족한답니다.
+>
+> 그리고 데이터가 10개밖에 안돼서 분석에 한계가 있음.
+
+또는 잔차의 히스토그램이나 QQplot을 이용하여 정규성을 확인할 수 있다.
+
+```{r}
+par(mfrow = c(1,2))
+hist(residual1)
+
+qqnorm(residual1, pch = 16)  ## output QQplot following normal distribution.
+qqline(residual1, col = 'red')  ## abline과 비슷함.
+```
+
+> 빨간색 직선에(적당히 scaling된 x값에 의거) 점들이 나름 몰려있음(이정도면 괜찮다.)
+
+
+### 정규검정을 위해 일반적으로 사용하는 가설검정
+
+$$H_0 : normal distribution vs. H_1 : not H_0$$
+```{r}
+shapiro.test(residual1)
+```
+> p-value가 0.05보다 높기 때문에 귀무가설을 기각할 수 없음. 따라서 정규분포를 따른다고 할 수 있다.(기본 가정이 정규분포를 따른다니까...)
+
+* 독립성 검정 : DW test(라이브러리 설치 필요)
+
+```{r}
+dwtest(model1, alternative = 'two.sided')  ## default : 'greater'
+```
+> 직전값과 현재값의 상관성 파악(직전값과 현재값의 correlation)
+
+$$H_0 : \rho_1 = 0 vs. H_1 : \rho_1 ≠ 0$$
+
+$$\rho_1 = Corr(\epsilon_t, \epsilon_{t+1})$$
+
+```{r}
+#(x1, y1), (x2, y2), ..., (xn, yn)  ## sample correlation in samples
+#sample covariance = 1/(n-2)*sum{(xi - xbar)*(yi - ybar)}
+#sample correlation = cov(x, y)/(sd(x)*sd(y))
+
+#(e1, e2), (e2, e3), ..., (en-1, en)  ## sample correlation in residuals
+#same ways
+```
+
+```{r}
+et_10 <- residual1[-10]  ## exclude 10th value
+et_1 <- residual1[-1]  ## exclude 1st value
+```
+
+```{r}
+## 잔차의 자기상관
+cor(et_10, et_1)  ## 하나는 1부터, 하나는 2부터 시작하니까 직전자료와 현재자료 간 상관관계가 나옴.
+```
+더빈-왓슨 테스트는 상관계수만 보고 하는 건 아님... 그리고 알아서 해줌...
+
+```{r}
+dwtest(model1, alternative = 'two.sided')
+```
+
+> 상관관계는 없다.
+
+```{r}
+dwtest(model1, alternative = 'less')
+```
+> 더 작을 확률은 사실상 없음. 그리고 실제 봐야 할 것은 'two.sided'만임.
+
+### 다양한 경우의 잔차그림을 해석
+
+$$y = \beta_0 + \beta_1 x + \epsilon = 3 + 5x + \epsilon, \epsilon ∼  N(0, 25) i.i.d.$$
+
+\- x와 y의 산점도
+
+```{r}
+n <- 200
+x <- round(runif(n, 0, 10), 3)  ## min = 0, max = 10
+epsilon <- rnorm(n, 0, 5)  ## mean = 0, sd = 5
+
+beta_0 = 3
+beta_1 = 5
+
+y <- beta_0 + beta_1*x + epsilon
+
+plot(y~x, pch = 16,
+     cex = 1, col = 'darkorange')
+```
+\- 회귀모형
+
+```{r}
+model2 <- lm(y~x)
+summary(model2)
+```
+\- 잔차분석
+
+```{r}
+residual2 <- model2$residuals
+plot(residual2~x, pch = 16, xlab = 'Value of x', ylab = 'Residual', main = 'Residual Plot', cex = 0.5)
+abline(h = 0, lty = 2, col = 'grey')
+```
+
+> 애초에 모델에 입력한 값이 등분산 하에서의 것들이라 모양이 고르게 나옴.
+
+\- 표준화된 잔차분석
+
+```{r}
+plot(rstandard(model2)~x, pch = 16, xlab = 'Value of x', ylab = 'Residual', main = 'Standarized Residual plot', cex = 0.5, cex.main = 1)
+abline(h = 0, lty = 2, col = 'grey')
+abline(h = 2, lty = 2, col = 'red')
+abline(h = -2, lty = 2, col = 'red')
+```
+
+> 값들이 대부분 -2와 2 사이에 있음.
+
+\- 히스토그램을 그리는 방법(표준화된 잔차)
+
+```{r}
+hist(rstandard(model2), prob = T, breaks = 20)
+curve(dnorm(x, 0, 1), col = 'darkblue', add = TRUE)
+```
+
+\- 더빈-왓슨 테스트
+
+```{r}
+dwtest(model2, alternative = 'two.sided')
+```
+
+> 독립성 가정도 위배하지 않는 것으로 보임.
+
+### 선형성 가정에 위배되는 경우($E(\epsilon) = 0, E(y|x) = \beta_0 + beta_1 x$)
+
+예) $y = 3 + 0.9x^2 + \epsilon, \epsilon ∼ N(0,5)$
+
+```{r}
+n <- 200
+x <- round(runif(n, 0, 10), 3)
+epsilon <- rnorm(n, 0, 5)
+
+beta_0 <- 3
+beta_1 <- 0.9
+
+y <- beta_0 + beta_1*(x**2) + epsilon
+```
+
+```{r}
+plot(y~x, pch = 16, cex = 0.5, col = 'darkorange')
+```
+> 비선형 관계가 있어보임
+
+```{r}
+model3 <- lm(y~x)
+summary(model3)
+```
+> 나쁘진 않지만...
+
+
+\- 잔차분석
+
+```{r}
+plot(model3$residuals ~ x, pch = 16, cex = 0.5, ylab = 'Residual', main = 'Residual Plot', cex.main = 1)
+abline(h = 0, lty = 2, col = 'grey')
+```
+
+\- 비선형성 관계가 있어보임
+
+> 이차항을 추가해줌(아직 안배움)
+
+```{r}
+adj_model3 <- lm(y~x + I(x**2))
+summary(adj_model3)
+```
+> 새로운 indecater x^2이 추가됨. (R-squared 값도 훨씬 커짐.)
+
+\- 조정된 모델에 대한 잔차분석
+
+```{r}
+plot(adj_model3$residuals, pch = 16, ylab = 'Residuals', main = 'Residual Plot in Adjusted model', cex = 0.5, cex.main = 1)
+abline(h = 0, lty = 2, col = 'grey')
+```
+
+> 가정을 만족하는 것처럼 보임.
+
+### 등분산성($Var(\epsilon) = E(y|x) = \sigma^2$)에 위배되는 경우
+
+예) $y = 10 + 2x + \epsilon, \epsilon ∼ N(0, x)$  > 이분산성
+
+```{r}
+n <- 500
+x <- round(runif(n, 0, 10), 2)
+epsilon <- rnorm(n, 0, sd = sqrt(x))  ## sd in r function can be inputed vector
+
+beta_0 <- 10
+beta_1 <- 2
+
+y <- beta_0 + beta_1*x + epsilon
+
+plot(y~x, pch = 16, col = 'darkorange', cex = 0.5)
+```
+
+> 딱봐도 뭔가 커지는 것 같음.
+
+```{r}
+model4 <- lm(y~x)
+summary(model4)
+```
+
+> 모형 적합 자체는 나름 잘 된다.(기울기와 절편은 수용가능한데다 값도 비슷함)
+
+```{r}
+plot(model4$residuals~x, pch = 16, ylab = 'Residuals', cex = 0.35)
+abline(h = 0, lty = 2, lwd = 0.5, col = 'grey')
+```
+
+> 아무런 조정도 하지 않을 경우 잔차의 산점도가 갈수록 퍼짐.
+
+적절한 변환이 필요
+
+\- 제곱근과 로그함수로 y값을 변환했을 때의 산점도 (로그함수가 더 극단적임)
+
+```{r}
+par(mfrow = c(1,2))
+plot(sqrt(y)~x, pch = 16, col = 'darkorange', cex = 0.5)
+plot(log(y)~x, pch = 16, col = 'darkorange', cex = 0.5)
+```
+
+> 퍼진 정도가 개선되긴 함.
+
+\- 반응변수 변환 후 분석
+
+```{r}
+adj_model4 <- lm(sqrt(y)~x)
+summary(adj_model4)
+```
+> R-squared 값이 커짐.
+
+```{r}
+adj_model4_2 <- lm(log(y)~x)
+summary(adj_model4_2)
+```
+
+\- 잔차분석
+
+```{r}
+par(mfrow = c(1,2))
+plot(adj_model4$residuals~x, pch = 16, col = 'darkorange', cex = 0.3)
+abline(h = 0, lty = 2, col = 'grey')
+plot(adj_model4_2$residuals~x, pch = 16, col = 'darkorange', cex = 0.3)
+abline(h = 0, lty = 2, col = 'grey')
+```
+
+```{r}
+par(mfrow=c(1,2))
+hist(resid(adj_model4), main = "제곱근 변환", prob = T)
+hist(resid(adj_model4_2), main= 'log 변환', prob = T)
+```
+
+> 정규성을 띄는 것처럼 보임
+
+### 정규성을 위배하는 경우
+
+예) $y = 3 + 0.9x + \epsilon, \epsilon ∼ t(3$)
+
+```{r}
+n <- 200
+x <- round(runif(n, 0, 10), 3)
+epsilon <- rt(n, 3)
+
+beta_0 <- 3
+beta_1 <- 2
+
+y <- beta_0 + beta_1 * x + epsilon
+
+plot(y~x, pch = 16, cex = 0.5, col = 'darkorange')
+```
+
+> 언더라잉에서 튀어나온 녀석들이 많음.
+
+```{r}
+model <- lm(y~x)
+summary(model)
+```
+
+> 일단 유의하긴 함.
+
+\- 잔차분석
+
+```{r}
+plot(model$residuals ~ x, pch = 16, ylab = 'Residual', main = 'Residual Plot', cex = 0.5, cex.main = 1)
+abline(h = 0, lty = 2, col = 'grey')
+```
+
+> 튀어나간 애들이 많음.
+
+\- 표준화된 잔차 분석
+
+```{r}
+plot(rstandard(model) ~ x, pch = 16, ylab = 'Standarized Residual', main = 'Residual Plot', cex = 0.5, cex.main = 1)
+abline(h = c(-3, 0, 3), lty = 2, col = c(2, 1, 2))
+```
+
+```{r}
+par(mfrow = c(1,2))
+hist(model$residuals, prob = T, main = '잔차의 히스토그램', breaks = 20, cex.main = 1)
+curve(dnorm(x, 0, sd(model$residuals)), col = 'darkblue', lwd = 2, add = TRUE)  ## 표준편차는 잔차의 표준편차를 사용해야 함.
+hist(rstandard(model), prob = T, main = '표준화된 잔차의 히스토그램', breaks = 20, cex.main = 1)
+curve(dnorm(x, 0, 1), col = 'darkblue', lwd = 2, add = TRUE)
+```
+
+```{r}
+qqnorm(model$residuals, pch = 16, cex = 0.5)
+qqline(model$residuals, col = 2, lty = 2)
+```
+
+> QQplot을 그려봤을 때, 직선상에서 벗어난 값들이 있음.
+>
+> 우측상단과 좌측하단의 값들은 정규분포보다 꼬리가 두껍다는 의미(t분포니까)
+
+정규성을 위배하는 것으로 보임.
+
+```{r}
+shapiro.test(model$residuals)
+```
+> 샤피로 검정결과 : p-value < $\alpha$ = 0.05, 따라서 귀무가설 기각 => 잔차는 정규분포를 따르지 않음.
+
+```{r}
+which(abs(rstandard(model)) > 3)  ## absolute value of standarized residuals.
+```
+> 어디에 어떤 값이 더 큰지 산출. (근데 왜 다 똑같냐.)
+
+\- outlier를 제거하여 다시 분석
+
+```{r}
+x1 <- x[-which(abs(rstandard(model)) > 3)]
+y1 <- y[-which(abs(rstandard(model)) > 3)]
+## 해당하는 녀석들을 제외함, 그리고 다시 분석할거임.
+adj_model <- lm(y1~x1)
+summary(adj_model)
+```
+> 이상치를 제거하니 성능이 훨씬 향상된 모습(이상치 제거는 신중해야 되긴 함.)
+
+```{r}
+par(mfrow = c(1,2))
+plot(adj_model$residuals~x1, pch = 16, cex = 0.5, ylab = 'Residual', main = 'Residual Plot', cex.main = 1)
+sd_residual <- sd(adj_model$residuals)
+abline(h = c(-3*sd_residual,0,3*sd_residual), col = c('red','grey','red'), lty = 2)
+plot(rstandard(adj_model)~x1, pch = 16, cex = 0.5, ylab = 'Standarized Residual', main = 'Standarized Residual Plot', cex.main = 1)
+abline(h = c(-3,0,3), col = c('red','grey','red'), lty = 2)
+```
+
+> 밖으로 나간 값들이 몇 있기는 하지만 그래도...
+>
+> 근데 해당 값들을 전부 걸렀는데 왜 남아있는 거지?
+
+
+### 독립성을 만족하지 못하는 경우
+
+$$\epsilon_{t+1} = 0.5 \times \epsilon_t + error(N(0,1))$$
+
+```{r}
+n <- 200
+x <- sort(round(runif(n, 0, 10), 3))  ## sort_values(ascending = False)
+epsilon <- c(rnorm(1))  ## epsilon
+
+for (k in 2:n){
+  epsilon[k] <- 0.5*epsilon[k-1] + rnorm(1)  ## 잔차가 직전값에 영향을 받음
+}
+
+beta_0 <- 3
+beta_1 <- 0.9
+
+y <- beta_0 + beta_1 * x + epsilon
+
+plot(y~x, pch = 16, cex = 0.5, col = 'darkorange')
+```
+
+> 모델 자체는 큰 문제가 없어보이는데???
+
+```{r}
+model <- lm(y~x)
+summary(model)
+```
+
+
+```{r}
+plot(model$residuals~x, pch = 16, ylab = 'Residual', main = 'Residual Plot', cex = 0.5)
+abline(h = 0, lty = 2, col = 'grey')
+```
+
+> 언뜻 보면 아무런 문제도 없어 보인다.
+
+\- Durbin-Watson Test
+
+```{r}
+dwtest(model, alternative = 'two.sided')
+```
+
+> 하지만 독립성 검정 결과 귀무가설을 기각해야 함.
+
+```{r}
+plot(model$residuals ~ x, ylab = 'Residual', main = 'Line the cross Residuals', type = 'l', lwd = 0.5)
+abline(h = 0, col = 'grey', lty = 2)
+```
+
+> 어떤 관계가 있냐고 묻는다면... 어려움. 일단 여기선 독립적이지 않다는 이야기만...

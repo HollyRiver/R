@@ -1,5 +1,5 @@
 rm(list = ls(all=T)) # This code clears all. 이런 건 안나옴
-setwd("C:\\Users\\hollyriver\\Documents\\Github\\Economatrics\\Data For Practice")  ## set working directory, 작업할 폴더 설정
+setwd("C:\\Users\\hollyriver\\Documents\\Github\\R\\Data For Practice")  ## set working directory, 작업할 폴더 설정
 
 #Please reset your path for the data
 mydata<-read.csv("hprice2.csv", header = TRUE)   ## csv 파일을 데이터프레임으로 불러온다. setwd하지 않았으면 직접위치 지정
@@ -59,7 +59,7 @@ beta.hat
 
 
 ## 실습
-mydata = read.csv("C:\\Users\\hollyriver\\Documents\\Github\\Economatrics\\Data For Practice\\hprice2.csv", header = TRUE)
+mydata = read.csv("C:\\Users\\hollyriver\\Documents\\Github\\R\\Data For Practice\\hprice2.csv", header = TRUE)
 ls(mydata)
 
 X1 = mydata$dist
@@ -87,7 +87,11 @@ class(sigma2_hat)
 inv_txx=solve(tX%*%X)  ## covariance를 구하기 위해, sigma*(X'X)^-1
 var_betas<-as.numeric(sigma2_hat)*inv_txx #variance-covariance matrix  ## type을 바꿈. as.numeric() > matrix를 숫자로
 var_betas
-round(var_betas,6)  ## 반올림
+round(var_betas,6)  ## 반올림 / beta[0] ~ beta[4]의 표준오차
+
+df <- data.frame(X1, X2, X3, X4, Y)
+colnames(df) = c('dist', 'nox', 'rooms', 'stratio', 'price')
+
 
 as.numeric(sigma2_hat)*solve(t(X)%*%X)
 
@@ -112,26 +116,50 @@ R_squared  ## matrix, as.numeric해야 가용함
 
 
 #---------------standard error of beta--------------------------------------------
-se_beta<-sqrt(diag(var_betas))
+se_beta<-sqrt(diag(var_betas))  ## 분산-공분산 행렬의 대각원소
 se_beta
 
 #--------------------------t-statistic------------------------------------- 
-t_beta<-beta.hat/se_beta
+t_beta<-beta.hat/se_beta  ## 각 t값
 t_beta
+
 
 #cumulative density function (CDF)---------------------------------------------
 pt(-2,df=n-k-1) #area between -infinity and -2 
 pt(-3,df=n-k-1) #area between -infinity and -3 
 
+pt(2, df = n-k-1, lower.tail = FALSE)
+
 #p-values for two-sided tests------------------------------------------------------
 #p-values for betas
-p_beta<-2*pt(-abs(t_beta),df=n-k-1)
+
+p_beta <- 2*pt(abs(t_beta),df=n-k-1, lower.tail = FALSE)
 p_beta
+round(p_beta, 6)
+
+model <- lm(formula = price ~ stratio + nox + rooms + dist, data = df)
+summary(model)
 
 #print the estimates of the model parameters, standard errors, and t-values
 summary.output<-data.frame(beta.hat, se_beta, t_beta, p_beta)
 summary.output
 
+colnames(mydata)
+
+df <- data.frame(
+  log(mydata$nox),
+  log(mydata$dist),
+  mydata$rooms,
+  mydata$stratio,
+  mydata$price
+)
+
+model <- df
+
+log(mydata$nox)
+log(mydata$dist)
+mydata$rooms
+mydata$stratio
 
 #Find c: Critical values-------------------------------------------------------
 qt(0.05,df=n-k-1)

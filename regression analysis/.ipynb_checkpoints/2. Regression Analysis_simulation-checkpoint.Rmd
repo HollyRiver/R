@@ -6,6 +6,7 @@ set.seed(number)  ## setting seed of curculation
 lm(y~x)  ## This expression can be used only x and y are already defined.
 bquote(beta[0]~'ㅋㅋ'~beta[1])  ## 인용하다. It can be arranging some expression using r-string, and wraping as a '~'
 expression(beta[0])
+
 ```
 
 ```{r}

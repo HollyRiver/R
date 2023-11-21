@@ -2,7 +2,6 @@
 setwd("C:\\Users\\hollyriver\\Documents\\Github\\Economatrics\\RA course\\data")
 options(repr.plot.width = 12, repr.plot.height = 6)
 
-install.packages('ggplot2')
 library(ggplot2)
 ```
 
