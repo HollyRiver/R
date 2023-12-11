@@ -154,3 +154,52 @@ installing to /root/anaconda3/envs/r_env/lib/R/library/00LOCK-gap/00new/gap/libs
 The downloaded source packages are in
 	‘/tmp/RtmpCD8CFC/downloaded_packages’
 [I 2023-12-10 03:11:29.045 ServerApp] Starting buffering for 3b51b382-3185-42bb-95e5-907729497863:4a02f564-2fbd-4b42-83a2-ff56faeb91f7
+[I 2023-12-10 13:34:11.882 ServerApp] 302 GET / (@118.235.16.39) 0.53ms
+[I 2023-12-10 13:34:11.951 LabApp] 302 GET /lab? (@118.235.16.39) 0.85ms
+[I 2023-12-10 13:34:16.294 ServerApp] User eb05f6aa18b54f3cb21ce91921461f9b logged in.
+[I 2023-12-10 13:34:16.295 ServerApp] 302 POST /login?next=%2Flab%3F (eb05f6aa18b54f3cb21ce91921461f9b@118.235.16.39) 36.41ms
+[W 2023-12-10 13:34:19.465 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2023-12-10 13:34:19.654 ServerApp] Connecting to kernel 3b51b382-3185-42bb-95e5-907729497863.
+[I 2023-12-10 13:34:20.027 ServerApp] Starting buffering for 3b51b382-3185-42bb-95e5-907729497863:93bac53f-6b0e-43ae-a102-e23892f1c6d8
+[W 2023-12-10 13:34:20.030 ServerApp] 404 GET /api/contents/2023_MP/practice/D1.%20Autogluon%20-%20%ED%95%98%EC%9D%B4%EB%B2%84%ED%8C%8C%EB%9D%BC%EB%A9%94%ED%84%B0%20%ED%8A%9C%EB%8B%9D.ipynb?content=0&1702215260038 (eb05f6aa18b54f3cb21ce91921461f9b@118.235.16.39) 0.53ms referer=http://210.117.173.186:34107/lab?
+[W 2023-12-10 13:34:20.030 ServerApp] 404 GET /api/contents/2023_MP/practice/D1.%20Autogluon%20-%20%ED%95%98%EC%9D%B4%EB%B2%84%ED%8C%8C%EB%9D%BC%EB%A9%94%ED%84%B0%20%ED%8A%9C%EB%8B%9D.ipynb?content=0&1702215260038 (118.235.16.39): No such file or directory: 2023_MP/practice/D1. Autogluon - 하이버파라메터 튜닝.ipynb
+[W 2023-12-10 13:34:20.903 ServerApp] 404 GET /api/contents/2023_MP/homeworks?1702215260911 (eb05f6aa18b54f3cb21ce91921461f9b@118.235.16.39) 0.45ms referer=http://210.117.173.186:34107/lab?
+[W 2023-12-10 13:34:20.903 ServerApp] 404 GET /api/contents/2023_MP/homeworks?1702215260911 (118.235.16.39): No such file or directory: 2023_MP/homeworks
+[I 2023-12-10 13:34:29.944 ServerApp] Kernel started: d3a3e1a1-4694-4778-8058-3fb59f1395ff
+[I 2023-12-10 13:34:30.554 ServerApp] Connecting to kernel d3a3e1a1-4694-4778-8058-3fb59f1395ff.
+[I 2023-12-10 13:34:40.435 ServerApp] Kernel started: c5722a86-872e-483b-8828-4aede7c13509
+[I 2023-12-10 13:34:41.093 ServerApp] Connecting to kernel c5722a86-872e-483b-8828-4aede7c13509.
+[I 2023-12-10 13:34:58.317 ServerApp] Kernel started: 4445f884-c9b7-4829-b2fc-20d830680539
+[I 2023-12-10 13:34:58.874 ServerApp] Connecting to kernel 4445f884-c9b7-4829-b2fc-20d830680539.
+[I 2023-12-10 13:36:58.247 ServerApp] Saving file at /regression analysis/hw/R과제.ipynb
+[I 2023-12-10 13:38:58.514 ServerApp] Saving file at /regression analysis/hw/R과제.ipynb
+[I 2023-12-10 13:40:59.128 ServerApp] Saving file at /regression analysis/hw/R과제.ipynb
+[I 2023-12-10 13:50:53.291 ServerApp] Starting buffering for d3a3e1a1-4694-4778-8058-3fb59f1395ff:34cdf400-44e5-4d73-8e4d-45a68442b2e5
+[I 2023-12-10 13:50:53.292 ServerApp] Starting buffering for 4445f884-c9b7-4829-b2fc-20d830680539:39e80cd4-788a-4009-93f1-3e7bab02b1fb
+[I 2023-12-10 13:50:53.293 ServerApp] Starting buffering for c5722a86-872e-483b-8828-4aede7c13509:00911159-144c-4378-a31a-cde55da9fb29
+[I 2023-12-10 13:56:31.139 ServerApp] Connecting to kernel c5722a86-872e-483b-8828-4aede7c13509.
+[I 2023-12-10 13:56:31.139 ServerApp] Restoring connection for c5722a86-872e-483b-8828-4aede7c13509:00911159-144c-4378-a31a-cde55da9fb29
+[I 2023-12-10 13:56:31.272 ServerApp] Connecting to kernel 4445f884-c9b7-4829-b2fc-20d830680539.
+[I 2023-12-10 13:56:31.272 ServerApp] Restoring connection for 4445f884-c9b7-4829-b2fc-20d830680539:39e80cd4-788a-4009-93f1-3e7bab02b1fb
+[I 2023-12-10 13:56:31.404 ServerApp] Connecting to kernel d3a3e1a1-4694-4778-8058-3fb59f1395ff.
+[I 2023-12-10 13:56:31.404 ServerApp] Restoring connection for d3a3e1a1-4694-4778-8058-3fb59f1395ff:34cdf400-44e5-4d73-8e4d-45a68442b2e5
+[I 2023-12-10 13:56:35.131 ServerApp] Starting buffering for c5722a86-872e-483b-8828-4aede7c13509:00911159-144c-4378-a31a-cde55da9fb29
+[I 2023-12-10 13:56:35.131 ServerApp] Starting buffering for d3a3e1a1-4694-4778-8058-3fb59f1395ff:34cdf400-44e5-4d73-8e4d-45a68442b2e5
+[I 2023-12-10 13:56:35.132 ServerApp] Starting buffering for 4445f884-c9b7-4829-b2fc-20d830680539:39e80cd4-788a-4009-93f1-3e7bab02b1fb
+[I 2023-12-11 06:21:24.839 ServerApp] 302 GET / (@121.154.64.157) 0.50ms
+[W 2023-12-11 06:21:27.267 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2023-12-11 06:21:27.350 ServerApp] Connecting to kernel 3b51b382-3185-42bb-95e5-907729497863.
+[I 2023-12-11 06:21:27.470 ServerApp] Connecting to kernel d3a3e1a1-4694-4778-8058-3fb59f1395ff.
+[I 2023-12-11 06:21:27.519 ServerApp] Connecting to kernel c5722a86-872e-483b-8828-4aede7c13509.
+[I 2023-12-11 06:21:27.543 ServerApp] Connecting to kernel 4445f884-c9b7-4829-b2fc-20d830680539.
+[I 2023-12-11 06:21:27.561 ServerApp] Starting buffering for 3b51b382-3185-42bb-95e5-907729497863:eaf2df4e-03de-4e4f-8f38-e69e692c6e38
+[I 2023-12-11 06:21:27.597 ServerApp] Starting buffering for d3a3e1a1-4694-4778-8058-3fb59f1395ff:a44b7f72-1a12-41bd-bfd2-d604907228c5
+[I 2023-12-11 06:21:27.597 ServerApp] Starting buffering for c5722a86-872e-483b-8828-4aede7c13509:46741bb6-4797-475b-ac34-d5e991fa0cbf
+[I 2023-12-11 06:21:27.710 ServerApp] Starting buffering for 4445f884-c9b7-4829-b2fc-20d830680539:5dffe60c-02f5-4a24-a4e6-4f59ffe29f8b
+[I 2023-12-11 06:21:27.727 ServerApp] New terminal with automatic name: 8
+[I 2023-12-11 06:21:39.996 ServerApp] Connecting to kernel c5722a86-872e-483b-8828-4aede7c13509.
+[I 2023-12-11 06:22:34.071 ServerApp] Uploading file to /regression analysis/hw/강신성_202014107(3).html
+[W 2023-12-11 06:22:57.130 ServerApp] delete /regression analysis/hw/강신성_202014107(3).html
+[W 2023-12-11 06:23:04.190 ServerApp] delete /regression analysis/hw/강신성_202014107(2).pdf
+[W 2023-12-11 06:23:07.210 ServerApp] delete /regression analysis/hw/강신성_202014107.pdf
+[W 2023-12-11 06:23:16.722 ServerApp] delete /regression analysis/hw/5. 회귀분석 과제.pdf
