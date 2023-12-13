@@ -279,3 +279,37 @@ The downloaded source packages are in
 [I 2023-12-13 09:21:19.205 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
 [I 2023-12-13 09:21:20.777 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
 [I 2023-12-13 09:21:22.587 ServerApp] Starting buffering for 91e93484-f20b-4137-b5d3-9b1b461d2249:0031df66-0163-4080-b927-e399be527510
+[I 2023-12-13 13:00:15.738 ServerApp] 302 GET / (@121.154.64.157) 0.52ms
+[W 2023-12-13 13:00:17.761 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2023-12-13 13:00:17.849 ServerApp] Connecting to kernel 3b51b382-3185-42bb-95e5-907729497863.
+[I 2023-12-13 13:00:17.903 ServerApp] Connecting to kernel d3a3e1a1-4694-4778-8058-3fb59f1395ff.
+[I 2023-12-13 13:00:17.957 ServerApp] Connecting to kernel c5722a86-872e-483b-8828-4aede7c13509.
+[I 2023-12-13 13:00:18.015 ServerApp] Connecting to kernel 4445f884-c9b7-4829-b2fc-20d830680539.
+[I 2023-12-13 13:00:18.022 ServerApp] Starting buffering for d3a3e1a1-4694-4778-8058-3fb59f1395ff:6434fef0-44c1-4666-b31f-03da90e87c5e
+[I 2023-12-13 13:00:18.057 ServerApp] Starting buffering for 3b51b382-3185-42bb-95e5-907729497863:98dd61be-f14d-4cde-a277-43ed60173a9f
+[I 2023-12-13 13:00:18.059 ServerApp] Connecting to kernel 91e93484-f20b-4137-b5d3-9b1b461d2249.
+[I 2023-12-13 13:00:18.067 ServerApp] Starting buffering for c5722a86-872e-483b-8828-4aede7c13509:5290577f-3407-4c87-9791-8a79a02307e8
+[I 2023-12-13 13:00:18.134 ServerApp] Connecting to kernel 30845e6b-1fd8-41c9-89c4-2eb303609461.
+[I 2023-12-13 13:00:18.193 ServerApp] Starting buffering for 4445f884-c9b7-4829-b2fc-20d830680539:ce65236c-f669-4016-8d89-0bf4687b9b2d
+[I 2023-12-13 13:00:18.207 ServerApp] Starting buffering for 91e93484-f20b-4137-b5d3-9b1b461d2249:55669c4e-a2f7-4ae1-aab2-7c64061f906c
+[I 2023-12-13 13:00:18.299 ServerApp] Starting buffering for 30845e6b-1fd8-41c9-89c4-2eb303609461:03b8ae95-e54f-4152-bd32-2a10141c0ba6
+[W 2023-12-13 13:00:18.746 ServerApp] 404 GET /api/contents/RiverFlow/2023_DV/Review?1702472417753 (79472a27218245fea48d3d8d42bd7d1e@121.154.64.157) 0.95ms referer=http://210.117.173.186:34107/lab?
+[W 2023-12-13 13:00:18.746 ServerApp] 404 GET /api/contents/RiverFlow/2023_DV/Review?1702472417753 (121.154.64.157): No such file or directory: RiverFlow/2023_DV/Review
+[I 2023-12-13 13:00:55.263 ServerApp] Connecting to kernel 91e93484-f20b-4137-b5d3-9b1b461d2249.
+[I 2023-12-13 13:02:55.006 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
+[I 2023-12-13 13:04:55.049 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
+[I 2023-12-13 13:06:55.108 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
+[I 2023-12-13 13:08:55.172 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
+[I 2023-12-13 13:10:55.238 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
+[I 2023-12-13 13:12:55.306 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
+[I 2023-12-13 13:14:55.373 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
+[I 2023-12-13 13:16:55.440 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
+[I 2023-12-13 13:18:55.494 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
+[I 2023-12-13 13:20:55.540 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
+[I 2023-12-13 13:22:55.598 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
+[I 2023-12-13 13:24:55.657 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
+[I 2023-12-13 13:26:55.709 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
+[I 2023-12-13 13:28:55.768 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
+[I 2023-12-13 13:30:55.840 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
+[I 2023-12-13 13:32:55.889 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
+[I 2023-12-13 13:33:02.841 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
