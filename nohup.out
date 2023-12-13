@@ -203,3 +203,79 @@ The downloaded source packages are in
 [W 2023-12-11 06:23:04.190 ServerApp] delete /regression analysis/hw/강신성_202014107(2).pdf
 [W 2023-12-11 06:23:07.210 ServerApp] delete /regression analysis/hw/강신성_202014107.pdf
 [W 2023-12-11 06:23:16.722 ServerApp] delete /regression analysis/hw/5. 회귀분석 과제.pdf
+[I 2023-12-11 06:23:46.271 ServerApp] Starting buffering for c5722a86-872e-483b-8828-4aede7c13509:72715115-2451-4da1-95bc-8c6cec0b6e01
+[W 2023-12-11 06:28:20.614 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2023-12-11 06:28:20.710 ServerApp] Connecting to kernel 3b51b382-3185-42bb-95e5-907729497863.
+[I 2023-12-11 06:28:20.806 ServerApp] Connecting to kernel d3a3e1a1-4694-4778-8058-3fb59f1395ff.
+[I 2023-12-11 06:28:20.994 ServerApp] Connecting to kernel c5722a86-872e-483b-8828-4aede7c13509.
+[I 2023-12-11 06:28:20.995 ServerApp] Starting buffering for 3b51b382-3185-42bb-95e5-907729497863:bd8ff211-54d2-4924-a3b5-a5f86650237f
+[I 2023-12-11 06:28:20.999 ServerApp] Starting buffering for d3a3e1a1-4694-4778-8058-3fb59f1395ff:4525266c-3ee5-45d0-adf9-78fd12070efd
+[I 2023-12-11 06:28:21.019 ServerApp] Connecting to kernel 4445f884-c9b7-4829-b2fc-20d830680539.
+[I 2023-12-11 06:28:21.204 ServerApp] Starting buffering for c5722a86-872e-483b-8828-4aede7c13509:42b320c8-76c0-44b5-93ed-c375c0b1ea76
+[I 2023-12-11 06:28:21.211 ServerApp] Starting buffering for 4445f884-c9b7-4829-b2fc-20d830680539:6678be9c-86c3-4f74-820b-62902ee5ad01
+[I 2023-12-13 08:15:21.870 ServerApp] 302 GET / (@61.99.5.143) 0.57ms
+[W 2023-12-13 08:15:24.943 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2023-12-13 08:15:25.078 ServerApp] Connecting to kernel 3b51b382-3185-42bb-95e5-907729497863.
+[I 2023-12-13 08:15:25.151 ServerApp] Connecting to kernel d3a3e1a1-4694-4778-8058-3fb59f1395ff.
+[I 2023-12-13 08:15:25.185 ServerApp] Connecting to kernel c5722a86-872e-483b-8828-4aede7c13509.
+[I 2023-12-13 08:15:25.218 ServerApp] Connecting to kernel 4445f884-c9b7-4829-b2fc-20d830680539.
+[I 2023-12-13 08:15:25.477 ServerApp] Starting buffering for 4445f884-c9b7-4829-b2fc-20d830680539:59723459-a74a-4064-b1e9-c884a3e8650e
+[I 2023-12-13 08:15:25.478 ServerApp] Starting buffering for 3b51b382-3185-42bb-95e5-907729497863:2c388832-9a43-469b-82fc-fb58938d8290
+[I 2023-12-13 08:15:25.478 ServerApp] Starting buffering for d3a3e1a1-4694-4778-8058-3fb59f1395ff:283507cd-db3e-482d-8056-9c0c3574b3f4
+[I 2023-12-13 08:15:25.479 ServerApp] Starting buffering for c5722a86-872e-483b-8828-4aede7c13509:902bf474-0a8c-4e2c-8ba7-8b3b06917a4c
+[W 2023-12-13 08:15:25.504 ServerApp] 404 GET /api/contents/2023_DV/learning%20materials/code%20summation.ipynb?content=0&1702455324151 (0cabf7691f814cabbc8bde4d8a57e392@61.99.5.143) 0.48ms referer=http://210.117.173.186:34107/lab?
+[W 2023-12-13 08:15:25.505 ServerApp] 404 GET /api/contents/2023_DV/learning%20materials/code%20summation.ipynb?content=0&1702455324151 (61.99.5.143): No such file or directory: 2023_DV/learning materials/code summation.ipynb
+[W 2023-12-13 08:15:25.506 ServerApp] 404 GET /api/contents/RiverFlow/2023_DV/Review/%EA%B0%95%EC%8B%A0%EC%84%B1_1127.ipynb?content=0&1702455324152 (0cabf7691f814cabbc8bde4d8a57e392@61.99.5.143) 0.49ms referer=http://210.117.173.186:34107/lab?
+[W 2023-12-13 08:15:25.506 ServerApp] 404 GET /api/contents/RiverFlow/2023_DV/Review/%EA%B0%95%EC%8B%A0%EC%84%B1_1127.ipynb?content=0&1702455324152 (61.99.5.143): No such file or directory: RiverFlow/2023_DV/Review/강신성_1127.ipynb
+[W 2023-12-13 08:15:25.512 ServerApp] 404 GET /api/contents/RiverFlow/2023_DV/Review/%EA%B0%95%EC%8B%A0%EC%84%B1_1129.ipynb?content=0&1702455324154 (0cabf7691f814cabbc8bde4d8a57e392@61.99.5.143) 0.89ms referer=http://210.117.173.186:34107/lab?
+[W 2023-12-13 08:15:25.512 ServerApp] 404 GET /api/contents/RiverFlow/2023_DV/Review/%EA%B0%95%EC%8B%A0%EC%84%B1_1129.ipynb?content=0&1702455324154 (61.99.5.143): No such file or directory: RiverFlow/2023_DV/Review/강신성_1129.ipynb
+[W 2023-12-13 08:15:25.512 ServerApp] 404 GET /api/contents/RiverFlow/2023_DV/Review/%EA%B0%95%EC%8B%A0%EC%84%B1_1123.ipynb?content=0&1702455324156 (0cabf7691f814cabbc8bde4d8a57e392@61.99.5.143) 0.45ms referer=http://210.117.173.186:34107/lab?
+[W 2023-12-13 08:15:25.512 ServerApp] 404 GET /api/contents/RiverFlow/2023_DV/Review/%EA%B0%95%EC%8B%A0%EC%84%B1_1123.ipynb?content=0&1702455324156 (61.99.5.143): No such file or directory: RiverFlow/2023_DV/Review/강신성_1123.ipynb
+[W 2023-12-13 08:15:25.515 ServerApp] 404 GET /api/contents/2023_DV/exam/practice/15wk-2-fin.out.ipynb?content=0&1702455324158 (0cabf7691f814cabbc8bde4d8a57e392@61.99.5.143) 0.46ms referer=http://210.117.173.186:34107/lab?
+[W 2023-12-13 08:15:25.515 ServerApp] 404 GET /api/contents/2023_DV/exam/practice/15wk-2-fin.out.ipynb?content=0&1702455324158 (61.99.5.143): No such file or directory: 2023_DV/exam/practice/15wk-2-fin.out.ipynb
+[W 2023-12-13 08:15:25.518 ServerApp] 404 GET /api/contents/dash/Untitled.ipynb?content=0&1702455324162 (0cabf7691f814cabbc8bde4d8a57e392@61.99.5.143) 0.84ms referer=http://210.117.173.186:34107/lab?
+[W 2023-12-13 08:15:25.518 ServerApp] 404 GET /api/contents/dash/Untitled.ipynb?content=0&1702455324162 (61.99.5.143): No such file or directory: dash/Untitled.ipynb
+[W 2023-12-13 08:15:25.519 ServerApp] 404 GET /api/contents/dash/asdf.qmd?content=0&1702455324167 (0cabf7691f814cabbc8bde4d8a57e392@61.99.5.143) 0.42ms referer=http://210.117.173.186:34107/lab?
+[W 2023-12-13 08:15:25.519 ServerApp] 404 GET /api/contents/dash/asdf.qmd?content=0&1702455324167 (61.99.5.143): No such file or directory: dash/asdf.qmd
+[W 2023-12-13 08:15:26.309 ServerApp] 404 GET /api/contents/dash?1702455324957 (0cabf7691f814cabbc8bde4d8a57e392@61.99.5.143) 0.78ms referer=http://210.117.173.186:34107/lab?
+[W 2023-12-13 08:15:26.309 ServerApp] 404 GET /api/contents/dash?1702455324957 (61.99.5.143): No such file or directory: dash
+[I 2023-12-13 08:17:15.493 ServerApp] Kernel started: 91e93484-f20b-4137-b5d3-9b1b461d2249
+[I 2023-12-13 08:17:16.135 ServerApp] Connecting to kernel 91e93484-f20b-4137-b5d3-9b1b461d2249.
+[I 2023-12-13 08:19:15.270 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
+[I 2023-12-13 08:21:00.141 ServerApp] Kernel restarted: 91e93484-f20b-4137-b5d3-9b1b461d2249
+[I 2023-12-13 08:21:00.153 ServerApp] Starting buffering for 91e93484-f20b-4137-b5d3-9b1b461d2249:0031df66-0163-4080-b927-e399be527510
+[I 2023-12-13 08:21:00.166 ServerApp] Connecting to kernel 91e93484-f20b-4137-b5d3-9b1b461d2249.
+[I 2023-12-13 08:21:00.166 ServerApp] Restoring connection for 91e93484-f20b-4137-b5d3-9b1b461d2249:0031df66-0163-4080-b927-e399be527510
+[I 2023-12-13 08:21:09.556 ServerApp] Kernel restarted: 91e93484-f20b-4137-b5d3-9b1b461d2249
+[I 2023-12-13 08:21:09.574 ServerApp] Starting buffering for 91e93484-f20b-4137-b5d3-9b1b461d2249:0031df66-0163-4080-b927-e399be527510
+[I 2023-12-13 08:21:09.587 ServerApp] Connecting to kernel 91e93484-f20b-4137-b5d3-9b1b461d2249.
+[I 2023-12-13 08:21:09.587 ServerApp] Restoring connection for 91e93484-f20b-4137-b5d3-9b1b461d2249:0031df66-0163-4080-b927-e399be527510
+[I 2023-12-13 08:21:14.742 ServerApp] Kernel restarted: 91e93484-f20b-4137-b5d3-9b1b461d2249
+[I 2023-12-13 08:21:14.809 ServerApp] Starting buffering for 91e93484-f20b-4137-b5d3-9b1b461d2249:0031df66-0163-4080-b927-e399be527510
+[I 2023-12-13 08:21:14.899 ServerApp] Connecting to kernel 91e93484-f20b-4137-b5d3-9b1b461d2249.
+[I 2023-12-13 08:21:14.899 ServerApp] Restoring connection for 91e93484-f20b-4137-b5d3-9b1b461d2249:0031df66-0163-4080-b927-e399be527510
+[I 2023-12-13 08:21:15.342 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
+[I 2023-12-13 08:22:00.447 ServerApp] Kernel started: 30845e6b-1fd8-41c9-89c4-2eb303609461
+[I 2023-12-13 08:22:01.035 ServerApp] Connecting to kernel 30845e6b-1fd8-41c9-89c4-2eb303609461.
+[I 2023-12-13 08:22:09.163 ServerApp] Starting buffering for 30845e6b-1fd8-41c9-89c4-2eb303609461:a843c382-be0f-446c-81d8-07d6d0e9f368
+[I 2023-12-13 08:23:15.419 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
+[I 2023-12-13 08:25:15.514 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
+[I 2023-12-13 08:27:15.586 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
+[I 2023-12-13 08:29:16.497 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
+[I 2023-12-13 08:31:16.569 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
+[I 2023-12-13 08:33:16.641 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
+[I 2023-12-13 08:55:16.796 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
+[I 2023-12-13 08:57:16.857 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
+[I 2023-12-13 08:59:16.915 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
+[I 2023-12-13 09:01:17.551 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
+[I 2023-12-13 09:05:18.539 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
+[I 2023-12-13 09:07:18.615 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
+[I 2023-12-13 09:09:18.689 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
+[I 2023-12-13 09:11:18.754 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
+[I 2023-12-13 09:13:18.847 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
+[I 2023-12-13 09:15:18.933 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
+[I 2023-12-13 09:17:19.008 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
+[I 2023-12-13 09:19:19.123 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
+[I 2023-12-13 09:21:19.205 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
+[I 2023-12-13 09:21:20.777 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
+[I 2023-12-13 09:21:22.587 ServerApp] Starting buffering for 91e93484-f20b-4137-b5d3-9b1b461d2249:0031df66-0163-4080-b927-e399be527510
