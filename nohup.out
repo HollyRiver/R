@@ -1,328 +1,61 @@
-[I 2023-12-10 03:06:38.288 ServerApp] Package jupyterlab took 0.0000s to import
-[I 2023-12-10 03:06:38.296 ServerApp] Package jupyter_lsp took 0.0076s to import
-[W 2023-12-10 03:06:38.297 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
-[I 2023-12-10 03:06:38.300 ServerApp] Package jupyter_server_terminals took 0.0033s to import
-[I 2023-12-10 03:06:38.300 ServerApp] Package notebook took 0.0000s to import
-[I 2023-12-10 03:06:38.302 ServerApp] Package notebook_shim took 0.0000s to import
-[W 2023-12-10 03:06:38.302 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
-[I 2023-12-10 03:06:38.302 ServerApp] jupyter_lsp | extension was successfully linked.
-[I 2023-12-10 03:06:38.305 ServerApp] jupyter_server_terminals | extension was successfully linked.
-[I 2023-12-10 03:06:38.309 ServerApp] jupyterlab | extension was successfully linked.
-[I 2023-12-10 03:06:38.313 ServerApp] notebook | extension was successfully linked.
-[I 2023-12-10 03:06:38.463 ServerApp] notebook_shim | extension was successfully linked.
-[I 2023-12-10 03:06:38.478 ServerApp] notebook_shim | extension was successfully loaded.
-[I 2023-12-10 03:06:38.480 ServerApp] jupyter_lsp | extension was successfully loaded.
-[I 2023-12-10 03:06:38.480 ServerApp] jupyter_server_terminals | extension was successfully loaded.
-[I 2023-12-10 03:06:38.481 LabApp] JupyterLab extension loaded from /root/anaconda3/envs/r_env/lib/python3.12/site-packages/jupyterlab
-[I 2023-12-10 03:06:38.482 LabApp] JupyterLab application directory is /root/anaconda3/envs/r_env/share/jupyter/lab
-[I 2023-12-10 03:06:38.482 LabApp] Extension Manager is 'pypi'.
-[I 2023-12-10 03:06:38.484 ServerApp] jupyterlab | extension was successfully loaded.
-[I 2023-12-10 03:06:38.486 ServerApp] notebook | extension was successfully loaded.
-[I 2023-12-10 03:06:38.486 ServerApp] The port 34107 is already in use, trying another port.
-[I 2023-12-10 03:06:38.486 ServerApp] Serving notebooks from local directory: /root/R
-[I 2023-12-10 03:06:38.486 ServerApp] Jupyter Server 2.11.2 is running at:
-[I 2023-12-10 03:06:38.486 ServerApp] http://1711c9b98586:34108/lab
-[I 2023-12-10 03:06:38.486 ServerApp]     http://127.0.0.1:34108/lab
-[I 2023-12-10 03:06:38.486 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
-[W 2023-12-10 03:06:38.489 ServerApp] No web browser found: Error('could not locate runnable browser').
-[I 2023-12-10 03:06:38.722 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
-[I 2023-12-10 03:06:41.340 ServerApp] Interrupted...
-[I 2023-12-10 03:06:46.184 ServerApp] Package jupyterlab took 0.0000s to import
-[I 2023-12-10 03:06:46.192 ServerApp] Package jupyter_lsp took 0.0077s to import
-[W 2023-12-10 03:06:46.192 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
-[I 2023-12-10 03:06:46.196 ServerApp] Package jupyter_server_terminals took 0.0032s to import
-[I 2023-12-10 03:06:46.196 ServerApp] Package notebook took 0.0000s to import
-[I 2023-12-10 03:06:46.197 ServerApp] Package notebook_shim took 0.0000s to import
-[W 2023-12-10 03:06:46.197 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
-[I 2023-12-10 03:06:46.198 ServerApp] jupyter_lsp | extension was successfully linked.
-[I 2023-12-10 03:06:46.201 ServerApp] jupyter_server_terminals | extension was successfully linked.
-[I 2023-12-10 03:06:46.204 ServerApp] jupyterlab | extension was successfully linked.
-[I 2023-12-10 03:06:46.208 ServerApp] notebook | extension was successfully linked.
-[I 2023-12-10 03:06:46.357 ServerApp] notebook_shim | extension was successfully linked.
-[I 2023-12-10 03:06:46.373 ServerApp] notebook_shim | extension was successfully loaded.
-[I 2023-12-10 03:06:46.374 ServerApp] jupyter_lsp | extension was successfully loaded.
-[I 2023-12-10 03:06:46.375 ServerApp] jupyter_server_terminals | extension was successfully loaded.
-[I 2023-12-10 03:06:46.376 LabApp] JupyterLab extension loaded from /root/anaconda3/envs/r_env/lib/python3.12/site-packages/jupyterlab
-[I 2023-12-10 03:06:46.376 LabApp] JupyterLab application directory is /root/anaconda3/envs/r_env/share/jupyter/lab
-[I 2023-12-10 03:06:46.376 LabApp] Extension Manager is 'pypi'.
-[I 2023-12-10 03:06:46.379 ServerApp] jupyterlab | extension was successfully loaded.
-[I 2023-12-10 03:06:46.380 ServerApp] notebook | extension was successfully loaded.
-[I 2023-12-10 03:06:46.380 ServerApp] The port 34107 is already in use, trying another port.
-[I 2023-12-10 03:06:46.381 ServerApp] Serving notebooks from local directory: /root/R
-[I 2023-12-10 03:06:46.381 ServerApp] Jupyter Server 2.11.2 is running at:
-[I 2023-12-10 03:06:46.381 ServerApp] http://1711c9b98586:34108/lab
-[I 2023-12-10 03:06:46.381 ServerApp]     http://127.0.0.1:34108/lab
-[I 2023-12-10 03:06:46.381 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
-[W 2023-12-10 03:06:46.384 ServerApp] No web browser found: Error('could not locate runnable browser').
-[I 2023-12-10 03:06:46.589 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
-[C 2023-12-10 03:08:31.775 ServerApp] received signal 15, stopping
-[I 2023-12-10 03:08:31.776 ServerApp] Shutting down 5 extensions
-[I 2023-12-10 03:10:19.019 ServerApp] Package jupyterlab took 0.0000s to import
-[I 2023-12-10 03:10:19.027 ServerApp] Package jupyter_lsp took 0.0075s to import
-[W 2023-12-10 03:10:19.027 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
-[I 2023-12-10 03:10:19.030 ServerApp] Package jupyter_server_terminals took 0.0032s to import
-[I 2023-12-10 03:10:19.031 ServerApp] Package notebook took 0.0000s to import
-[I 2023-12-10 03:10:19.032 ServerApp] Package notebook_shim took 0.0000s to import
-[W 2023-12-10 03:10:19.032 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
-[I 2023-12-10 03:10:19.033 ServerApp] jupyter_lsp | extension was successfully linked.
-[I 2023-12-10 03:10:19.036 ServerApp] jupyter_server_terminals | extension was successfully linked.
-[I 2023-12-10 03:10:19.039 ServerApp] jupyterlab | extension was successfully linked.
-[I 2023-12-10 03:10:19.043 ServerApp] notebook | extension was successfully linked.
-[I 2023-12-10 03:10:19.192 ServerApp] notebook_shim | extension was successfully linked.
-[I 2023-12-10 03:10:19.208 ServerApp] notebook_shim | extension was successfully loaded.
-[I 2023-12-10 03:10:19.210 ServerApp] jupyter_lsp | extension was successfully loaded.
-[I 2023-12-10 03:10:19.210 ServerApp] jupyter_server_terminals | extension was successfully loaded.
-[I 2023-12-10 03:10:19.211 LabApp] JupyterLab extension loaded from /root/anaconda3/envs/r_env/lib/python3.12/site-packages/jupyterlab
-[I 2023-12-10 03:10:19.212 LabApp] JupyterLab application directory is /root/anaconda3/envs/r_env/share/jupyter/lab
-[I 2023-12-10 03:10:19.212 LabApp] Extension Manager is 'pypi'.
-[I 2023-12-10 03:10:19.214 ServerApp] jupyterlab | extension was successfully loaded.
-[I 2023-12-10 03:10:19.216 ServerApp] notebook | extension was successfully loaded.
-[I 2023-12-10 03:10:19.216 ServerApp] Serving notebooks from local directory: /root/R
-[I 2023-12-10 03:10:19.216 ServerApp] Jupyter Server 2.11.2 is running at:
-[I 2023-12-10 03:10:19.216 ServerApp] http://1711c9b98586:34107/lab
-[I 2023-12-10 03:10:19.216 ServerApp]     http://127.0.0.1:34107/lab
-[I 2023-12-10 03:10:19.216 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
-[W 2023-12-10 03:10:19.219 ServerApp] No web browser found: Error('could not locate runnable browser').
-[I 2023-12-10 03:10:19.453 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
-[I 2023-12-10 03:10:45.755 ServerApp] 302 GET / (@222.105.106.20) 0.53ms
+[I 2024-02-19 01:08:49.588 ServerApp] Package jupyterlab took 0.0000s to import
+[I 2024-02-19 01:08:49.607 ServerApp] Package jupyter_lsp took 0.0187s to import
+[W 2024-02-19 01:08:49.607 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2024-02-19 01:08:49.616 ServerApp] Package jupyter_server_terminals took 0.0078s to import
+[I 2024-02-19 01:08:49.616 ServerApp] Package notebook took 0.0000s to import
+[I 2024-02-19 01:08:49.619 ServerApp] Package notebook_shim took 0.0000s to import
+[W 2024-02-19 01:08:49.619 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2024-02-19 01:08:49.619 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2024-02-19 01:08:49.624 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2024-02-19 01:08:49.629 ServerApp] jupyterlab | extension was successfully linked.
+[I 2024-02-19 01:08:49.634 ServerApp] notebook | extension was successfully linked.
+[I 2024-02-19 01:08:49.921 ServerApp] notebook_shim | extension was successfully linked.
+[I 2024-02-19 01:08:49.945 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-02-19 01:08:49.947 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2024-02-19 01:08:49.948 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2024-02-19 01:08:49.950 LabApp] JupyterLab extension loaded from /root/anaconda3/envs/r_env/lib/python3.12/site-packages/jupyterlab
+[I 2024-02-19 01:08:49.950 LabApp] JupyterLab application directory is /root/anaconda3/envs/r_env/share/jupyter/lab
+[I 2024-02-19 01:08:49.950 LabApp] Extension Manager is 'pypi'.
+[I 2024-02-19 01:08:49.954 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-02-19 01:08:49.956 ServerApp] notebook | extension was successfully loaded.
+[I 2024-02-19 01:08:49.956 ServerApp] Serving notebooks from local directory: /root/R
+[I 2024-02-19 01:08:49.956 ServerApp] Jupyter Server 2.11.2 is running at:
+[I 2024-02-19 01:08:49.956 ServerApp] http://1711c9b98586:34107/lab
+[I 2024-02-19 01:08:49.956 ServerApp]     http://127.0.0.1:34107/lab
+[I 2024-02-19 01:08:49.956 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2024-02-19 01:08:50.326 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2024-02-19 01:08:57.648 ServerApp] 302 GET / (@59.1.226.133) 0.55ms
 0.00s - Debugger warning: It seems that frozen modules are being used, which may
 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
 0.00s - to python to disable frozen modules.
 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
-[W 2023-12-10 03:10:48.165 LabApp] Could not determine jupyterlab build status without nodejs
-[W 2023-12-10 03:10:48.849 ServerApp] 404 GET /api/contents/R/economatrics/course/1.%20R%2C%20%EA%B7%B8%20%EC%9C%84%EB%8C%80%ED%95%9C%20%EC%8B%9C%EC%9E%91.ipynb?content=0&1702177847088 (79472a27218245fea48d3d8d42bd7d1e@222.105.106.20) 1.11ms referer=http://210.117.173.186:34107/lab?
-[W 2023-12-10 03:10:48.849 ServerApp] 404 GET /api/contents/R/economatrics/course/1.%20R%2C%20%EA%B7%B8%20%EC%9C%84%EB%8C%80%ED%95%9C%20%EC%8B%9C%EC%9E%91.ipynb?content=0&1702177847088 (222.105.106.20): No such file or directory: R/economatrics/course/1. R, 그 위대한 시작.ipynb
-[W 2023-12-10 03:10:48.850 ServerApp] 404 GET /api/contents/R/economatrics/course/logistic%20regression.ipynb?content=0&1702177847086 (79472a27218245fea48d3d8d42bd7d1e@222.105.106.20) 0.51ms referer=http://210.117.173.186:34107/lab?
-[W 2023-12-10 03:10:48.850 ServerApp] 404 GET /api/contents/R/economatrics/course/logistic%20regression.ipynb?content=0&1702177847086 (222.105.106.20): No such file or directory: R/economatrics/course/logistic regression.ipynb
-[W 2023-12-10 03:10:48.851 ServerApp] 404 GET /api/contents/2023_MP/practice/C8.%20Autogluon%20-%20%EC%97%AC%EB%9F%AC%EA%B0%80%EC%A7%80%20%EC%9C%A0%ED%98%95%EC%9D%98%20%EB%8D%B0%EC%9D%B4%ED%84%B0.ipynb?content=0&1702177847089 (79472a27218245fea48d3d8d42bd7d1e@222.105.106.20) 0.56ms referer=http://210.117.173.186:34107/lab?
-[W 2023-12-10 03:10:48.851 ServerApp] 404 GET /api/contents/2023_MP/practice/C8.%20Autogluon%20-%20%EC%97%AC%EB%9F%AC%EA%B0%80%EC%A7%80%20%EC%9C%A0%ED%98%95%EC%9D%98%20%EB%8D%B0%EC%9D%B4%ED%84%B0.ipynb?content=0&1702177847089 (222.105.106.20): No such file or directory: 2023_MP/practice/C8. Autogluon - 여러가지 유형의 데이터.ipynb
-[W 2023-12-10 03:10:48.852 ServerApp] 404 GET /api/contents/2023_MP/practice/C9.%20Autogluon%20-%20%EC%8B%9C%EA%B3%84%EC%97%B4%20%EC%9E%90%EB%A3%8C%20%EB%B6%84%EC%84%9D.ipynb?content=0&1702177847091 (79472a27218245fea48d3d8d42bd7d1e@222.105.106.20) 0.51ms referer=http://210.117.173.186:34107/lab?
-[W 2023-12-10 03:10:48.852 ServerApp] 404 GET /api/contents/2023_MP/practice/C9.%20Autogluon%20-%20%EC%8B%9C%EA%B3%84%EC%97%B4%20%EC%9E%90%EB%A3%8C%20%EB%B6%84%EC%84%9D.ipynb?content=0&1702177847091 (222.105.106.20): No such file or directory: 2023_MP/practice/C9. Autogluon - 시계열 자료 분석.ipynb
-[W 2023-12-10 03:10:49.958 ServerApp] 404 GET /api/contents/2023_MP/practice?1702177848199 (79472a27218245fea48d3d8d42bd7d1e@222.105.106.20) 0.71ms referer=http://210.117.173.186:34107/lab?
-[W 2023-12-10 03:10:49.958 ServerApp] 404 GET /api/contents/2023_MP/practice?1702177848199 (222.105.106.20): No such file or directory: 2023_MP/practice
-[W 2023-12-10 03:10:56.870 ServerApp] Notebook regression analysis/5. 기초적 통계이론, 변환.ipynb is not trusted
-[I 2023-12-10 03:10:57.447 ServerApp] Kernel started: 3b51b382-3185-42bb-95e5-907729497863
-[I 2023-12-10 03:10:58.047 ServerApp] Connecting to kernel 3b51b382-3185-42bb-95e5-907729497863.
-[I 2023-12-10 03:10:58.118 ServerApp] Connecting to kernel 3b51b382-3185-42bb-95e5-907729497863.
-[I 2023-12-10 03:10:58.173 ServerApp] Connecting to kernel 3b51b382-3185-42bb-95e5-907729497863.
-trying URL 'https://cran.r-project.org/src/contrib/gap_1.5-3.tar.gz'
-Content type 'application/x-gzip' length 4872213 bytes (4.6 MB)
-==================================================
-downloaded 4.6 MB
-
-* installing *source* package ‘gap’ ...
-** package ‘gap’ successfully unpacked and MD5 sums checked
-** using staged installation
-** libs
-using C compiler: ‘x86_64-conda-linux-gnu-cc (conda-forge gcc 13.2.0-3) 13.2.0’
-using Fortran compiler: ‘GNU Fortran (conda-forge gcc 13.2.0-3) 13.2.0’
-x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1700316003380/work=/usr/local/src/conda/r-base-4.3.2 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c 2k.c -o 2k.o
-x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1700316003380/work=/usr/local/src/conda/r-base-4.3.2 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c 2ld.c -o 2ld.o
-x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1700316003380/work=/usr/local/src/conda/r-base-4.3.2 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c cline.c -o cline.o
-x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1700316003380/work=/usr/local/src/conda/r-base-4.3.2 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c gcontrol_c.c -o gcontrol_c.o
-x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1700316003380/work=/usr/local/src/conda/r-base-4.3.2 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c gcx.c -o gcx.o
-x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1700316003380/work=/usr/local/src/conda/r-base-4.3.2 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c gif_c.c -o gif_c.o
-x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1700316003380/work=/usr/local/src/conda/r-base-4.3.2 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c hap_c.c -o hap_c.o
-x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1700316003380/work=/usr/local/src/conda/r-base-4.3.2 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c hwe.hardy.c -o hwe.hardy.o
-x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1700316003380/work=/usr/local/src/conda/r-base-4.3.2 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c kin.morgan.c -o kin.morgan.o
-x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1700316003380/work=/usr/local/src/conda/r-base-4.3.2 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c makeped_c.c -o makeped_c.o
-x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1700316003380/work=/usr/local/src/conda/r-base-4.3.2 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c mia.c -o mia.o
-x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1700316003380/work=/usr/local/src/conda/r-base-4.3.2 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c muvar.c -o muvar.o
-x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1700316003380/work=/usr/local/src/conda/r-base-4.3.2 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c package_native_routine_registration_skeleton.c -o package_native_routine_registration_skeleton.o
-x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1700316003380/work=/usr/local/src/conda/r-base-4.3.2 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c pfc.f -o pfc.o
-x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1700316003380/work=/usr/local/src/conda/r-base-4.3.2 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c pfc.sim.f -o pfc.sim.o
-x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1700316003380/work=/usr/local/src/conda/r-base-4.3.2 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c pgc_c.c -o pgc_c.o
-x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1700316003380/work=/usr/local/src/conda/r-base-4.3.2 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c whscore.c -o whscore.o
-x86_64-conda-linux-gnu-cc -shared -L/root/anaconda3/envs/r_env/lib/R/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/root/anaconda3/envs/r_env/lib -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib -L/root/anaconda3/envs/r_env/lib -o gap.so 2k.o 2ld.o cline.o gcontrol_c.o gcx.o gif_c.o hap_c.o hwe.hardy.o kin.morgan.o makeped_c.o mia.o muvar.o package_native_routine_registration_skeleton.o pfc.o pfc.sim.o pgc_c.o whscore.o -lgfortran -lm -lquadmath -L/root/anaconda3/envs/r_env/lib/R/lib -lR
-installing to /root/anaconda3/envs/r_env/lib/R/library/00LOCK-gap/00new/gap/libs
-** R
-** data
-*** moving datasets to lazyload DB
-** demo
-** inst
-** byte-compile and prepare package for lazy loading
-** help
-*** installing help indices
-** building package indices
-** installing vignettes
-** testing if installed package can be loaded from temporary location
-** checking absolute paths in shared objects and dynamic libraries
-** testing if installed package can be loaded from final location
-** testing if installed package keeps a record of temporary installation path
-* DONE (gap)
-
-The downloaded source packages are in
-	‘/tmp/RtmpCD8CFC/downloaded_packages’
-[I 2023-12-10 03:11:29.045 ServerApp] Starting buffering for 3b51b382-3185-42bb-95e5-907729497863:4a02f564-2fbd-4b42-83a2-ff56faeb91f7
-[I 2023-12-10 13:34:11.882 ServerApp] 302 GET / (@118.235.16.39) 0.53ms
-[I 2023-12-10 13:34:11.951 LabApp] 302 GET /lab? (@118.235.16.39) 0.85ms
-[I 2023-12-10 13:34:16.294 ServerApp] User eb05f6aa18b54f3cb21ce91921461f9b logged in.
-[I 2023-12-10 13:34:16.295 ServerApp] 302 POST /login?next=%2Flab%3F (eb05f6aa18b54f3cb21ce91921461f9b@118.235.16.39) 36.41ms
-[W 2023-12-10 13:34:19.465 LabApp] Could not determine jupyterlab build status without nodejs
-[I 2023-12-10 13:34:19.654 ServerApp] Connecting to kernel 3b51b382-3185-42bb-95e5-907729497863.
-[I 2023-12-10 13:34:20.027 ServerApp] Starting buffering for 3b51b382-3185-42bb-95e5-907729497863:93bac53f-6b0e-43ae-a102-e23892f1c6d8
-[W 2023-12-10 13:34:20.030 ServerApp] 404 GET /api/contents/2023_MP/practice/D1.%20Autogluon%20-%20%ED%95%98%EC%9D%B4%EB%B2%84%ED%8C%8C%EB%9D%BC%EB%A9%94%ED%84%B0%20%ED%8A%9C%EB%8B%9D.ipynb?content=0&1702215260038 (eb05f6aa18b54f3cb21ce91921461f9b@118.235.16.39) 0.53ms referer=http://210.117.173.186:34107/lab?
-[W 2023-12-10 13:34:20.030 ServerApp] 404 GET /api/contents/2023_MP/practice/D1.%20Autogluon%20-%20%ED%95%98%EC%9D%B4%EB%B2%84%ED%8C%8C%EB%9D%BC%EB%A9%94%ED%84%B0%20%ED%8A%9C%EB%8B%9D.ipynb?content=0&1702215260038 (118.235.16.39): No such file or directory: 2023_MP/practice/D1. Autogluon - 하이버파라메터 튜닝.ipynb
-[W 2023-12-10 13:34:20.903 ServerApp] 404 GET /api/contents/2023_MP/homeworks?1702215260911 (eb05f6aa18b54f3cb21ce91921461f9b@118.235.16.39) 0.45ms referer=http://210.117.173.186:34107/lab?
-[W 2023-12-10 13:34:20.903 ServerApp] 404 GET /api/contents/2023_MP/homeworks?1702215260911 (118.235.16.39): No such file or directory: 2023_MP/homeworks
-[I 2023-12-10 13:34:29.944 ServerApp] Kernel started: d3a3e1a1-4694-4778-8058-3fb59f1395ff
-[I 2023-12-10 13:34:30.554 ServerApp] Connecting to kernel d3a3e1a1-4694-4778-8058-3fb59f1395ff.
-[I 2023-12-10 13:34:40.435 ServerApp] Kernel started: c5722a86-872e-483b-8828-4aede7c13509
-[I 2023-12-10 13:34:41.093 ServerApp] Connecting to kernel c5722a86-872e-483b-8828-4aede7c13509.
-[I 2023-12-10 13:34:58.317 ServerApp] Kernel started: 4445f884-c9b7-4829-b2fc-20d830680539
-[I 2023-12-10 13:34:58.874 ServerApp] Connecting to kernel 4445f884-c9b7-4829-b2fc-20d830680539.
-[I 2023-12-10 13:36:58.247 ServerApp] Saving file at /regression analysis/hw/R과제.ipynb
-[I 2023-12-10 13:38:58.514 ServerApp] Saving file at /regression analysis/hw/R과제.ipynb
-[I 2023-12-10 13:40:59.128 ServerApp] Saving file at /regression analysis/hw/R과제.ipynb
-[I 2023-12-10 13:50:53.291 ServerApp] Starting buffering for d3a3e1a1-4694-4778-8058-3fb59f1395ff:34cdf400-44e5-4d73-8e4d-45a68442b2e5
-[I 2023-12-10 13:50:53.292 ServerApp] Starting buffering for 4445f884-c9b7-4829-b2fc-20d830680539:39e80cd4-788a-4009-93f1-3e7bab02b1fb
-[I 2023-12-10 13:50:53.293 ServerApp] Starting buffering for c5722a86-872e-483b-8828-4aede7c13509:00911159-144c-4378-a31a-cde55da9fb29
-[I 2023-12-10 13:56:31.139 ServerApp] Connecting to kernel c5722a86-872e-483b-8828-4aede7c13509.
-[I 2023-12-10 13:56:31.139 ServerApp] Restoring connection for c5722a86-872e-483b-8828-4aede7c13509:00911159-144c-4378-a31a-cde55da9fb29
-[I 2023-12-10 13:56:31.272 ServerApp] Connecting to kernel 4445f884-c9b7-4829-b2fc-20d830680539.
-[I 2023-12-10 13:56:31.272 ServerApp] Restoring connection for 4445f884-c9b7-4829-b2fc-20d830680539:39e80cd4-788a-4009-93f1-3e7bab02b1fb
-[I 2023-12-10 13:56:31.404 ServerApp] Connecting to kernel d3a3e1a1-4694-4778-8058-3fb59f1395ff.
-[I 2023-12-10 13:56:31.404 ServerApp] Restoring connection for d3a3e1a1-4694-4778-8058-3fb59f1395ff:34cdf400-44e5-4d73-8e4d-45a68442b2e5
-[I 2023-12-10 13:56:35.131 ServerApp] Starting buffering for c5722a86-872e-483b-8828-4aede7c13509:00911159-144c-4378-a31a-cde55da9fb29
-[I 2023-12-10 13:56:35.131 ServerApp] Starting buffering for d3a3e1a1-4694-4778-8058-3fb59f1395ff:34cdf400-44e5-4d73-8e4d-45a68442b2e5
-[I 2023-12-10 13:56:35.132 ServerApp] Starting buffering for 4445f884-c9b7-4829-b2fc-20d830680539:39e80cd4-788a-4009-93f1-3e7bab02b1fb
-[I 2023-12-11 06:21:24.839 ServerApp] 302 GET / (@121.154.64.157) 0.50ms
-[W 2023-12-11 06:21:27.267 LabApp] Could not determine jupyterlab build status without nodejs
-[I 2023-12-11 06:21:27.350 ServerApp] Connecting to kernel 3b51b382-3185-42bb-95e5-907729497863.
-[I 2023-12-11 06:21:27.470 ServerApp] Connecting to kernel d3a3e1a1-4694-4778-8058-3fb59f1395ff.
-[I 2023-12-11 06:21:27.519 ServerApp] Connecting to kernel c5722a86-872e-483b-8828-4aede7c13509.
-[I 2023-12-11 06:21:27.543 ServerApp] Connecting to kernel 4445f884-c9b7-4829-b2fc-20d830680539.
-[I 2023-12-11 06:21:27.561 ServerApp] Starting buffering for 3b51b382-3185-42bb-95e5-907729497863:eaf2df4e-03de-4e4f-8f38-e69e692c6e38
-[I 2023-12-11 06:21:27.597 ServerApp] Starting buffering for d3a3e1a1-4694-4778-8058-3fb59f1395ff:a44b7f72-1a12-41bd-bfd2-d604907228c5
-[I 2023-12-11 06:21:27.597 ServerApp] Starting buffering for c5722a86-872e-483b-8828-4aede7c13509:46741bb6-4797-475b-ac34-d5e991fa0cbf
-[I 2023-12-11 06:21:27.710 ServerApp] Starting buffering for 4445f884-c9b7-4829-b2fc-20d830680539:5dffe60c-02f5-4a24-a4e6-4f59ffe29f8b
-[I 2023-12-11 06:21:27.727 ServerApp] New terminal with automatic name: 8
-[I 2023-12-11 06:21:39.996 ServerApp] Connecting to kernel c5722a86-872e-483b-8828-4aede7c13509.
-[I 2023-12-11 06:22:34.071 ServerApp] Uploading file to /regression analysis/hw/강신성_202014107(3).html
-[W 2023-12-11 06:22:57.130 ServerApp] delete /regression analysis/hw/강신성_202014107(3).html
-[W 2023-12-11 06:23:04.190 ServerApp] delete /regression analysis/hw/강신성_202014107(2).pdf
-[W 2023-12-11 06:23:07.210 ServerApp] delete /regression analysis/hw/강신성_202014107.pdf
-[W 2023-12-11 06:23:16.722 ServerApp] delete /regression analysis/hw/5. 회귀분석 과제.pdf
-[I 2023-12-11 06:23:46.271 ServerApp] Starting buffering for c5722a86-872e-483b-8828-4aede7c13509:72715115-2451-4da1-95bc-8c6cec0b6e01
-[W 2023-12-11 06:28:20.614 LabApp] Could not determine jupyterlab build status without nodejs
-[I 2023-12-11 06:28:20.710 ServerApp] Connecting to kernel 3b51b382-3185-42bb-95e5-907729497863.
-[I 2023-12-11 06:28:20.806 ServerApp] Connecting to kernel d3a3e1a1-4694-4778-8058-3fb59f1395ff.
-[I 2023-12-11 06:28:20.994 ServerApp] Connecting to kernel c5722a86-872e-483b-8828-4aede7c13509.
-[I 2023-12-11 06:28:20.995 ServerApp] Starting buffering for 3b51b382-3185-42bb-95e5-907729497863:bd8ff211-54d2-4924-a3b5-a5f86650237f
-[I 2023-12-11 06:28:20.999 ServerApp] Starting buffering for d3a3e1a1-4694-4778-8058-3fb59f1395ff:4525266c-3ee5-45d0-adf9-78fd12070efd
-[I 2023-12-11 06:28:21.019 ServerApp] Connecting to kernel 4445f884-c9b7-4829-b2fc-20d830680539.
-[I 2023-12-11 06:28:21.204 ServerApp] Starting buffering for c5722a86-872e-483b-8828-4aede7c13509:42b320c8-76c0-44b5-93ed-c375c0b1ea76
-[I 2023-12-11 06:28:21.211 ServerApp] Starting buffering for 4445f884-c9b7-4829-b2fc-20d830680539:6678be9c-86c3-4f74-820b-62902ee5ad01
-[I 2023-12-13 08:15:21.870 ServerApp] 302 GET / (@61.99.5.143) 0.57ms
-[W 2023-12-13 08:15:24.943 LabApp] Could not determine jupyterlab build status without nodejs
-[I 2023-12-13 08:15:25.078 ServerApp] Connecting to kernel 3b51b382-3185-42bb-95e5-907729497863.
-[I 2023-12-13 08:15:25.151 ServerApp] Connecting to kernel d3a3e1a1-4694-4778-8058-3fb59f1395ff.
-[I 2023-12-13 08:15:25.185 ServerApp] Connecting to kernel c5722a86-872e-483b-8828-4aede7c13509.
-[I 2023-12-13 08:15:25.218 ServerApp] Connecting to kernel 4445f884-c9b7-4829-b2fc-20d830680539.
-[I 2023-12-13 08:15:25.477 ServerApp] Starting buffering for 4445f884-c9b7-4829-b2fc-20d830680539:59723459-a74a-4064-b1e9-c884a3e8650e
-[I 2023-12-13 08:15:25.478 ServerApp] Starting buffering for 3b51b382-3185-42bb-95e5-907729497863:2c388832-9a43-469b-82fc-fb58938d8290
-[I 2023-12-13 08:15:25.478 ServerApp] Starting buffering for d3a3e1a1-4694-4778-8058-3fb59f1395ff:283507cd-db3e-482d-8056-9c0c3574b3f4
-[I 2023-12-13 08:15:25.479 ServerApp] Starting buffering for c5722a86-872e-483b-8828-4aede7c13509:902bf474-0a8c-4e2c-8ba7-8b3b06917a4c
-[W 2023-12-13 08:15:25.504 ServerApp] 404 GET /api/contents/2023_DV/learning%20materials/code%20summation.ipynb?content=0&1702455324151 (0cabf7691f814cabbc8bde4d8a57e392@61.99.5.143) 0.48ms referer=http://210.117.173.186:34107/lab?
-[W 2023-12-13 08:15:25.505 ServerApp] 404 GET /api/contents/2023_DV/learning%20materials/code%20summation.ipynb?content=0&1702455324151 (61.99.5.143): No such file or directory: 2023_DV/learning materials/code summation.ipynb
-[W 2023-12-13 08:15:25.506 ServerApp] 404 GET /api/contents/RiverFlow/2023_DV/Review/%EA%B0%95%EC%8B%A0%EC%84%B1_1127.ipynb?content=0&1702455324152 (0cabf7691f814cabbc8bde4d8a57e392@61.99.5.143) 0.49ms referer=http://210.117.173.186:34107/lab?
-[W 2023-12-13 08:15:25.506 ServerApp] 404 GET /api/contents/RiverFlow/2023_DV/Review/%EA%B0%95%EC%8B%A0%EC%84%B1_1127.ipynb?content=0&1702455324152 (61.99.5.143): No such file or directory: RiverFlow/2023_DV/Review/강신성_1127.ipynb
-[W 2023-12-13 08:15:25.512 ServerApp] 404 GET /api/contents/RiverFlow/2023_DV/Review/%EA%B0%95%EC%8B%A0%EC%84%B1_1129.ipynb?content=0&1702455324154 (0cabf7691f814cabbc8bde4d8a57e392@61.99.5.143) 0.89ms referer=http://210.117.173.186:34107/lab?
-[W 2023-12-13 08:15:25.512 ServerApp] 404 GET /api/contents/RiverFlow/2023_DV/Review/%EA%B0%95%EC%8B%A0%EC%84%B1_1129.ipynb?content=0&1702455324154 (61.99.5.143): No such file or directory: RiverFlow/2023_DV/Review/강신성_1129.ipynb
-[W 2023-12-13 08:15:25.512 ServerApp] 404 GET /api/contents/RiverFlow/2023_DV/Review/%EA%B0%95%EC%8B%A0%EC%84%B1_1123.ipynb?content=0&1702455324156 (0cabf7691f814cabbc8bde4d8a57e392@61.99.5.143) 0.45ms referer=http://210.117.173.186:34107/lab?
-[W 2023-12-13 08:15:25.512 ServerApp] 404 GET /api/contents/RiverFlow/2023_DV/Review/%EA%B0%95%EC%8B%A0%EC%84%B1_1123.ipynb?content=0&1702455324156 (61.99.5.143): No such file or directory: RiverFlow/2023_DV/Review/강신성_1123.ipynb
-[W 2023-12-13 08:15:25.515 ServerApp] 404 GET /api/contents/2023_DV/exam/practice/15wk-2-fin.out.ipynb?content=0&1702455324158 (0cabf7691f814cabbc8bde4d8a57e392@61.99.5.143) 0.46ms referer=http://210.117.173.186:34107/lab?
-[W 2023-12-13 08:15:25.515 ServerApp] 404 GET /api/contents/2023_DV/exam/practice/15wk-2-fin.out.ipynb?content=0&1702455324158 (61.99.5.143): No such file or directory: 2023_DV/exam/practice/15wk-2-fin.out.ipynb
-[W 2023-12-13 08:15:25.518 ServerApp] 404 GET /api/contents/dash/Untitled.ipynb?content=0&1702455324162 (0cabf7691f814cabbc8bde4d8a57e392@61.99.5.143) 0.84ms referer=http://210.117.173.186:34107/lab?
-[W 2023-12-13 08:15:25.518 ServerApp] 404 GET /api/contents/dash/Untitled.ipynb?content=0&1702455324162 (61.99.5.143): No such file or directory: dash/Untitled.ipynb
-[W 2023-12-13 08:15:25.519 ServerApp] 404 GET /api/contents/dash/asdf.qmd?content=0&1702455324167 (0cabf7691f814cabbc8bde4d8a57e392@61.99.5.143) 0.42ms referer=http://210.117.173.186:34107/lab?
-[W 2023-12-13 08:15:25.519 ServerApp] 404 GET /api/contents/dash/asdf.qmd?content=0&1702455324167 (61.99.5.143): No such file or directory: dash/asdf.qmd
-[W 2023-12-13 08:15:26.309 ServerApp] 404 GET /api/contents/dash?1702455324957 (0cabf7691f814cabbc8bde4d8a57e392@61.99.5.143) 0.78ms referer=http://210.117.173.186:34107/lab?
-[W 2023-12-13 08:15:26.309 ServerApp] 404 GET /api/contents/dash?1702455324957 (61.99.5.143): No such file or directory: dash
-[I 2023-12-13 08:17:15.493 ServerApp] Kernel started: 91e93484-f20b-4137-b5d3-9b1b461d2249
-[I 2023-12-13 08:17:16.135 ServerApp] Connecting to kernel 91e93484-f20b-4137-b5d3-9b1b461d2249.
-[I 2023-12-13 08:19:15.270 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
-[I 2023-12-13 08:21:00.141 ServerApp] Kernel restarted: 91e93484-f20b-4137-b5d3-9b1b461d2249
-[I 2023-12-13 08:21:00.153 ServerApp] Starting buffering for 91e93484-f20b-4137-b5d3-9b1b461d2249:0031df66-0163-4080-b927-e399be527510
-[I 2023-12-13 08:21:00.166 ServerApp] Connecting to kernel 91e93484-f20b-4137-b5d3-9b1b461d2249.
-[I 2023-12-13 08:21:00.166 ServerApp] Restoring connection for 91e93484-f20b-4137-b5d3-9b1b461d2249:0031df66-0163-4080-b927-e399be527510
-[I 2023-12-13 08:21:09.556 ServerApp] Kernel restarted: 91e93484-f20b-4137-b5d3-9b1b461d2249
-[I 2023-12-13 08:21:09.574 ServerApp] Starting buffering for 91e93484-f20b-4137-b5d3-9b1b461d2249:0031df66-0163-4080-b927-e399be527510
-[I 2023-12-13 08:21:09.587 ServerApp] Connecting to kernel 91e93484-f20b-4137-b5d3-9b1b461d2249.
-[I 2023-12-13 08:21:09.587 ServerApp] Restoring connection for 91e93484-f20b-4137-b5d3-9b1b461d2249:0031df66-0163-4080-b927-e399be527510
-[I 2023-12-13 08:21:14.742 ServerApp] Kernel restarted: 91e93484-f20b-4137-b5d3-9b1b461d2249
-[I 2023-12-13 08:21:14.809 ServerApp] Starting buffering for 91e93484-f20b-4137-b5d3-9b1b461d2249:0031df66-0163-4080-b927-e399be527510
-[I 2023-12-13 08:21:14.899 ServerApp] Connecting to kernel 91e93484-f20b-4137-b5d3-9b1b461d2249.
-[I 2023-12-13 08:21:14.899 ServerApp] Restoring connection for 91e93484-f20b-4137-b5d3-9b1b461d2249:0031df66-0163-4080-b927-e399be527510
-[I 2023-12-13 08:21:15.342 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
-[I 2023-12-13 08:22:00.447 ServerApp] Kernel started: 30845e6b-1fd8-41c9-89c4-2eb303609461
-[I 2023-12-13 08:22:01.035 ServerApp] Connecting to kernel 30845e6b-1fd8-41c9-89c4-2eb303609461.
-[I 2023-12-13 08:22:09.163 ServerApp] Starting buffering for 30845e6b-1fd8-41c9-89c4-2eb303609461:a843c382-be0f-446c-81d8-07d6d0e9f368
-[I 2023-12-13 08:23:15.419 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
-[I 2023-12-13 08:25:15.514 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
-[I 2023-12-13 08:27:15.586 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
-[I 2023-12-13 08:29:16.497 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
-[I 2023-12-13 08:31:16.569 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
-[I 2023-12-13 08:33:16.641 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
-[I 2023-12-13 08:55:16.796 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
-[I 2023-12-13 08:57:16.857 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
-[I 2023-12-13 08:59:16.915 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
-[I 2023-12-13 09:01:17.551 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
-[I 2023-12-13 09:05:18.539 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
-[I 2023-12-13 09:07:18.615 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
-[I 2023-12-13 09:09:18.689 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
-[I 2023-12-13 09:11:18.754 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
-[I 2023-12-13 09:13:18.847 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
-[I 2023-12-13 09:15:18.933 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
-[I 2023-12-13 09:17:19.008 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
-[I 2023-12-13 09:19:19.123 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
-[I 2023-12-13 09:21:19.205 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
-[I 2023-12-13 09:21:20.777 ServerApp] Saving file at /economatrics/course/logistic regression.ipynb
-[I 2023-12-13 09:21:22.587 ServerApp] Starting buffering for 91e93484-f20b-4137-b5d3-9b1b461d2249:0031df66-0163-4080-b927-e399be527510
-[I 2023-12-13 13:00:15.738 ServerApp] 302 GET / (@121.154.64.157) 0.52ms
-[W 2023-12-13 13:00:17.761 LabApp] Could not determine jupyterlab build status without nodejs
-[I 2023-12-13 13:00:17.849 ServerApp] Connecting to kernel 3b51b382-3185-42bb-95e5-907729497863.
-[I 2023-12-13 13:00:17.903 ServerApp] Connecting to kernel d3a3e1a1-4694-4778-8058-3fb59f1395ff.
-[I 2023-12-13 13:00:17.957 ServerApp] Connecting to kernel c5722a86-872e-483b-8828-4aede7c13509.
-[I 2023-12-13 13:00:18.015 ServerApp] Connecting to kernel 4445f884-c9b7-4829-b2fc-20d830680539.
-[I 2023-12-13 13:00:18.022 ServerApp] Starting buffering for d3a3e1a1-4694-4778-8058-3fb59f1395ff:6434fef0-44c1-4666-b31f-03da90e87c5e
-[I 2023-12-13 13:00:18.057 ServerApp] Starting buffering for 3b51b382-3185-42bb-95e5-907729497863:98dd61be-f14d-4cde-a277-43ed60173a9f
-[I 2023-12-13 13:00:18.059 ServerApp] Connecting to kernel 91e93484-f20b-4137-b5d3-9b1b461d2249.
-[I 2023-12-13 13:00:18.067 ServerApp] Starting buffering for c5722a86-872e-483b-8828-4aede7c13509:5290577f-3407-4c87-9791-8a79a02307e8
-[I 2023-12-13 13:00:18.134 ServerApp] Connecting to kernel 30845e6b-1fd8-41c9-89c4-2eb303609461.
-[I 2023-12-13 13:00:18.193 ServerApp] Starting buffering for 4445f884-c9b7-4829-b2fc-20d830680539:ce65236c-f669-4016-8d89-0bf4687b9b2d
-[I 2023-12-13 13:00:18.207 ServerApp] Starting buffering for 91e93484-f20b-4137-b5d3-9b1b461d2249:55669c4e-a2f7-4ae1-aab2-7c64061f906c
-[I 2023-12-13 13:00:18.299 ServerApp] Starting buffering for 30845e6b-1fd8-41c9-89c4-2eb303609461:03b8ae95-e54f-4152-bd32-2a10141c0ba6
-[W 2023-12-13 13:00:18.746 ServerApp] 404 GET /api/contents/RiverFlow/2023_DV/Review?1702472417753 (79472a27218245fea48d3d8d42bd7d1e@121.154.64.157) 0.95ms referer=http://210.117.173.186:34107/lab?
-[W 2023-12-13 13:00:18.746 ServerApp] 404 GET /api/contents/RiverFlow/2023_DV/Review?1702472417753 (121.154.64.157): No such file or directory: RiverFlow/2023_DV/Review
-[I 2023-12-13 13:00:55.263 ServerApp] Connecting to kernel 91e93484-f20b-4137-b5d3-9b1b461d2249.
-[I 2023-12-13 13:02:55.006 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
-[I 2023-12-13 13:04:55.049 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
-[I 2023-12-13 13:06:55.108 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
-[I 2023-12-13 13:08:55.172 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
-[I 2023-12-13 13:10:55.238 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
-[I 2023-12-13 13:12:55.306 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
-[I 2023-12-13 13:14:55.373 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
-[I 2023-12-13 13:16:55.440 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
-[I 2023-12-13 13:18:55.494 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
-[I 2023-12-13 13:20:55.540 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
-[I 2023-12-13 13:22:55.598 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
-[I 2023-12-13 13:24:55.657 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
-[I 2023-12-13 13:26:55.709 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
-[I 2023-12-13 13:28:55.768 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
-[I 2023-12-13 13:30:55.840 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
-[I 2023-12-13 13:32:55.889 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
-[I 2023-12-13 13:33:02.841 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
-[I 2023-12-13 13:35:02.891 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
-[I 2023-12-13 13:51:37.820 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
-[I 2023-12-13 13:53:37.886 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
-[I 2023-12-13 14:07:37.991 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
-[I 2023-12-13 14:09:38.073 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
-[I 2023-12-13 14:11:38.129 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
-[I 2023-12-13 14:33:38.266 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
-[I 2023-12-13 14:35:38.321 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
-[I 2023-12-13 14:37:38.378 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
-[I 2023-12-13 14:45:38.450 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
-[I 2023-12-13 14:47:38.503 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
-[I 2023-12-13 14:49:38.553 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
-[I 2023-12-13 14:50:50.467 ServerApp] Saving file at /economatrics/course/3. logistic regression.ipynb
+[W 2024-02-19 01:09:00.295 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2024-02-19 01:09:01.265 ServerApp] 404 GET /api/contents/kag_comp?1708304941188 (24901160c244432990c386272360ff06@59.1.226.133) 0.69ms referer=http://210.117.173.186:34107/lab?
+[W 2024-02-19 01:09:01.265 ServerApp] 404 GET /api/contents/kag_comp?1708304941188 (59.1.226.133): No such file or directory: kag_comp
+[I 2024-02-19 01:13:53.913 ServerApp] New terminal with automatic name: 1
+[I 2024-02-19 01:14:52.794 ServerApp] Creating new notebook in /independent practice
+[I 2024-02-19 01:14:57.079 ServerApp] Kernel started: 93c38134-d2ba-407c-a3ae-78ff8a402020
+[I 2024-02-19 01:14:57.921 ServerApp] Connecting to kernel 93c38134-d2ba-407c-a3ae-78ff8a402020.
+[I 2024-02-19 01:14:57.946 ServerApp] Connecting to kernel 93c38134-d2ba-407c-a3ae-78ff8a402020.
+[I 2024-02-19 01:14:57.971 ServerApp] Connecting to kernel 93c38134-d2ba-407c-a3ae-78ff8a402020.
+[I 2024-02-19 01:16:53.029 ServerApp] Saving file at /independent practice/Untitled.ipynb
+[I 2024-02-19 01:18:53.081 ServerApp] Saving file at /independent practice/Untitled.ipynb
+[I 2024-02-19 01:20:53.164 ServerApp] Saving file at /independent practice/Untitled.ipynb
+[I 2024-02-19 01:22:53.204 ServerApp] Saving file at /independent practice/Untitled.ipynb
+[I 2024-02-19 01:25:32.989 ServerApp] Saving file at /independent practice/Untitled.ipynb
+[I 2024-02-19 01:26:53.051 ServerApp] Saving file at /independent practice/2.ipynb
+[I 2024-02-19 01:26:54.056 ServerApp] Starting buffering for 93c38134-d2ba-407c-a3ae-78ff8a402020:f15cd5a2-cb8c-47f6-a260-be7ad7743a2d
+[I 2024-02-21 10:55:50.984 ServerApp] 302 GET / (@59.1.226.133) 0.63ms
+[W 2024-02-21 10:55:54.947 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-02-21 10:55:55.044 ServerApp] Connecting to kernel 93c38134-d2ba-407c-a3ae-78ff8a402020.
+[I 2024-02-21 10:55:55.275 ServerApp] Starting buffering for 93c38134-d2ba-407c-a3ae-78ff8a402020:af551976-ad88-43ba-b326-f32f378b0343
+[I 2024-02-21 10:55:55.874 ServerApp] Connecting to kernel 93c38134-d2ba-407c-a3ae-78ff8a402020.
+[I 2024-02-21 10:57:55.651 ServerApp] Saving file at /independent practice/2.ipynb
+[I 2024-02-21 10:59:55.705 ServerApp] Saving file at /independent practice/2.ipynb
+[I 2024-02-21 11:01:21.848 ServerApp] Saving file at /independent practice/2.ipynb
+[I 2024-02-21 11:01:32.629 ServerApp] Starting buffering for 93c38134-d2ba-407c-a3ae-78ff8a402020:b7b6cf0d-9833-4567-9ad5-fa2b77ce07ff
+[I 2024-02-22 02:17:16.533 ServerApp] 302 GET / (@59.1.226.133) 0.69ms
+[W 2024-02-22 02:17:19.299 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-02-22 02:17:19.538 ServerApp] Connecting to kernel 93c38134-d2ba-407c-a3ae-78ff8a402020.
+[I 2024-02-22 02:17:20.114 ServerApp] Starting buffering for 93c38134-d2ba-407c-a3ae-78ff8a402020:1c3c80b4-7b3b-4e08-aa3e-538085a3e462
+[I 2024-02-22 02:17:21.272 ServerApp] Connecting to kernel 93c38134-d2ba-407c-a3ae-78ff8a402020.
