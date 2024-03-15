@@ -1,0 +1,7 @@
+    waiting          duration           x         
+ Min.   : 43.00   Min.   :0.830   Min.   :0.0000  
+ 1st Qu.: 59.00   1st Qu.:2.000   1st Qu.:0.0000  
+ Median : 76.00   Median :4.000   Median :1.0000  
+ Mean   : 72.31   Mean   :3.461   Mean   :0.5117  
+ 3rd Qu.: 83.00   3rd Qu.:4.380   3rd Qu.:1.0000  
+ Max.   :108.00   Max.   :5.450   Max.   :1.0000  
