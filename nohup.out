@@ -11182,3 +11182,370 @@ installing to /root/anaconda3/envs/r_env/lib/R/library/00LOCK-interp/00new/inter
 
 The downloaded source packages are in
 	‘/tmp/RtmpfXPIMY/downloaded_packages’
+[I 2024-03-10 11:18:39.289 ServerApp] Saving file at /탐색적자료분석/Untitled.ipynb
+[I 2024-03-10 13:07:10.901 ServerApp] Starting buffering for dfaf6f4a-7567-4057-96fe-c0ae6e0dbf03:625cd866-5b69-4a8e-a82b-ed32d512a9b5
+[I 2024-03-11 04:57:56.555 ServerApp] Malformed HTTP message from 172.22.138.29: no colon in header line
+[I 2024-03-11 04:57:59.562 ServerApp] 302 GET / (@172.22.138.29) 0.64ms
+[I 2024-03-11 04:58:00.330 ServerApp] Connecting to kernel fe1b7bad-d90f-4958-b0cc-0e622dfd5e7c.
+[I 2024-03-11 04:58:00.348 ServerApp] Connecting to kernel dfaf6f4a-7567-4057-96fe-c0ae6e0dbf03.
+[I 2024-03-11 04:58:00.353 ServerApp] Starting buffering for fe1b7bad-d90f-4958-b0cc-0e622dfd5e7c:958dae23-1abc-4692-990c-c6fc94689dac
+[I 2024-03-11 04:58:00.361 ServerApp] Starting buffering for dfaf6f4a-7567-4057-96fe-c0ae6e0dbf03:2d5e34dc-4608-4d9c-8a2f-8841cf65b06b
+[W 2024-03-11 04:58:00.385 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-03-11 04:58:00.768 ServerApp] Connecting to kernel dfaf6f4a-7567-4057-96fe-c0ae6e0dbf03.
+[I 2024-03-11 04:58:31.548 ServerApp] Starting buffering for dfaf6f4a-7567-4057-96fe-c0ae6e0dbf03:b618b3ed-ce2d-40ea-b6a3-7b68f1c3baac
+[I 2024-03-11 04:59:19.159 ServerApp] Malformed HTTP message from 172.22.138.29: Malformed HTTP version in HTTP Request-Line: '::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x01\x93'
+[I 2024-03-11 04:59:19.160 ServerApp] Malformed HTTP message from 172.22.138.29: Malformed HTTP version in HTTP Request-Line: ''
+[I 2024-03-11 04:59:19.163 ServerApp] 302 GET / (@172.22.138.29) 0.36ms
+[I 2024-03-11 04:59:19.166 LabApp] 302 GET /lab? (@172.22.138.29) 0.35ms
+[I 2024-03-11 04:59:21.957 ServerApp] User 5067c14a9f3e44119fcc04bff243b87f logged in.
+[I 2024-03-11 04:59:21.958 ServerApp] 302 POST /login?next=%2Flab%3F (5067c14a9f3e44119fcc04bff243b87f@172.22.138.29) 40.56ms
+[I 2024-03-11 04:59:22.787 ServerApp] Connecting to kernel fe1b7bad-d90f-4958-b0cc-0e622dfd5e7c.
+[I 2024-03-11 04:59:22.806 ServerApp] Connecting to kernel dfaf6f4a-7567-4057-96fe-c0ae6e0dbf03.
+[W 2024-03-11 04:59:22.811 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-03-11 04:59:22.864 ServerApp] Starting buffering for fe1b7bad-d90f-4958-b0cc-0e622dfd5e7c:59eaca72-5009-4c8f-b68d-23bba4d7e868
+[I 2024-03-11 04:59:22.943 ServerApp] Starting buffering for dfaf6f4a-7567-4057-96fe-c0ae6e0dbf03:99931721-e546-4caf-be5f-4e0e72cbc126
+[I 2024-03-11 05:01:23.151 ServerApp] Saving file at /통계데이터베이스/데이터베이스.txt
+[I 2024-03-11 05:02:53.141 ServerApp] Saving file at /통계데이터베이스/데이터베이스.txt
+[I 2024-03-11 05:02:57.271 ServerApp] Saving file at /통계데이터베이스/데이터베이스.txt
+[I 2024-03-11 05:04:46.010 ServerApp] Saving file at /통계데이터베이스/데이터베이스.txt
+[I 2024-03-11 05:06:46.052 ServerApp] Saving file at /통계데이터베이스/데이터베이스.txt
+[I 2024-03-11 05:08:46.087 ServerApp] Saving file at /통계데이터베이스/데이터베이스.txt
+[I 2024-03-11 05:10:04.945 ServerApp] Creating new file in /통계데이터베이스
+[I 2024-03-11 05:10:46.114 ServerApp] Saving file at /통계데이터베이스/데이터베이스.txt
+[I 2024-03-11 05:12:09.267 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 05:14:09.300 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 05:16:09.336 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 05:18:09.382 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 05:20:09.426 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 05:22:09.462 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 05:24:09.491 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 05:26:09.527 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 05:28:09.569 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 05:30:09.617 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 05:32:09.656 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 05:34:09.697 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 05:36:09.733 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 05:38:09.785 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 05:40:09.840 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 05:42:09.873 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 05:44:09.914 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 05:46:09.951 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 05:58:13.611 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 06:00:13.657 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 06:02:13.698 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 06:04:13.752 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 06:06:13.803 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 06:08:13.835 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 06:10:13.880 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 06:12:13.926 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 06:14:13.971 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 06:16:14.024 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 06:18:14.072 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 06:20:14.104 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 06:22:14.133 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 06:24:14.183 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 06:26:14.238 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 06:28:14.269 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 06:30:14.314 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 06:32:14.360 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 06:34:14.400 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 06:36:14.436 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 06:38:14.470 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 06:40:14.513 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 06:42:14.554 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 06:44:14.595 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 06:46:14.633 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 06:48:14.674 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 06:50:14.712 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 06:51:04.826 ServerApp] Saving file at /통계데이터베이스/0311.txt
+[I 2024-03-11 11:37:32.914 ServerApp] Malformed HTTP message from 121.154.64.157: Malformed HTTP version in HTTP Request-Line: 'ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06S**\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00\x12\x00\x00\x003\x04ï\x04í'
+[I 2024-03-11 11:37:32.938 ServerApp] Malformed HTTP message from 121.154.64.157: first header line cannot start with whitespace
+[I 2024-03-11 11:37:32.954 ServerApp] 302 GET / (@121.154.64.157) 0.72ms
+[I 2024-03-11 11:37:32.961 LabApp] 302 GET /lab? (@121.154.64.157) 0.78ms
+[I 2024-03-11 11:37:37.105 ServerApp] User 77255b1327db4044b0ecd5f6c95e7024 logged in.
+[I 2024-03-11 11:37:37.106 ServerApp] 302 POST /login?next=%2Flab%3F (77255b1327db4044b0ecd5f6c95e7024@121.154.64.157) 38.78ms
+[I 2024-03-11 11:37:38.509 ServerApp] Connecting to kernel fe1b7bad-d90f-4958-b0cc-0e622dfd5e7c.
+[I 2024-03-11 11:37:38.529 ServerApp] Connecting to kernel dfaf6f4a-7567-4057-96fe-c0ae6e0dbf03.
+[W 2024-03-11 11:37:38.531 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-03-11 11:37:38.897 ServerApp] Starting buffering for dfaf6f4a-7567-4057-96fe-c0ae6e0dbf03:12fd3e51-f1ad-4a8f-bbca-7fb937ca5e7e
+[I 2024-03-11 11:37:38.898 ServerApp] Starting buffering for fe1b7bad-d90f-4958-b0cc-0e622dfd5e7c:212dab8f-adc7-4e50-9708-ee82d6643ff7
+[I 2024-03-11 11:37:52.298 ServerApp] Connecting to kernel dfaf6f4a-7567-4057-96fe-c0ae6e0dbf03.
+[I 2024-03-11 11:37:55.248 ServerApp] Connecting to kernel fe1b7bad-d90f-4958-b0cc-0e622dfd5e7c.
+[I 2024-03-11 11:38:01.731 ServerApp] Starting buffering for fe1b7bad-d90f-4958-b0cc-0e622dfd5e7c:8552e40f-b761-40af-9364-023a5109e52e
+[I 2024-03-11 11:39:52.186 ServerApp] Saving file at /탐색적자료분석/Untitled.ipynb
+[I 2024-03-11 11:41:52.244 ServerApp] Saving file at /탐색적자료분석/Untitled.ipynb
+[I 2024-03-11 11:43:52.302 ServerApp] Saving file at /탐색적자료분석/Untitled.ipynb
+[I 2024-03-11 11:45:52.349 ServerApp] Saving file at /탐색적자료분석/Untitled.ipynb
+[I 2024-03-11 11:47:52.414 ServerApp] Saving file at /탐색적자료분석/Untitled.ipynb
+[I 2024-03-11 11:49:52.471 ServerApp] Saving file at /탐색적자료분석/Untitled.ipynb
+[I 2024-03-11 11:53:52.546 ServerApp] Saving file at /탐색적자료분석/Untitled.ipynb
+[I 2024-03-11 11:55:52.614 ServerApp] Saving file at /탐색적자료분석/Untitled.ipynb
+[I 2024-03-11 11:56:35.459 ServerApp] Saving file at /탐색적자료분석/Untitled.ipynb
+[I 2024-03-11 11:58:35.514 ServerApp] Saving file at /탐색적자료분석/Untitled.ipynb
+[I 2024-03-11 12:00:35.565 ServerApp] Saving file at /탐색적자료분석/Untitled.ipynb
+[I 2024-03-11 12:04:36.212 ServerApp] Saving file at /탐색적자료분석/Untitled.ipynb
+[I 2024-03-11 12:04:44.327 ServerApp] Starting buffering for dfaf6f4a-7567-4057-96fe-c0ae6e0dbf03:d4c7f6ec-fe14-4c5f-af9e-415f4536aca0
+[I 2024-03-11 12:07:27.928 ServerApp] 302 GET / (@121.154.64.157) 0.46ms
+[I 2024-03-11 12:07:29.319 ServerApp] Connecting to kernel fe1b7bad-d90f-4958-b0cc-0e622dfd5e7c.
+[I 2024-03-11 12:07:29.339 ServerApp] Connecting to kernel dfaf6f4a-7567-4057-96fe-c0ae6e0dbf03.
+[W 2024-03-11 12:07:29.341 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-03-11 12:07:29.604 ServerApp] Starting buffering for dfaf6f4a-7567-4057-96fe-c0ae6e0dbf03:ab7290b3-19ef-4be8-8b88-f1f35165c947
+[I 2024-03-11 12:07:29.605 ServerApp] Starting buffering for fe1b7bad-d90f-4958-b0cc-0e622dfd5e7c:e7f3393a-d3b6-45f1-81b3-7463cc8aff28
+[I 2024-03-11 12:07:30.129 ServerApp] Connecting to kernel dfaf6f4a-7567-4057-96fe-c0ae6e0dbf03.
+[I 2024-03-11 12:09:29.935 ServerApp] Saving file at /탐색적자료분석/Untitled.ipynb
+[I 2024-03-11 12:19:30.032 ServerApp] Saving file at /탐색적자료분석/Untitled.ipynb
+[I 2024-03-11 12:21:30.094 ServerApp] Saving file at /탐색적자료분석/Untitled.ipynb
+[I 2024-03-11 12:23:30.171 ServerApp] Saving file at /탐색적자료분석/Untitled.ipynb
+[I 2024-03-11 12:25:30.446 ServerApp] Saving file at /탐색적자료분석/Untitled.ipynb
+[I 2024-03-11 12:27:30.514 ServerApp] Saving file at /탐색적자료분석/Untitled.ipynb
+[I 2024-03-11 12:37:30.613 ServerApp] Saving file at /탐색적자료분석/Untitled.ipynb
+[I 2024-03-11 12:39:30.688 ServerApp] Saving file at /탐색적자료분석/Untitled.ipynb
+[I 2024-03-11 12:43:30.777 ServerApp] Saving file at /탐색적자료분석/Untitled.ipynb
+[I 2024-03-11 12:50:13.627 ServerApp] Starting buffering for dfaf6f4a-7567-4057-96fe-c0ae6e0dbf03:5399151f-4b42-4a82-9b15-0e13221ef67f
+[I 2024-03-12 04:01:01.754 ServerApp] 302 GET / (@61.99.5.75) 0.57ms
+[W 2024-03-12 04:01:03.812 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-03-12 04:01:03.896 ServerApp] Connecting to kernel fe1b7bad-d90f-4958-b0cc-0e622dfd5e7c.
+[I 2024-03-12 04:01:03.929 ServerApp] Connecting to kernel dfaf6f4a-7567-4057-96fe-c0ae6e0dbf03.
+[I 2024-03-12 04:01:04.251 ServerApp] Starting buffering for fe1b7bad-d90f-4958-b0cc-0e622dfd5e7c:b20b6876-9975-4c1f-87c9-37bee87e033a
+[I 2024-03-12 04:01:04.252 ServerApp] Starting buffering for dfaf6f4a-7567-4057-96fe-c0ae6e0dbf03:cfac31cf-43c0-44f6-96fe-9b6e943adec4
+[I 2024-03-12 04:01:05.178 ServerApp] Connecting to kernel dfaf6f4a-7567-4057-96fe-c0ae6e0dbf03.
+[I 2024-03-12 04:03:05.616 ServerApp] Saving file at /탐색적자료분석/Untitled.ipynb
+[I 2024-03-12 04:03:26.019 ServerApp] Starting buffering for dfaf6f4a-7567-4057-96fe-c0ae6e0dbf03:433672a9-e353-4376-962a-c64675b40675
+[I 2024-03-12 04:06:17.452 ServerApp] 302 GET / (@61.99.5.75) 0.43ms
+[W 2024-03-12 04:06:19.846 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-03-12 04:07:54.371 ServerApp] 302 GET / (@61.99.5.75) 0.44ms
+[W 2024-03-12 04:07:55.460 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-03-12 04:07:55.556 ServerApp] Connecting to kernel fe1b7bad-d90f-4958-b0cc-0e622dfd5e7c.
+[I 2024-03-12 04:07:55.586 ServerApp] Connecting to kernel dfaf6f4a-7567-4057-96fe-c0ae6e0dbf03.
+[I 2024-03-12 04:07:55.916 ServerApp] Starting buffering for fe1b7bad-d90f-4958-b0cc-0e622dfd5e7c:1f973b86-7447-40e7-b456-87871e8cd4cf
+[I 2024-03-12 04:07:55.916 ServerApp] Starting buffering for dfaf6f4a-7567-4057-96fe-c0ae6e0dbf03:81a14b3e-181c-46b6-8c5b-c0d2a314c4d6
+[I 2024-03-12 06:42:25.070 ServerApp] 302 GET / (@172.22.138.26) 0.82ms
+[I 2024-03-12 06:42:25.073 LabApp] 302 GET /lab? (@172.22.138.26) 0.91ms
+[I 2024-03-12 06:51:04.191 ServerApp] 302 GET / (@172.22.138.26) 0.90ms
+[I 2024-03-12 06:51:04.194 LabApp] 302 GET /lab? (@172.22.138.26) 1.05ms
+[I 2024-03-12 06:51:07.234 ServerApp] User eb56d0cf3fcc49f49907db7230747d2a logged in.
+[I 2024-03-12 06:51:07.235 ServerApp] 302 POST /login?next=%2Flab%3F (eb56d0cf3fcc49f49907db7230747d2a@172.22.138.26) 50.90ms
+[I 2024-03-12 06:51:08.022 ServerApp] Connecting to kernel fe1b7bad-d90f-4958-b0cc-0e622dfd5e7c.
+[I 2024-03-12 06:51:08.040 ServerApp] Connecting to kernel dfaf6f4a-7567-4057-96fe-c0ae6e0dbf03.
+[I 2024-03-12 06:51:08.046 ServerApp] Starting buffering for fe1b7bad-d90f-4958-b0cc-0e622dfd5e7c:b4b89676-6d28-45ce-9720-b50c1ccce345
+[I 2024-03-12 06:51:08.052 ServerApp] Starting buffering for dfaf6f4a-7567-4057-96fe-c0ae6e0dbf03:1faffc3e-e75f-4e2c-9f2b-cad15bdcb0d6
+[W 2024-03-12 06:51:08.198 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2024-03-12 06:51:08.936 ServerApp] 404 GET /api/contents/lecture?1710226268608 (eb56d0cf3fcc49f49907db7230747d2a@172.22.138.26) 0.63ms referer=http://210.117.173.186:34107/lab?
+[W 2024-03-12 06:51:08.936 ServerApp] 404 GET /api/contents/lecture?1710226268608 (172.22.138.26): No such file or directory: lecture
+[I 2024-03-12 06:51:17.113 ServerApp] Connecting to kernel dfaf6f4a-7567-4057-96fe-c0ae6e0dbf03.
+[I 2024-03-12 07:10:13.940 ServerApp] Creating new notebook in /탐색적자료분석
+[I 2024-03-12 07:10:17.537 ServerApp] Kernel started: cb8cd5a5-9a46-4dc8-a3d8-8647e197e03c
+[I 2024-03-12 07:10:18.348 ServerApp] Connecting to kernel cb8cd5a5-9a46-4dc8-a3d8-8647e197e03c.
+[I 2024-03-12 07:10:29.789 ServerApp] Connecting to kernel fe1b7bad-d90f-4958-b0cc-0e622dfd5e7c.
+[I 2024-03-12 07:12:25.688 ServerApp] Saving file at /탐색적자료분석/0312.ipynb
+[I 2024-03-12 07:12:29.673 ServerApp] Saving file at /탐색적자료분석/0307.ipynb
+[I 2024-03-12 07:14:25.743 ServerApp] Saving file at /탐색적자료분석/0312.ipynb
+[I 2024-03-12 07:16:25.791 ServerApp] Saving file at /탐색적자료분석/0312.ipynb
+[I 2024-03-12 07:18:25.841 ServerApp] Saving file at /탐색적자료분석/0312.ipynb
+[I 2024-03-12 07:20:25.876 ServerApp] Saving file at /탐색적자료분석/0312.ipynb
+[I 2024-03-12 07:22:25.928 ServerApp] Saving file at /탐색적자료분석/0312.ipynb
+[I 2024-03-12 07:24:25.972 ServerApp] Saving file at /탐색적자료분석/0312.ipynb
+[I 2024-03-12 07:26:26.016 ServerApp] Saving file at /탐색적자료분석/0312.ipynb
+[I 2024-03-12 07:32:26.558 ServerApp] Saving file at /탐색적자료분석/0312.ipynb
+[I 2024-03-12 07:34:26.601 ServerApp] Saving file at /탐색적자료분석/0312.ipynb
+[I 2024-03-12 07:38:27.590 ServerApp] Saving file at /탐색적자료분석/0312.ipynb
+trying URL 'https://cran.r-project.org/src/contrib/aplpack_1.3.5.tar.gz'
+Content type 'application/x-gzip' length 3437817 bytes (3.3 MB)
+==================================================
+downloaded 3.3 MB
+
+* installing *source* package ‘aplpack’ ...
+** package ‘aplpack’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: no DISPLAY variable so Tk is not available
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: no DISPLAY variable so Tk is not available
+** testing if installed package can be loaded from final location
+Warning: no DISPLAY variable so Tk is not available
+** testing if installed package keeps a record of temporary installation path
+* DONE (aplpack)
+
+The downloaded source packages are in
+	‘/tmp/RtmpThg3cn/downloaded_packages’
+[I 2024-03-12 07:40:27.678 ServerApp] Saving file at /탐색적자료분석/0312.ipynb
+[I 2024-03-12 07:42:27.724 ServerApp] Saving file at /탐색적자료분석/0312.ipynb
+[I 2024-03-12 07:44:27.789 ServerApp] Saving file at /탐색적자료분석/0312.ipynb
+[I 2024-03-12 07:45:41.470 ServerApp] Saving file at /탐색적자료분석/0312.ipynb
+[I 2024-03-12 07:46:00.282 ServerApp] Starting buffering for cb8cd5a5-9a46-4dc8-a3d8-8647e197e03c:cfd5dafd-d0f2-45b3-94cd-726c5e3816ec
+[I 2024-03-12 07:46:00.775 ServerApp] Starting buffering for fe1b7bad-d90f-4958-b0cc-0e622dfd5e7c:7a1245d1-daa6-4f87-bb56-3c843372f1ec
+[I 2024-03-12 07:46:01.445 ServerApp] Starting buffering for dfaf6f4a-7567-4057-96fe-c0ae6e0dbf03:a18236b8-4eb1-4897-94d1-dc521b9a0b44
+[I 2024-03-13 03:00:31.500 ServerApp] 302 GET / (@61.99.5.52) 0.73ms
+[I 2024-03-13 04:59:50.510 ServerApp] 302 GET / (@172.22.138.29) 1.46ms
+[I 2024-03-13 04:59:50.513 LabApp] 302 GET /lab? (@172.22.138.29) 1.34ms
+[I 2024-03-13 04:59:54.634 ServerApp] User fc7f39d25b79415cab2da6ab5edc5033 logged in.
+[I 2024-03-13 04:59:54.634 ServerApp] 302 POST /login?next=%2Flab%3F (fc7f39d25b79415cab2da6ab5edc5033@172.22.138.29) 67.70ms
+[I 2024-03-13 04:59:55.465 ServerApp] Connecting to kernel fe1b7bad-d90f-4958-b0cc-0e622dfd5e7c.
+[I 2024-03-13 04:59:55.493 ServerApp] Connecting to kernel dfaf6f4a-7567-4057-96fe-c0ae6e0dbf03.
+[I 2024-03-13 04:59:55.512 ServerApp] Connecting to kernel cb8cd5a5-9a46-4dc8-a3d8-8647e197e03c.
+[I 2024-03-13 04:59:55.524 ServerApp] Starting buffering for dfaf6f4a-7567-4057-96fe-c0ae6e0dbf03:ad1189b1-66ee-4b3b-a3fe-bf2a6008e922
+[I 2024-03-13 04:59:55.529 ServerApp] Starting buffering for fe1b7bad-d90f-4958-b0cc-0e622dfd5e7c:615029c3-8ed2-4fac-8e11-c393a4be3b6b
+[I 2024-03-13 04:59:55.534 ServerApp] Starting buffering for cb8cd5a5-9a46-4dc8-a3d8-8647e197e03c:f3d828f5-1147-4339-9fe4-4ce0ae984909
+[W 2024-03-13 04:59:55.660 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2024-03-13 04:59:56.354 ServerApp] 404 GET /api/contents/Julia/lecture?1710305991896 (fc7f39d25b79415cab2da6ab5edc5033@172.22.138.29) 0.76ms referer=http://210.117.173.186:34107/lab?
+[W 2024-03-13 04:59:56.354 ServerApp] 404 GET /api/contents/Julia/lecture?1710305991896 (172.22.138.29): No such file or directory: Julia/lecture
+[I 2024-03-13 05:00:01.895 ServerApp] Creating new file in /통계데이터베이스
+[I 2024-03-13 05:00:08.422 ServerApp] Creating new notebook in /통계데이터베이스
+[I 2024-03-13 05:00:09.739 ServerApp] Kernel started: 3e24c350-7a4b-436a-8d43-cf5716094088
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2024-03-13 05:00:10.344 ServerApp] Connecting to kernel 3e24c350-7a4b-436a-8d43-cf5716094088.
+[I 2024-03-13 05:00:10.357 ServerApp] Starting buffering for 3e24c350-7a4b-436a-8d43-cf5716094088:1a2f164e-f7a4-464e-84e5-843b67484bd4
+[I 2024-03-13 05:00:10.361 ServerApp] Connecting to kernel 3e24c350-7a4b-436a-8d43-cf5716094088.
+[I 2024-03-13 05:00:10.378 ServerApp] Connecting to kernel 3e24c350-7a4b-436a-8d43-cf5716094088.
+[W 2024-03-13 05:00:15.637 ServerApp] delete /통계데이터베이스/0313.txt
+[I 2024-03-13 05:02:13.516 ServerApp] Saving file at /통계데이터베이스/0313.ipynb
+[I 2024-03-13 05:04:00.392 ServerApp] Creating new notebook in /통계데이터베이스
+[I 2024-03-13 05:04:02.290 ServerApp] Kernel started: 17350fd3-1098-4e27-835b-c93e88f61633
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2024-03-13 05:04:02.769 ServerApp] Connecting to kernel 17350fd3-1098-4e27-835b-c93e88f61633.
+[I 2024-03-13 05:04:13.562 ServerApp] Saving file at /통계데이터베이스/0313.ipynb
+[I 2024-03-13 05:04:16.034 ServerApp] Saving file at /통계데이터베이스/0311.ipynb
+[I 2024-03-13 05:06:13.611 ServerApp] Saving file at /통계데이터베이스/0313.ipynb
+[I 2024-03-13 05:06:16.065 ServerApp] Saving file at /통계데이터베이스/0311.ipynb
+[I 2024-03-13 05:08:13.925 ServerApp] Saving file at /통계데이터베이스/0313.ipynb
+[I 2024-03-13 05:10:14.654 ServerApp] Saving file at /통계데이터베이스/0313.ipynb
+[I 2024-03-13 05:12:14.696 ServerApp] Saving file at /통계데이터베이스/0313.ipynb
+[I 2024-03-13 05:14:14.739 ServerApp] Saving file at /통계데이터베이스/0313.ipynb
+[I 2024-03-13 05:16:14.791 ServerApp] Saving file at /통계데이터베이스/0313.ipynb
+[I 2024-03-13 05:18:14.841 ServerApp] Saving file at /통계데이터베이스/0313.ipynb
+[I 2024-03-13 05:20:14.875 ServerApp] Saving file at /통계데이터베이스/0313.ipynb
+[I 2024-03-13 05:22:14.925 ServerApp] Saving file at /통계데이터베이스/0313.ipynb
+[I 2024-03-13 05:24:14.962 ServerApp] Saving file at /통계데이터베이스/0313.ipynb
+[I 2024-03-13 05:26:15.003 ServerApp] Saving file at /통계데이터베이스/0313.ipynb
+[I 2024-03-13 05:28:15.055 ServerApp] Saving file at /통계데이터베이스/0313.ipynb
+[I 2024-03-13 05:30:15.090 ServerApp] Saving file at /통계데이터베이스/0313.ipynb
+[I 2024-03-13 05:32:15.134 ServerApp] Saving file at /통계데이터베이스/0313.ipynb
+[I 2024-03-13 05:34:15.168 ServerApp] Saving file at /통계데이터베이스/0313.ipynb
+[I 2024-03-13 05:36:15.253 ServerApp] Saving file at /통계데이터베이스/0313.ipynb
+[I 2024-03-13 05:38:15.301 ServerApp] Saving file at /통계데이터베이스/0313.ipynb
+[I 2024-03-13 05:40:15.335 ServerApp] Saving file at /통계데이터베이스/0313.ipynb
+[I 2024-03-13 05:42:15.362 ServerApp] Saving file at /통계데이터베이스/0313.ipynb
+[I 2024-03-13 05:44:15.404 ServerApp] Saving file at /통계데이터베이스/0313.ipynb
+[I 2024-03-13 05:46:15.455 ServerApp] Saving file at /통계데이터베이스/0313.ipynb
+[I 2024-03-13 05:48:15.493 ServerApp] Saving file at /통계데이터베이스/0313.ipynb
+[I 2024-03-13 05:50:15.546 ServerApp] Saving file at /통계데이터베이스/0313.ipynb
+[I 2024-03-13 05:52:15.597 ServerApp] Saving file at /통계데이터베이스/0313.ipynb
+[I 2024-03-13 05:54:13.500 ServerApp] Saving file at /통계데이터베이스/0313.ipynb
+[I 2024-03-13 05:54:13.530 ServerApp] Starting buffering for 3e24c350-7a4b-436a-8d43-cf5716094088:f200e09a-6184-4696-8865-0b6b1b65372b
+[I 2024-03-13 05:54:14.425 ServerApp] Starting buffering for 17350fd3-1098-4e27-835b-c93e88f61633:e71709aa-69bc-4117-9e80-7b1253bb66ee
+[I 2024-03-14 04:39:33.900 ServerApp] 302 GET / (@172.22.138.27) 1.01ms
+[I 2024-03-14 04:39:33.902 LabApp] 302 GET /lab? (@172.22.138.27) 1.03ms
+[I 2024-03-14 04:39:59.640 ServerApp] 302 GET / (@172.22.138.27) 0.54ms
+[I 2024-03-14 04:39:59.642 LabApp] 302 GET /lab? (@172.22.138.27) 0.32ms
+[I 2024-03-14 04:40:02.729 ServerApp] User 173bb656557244218e7ea80f3adb9e21 logged in.
+[I 2024-03-14 04:40:02.730 ServerApp] 302 POST /login?next=%2Flab%3F (173bb656557244218e7ea80f3adb9e21@172.22.138.27) 66.92ms
+[I 2024-03-14 04:40:03.530 ServerApp] Connecting to kernel fe1b7bad-d90f-4958-b0cc-0e622dfd5e7c.
+[I 2024-03-14 04:40:03.551 ServerApp] Connecting to kernel dfaf6f4a-7567-4057-96fe-c0ae6e0dbf03.
+[I 2024-03-14 04:40:03.560 ServerApp] Starting buffering for fe1b7bad-d90f-4958-b0cc-0e622dfd5e7c:c4a4d268-e433-4cd5-91d3-08bd32ff7232
+[I 2024-03-14 04:40:03.566 ServerApp] Starting buffering for dfaf6f4a-7567-4057-96fe-c0ae6e0dbf03:9bc87edf-6bdb-4883-9b7b-a1a413fdec02
+[I 2024-03-14 04:40:03.567 ServerApp] Connecting to kernel cb8cd5a5-9a46-4dc8-a3d8-8647e197e03c.
+[I 2024-03-14 04:40:03.582 ServerApp] Connecting to kernel 3e24c350-7a4b-436a-8d43-cf5716094088.
+[I 2024-03-14 04:40:03.585 ServerApp] Starting buffering for cb8cd5a5-9a46-4dc8-a3d8-8647e197e03c:5a2aa718-f32e-45a5-9138-eacd3c8c271b
+[I 2024-03-14 04:40:03.595 ServerApp] Connecting to kernel 17350fd3-1098-4e27-835b-c93e88f61633.
+[I 2024-03-14 04:40:03.596 ServerApp] Starting buffering for 3e24c350-7a4b-436a-8d43-cf5716094088:f6baa3b7-958e-4dc7-a518-69c7849b85e9
+[W 2024-03-14 04:40:03.599 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-03-14 04:40:03.663 ServerApp] Starting buffering for 17350fd3-1098-4e27-835b-c93e88f61633:98cd8452-9f2e-4074-8215-3911c145ac9e
+[I 2024-03-14 04:40:21.233 ServerApp] Creating new notebook in /탐색적자료분석
+[I 2024-03-14 04:40:23.201 ServerApp] Kernel started: 4f4ec669-8f4d-473b-911a-78e164719c38
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2024-03-14 04:40:23.705 ServerApp] Connecting to kernel 4f4ec669-8f4d-473b-911a-78e164719c38.
+[I 2024-03-14 04:42:28.236 ServerApp] Saving file at /탐색적자료분석/0314.ipynb
+[I 2024-03-14 04:46:00.020 ServerApp] Connecting to kernel dfaf6f4a-7567-4057-96fe-c0ae6e0dbf03.
+[I 2024-03-14 05:03:33.901 ServerApp] 302 GET / (@172.22.138.27) 0.42ms
+[W 2024-03-14 05:03:34.675 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-03-14 05:03:34.735 ServerApp] Connecting to kernel fe1b7bad-d90f-4958-b0cc-0e622dfd5e7c.
+[I 2024-03-14 05:03:34.804 ServerApp] Connecting to kernel dfaf6f4a-7567-4057-96fe-c0ae6e0dbf03.
+[I 2024-03-14 05:03:34.884 ServerApp] Connecting to kernel cb8cd5a5-9a46-4dc8-a3d8-8647e197e03c.
+[I 2024-03-14 05:03:34.886 ServerApp] Starting buffering for fe1b7bad-d90f-4958-b0cc-0e622dfd5e7c:08afa012-3e60-4462-ba26-31ecc1ef4ef4
+[I 2024-03-14 05:03:34.960 ServerApp] Connecting to kernel 3e24c350-7a4b-436a-8d43-cf5716094088.
+[I 2024-03-14 05:03:35.005 ServerApp] Starting buffering for cb8cd5a5-9a46-4dc8-a3d8-8647e197e03c:adf03e41-5928-4a56-be73-23ab9cfa4a86
+[I 2024-03-14 05:03:35.036 ServerApp] Connecting to kernel 17350fd3-1098-4e27-835b-c93e88f61633.
+[I 2024-03-14 05:03:35.054 ServerApp] Starting buffering for 3e24c350-7a4b-436a-8d43-cf5716094088:d44dcd5e-cebc-4d05-804a-8d2faff6a4e6
+[I 2024-03-14 05:03:35.100 ServerApp] Connecting to kernel 4f4ec669-8f4d-473b-911a-78e164719c38.
+[I 2024-03-14 05:03:35.103 ServerApp] Starting buffering for 17350fd3-1098-4e27-835b-c93e88f61633:ca17d797-89dc-4024-946a-fcff07a5d7d0
+[I 2024-03-14 05:03:59.293 ServerApp] Saving file at /탐색적자료분석/0314.ipynb
+[I 2024-03-14 05:08:00.327 ServerApp] Saving file at /탐색적자료분석/0314.ipynb
+[I 2024-03-14 05:08:05.393 ServerApp] Kernel started: d677c89c-e71a-4319-b31a-28b748d40a21
+[I 2024-03-14 05:08:05.393 ServerApp] Kernel shutdown: 4f4ec669-8f4d-473b-911a-78e164719c38
+[I 2024-03-14 05:08:06.048 ServerApp] Connecting to kernel d677c89c-e71a-4319-b31a-28b748d40a21.
+[I 2024-03-14 05:08:51.966 ServerApp] Connecting to kernel fe1b7bad-d90f-4958-b0cc-0e622dfd5e7c.
+[I 2024-03-14 05:10:00.378 ServerApp] Saving file at /탐색적자료분석/0314.ipynb
+[I 2024-03-14 05:12:00.423 ServerApp] Saving file at /탐색적자료분석/0314.ipynb
+[I 2024-03-14 05:14:00.463 ServerApp] Saving file at /탐색적자료분석/0314.ipynb
+[I 2024-03-14 05:16:00.514 ServerApp] Saving file at /탐색적자료분석/0314.ipynb
+[I 2024-03-14 05:18:00.558 ServerApp] Saving file at /탐색적자료분석/0314.ipynb
+[I 2024-03-14 05:19:39.332 ServerApp] Connecting to kernel cb8cd5a5-9a46-4dc8-a3d8-8647e197e03c.
+[I 2024-03-14 05:19:51.395 ServerApp] Starting buffering for fe1b7bad-d90f-4958-b0cc-0e622dfd5e7c:493dc00b-f53c-4564-b9e8-c7702446c8a5
+[I 2024-03-14 05:19:53.019 ServerApp] Starting buffering for cb8cd5a5-9a46-4dc8-a3d8-8647e197e03c:c56ebcc7-b050-4b49-90b0-78938d7c5ca3
+[I 2024-03-14 05:20:00.612 ServerApp] Saving file at /탐색적자료분석/0314.ipynb
+[I 2024-03-14 05:22:00.670 ServerApp] Saving file at /탐색적자료분석/0314.ipynb
+[I 2024-03-14 05:24:00.714 ServerApp] Saving file at /탐색적자료분석/0314.ipynb
+[I 2024-03-14 05:26:00.758 ServerApp] Saving file at /탐색적자료분석/0314.ipynb
+[I 2024-03-14 05:28:00.803 ServerApp] Saving file at /탐색적자료분석/0314.ipynb
+[I 2024-03-14 05:30:00.848 ServerApp] Saving file at /탐색적자료분석/0314.ipynb
+[I 2024-03-14 05:32:00.885 ServerApp] Saving file at /탐색적자료분석/0314.ipynb
+[I 2024-03-14 05:34:00.942 ServerApp] Saving file at /탐색적자료분석/0314.ipynb
+[I 2024-03-14 05:36:01.013 ServerApp] Saving file at /탐색적자료분석/0314.ipynb
+[I 2024-03-14 05:38:01.072 ServerApp] Saving file at /탐색적자료분석/0314.ipynb
+[I 2024-03-14 05:40:01.129 ServerApp] Saving file at /탐색적자료분석/0314.ipynb
+[I 2024-03-14 05:42:01.177 ServerApp] Saving file at /탐색적자료분석/0314.ipynb
+[I 2024-03-14 06:02:01.440 ServerApp] Saving file at /탐색적자료분석/0314.ipynb
+[I 2024-03-14 06:04:01.502 ServerApp] Saving file at /탐색적자료분석/0314.ipynb
+[I 2024-03-14 06:06:01.551 ServerApp] Saving file at /탐색적자료분석/0314.ipynb
+[I 2024-03-14 06:08:01.592 ServerApp] Saving file at /탐색적자료분석/0314.ipynb
+[I 2024-03-14 06:10:01.656 ServerApp] Saving file at /탐색적자료분석/0314.ipynb
+[I 2024-03-14 06:12:01.749 ServerApp] Saving file at /탐색적자료분석/0314.ipynb
+[I 2024-03-14 06:15:46.427 ServerApp] Connecting to kernel fe1b7bad-d90f-4958-b0cc-0e622dfd5e7c.
+[I 2024-03-14 06:16:01.820 ServerApp] Saving file at /탐색적자료분석/0314.ipynb
+[I 2024-03-14 06:18:01.875 ServerApp] Saving file at /탐색적자료분석/0314.ipynb
+[I 2024-03-14 06:20:01.944 ServerApp] Saving file at /탐색적자료분석/0314.ipynb
+[I 2024-03-14 06:22:02.000 ServerApp] Saving file at /탐색적자료분석/0314.ipynb
+[I 2024-03-14 06:24:02.054 ServerApp] Saving file at /탐색적자료분석/0314.ipynb
+[I 2024-03-14 06:28:02.318 ServerApp] Saving file at /탐색적자료분석/0314.ipynb
+[I 2024-03-14 06:30:02.360 ServerApp] Saving file at /탐색적자료분석/0314.ipynb
+[I 2024-03-14 06:32:02.406 ServerApp] Saving file at /탐색적자료분석/0314.ipynb
+[I 2024-03-14 06:34:02.480 ServerApp] Saving file at /탐색적자료분석/0314.ipynb
+[I 2024-03-14 06:36:02.530 ServerApp] Saving file at /탐색적자료분석/0314.ipynb
+[I 2024-03-14 06:38:02.599 ServerApp] Saving file at /탐색적자료분석/0314.ipynb
+[I 2024-03-14 06:40:02.677 ServerApp] Saving file at /탐색적자료분석/0314.ipynb
+[I 2024-03-14 06:42:02.737 ServerApp] Saving file at /탐색적자료분석/0314.ipynb
+[I 2024-03-14 06:44:02.795 ServerApp] Saving file at /탐색적자료분석/0314.ipynb
+[I 2024-03-14 06:50:02.902 ServerApp] Saving file at /탐색적자료분석/0314.ipynb
+[I 2024-03-14 06:53:29.351 ServerApp] Starting buffering for d677c89c-e71a-4319-b31a-28b748d40a21:b21a89de-5015-4c02-a624-b580ebf2b9d4
+[I 2024-03-14 06:53:29.351 ServerApp] Starting buffering for fe1b7bad-d90f-4958-b0cc-0e622dfd5e7c:08a13c67-279a-4b0f-bb33-9d87991d06e0
+[I 2024-03-14 06:53:29.352 ServerApp] Starting buffering for dfaf6f4a-7567-4057-96fe-c0ae6e0dbf03:45e85a67-9ea6-4bfd-a262-0a2e23322a56
+[I 2024-03-15 11:06:17.122 ServerApp] 302 GET / (@222.105.106.20) 0.52ms
+[W 2024-03-15 11:06:19.279 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-03-15 11:07:21.342 ServerApp] Connecting to kernel fe1b7bad-d90f-4958-b0cc-0e622dfd5e7c.
+[I 2024-03-15 11:07:21.379 ServerApp] Connecting to kernel dfaf6f4a-7567-4057-96fe-c0ae6e0dbf03.
+[I 2024-03-15 11:07:21.410 ServerApp] Connecting to kernel cb8cd5a5-9a46-4dc8-a3d8-8647e197e03c.
+[I 2024-03-15 11:07:21.442 ServerApp] Connecting to kernel 3e24c350-7a4b-436a-8d43-cf5716094088.
+[I 2024-03-15 11:07:21.576 ServerApp] Starting buffering for 3e24c350-7a4b-436a-8d43-cf5716094088:36a00c44-5dfc-4889-b845-ecf51f0f9436
+[I 2024-03-15 11:07:21.601 ServerApp] Starting buffering for fe1b7bad-d90f-4958-b0cc-0e622dfd5e7c:368f1e6d-6045-4c3e-89a0-b998faf750df
+[I 2024-03-15 11:07:21.618 ServerApp] Starting buffering for dfaf6f4a-7567-4057-96fe-c0ae6e0dbf03:bbe005e5-bf69-4d07-858c-359f45e482c6
+[I 2024-03-15 11:07:21.619 ServerApp] Starting buffering for cb8cd5a5-9a46-4dc8-a3d8-8647e197e03c:a14d2e40-183e-40fd-80d5-f8dc6fa567e8
+[I 2024-03-15 11:07:39.483 ServerApp] New terminal with automatic name: 2
+[I 2024-03-15 11:07:42.516 ServerApp] Connecting to kernel d677c89c-e71a-4319-b31a-28b748d40a21.
+[I 2024-03-15 11:07:42.549 ServerApp] Starting buffering for d677c89c-e71a-4319-b31a-28b748d40a21:15e36501-aa5d-4e1a-978f-30254213d260
+[I 2024-03-15 11:07:42.592 ServerApp] Connecting to kernel 17350fd3-1098-4e27-835b-c93e88f61633.
+[I 2024-03-15 11:07:42.617 ServerApp] Starting buffering for 17350fd3-1098-4e27-835b-c93e88f61633:f559b3f0-3e3e-4f39-9cbd-d84e47dfc4b9
