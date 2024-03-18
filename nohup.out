@@ -11549,3 +11549,84 @@ The downloaded source packages are in
 [I 2024-03-15 11:07:42.549 ServerApp] Starting buffering for d677c89c-e71a-4319-b31a-28b748d40a21:15e36501-aa5d-4e1a-978f-30254213d260
 [I 2024-03-15 11:07:42.592 ServerApp] Connecting to kernel 17350fd3-1098-4e27-835b-c93e88f61633.
 [I 2024-03-15 11:07:42.617 ServerApp] Starting buffering for 17350fd3-1098-4e27-835b-c93e88f61633:f559b3f0-3e3e-4f39-9cbd-d84e47dfc4b9
+[I 2024-03-15 11:10:27.205 ServerApp] Connecting to kernel fe1b7bad-d90f-4958-b0cc-0e622dfd5e7c.
+[I 2024-03-15 11:10:28.417 ServerApp] Starting buffering for fe1b7bad-d90f-4958-b0cc-0e622dfd5e7c:5b2a4c66-b4f2-4382-a0b7-d4987eafa0cd
+[I 2024-03-18 04:59:22.849 ServerApp] 302 GET / (@172.22.138.29) 0.77ms
+[I 2024-03-18 04:59:22.852 LabApp] 302 GET /lab? (@172.22.138.29) 0.55ms
+[I 2024-03-18 04:59:34.093 ServerApp] User 36dff47acf3c453ea2f629492f3d8fe4 logged in.
+[I 2024-03-18 04:59:34.094 ServerApp] 302 POST /login?next=%2Flab%3F (36dff47acf3c453ea2f629492f3d8fe4@172.22.138.29) 37.65ms
+[I 2024-03-18 04:59:34.969 ServerApp] Connecting to kernel fe1b7bad-d90f-4958-b0cc-0e622dfd5e7c.
+[I 2024-03-18 04:59:35.004 ServerApp] Connecting to kernel dfaf6f4a-7567-4057-96fe-c0ae6e0dbf03.
+[I 2024-03-18 04:59:35.017 ServerApp] Starting buffering for fe1b7bad-d90f-4958-b0cc-0e622dfd5e7c:36c20ea9-ee55-46ca-9e6b-b2171aac8e43
+[I 2024-03-18 04:59:35.028 ServerApp] Connecting to kernel cb8cd5a5-9a46-4dc8-a3d8-8647e197e03c.
+[I 2024-03-18 04:59:35.031 ServerApp] Starting buffering for dfaf6f4a-7567-4057-96fe-c0ae6e0dbf03:5203c943-a6e2-4a9a-99c2-a9570ed416f6
+[I 2024-03-18 04:59:35.051 ServerApp] Connecting to kernel 3e24c350-7a4b-436a-8d43-cf5716094088.
+[I 2024-03-18 04:59:35.053 ServerApp] Starting buffering for cb8cd5a5-9a46-4dc8-a3d8-8647e197e03c:fa32d632-4421-4736-90f8-72f71df12842
+[I 2024-03-18 04:59:35.064 ServerApp] Connecting to kernel 17350fd3-1098-4e27-835b-c93e88f61633.
+[I 2024-03-18 04:59:35.065 ServerApp] Starting buffering for 3e24c350-7a4b-436a-8d43-cf5716094088:d580d3ef-294e-4312-9f6e-3c362d9f5744
+[I 2024-03-18 04:59:35.075 ServerApp] Starting buffering for 17350fd3-1098-4e27-835b-c93e88f61633:0769eddc-a773-4dea-8c98-210bf0462ad3
+[I 2024-03-18 04:59:35.077 ServerApp] Connecting to kernel d677c89c-e71a-4319-b31a-28b748d40a21.
+[W 2024-03-18 04:59:35.092 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-03-18 04:59:35.155 ServerApp] Starting buffering for d677c89c-e71a-4319-b31a-28b748d40a21:96c6e22b-ce01-4ef1-8d88-6638cbae8dcd
+[I 2024-03-18 05:00:17.120 ServerApp] Creating new notebook in /통계데이터베이스
+[I 2024-03-18 05:00:18.973 ServerApp] Kernel started: 89c43a2a-c688-425a-a5e6-d9dcce89ce6a
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2024-03-18 05:00:19.586 ServerApp] Connecting to kernel 89c43a2a-c688-425a-a5e6-d9dcce89ce6a.
+[I 2024-03-18 05:02:22.107 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 05:02:55.757 ServerApp] Connecting to kernel 17350fd3-1098-4e27-835b-c93e88f61633.
+[I 2024-03-18 05:06:22.171 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 05:08:22.225 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 05:10:22.270 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 05:12:23.292 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 05:18:23.365 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 05:20:23.409 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 05:22:23.455 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 05:24:23.507 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 05:28:23.572 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 05:28:24.316 ServerApp] Connecting to kernel 3e24c350-7a4b-436a-8d43-cf5716094088.
+[I 2024-03-18 05:29:03.628 ServerApp] Starting buffering for 3e24c350-7a4b-436a-8d43-cf5716094088:475a898d-3ab4-4ff2-baeb-0e4a7cfaad6e
+[I 2024-03-18 05:29:04.028 ServerApp] Starting buffering for 17350fd3-1098-4e27-835b-c93e88f61633:ea0762d5-83cb-4e48-869d-1159a4608c3a
+[I 2024-03-18 05:30:23.633 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 05:32:23.693 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 05:34:24.002 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 05:36:24.072 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 05:38:24.131 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 05:40:24.199 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 05:42:24.268 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 05:44:24.326 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 05:46:24.380 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 05:48:24.452 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 05:50:24.519 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 05:52:24.584 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 05:54:24.655 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 05:58:24.739 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 06:04:26.455 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 06:08:26.535 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 06:10:26.602 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 06:12:26.665 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 06:14:26.722 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 06:16:26.798 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 06:18:26.869 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 06:20:26.947 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 06:22:27.025 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 06:24:27.097 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 06:26:27.175 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 06:28:27.246 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 06:30:27.310 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 06:32:27.388 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 06:34:27.459 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 06:36:27.528 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 06:38:27.609 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 06:40:27.695 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 06:42:27.763 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 06:44:27.854 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 06:46:27.937 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 06:47:46.165 ServerApp] Connecting to kernel 17350fd3-1098-4e27-835b-c93e88f61633.
+[I 2024-03-18 06:47:50.003 ServerApp] Starting buffering for 17350fd3-1098-4e27-835b-c93e88f61633:5d76df5b-3f2f-4bcd-b770-86032281c096
+[I 2024-03-18 06:47:51.497 ServerApp] Connecting to kernel 17350fd3-1098-4e27-835b-c93e88f61633.
+[I 2024-03-18 06:48:00.587 ServerApp] Starting buffering for 17350fd3-1098-4e27-835b-c93e88f61633:3df5683a-4dcd-4a2e-9cdd-41fdd2e46866
+[I 2024-03-18 06:48:28.025 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 06:52:19.328 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
