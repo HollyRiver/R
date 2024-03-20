@@ -11630,3 +11630,2630 @@ The downloaded source packages are in
 [I 2024-03-18 06:48:00.587 ServerApp] Starting buffering for 17350fd3-1098-4e27-835b-c93e88f61633:3df5683a-4dcd-4a2e-9cdd-41fdd2e46866
 [I 2024-03-18 06:48:28.025 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
 [I 2024-03-18 06:52:19.328 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 06:52:36.308 ServerApp] Saving file at /통계데이터베이스/0318.ipynb
+[I 2024-03-18 06:52:36.331 ServerApp] Starting buffering for 89c43a2a-c688-425a-a5e6-d9dcce89ce6a:42eb05da-15bf-451c-9aa3-fb910182c058
+[I 2024-03-19 06:53:40.964 ServerApp] 302 GET / (@172.22.138.29) 0.65ms
+[I 2024-03-19 06:53:40.967 LabApp] 302 GET /lab? (@172.22.138.29) 1.18ms
+[I 2024-03-19 06:53:43.981 ServerApp] User ba24596002a2499c97221ea311f31fa0 logged in.
+[I 2024-03-19 06:53:43.981 ServerApp] 302 POST /login?next=%2Flab%3F (ba24596002a2499c97221ea311f31fa0@172.22.138.29) 30.37ms
+[I 2024-03-19 06:53:44.779 ServerApp] Connecting to kernel fe1b7bad-d90f-4958-b0cc-0e622dfd5e7c.
+[I 2024-03-19 06:53:44.800 ServerApp] Connecting to kernel dfaf6f4a-7567-4057-96fe-c0ae6e0dbf03.
+[I 2024-03-19 06:53:44.804 ServerApp] Starting buffering for fe1b7bad-d90f-4958-b0cc-0e622dfd5e7c:8e1c9d94-b216-4233-9b08-14f3f98fe15b
+[I 2024-03-19 06:53:44.814 ServerApp] Connecting to kernel cb8cd5a5-9a46-4dc8-a3d8-8647e197e03c.
+[I 2024-03-19 06:53:44.817 ServerApp] Starting buffering for dfaf6f4a-7567-4057-96fe-c0ae6e0dbf03:201123db-afe7-4a3e-8cc4-0c3a09afca99
+[I 2024-03-19 06:53:44.827 ServerApp] Starting buffering for cb8cd5a5-9a46-4dc8-a3d8-8647e197e03c:82fcd7b1-51e4-4a45-b2d7-bac42c6f995a
+[I 2024-03-19 06:53:44.829 ServerApp] Connecting to kernel 3e24c350-7a4b-436a-8d43-cf5716094088.
+[I 2024-03-19 06:53:44.842 ServerApp] Connecting to kernel d677c89c-e71a-4319-b31a-28b748d40a21.
+[I 2024-03-19 06:53:44.843 ServerApp] Starting buffering for 3e24c350-7a4b-436a-8d43-cf5716094088:fcffe27b-7373-499a-b47d-8d0f821e965f
+[I 2024-03-19 06:53:44.853 ServerApp] Starting buffering for d677c89c-e71a-4319-b31a-28b748d40a21:79a2235b-44f0-4d32-90d2-909e5530d70c
+[I 2024-03-19 06:53:44.855 ServerApp] Connecting to kernel 17350fd3-1098-4e27-835b-c93e88f61633.
+[I 2024-03-19 06:53:44.865 ServerApp] Starting buffering for 17350fd3-1098-4e27-835b-c93e88f61633:66d250c8-89e5-49fa-a423-4910396cbeb9
+[I 2024-03-19 06:53:44.869 ServerApp] Connecting to kernel 89c43a2a-c688-425a-a5e6-d9dcce89ce6a.
+[I 2024-03-19 06:53:44.878 ServerApp] Starting buffering for 89c43a2a-c688-425a-a5e6-d9dcce89ce6a:c6468469-b40d-4ba7-afdf-2a1a8036954d
+[W 2024-03-19 06:53:45.006 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-03-19 06:53:55.197 ServerApp] Kernel shutdown: fe1b7bad-d90f-4958-b0cc-0e622dfd5e7c
+[I 2024-03-19 06:53:55.198 ServerApp] Kernel shutdown: dfaf6f4a-7567-4057-96fe-c0ae6e0dbf03
+[I 2024-03-19 06:53:55.199 ServerApp] Kernel shutdown: cb8cd5a5-9a46-4dc8-a3d8-8647e197e03c
+[I 2024-03-19 06:53:55.200 ServerApp] Kernel shutdown: 3e24c350-7a4b-436a-8d43-cf5716094088
+[I 2024-03-19 06:53:55.200 ServerApp] Kernel shutdown: 17350fd3-1098-4e27-835b-c93e88f61633
+[I 2024-03-19 06:53:55.201 ServerApp] Kernel shutdown: d677c89c-e71a-4319-b31a-28b748d40a21
+
+Warning messages:
+1: In .helpForCall(topicExpr, parent.frame()) :
+  no method defined for function ‘$’ and signature ‘x = "data.frame"’
+2: In .helpForCall(topicExpr, parent.frame()) :
+  no method defined for function ‘$’ and signature ‘x = "data.frame"’
+3: In doTryCatch(return(expr), name, parentenv, handler) :
+  "lw" is not a graphical parameter
+4: In doTryCatch(return(expr), name, parentenv, handler) :
+  "shape" is not a graphical parameter
+5: In doTryCatch(return(expr), name, parentenv, handler) :
+  "shape" is not a graphical parameter
+6: In doTryCatch(return(expr), name, parentenv, handler) :
+  "shape" is not a graphical parameter
+7: In doTryCatch(return(expr), name, parentenv, handler) :
+  "shape" is not a graphical parameter
+8: In doTryCatch(return(expr), name, parentenv, handler) :
+  "shape" is not a graphical parameter
+9: In doTryCatch(return(expr), name, parentenv, handler) :
+  "shape" is not a graphical parameter
+[I 2024-03-19 06:53:55.313 ServerApp] Kernel shutdown: 89c43a2a-c688-425a-a5e6-d9dcce89ce6a
+[I 2024-03-19 06:53:59.781 ServerApp] Creating new notebook in /탐색적자료분석
+[I 2024-03-19 06:54:00.929 ServerApp] Kernel started: 786fc78d-5f25-44a5-aedb-ef24f6943167
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2024-03-19 06:54:01.467 ServerApp] Connecting to kernel 786fc78d-5f25-44a5-aedb-ef24f6943167.
+[I 2024-03-19 06:54:06.201 ServerApp] Kernel started: 91277f06-818b-4acd-9743-3af5ffae59b4
+[I 2024-03-19 06:54:06.201 ServerApp] Kernel shutdown: 786fc78d-5f25-44a5-aedb-ef24f6943167
+[I 2024-03-19 06:54:06.844 ServerApp] Connecting to kernel 91277f06-818b-4acd-9743-3af5ffae59b4.
+[I 2024-03-19 06:54:13.005 ServerApp] Saving file at /탐색적자료분석/0319.ipynb
+[I 2024-03-19 07:08:08.603 ServerApp] Kernel started: 62c40eec-b4a5-4425-9d27-587734e84cce
+[I 2024-03-19 07:08:09.232 ServerApp] Connecting to kernel 62c40eec-b4a5-4425-9d27-587734e84cce.
+[I 2024-03-19 07:10:09.223 ServerApp] Saving file at /탐색적자료분석/0314.ipynb
+[I 2024-03-19 07:14:37.247 ServerApp] Saving file at /탐색적자료분석/0319.ipynb
+[I 2024-03-19 07:18:37.314 ServerApp] Saving file at /탐색적자료분석/0319.ipynb
+[I 2024-03-19 07:20:37.355 ServerApp] Saving file at /탐색적자료분석/0319.ipynb
+[I 2024-03-19 07:22:37.398 ServerApp] Saving file at /탐색적자료분석/0319.ipynb
+[I 2024-03-19 07:24:37.800 ServerApp] Saving file at /탐색적자료분석/0319.ipynb
+[I 2024-03-19 07:26:37.839 ServerApp] Saving file at /탐색적자료분석/0319.ipynb
+[I 2024-03-19 07:30:37.899 ServerApp] Saving file at /탐색적자료분석/0319.ipynb
+[I 2024-03-19 07:32:37.962 ServerApp] Saving file at /탐색적자료분석/0319.ipynb
+[I 2024-03-19 07:34:38.289 ServerApp] Saving file at /탐색적자료분석/0319.ipynb
+[I 2024-03-19 07:36:38.343 ServerApp] Saving file at /탐색적자료분석/0319.ipynb
+[I 2024-03-19 07:38:38.381 ServerApp] Saving file at /탐색적자료분석/0319.ipynb
+[I 2024-03-19 07:42:38.428 ServerApp] Saving file at /탐색적자료분석/0319.ipynb
+[I 2024-03-19 07:44:38.481 ServerApp] Saving file at /탐색적자료분석/0319.ipynb
+[I 2024-03-19 07:46:38.522 ServerApp] Saving file at /탐색적자료분석/0319.ipynb
+[I 2024-03-19 07:48:38.568 ServerApp] Saving file at /탐색적자료분석/0319.ipynb
+[I 2024-03-19 07:50:38.622 ServerApp] Saving file at /탐색적자료분석/0319.ipynb
+[I 2024-03-19 07:58:38.700 ServerApp] Saving file at /탐색적자료분석/0319.ipynb
+[I 2024-03-19 08:04:03.660 ServerApp] Starting buffering for 91277f06-818b-4acd-9743-3af5ffae59b4:2c2546bc-6ccb-4ab8-ac7d-865c8651113d
+[I 2024-03-19 08:04:03.905 ServerApp] Starting buffering for 62c40eec-b4a5-4425-9d27-587734e84cce:0d21e7a8-1d18-4e49-8868-b0b44b252e83
+[I 2024-03-20 02:30:37.423 ServerApp] 302 GET / (@121.154.64.157) 0.56ms
+[I 2024-03-20 02:30:39.502 ServerApp] Connecting to kernel 91277f06-818b-4acd-9743-3af5ffae59b4.
+[I 2024-03-20 02:30:39.521 ServerApp] Connecting to kernel 62c40eec-b4a5-4425-9d27-587734e84cce.
+[W 2024-03-20 02:30:39.523 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-03-20 02:30:39.802 ServerApp] Starting buffering for 62c40eec-b4a5-4425-9d27-587734e84cce:d252425d-470e-4e88-8724-82ee222aac85
+[I 2024-03-20 02:30:39.806 ServerApp] Starting buffering for 91277f06-818b-4acd-9743-3af5ffae59b4:7c82729f-e639-4805-ae88-e8fc50c2b097
+[I 2024-03-20 02:30:53.999 ServerApp] Creating new directory in /regression analysis
+[I 2024-03-20 02:31:06.375 ServerApp] Creating new directory in /regression analysis
+[I 2024-03-20 02:31:14.596 ServerApp] Creating new notebook in /regression analysis/RA 2
+[I 2024-03-20 02:31:18.061 ServerApp] Kernel started: a2430e45-4e23-4ea7-8019-312405f6eae9
+[I 2024-03-20 02:31:18.680 ServerApp] Connecting to kernel a2430e45-4e23-4ea7-8019-312405f6eae9.
+trying URL 'https://cran.r-project.org/src/contrib/ggplot2_3.5.0.tar.gz'
+Content type 'application/x-gzip' length 3564967 bytes (3.4 MB)
+==================================================
+downloaded 3.4 MB
+
+* installing *source* package ‘ggplot2’ ...
+** package ‘ggplot2’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (ggplot2)
+
+The downloaded source packages are in
+	‘/tmp/RtmpEMAhsD/downloaded_packages’
+[I 2024-03-20 02:33:15.720 ServerApp] Saving file at /regression analysis/RA 2/Untitled.ipynb
+trying URL 'https://cran.r-project.org/src/contrib/pkgbuild_1.4.4.tar.gz'
+Content type 'application/x-gzip' length 48794 bytes (47 KB)
+==================================================
+downloaded 47 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/rprojroot_2.0.4.tar.gz'
+Content type 'application/x-gzip' length 59946 bytes (58 KB)
+==================================================
+downloaded 58 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/diffobj_0.3.5.tar.gz'
+Content type 'application/x-gzip' length 479276 bytes (468 KB)
+==================================================
+downloaded 468 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/brio_1.1.4.tar.gz'
+Content type 'application/x-gzip' length 13080 bytes (12 KB)
+==================================================
+downloaded 12 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/desc_1.4.3.tar.gz'
+Content type 'application/x-gzip' length 80066 bytes (78 KB)
+==================================================
+downloaded 78 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/pkgload_1.3.4.tar.gz'
+Content type 'application/x-gzip' length 78189 bytes (76 KB)
+==================================================
+downloaded 76 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/praise_1.0.0.tar.gz'
+Content type 'application/x-gzip' length 6100 bytes
+==================================================
+downloaded 6100 bytes
+
+trying URL 'https://cran.r-project.org/src/contrib/waldo_0.5.2.tar.gz'
+Content type 'application/x-gzip' length 39711 bytes (38 KB)
+==================================================
+downloaded 38 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/testthat_3.2.1.tar.gz'
+Content type 'application/x-gzip' length 739745 bytes (722 KB)
+==================================================
+downloaded 722 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/SparseM_1.81.tar.gz'
+Content type 'application/x-gzip' length 735100 bytes (717 KB)
+==================================================
+downloaded 717 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/MatrixModels_0.5-3.tar.gz'
+Content type 'application/x-gzip' length 24822 bytes (24 KB)
+==================================================
+downloaded 24 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/minqa_1.2.6.tar.gz'
+Content type 'application/x-gzip' length 54493 bytes (53 KB)
+==================================================
+downloaded 53 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/nloptr_2.0.3.tar.gz'
+Content type 'application/x-gzip' length 2219877 bytes (2.1 MB)
+[I 2024-03-20 02:35:15.778 ServerApp] Saving file at /regression analysis/RA 2/Untitled.ipynb
+==================================================
+downloaded 2.1 MB
+
+trying URL 'https://cran.r-project.org/src/contrib/carData_3.0-5.tar.gz'
+Content type 'application/x-gzip' length 1004201 bytes (980 KB)
+==================================================
+downloaded 980 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/abind_1.4-5.tar.gz'
+Content type 'application/x-gzip' length 21810 bytes (21 KB)
+==================================================
+downloaded 21 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/pbkrtest_0.5.2.tar.gz'
+Content type 'application/x-gzip' length 75295 bytes (73 KB)
+==================================================
+downloaded 73 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/quantreg_5.97.tar.gz'
+Content type 'application/x-gzip' length 1026052 bytes (1002 KB)
+==================================================
+downloaded 1002 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/lme4_1.1-35.1.tar.gz'
+Content type 'application/x-gzip' length 2942848 bytes (2.8 MB)
+==================================================
+downloaded 2.8 MB
+
+trying URL 'https://cran.r-project.org/src/contrib/car_3.1-2.tar.gz'
+Content type 'application/x-gzip' length 579829 bytes (566 KB)
+==================================================
+downloaded 566 KB
+
+* installing *source* package ‘rprojroot’ ...
+** package ‘rprojroot’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (rprojroot)
+* installing *source* package ‘diffobj’ ...
+** package ‘diffobj’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘x86_64-conda-linux-gnu-cc (conda-forge gcc 13.2.0-5) 13.2.0’
+x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c diff.c -o diff.o
+x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c diffobj.c -o diffobj.o
+x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c init.c -o init.o
+x86_64-conda-linux-gnu-cc -shared -L/root/anaconda3/envs/r_env/lib/R/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/root/anaconda3/envs/r_env/lib -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib -L/root/anaconda3/envs/r_env/lib -o diffobj.so diff.o diffobj.o init.o -L/root/anaconda3/envs/r_env/lib/R/lib -lR
+installing to /root/anaconda3/envs/r_env/lib/R/library/00LOCK-diffobj/00new/diffobj/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (diffobj)
+* installing *source* package ‘brio’ ...
+** package ‘brio’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘x86_64-conda-linux-gnu-cc (conda-forge gcc 13.2.0-5) 13.2.0’
+x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c brio.c -o brio.o
+x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c file_line_endings.c -o file_line_endings.o
+x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c init.c -o init.o
+x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c read_file.c -o read_file.o
+x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c read_file_raw.c -o read_file_raw.o
+x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c read_lines.c -o read_lines.o
+x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c write_file.c -o write_file.o
+write_file.c: In function 'brio_write_file':
+write_file.c:16:5: warning: ignoring return value of 'fwrite' declared with attribute 'warn_unused_result' [-Wunused-result]
+   16 |     fwrite("", 1, 0, fp);
+      |     ^~~~~~~~~~~~~~~~~~~~
+write_file.c:21:5: warning: ignoring return value of 'fwrite' declared with attribute 'warn_unused_result' [-Wunused-result]
+   21 |     fwrite(CHAR(elt), 1, elt_size, fp);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c write_file_raw.c -o write_file_raw.o
+write_file_raw.c: In function 'brio_write_file_raw':
+write_file_raw.c:16:5: warning: ignoring return value of 'fwrite' declared with attribute 'warn_unused_result' [-Wunused-result]
+   16 |     fwrite("", 1, 0, fp);
+      |     ^~~~~~~~~~~~~~~~~~~~
+write_file_raw.c:20:5: warning: ignoring return value of 'fwrite' declared with attribute 'warn_unused_result' [-Wunused-result]
+   20 |     fwrite(RAW(raw), 1, size, fp);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c write_lines.c -o write_lines.o
+write_lines.c: In function 'brio_write_lines':
+write_lines.c:32:7: warning: ignoring return value of 'fwrite' declared with attribute 'warn_unused_result' [-Wunused-result]
+   32 |       fwrite(prev, 1, len, fp);
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~
+write_lines.c:33:7: warning: ignoring return value of 'fwrite' declared with attribute 'warn_unused_result' [-Wunused-result]
+   33 |       fwrite(eol_c, 1, eol_len, fp);
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+write_lines.c:37:5: warning: ignoring return value of 'fwrite' declared with attribute 'warn_unused_result' [-Wunused-result]
+   37 |     fwrite(prev, 1, len, fp);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+write_lines.c:38:5: warning: ignoring return value of 'fwrite' declared with attribute 'warn_unused_result' [-Wunused-result]
+   38 |     fwrite(eol_c, 1, eol_len, fp);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+x86_64-conda-linux-gnu-cc -shared -L/root/anaconda3/envs/r_env/lib/R/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/root/anaconda3/envs/r_env/lib -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib -L/root/anaconda3/envs/r_env/lib -o brio.so brio.o file_line_endings.o init.o read_file.o read_file_raw.o read_lines.o write_file.o write_file_raw.o write_lines.o -L/root/anaconda3/envs/r_env/lib/R/lib -lR
+installing to /root/anaconda3/envs/r_env/lib/R/library/00LOCK-brio/00new/brio/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (brio)
+* installing *source* package ‘desc’ ...
+** package ‘desc’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (desc)
+* installing *source* package ‘praise’ ...
+** package ‘praise’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (praise)
+* installing *source* package ‘SparseM’ ...
+** package ‘SparseM’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘x86_64-conda-linux-gnu-cc (conda-forge gcc 13.2.0-5) 13.2.0’
+using Fortran compiler: ‘GNU Fortran (conda-forge gcc 13.2.0-5) 13.2.0’
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c bckslv.f -o bckslv.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c chol.f -o chol.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c chol2csr.f -o chol2csr.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c cholesky.f -o cholesky.o
+cholesky.f:2948:72:
+
+ 2948 |                          IF  ( NODE )  400, 900, 500
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+cholesky.f:2982:72:
+
+ 2982 |                  IF  ( RNODE )  1100, 1800, 1200
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+cholesky.f:3299:72:
+
+ 3299 |                      IF  ( ENODE )  400, 800, 500
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+cholesky.f:3356:72:
+
+ 3356 |                              IF  ( NODE )  1000, 2100, 1100
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+cholesky.f:3430:72:
+
+ 3430 |                                          IF  ( NODE )  1700, 2000, 1800
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c csr.f -o csr.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c extract.f -o extract.o
+x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c init.c -o init.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c sparskit.f -o sparskit.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c subscr.f -o subscr.o
+x86_64-conda-linux-gnu-cc -shared -L/root/anaconda3/envs/r_env/lib/R/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/root/anaconda3/envs/r_env/lib -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib -L/root/anaconda3/envs/r_env/lib -o SparseM.so bckslv.o chol.o chol2csr.o cholesky.o csr.o extract.o init.o sparskit.o subscr.o -lgfortran -lm -lquadmath -L/root/anaconda3/envs/r_env/lib/R/lib -lR
+installing to /root/anaconda3/envs/r_env/lib/R/library/00LOCK-SparseM/00new/SparseM/libs
+** R
+** data
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a generic function for ‘diag’ from package ‘base’ in package ‘SparseM’
+Creating a generic function for ‘diag<-’ from package ‘base’ in package ‘SparseM’
+Creating a generic function for ‘norm’ from package ‘base’ in package ‘SparseM’
+Creating a new generic function for ‘backsolve’ in package ‘SparseM’
+Creating a generic function for ‘forwardsolve’ from package ‘base’ in package ‘SparseM’
+Creating a generic function for ‘model.response’ from package ‘stats’ in package ‘SparseM’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (SparseM)
+* installing *source* package ‘MatrixModels’ ...
+** package ‘MatrixModels’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (MatrixModels)
+* installing *source* package ‘minqa’ ...
+** package ‘minqa’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using Fortran compiler: ‘GNU Fortran (conda-forge gcc 13.2.0-5) 13.2.0’
+using C++ compiler: ‘x86_64-conda-linux-gnu-c++ (conda-forge gcc 13.2.0-5) 13.2.0’
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c altmov.f -o altmov.o
+altmov.f:42:72:
+
+   42 |    10 HCOL(K)=ZERO
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 10 at (1)
+altmov.f:45:72:
+
+   45 |       DO 20 K=1,NPT
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 20 at (1)
+altmov.f:46:72:
+
+   46 |    20 HCOL(K)=HCOL(K)+TEMP*ZMAT(K,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 20 at (1)
+altmov.f:53:72:
+
+   53 |    30 GLAG(I)=BMAT(KNEW,I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 30 at (1)
+altmov.f:57:72:
+
+   57 |    40 TEMP=TEMP+XPT(K,J)*XOPT(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 40 at (1)
+altmov.f:59:72:
+
+   59 |       DO 50 I=1,N
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 50 at (1)
+altmov.f:60:72:
+
+   60 |    50 GLAG(I)=GLAG(I)+TEMP*XPT(K,I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 50 at (1)
+altmov.f:76:72:
+
+   76 |    60 DISTSQ=DISTSQ+TEMP*TEMP
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 60 at (1)
+altmov.f:173:72:
+
+  173 |    90 XNEW(I)=DMAX1(SL(I),DMIN1(SU(I),TEMP))
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 90 at (1)
+altmov.f:238:72:
+
+  238 |   140 GW=GW+GLAG(I)*W(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 140 at (1)
+altmov.f:249:72:
+
+  249 |   150 TEMP=TEMP+XPT(K,J)*W(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 150 at (1)
+altmov.f:250:72:
+
+  250 |   160 CURV=CURV+HCOL(K)*TEMP*TEMP
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 160 at (1)
+altmov.f:256:72:
+
+  256 |   170     XALT(I)=DMAX1(SL(I),DMIN1(SU(I),TEMP))
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 170 at (1)
+altmov.f:269:72:
+
+  269 |   180     W(N+I)=XALT(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 180 at (1)
+altmov.f:276:72:
+
+  276 |   190     XALT(I)=W(N+I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 190 at (1)
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c bigden.f -o bigden.o
+bigden.f:45:72:
+
+   45 |    10 W(N+K)=ZERO
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 10 at (1)
+bigden.f:49:72:
+
+   49 |       DO 20 K=1,NPT
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 20 at (1)
+bigden.f:50:72:
+
+   50 |    20 W(N+K)=W(N+K)+TEMP*ZMAT(K,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 20 at (1)
+bigden.f:67:72:
+
+   67 |    30 XOPTSQ=XOPTSQ+XOPT(I)**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 30 at (1)
+bigden.f:78:72:
+
+   78 |    40         SSTEMP=SSTEMP+DIFF*DIFF
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 40 at (1)
+bigden.f:88:72:
+
+   88 |    60     S(I)=XPT(KSAV,I)-XOPT(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 60 at (1)
+bigden.f:104:72:
+
+  104 |    80 XOPTS=XOPTS+XOPT(I)*S(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 80 at (1)
+bigden.f:116:72:
+
+  116 |    90 DEN(I)=ZERO
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 90 at (1)
+bigden.f:127:72:
+
+  127 |   100 TEMPC=TEMPC+XPT(K,I)*XOPT(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 100 at (1)
+bigden.f:132:72:
+
+  132 |   110 WVEC(K,5)=HALF*TEMPA*TEMPB
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 110 at (1)
+bigden.f:139:72:
+
+  139 |   120 WVEC(IP,5)=ZERO
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 120 at (1)
+bigden.f:147:72:
+
+  147 |   130 PROD(K,JC)=ZERO
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 130 at (1)
+bigden.f:151:72:
+
+  151 |   140 SUM=SUM+ZMAT(K,J)*WVEC(K,JC)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 140 at (1)
+bigden.f:153:72:
+
+  153 |       DO 150 K=1,NPT
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 150 at (1)
+bigden.f:154:72:
+
+  154 |   150 PROD(K,JC)=PROD(K,JC)+SUM*ZMAT(K,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 150 at (1)
+bigden.f:159:72:
+
+  159 |   160     SUM=SUM+BMAT(K,J)*WVEC(NPT+J,JC)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 160 at (1)
+bigden.f:160:72:
+
+  160 |   170     PROD(K,JC)=PROD(K,JC)+SUM
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 170 at (1)
+bigden.f:162:72:
+
+  162 |       DO 190 J=1,N
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 190 at (1)
+bigden.f:165:72:
+
+  165 |   180 SUM=SUM+BMAT(I,J)*WVEC(I,JC)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 180 at (1)
+bigden.f:166:72:
+
+  166 |   190 PROD(NPT+J,JC)=SUM
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 190 at (1)
+bigden.f:174:72:
+
+  174 |   200 SUM=SUM+PAR(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 200 at (1)
+bigden.f:193:72:
+
+  193 |   210 DEN(9)=DEN(9)-HALF*TEMPA
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 210 at (1)
+bigden.f:200:72:
+
+  200 |   220 SUM=SUM+PAR(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 220 at (1)
+bigden.f:234:72:
+
+  234 |   230 PAR(J+1)=PAR(2)*PAR(J-1)+PAR(3)*PAR(J-2)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 230 at (1)
+bigden.f:238:72:
+
+  238 |   240 SUM=SUM+DENEX(J)*PAR(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 240 at (1)
+bigden.f:264:72:
+
+  264 |   260 PAR(J+1)=PAR(2)*PAR(J-1)+PAR(3)*PAR(J-2)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 260 at (1)
+bigden.f:269:72:
+
+  269 |   270 DENMAX=DENMAX+DENEX(J)*PAR(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 270 at (1)
+bigden.f:272:72:
+
+  272 |       DO 280 J=1,5
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 280 at (1)
+bigden.f:273:72:
+
+  273 |   280 VLAG(K)=VLAG(K)+PROD(K,J)*PAR(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 280 at (1)
+bigden.f:283:72:
+
+  283 |   290 TEMPB=TEMPB+W(I)*W(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 290 at (1)
+bigden.f:294:72:
+
+  294 |   300 S(I)=TAU*BMAT(KNEW,I)+ALPHA*TEMP
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 300 at (1)
+bigden.f:298:72:
+
+  298 |   310 SUM=SUM+XPT(K,J)*W(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 310 at (1)
+bigden.f:300:72:
+
+  300 |       DO 320 I=1,N
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 320 at (1)
+bigden.f:301:72:
+
+  301 |   320 S(I)=S(I)+TEMP*XPT(K,I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 320 at (1)
+bigden.f:306:72:
+
+  306 |   330 DS=DS+D(I)*S(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 330 at (1)
+bigden.f:314:72:
+
+  314 |       DO 350 J=1,5
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 350 at (1)
+bigden.f:315:72:
+
+  315 |   350 W(K)=W(K)+WVEC(K,J)*PAR(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 350 at (1)
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c biglag.f -o biglag.o
+biglag.f:38:72:
+
+   38 |    10 HCOL(K)=ZERO
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 10 at (1)
+biglag.f:42:72:
+
+   42 |       DO 20 K=1,NPT
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 20 at (1)
+biglag.f:43:72:
+
+   43 |    20 HCOL(K)=HCOL(K)+TEMP*ZMAT(K,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 20 at (1)
+biglag.f:54:72:
+
+   54 |    30 DD=DD+D(I)**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 30 at (1)
+biglag.f:60:72:
+
+   60 |    40 SUM=SUM+XPT(K,J)*D(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 40 at (1)
+biglag.f:63:72:
+
+   63 |       DO 50 I=1,N
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 50 at (1)
+biglag.f:65:72:
+
+   65 |    50 GD(I)=GD(I)+SUM*XPT(K,I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 50 at (1)
+biglag.f:76:72:
+
+   76 |    60 DHD=DHD+D(I)*GD(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 60 at (1)
+biglag.f:86:72:
+
+   86 |    70 S(I)=GC(I)+TEMP*GD(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 70 at (1)
+biglag.f:99:72:
+
+   99 |    90 SS=SS+S(I)**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 90 at (1)
+biglag.f:105:72:
+
+  105 |   100 W(I)=ZERO
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 100 at (1)
+biglag.f:113:72:
+
+  113 |   110 SUM=SUM+XPT(K,J)*S(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 110 at (1)
+biglag.f:115:72:
+
+  115 |       DO 120 I=1,N
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 120 at (1)
+biglag.f:116:72:
+
+  116 |   120 W(I)=W(I)+SUM*XPT(K,I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 120 at (1)
+biglag.f:127:72:
+
+  127 |   130 CF5=CF5+S(I)*GD(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 130 at (1)
+biglag.f:151:72:
+
+  151 |   140 TAUOLD=TAU
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 140 at (1)
+biglag.f:170:72:
+
+  170 |   150 S(I)=GC(I)+GD(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 150 at (1)
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c bobyqa.f -o bobyqa.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c bobyqb.f -o bobyqb.o
+bobyqb.f:68:72:
+
+   68 |    10 XOPTSQ=XOPTSQ+XOPT(I)**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 10 at (1)
+bobyqb.f:97:72:
+
+   97 |           DO 30 I=1,J
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 30 at (1)
+bobyqb.f:100:72:
+
+  100 |    30     GOPT(I)=GOPT(I)+HQ(IH)*XOPT(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 30 at (1)
+bobyqb.f:105:72:
+
+  105 |    40         TEMP=TEMP+XPT(K,J)*XOPT(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 40 at (1)
+bobyqb.f:107:72:
+
+  107 |               DO 50 I=1,N
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 50 at (1)
+bobyqb.f:108:72:
+
+  108 |    50         GOPT(I)=GOPT(I)+TEMP*XPT(K,I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 50 at (1)
+bobyqb.f:145:72:
+
+  145 |    70         CURV=CURV+PQ(K)*XPT(K,J)**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 70 at (1)
+bobyqb.f:167:72:
+
+  167 |   100     SUM=SUM+XPT(K,I)*XOPT(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 100 at (1)
+bobyqb.f:170:72:
+
+  170 |           DO 110 I=1,N
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 110 at (1)
+bobyqb.f:174:72:
+
+  174 |           DO 110 J=1,I
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 110 at (1)
+bobyqb.f:175:72:
+
+  175 |   110     BMAT(IP,J)=BMAT(IP,J)+W(I)*VLAG(J)+VLAG(I)*W(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 110 at (1)
+bobyqb.f:185:72:
+
+  185 |   120     SUMW=SUMW+VLAG(K)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 120 at (1)
+bobyqb.f:189:72:
+
+  189 |   130     SUM=SUM+VLAG(K)*XPT(K,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 130 at (1)
+bobyqb.f:191:72:
+
+  191 |           DO 140 K=1,NPT
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 140 at (1)
+bobyqb.f:192:72:
+
+  192 |   140     BMAT(K,J)=BMAT(K,J)+SUM*ZMAT(K,JJ)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 140 at (1)
+bobyqb.f:193:72:
+
+  193 |           DO 150 I=1,N
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 150 at (1)
+bobyqb.f:196:72:
+
+  196 |           DO 150 J=1,I
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 150 at (1)
+bobyqb.f:197:72:
+
+  197 |   150     BMAT(IP,J)=BMAT(IP,J)+TEMP*W(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 150 at (1)
+bobyqb.f:207:72:
+
+  207 |   160     XPT(K,J)=XPT(K,J)-XOPT(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 160 at (1)
+bobyqb.f:208:72:
+
+  208 |           DO 170 I=1,J
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 170 at (1)
+bobyqb.f:211:72:
+
+  211 |   170     BMAT(NPT+I,J)=BMAT(NPT+J,I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 170 at (1)
+bobyqb.f:217:72:
+
+  217 |   180     XOPT(I)=ZERO
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 180 at (1)
+bobyqb.f:246:72:
+
+  246 |   200     XOPTSQ=XOPTSQ+XOPT(I)**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 200 at (1)
+bobyqb.f:278:72:
+
+  278 |   220 D(I)=XNEW(I)-XOPT(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 220 at (1)
+bobyqb.f:291:72:
+
+  291 |   240 SUM=SUM+BMAT(K,J)*D(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 240 at (1)
+bobyqb.f:294:72:
+
+  294 |   250 W(NPT+K)=SUMA
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 250 at (1)
+bobyqb.f:299:72:
+
+  299 |   260 SUM=SUM+ZMAT(K,JJ)*W(K)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 260 at (1)
+bobyqb.f:301:72:
+
+  301 |       DO 270 K=1,NPT
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 270 at (1)
+bobyqb.f:302:72:
+
+  302 |   270 VLAG(K)=VLAG(K)+SUM*ZMAT(K,JJ)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 270 at (1)
+bobyqb.f:310:72:
+
+  310 |   280 SUM=SUM+W(K)*BMAT(K,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 280 at (1)
+bobyqb.f:314:72:
+
+  314 |   290 SUM=SUM+BMAT(JP,I)*D(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 290 at (1)
+bobyqb.f:317:72:
+
+  317 |   300 DX=DX+D(J)*XOPT(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 300 at (1)
+bobyqb.f:330:72:
+
+  330 |   310         D(I)=XNEW(I)-XOPT(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 310 at (1)
+bobyqb.f:361:72:
+
+  361 |   330     HDIAG=HDIAG+ZMAT(K,JJ)**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 330 at (1)
+bobyqb.f:365:72:
+
+  365 |   340     DISTSQ=DISTSQ+(XPT(K,J)-XOPT(J))**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 340 at (1)
+bobyqb.f:428:72:
+
+  428 |       DO 410 I=1,J
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 410 at (1)
+bobyqb.f:432:72:
+
+  432 |   410 VQUAD=VQUAD+HQ(IH)*TEMP
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 410 at (1)
+bobyqb.f:434:72:
+
+  434 |   420 VQUAD=VQUAD+HALF*PQ(K)*W(NPT+K)**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 420 at (1)
+bobyqb.f:476:72:
+
+  476 |   440         HDIAG=HDIAG+ZMAT(K,JJ)**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 440 at (1)
+bobyqb.f:480:72:
+
+  480 |   450         DISTSQ=DISTSQ+(XPT(K,J)-XNEW(J))**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 450 at (1)
+bobyqb.f:487:72:
+
+  487 |   460         BIGLSQ=DMAX1(BIGLSQ,TEMP*VLAG(K)**2)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 460 at (1)
+bobyqb.f:504:72:
+
+  504 |       DO 470 J=1,I
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 470 at (1)
+bobyqb.f:506:72:
+
+  506 |   470 HQ(IH)=HQ(IH)+TEMP*XPT(KNEW,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 470 at (1)
+bobyqb.f:509:72:
+
+  509 |       DO 480 K=1,NPT
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 480 at (1)
+bobyqb.f:510:72:
+
+  510 |   480 PQ(K)=PQ(K)+TEMP*ZMAT(K,JJ)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 480 at (1)
+bobyqb.f:518:72:
+
+  518 |   490 W(I)=BMAT(KNEW,I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 490 at (1)
+bobyqb.f:522:72:
+
+  522 |   500 SUMA=SUMA+ZMAT(KNEW,JJ)*ZMAT(K,JJ)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 500 at (1)
+bobyqb.f:525:72:
+
+  525 |   510 SUMB=SUMB+XPT(K,J)*XOPT(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 510 at (1)
+bobyqb.f:527:72:
+
+  527 |       DO 520 I=1,N
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 520 at (1)
+bobyqb.f:528:72:
+
+  528 |   520 W(I)=W(I)+TEMP*XPT(K,I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 520 at (1)
+bobyqb.f:530:72:
+
+  530 |   530 GOPT(I)=GOPT(I)+DIFF*W(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 530 at (1)
+bobyqb.f:541:72:
+
+  541 |           DO 540 I=1,J
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 540 at (1)
+bobyqb.f:544:72:
+
+  544 |   540     GOPT(I)=GOPT(I)+HQ(IH)*D(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 540 at (1)
+bobyqb.f:548:72:
+
+  548 |   550     TEMP=TEMP+XPT(K,J)*D(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 550 at (1)
+bobyqb.f:550:72:
+
+  550 |           DO 560 I=1,N
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 560 at (1)
+bobyqb.f:551:72:
+
+  551 |   560     GOPT(I)=GOPT(I)+TEMP*XPT(K,I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 560 at (1)
+bobyqb.f:561:72:
+
+  561 |   570     W(K)=ZERO
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 570 at (1)
+bobyqb.f:565:72:
+
+  565 |   580     SUM=SUM+ZMAT(K,J)*VLAG(K)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 580 at (1)
+bobyqb.f:566:72:
+
+  566 |           DO 590 K=1,NPT
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 590 at (1)
+bobyqb.f:567:72:
+
+  567 |   590     W(K)=W(K)+SUM*ZMAT(K,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 590 at (1)
+bobyqb.f:571:72:
+
+  571 |   600     SUM=SUM+XPT(K,J)*XOPT(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 600 at (1)
+bobyqb.f:573:72:
+
+  573 |   610     W(K)=SUM*W(K)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 610 at (1)
+bobyqb.f:579:72:
+
+  579 |   620     SUM=SUM+BMAT(K,I)*VLAG(K)+XPT(K,I)*W(K)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 620 at (1)
+bobyqb.f:590:72:
+
+  590 |   630     VLAG(NPT+I)=SUM
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 630 at (1)
+bobyqb.f:622:72:
+
+  622 |   660 SUM=SUM+(XPT(K,J)-XOPT(J))**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 660 at (1)
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c lagmax.f -o lagmax.o
+lagmax.f:36:72:
+
+   36 |    10 SUM=SUM+H(I,J)**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 10 at (1)
+lagmax.f:43:72:
+
+   43 |    30 V(J)=H(K,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 30 at (1)
+lagmax.f:56:72:
+
+   56 |    40 D(I)=D(I)+H(I,J)*V(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 40 at (1)
+lagmax.f:58:72:
+
+   58 |    50 DSQ=DSQ+D(I)**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 50 at (1)
+lagmax.f:64:72:
+
+   64 |    60     WSQ=WSQ+D(I)**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 60 at (1)
+lagmax.f:70:72:
+
+   70 |    70     TEMP=TEMP+H(I,J)*D(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 70 at (1)
+lagmax.f:72:72:
+
+   72 |    80     V(I)=RATIO*V(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 80 at (1)
+lagmax.f:78:72:
+
+   78 |    90     D(I)=VHW*V(I)+TEMP*D(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 90 at (1)
+lagmax.f:94:72:
+
+   94 |   100 SUM=SUM+H(I,J)*D(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 100 at (1)
+lagmax.f:95:72:
+
+   95 |   110 DHD=DHD+SUM*D(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 110 at (1)
+lagmax.f:102:72:
+
+  102 |   120 D(I)=SCALE*D(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 120 at (1)
+lagmax.f:122:72:
+
+  122 |   130 SUMV=SUMV+H(I,J)*V(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 130 at (1)
+lagmax.f:125:72:
+
+  125 |   140 VHV=VHV+SUMV*V(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 140 at (1)
+lagmax.f:147:72:
+
+  147 |   150 V(I)=TEMPC*V(I)-TEMPD*G(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 150 at (1)
+lagmax.f:168:72:
+
+  168 |   160 D(I)=TEMPD*D(I)+TEMPV*V(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 160 at (1)
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG  -I'/root/anaconda3/envs/r_env/lib/R/library/Rcpp/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c minqa.cpp -o minqa.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c newuoa.f -o newuoa.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c newuob.f -o newuob.o
+newuob.f:49:72:
+
+   49 |    10 XPT(K,J)=ZERO
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 10 at (1)
+newuob.f:50:72:
+
+   50 |       DO 20 I=1,NDIM
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 20 at (1)
+newuob.f:51:72:
+
+   51 |    20 BMAT(I,J)=ZERO
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 20 at (1)
+newuob.f:53:72:
+
+   53 |    30 HQ(IH)=ZERO
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 30 at (1)
+newuob.f:56:72:
+
+   56 |       DO 40 J=1,NPTM
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 40 at (1)
+newuob.f:57:72:
+
+   57 |    40 ZMAT(K,J)=ZERO
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 40 at (1)
+newuob.f:98:72:
+
+   98 |    60 X(J)=XPT(NF,J)+XBASE(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 60 at (1)
+newuob.f:159:72:
+
+  159 |    80 XOPTSQ=XOPTSQ+XOPT(I)**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 80 at (1)
+newuob.f:170:72:
+
+  170 |   110 DSQ=DSQ+D(I)**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 110 at (1)
+newuob.f:191:72:
+
+  191 |   130     SUM=SUM+XPT(K,I)*XOPT(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 130 at (1)
+newuob.f:195:72:
+
+  195 |           DO 140 I=1,N
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 140 at (1)
+newuob.f:201:72:
+
+  201 |           DO 140 J=1,I
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 140 at (1)
+newuob.f:202:72:
+
+  202 |   140     BMAT(IP,J)=BMAT(IP,J)+VLAG(I)*W(J)+W(I)*VLAG(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 140 at (1)
+newuob.f:210:72:
+
+  210 |   150     W(I)=W(NPT+I)*ZMAT(I,K)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 150 at (1)
+newuob.f:214:72:
+
+  214 |   160     SUM=SUM+W(I)*XPT(I,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 160 at (1)
+newuob.f:217:72:
+
+  217 |           DO 170 I=1,NPT
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 170 at (1)
+newuob.f:218:72:
+
+  218 |   170     BMAT(I,J)=BMAT(I,J)+SUM*ZMAT(I,K)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 170 at (1)
+newuob.f:219:72:
+
+  219 |           DO 180 I=1,N
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 180 at (1)
+newuob.f:223:72:
+
+  223 |           DO 180 J=1,I
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 180 at (1)
+newuob.f:224:72:
+
+  224 |   180     BMAT(IP,J)=BMAT(IP,J)+TEMP*VLAG(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 180 at (1)
+newuob.f:234:72:
+
+  234 |   190     XPT(K,J)=XPT(K,J)-HALF*XOPT(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 190 at (1)
+newuob.f:235:72:
+
+  235 |           DO 200 I=1,J
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 200 at (1)
+newuob.f:240:72:
+
+  240 |   200     BMAT(NPT+I,J)=BMAT(NPT+J,I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 200 at (1)
+newuob.f:243:72:
+
+  243 |   210     XOPT(J)=ZERO
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 210 at (1)
+newuob.f:266:72:
+
+  266 |   220 SUM=SUM+BMAT(K,J)*D(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 220 at (1)
+newuob.f:268:72:
+
+  268 |   230 VLAG(K)=SUM
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 230 at (1)
+newuob.f:273:72:
+
+  273 |   240 SUM=SUM+ZMAT(I,K)*W(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 240 at (1)
+newuob.f:280:72:
+
+  280 |       DO 250 I=1,NPT
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 250 at (1)
+newuob.f:281:72:
+
+  281 |   250 VLAG(I)=VLAG(I)+SUM*ZMAT(I,K)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 250 at (1)
+newuob.f:287:72:
+
+  287 |   260 SUM=SUM+W(I)*BMAT(I,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 260 at (1)
+newuob.f:291:72:
+
+  291 |   270 SUM=SUM+BMAT(JP,K)*D(K)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 270 at (1)
+newuob.f:294:72:
+
+  294 |   280 DX=DX+D(J)*XOPT(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 280 at (1)
+newuob.f:314:72:
+
+  314 |   300 X(I)=XBASE(I)+XNEW(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 300 at (1)
+newuob.f:343:72:
+
+  343 |       DO 340 I=1,J
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 340 at (1)
+newuob.f:347:72:
+
+  347 |   340 VQUAD=VQUAD+TEMP*HQ(IH)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 340 at (1)
+newuob.f:349:72:
+
+  349 |   350 VQUAD=VQUAD+PQ(K)*W(K)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 350 at (1)
+newuob.f:366:72:
+
+  366 |   360     XOPTSQ=XOPTSQ+XOPT(I)**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 360 at (1)
+newuob.f:405:72:
+
+  405 |   380 HDIAG=HDIAG+TEMP*ZMAT(K,J)**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 380 at (1)
+newuob.f:409:72:
+
+  409 |   390 DISTSQ=DISTSQ+(XPT(K,J)-XOPT(J))**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 390 at (1)
+newuob.f:427:72:
+
+  427 |       DO 420 J=1,I
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 420 at (1)
+newuob.f:429:72:
+
+  429 |   420 HQ(IH)=HQ(IH)+TEMP*XPT(KNEW,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 420 at (1)
+newuob.f:438:72:
+
+  438 |       DO 440 K=1,NPT
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 440 at (1)
+newuob.f:439:72:
+
+  439 |   440 PQ(K)=PQ(K)+TEMP*ZMAT(K,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 440 at (1)
+newuob.f:444:72:
+
+  444 |   450 XPT(KNEW,I)=XNEW(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 450 at (1)
+newuob.f:455:72:
+
+  455 |   700         VLAG(K)=FVAL(K)-FVAL(KOPT)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 700 at (1)
+newuob.f:460:72:
+
+  460 |   710         SUM=SUM+BMAT(K,I)*VLAG(K)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 710 at (1)
+newuob.f:462:72:
+
+  462 |   720         W(I)=SUM
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 720 at (1)
+newuob.f:471:72:
+
+  471 |   730             GQ(I)=W(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 730 at (1)
+newuob.f:473:72:
+
+  473 |   740             HQ(IH)=ZERO
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 740 at (1)
+newuob.f:477:72:
+
+  477 |   750             W(J)=W(J)+VLAG(K)*ZMAT(K,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 750 at (1)
+newuob.f:478:72:
+
+  478 |   760             IF (J .LT. IDZ) W(J)=-W(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 760 at (1)
+newuob.f:481:72:
+
+  481 |                   DO 770 J=1,NPTM
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 770 at (1)
+newuob.f:482:72:
+
+  482 |   770             PQ(K)=PQ(K)+ZMAT(K,J)*W(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 770 at (1)
+newuob.f:504:72:
+
+  504 |   470 SUM=SUM+(XPT(K,J)-XOPT(J))**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 470 at (1)
+newuob.f:556:72:
+
+  556 |   540     X(I)=XBASE(I)+XOPT(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 540 at (1)
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c prelim.f -o prelim.o
+prelim.f:39:72:
+
+   39 |    10 XPT(K,J)=ZERO
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 10 at (1)
+prelim.f:40:72:
+
+   40 |       DO 20 I=1,NDIM
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 20 at (1)
+prelim.f:41:72:
+
+   41 |    20 BMAT(I,J)=ZERO
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 20 at (1)
+prelim.f:43:72:
+
+   43 |    30 HQ(IH)=ZERO
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 30 at (1)
+prelim.f:46:72:
+
+   46 |       DO 40 J=1,NPT-NP
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 40 at (1)
+prelim.f:47:72:
+
+   47 |    40 ZMAT(K,J)=ZERO
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 40 at (1)
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c rescue.f -o rescue.o
+rescue.f:66:72:
+
+   66 |    10 DISTSQ=DISTSQ+XPT(K,J)**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 10 at (1)
+rescue.f:70:72:
+
+   70 |       DO 20 J=1,NPTM
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 20 at (1)
+rescue.f:71:72:
+
+   71 |    20 ZMAT(K,J)=ZERO
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 20 at (1)
+rescue.f:80:72:
+
+   80 |    30 W(J)=W(J)+PQ(K)*XPT(K,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 30 at (1)
+rescue.f:81:72:
+
+   81 |       DO 40 I=1,J
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 40 at (1)
+rescue.f:83:72:
+
+   83 |    40 HQ(IH)=HQ(IH)+W(I)*XOPT(J)+W(J)*XOPT(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 40 at (1)
+rescue.f:103:72:
+
+  103 |       DO 50 I=1,NDIM
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 50 at (1)
+rescue.f:104:72:
+
+  104 |    50 BMAT(I,J)=ZERO
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 50 at (1)
+rescue.f:145:72:
+
+  145 |    70     ZMAT(K,K-NP)=TEMP
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 70 at (1)
+rescue.f:157:72:
+
+  157 |    90 BMAT(KNEW,J)=TEMP
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 90 at (1)
+rescue.f:161:72:
+
+  161 |   100 ZMAT(KNEW,J)=TEMP
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 100 at (1)
+rescue.f:180:72:
+
+  180 |  110         W(NDIM+K)=DABS(W(NDIM+K))
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 110 at (1)
+rescue.f:201:72:
+
+  201 |   140 W(NPT+J)=XPT(KNEW,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 140 at (1)
+rescue.f:208:72:
+
+  208 |   150     SUM=SUM+W(NPT+J)*XPT(K,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 150 at (1)
+rescue.f:219:72:
+
+  219 |   160 W(K)=HALF*SUM*SUM
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 160 at (1)
+rescue.f:227:72:
+
+  227 |   170 SUM=SUM+BMAT(K,J)*W(NPT+J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 170 at (1)
+rescue.f:228:72:
+
+  228 |   180 VLAG(K)=SUM
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 180 at (1)
+rescue.f:233:72:
+
+  233 |   190 SUM=SUM+ZMAT(K,J)*W(K)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 190 at (1)
+rescue.f:235:72:
+
+  235 |       DO 200 K=1,NPT
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 200 at (1)
+rescue.f:236:72:
+
+  236 |   200 VLAG(K)=VLAG(K)+SUM*ZMAT(K,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 200 at (1)
+rescue.f:242:72:
+
+  242 |   210 SUM=SUM+BMAT(K,J)*W(K)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 210 at (1)
+rescue.f:246:72:
+
+  246 |   220 SUM=SUM+BMAT(IP,J)*W(IP)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 220 at (1)
+rescue.f:249:72:
+
+  249 |   230 DISTSQ=DISTSQ+XPT(KNEW,J)**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 230 at (1)
+rescue.f:264:72:
+
+  264 |   240     HDIAG=HDIAG+ZMAT(K,J)**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 240 at (1)
+rescue.f:271:72:
+
+  271 |   250 VLMXSQ=DMAX1(VLMXSQ,VLAG(K)**2)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 250 at (1)
+rescue.f:297:72:
+
+  297 |       DO 270 I=1,J
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 270 at (1)
+rescue.f:299:72:
+
+  299 |   270 HQ(IH)=HQ(IH)+TEMP*W(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 270 at (1)
+rescue.f:332:72:
+
+  332 |   280 VQUAD=VQUAD+HALF*PQ(K)*TEMP*TEMP
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 280 at (1)
+rescue.f:359:72:
+
+  359 |   310 GOPT(I)=GOPT(I)+DIFF*BMAT(KPT,I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 310 at (1)
+rescue.f:363:72:
+
+  363 |   320 SUM=SUM+ZMAT(K,J)*ZMAT(KPT,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 320 at (1)
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c trsapp.f -o trsapp.o
+trsapp.f:33:72:
+
+   33 |    10 D(I)=XOPT(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 10 at (1)
+trsapp.f:45:72:
+
+   45 |    30 DD=DD+D(I)**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 30 at (1)
+trsapp.f:61:72:
+
+   61 |    60 DHD=DHD+D(J)*HD(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 60 at (1)
+trsapp.f:82:72:
+
+   82 |    70 GG=GG+(G(I)+HS(I))**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 70 at (1)
+trsapp.f:98:72:
+
+   98 |    80     SS=SS+STEP(I)**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 80 at (1)
+trsapp.f:112:72:
+
+  112 |   100 SHS=SHS+STEP(I)*HS(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 100 at (1)
+trsapp.f:125:72:
+
+  125 |   110 D(I)=TEMPA*(G(I)+HS(I))-TEMPB*STEP(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 110 at (1)
+trsapp.f:133:72:
+
+  133 |   130 DHS=DHS+HD(I)*STEP(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 130 at (1)
+trsapp.f:156:72:
+
+  156 |   140 QSAV=QNEW
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 140 at (1)
+trsapp.f:176:72:
+
+  176 |   150 GG=GG+(G(I)+HS(I))**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 150 at (1)
+trsapp.f:188:72:
+
+  188 |   180 HD(I)=ZERO
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 180 at (1)
+trsapp.f:192:72:
+
+  192 |   190 TEMP=TEMP+XPT(K,J)*D(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 190 at (1)
+trsapp.f:194:72:
+
+  194 |       DO 200 I=1,N
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 200 at (1)
+trsapp.f:195:72:
+
+  195 |   200 HD(I)=HD(I)+TEMP*XPT(K,I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 200 at (1)
+trsapp.f:198:72:
+
+  198 |       DO 210 I=1,J
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 210 at (1)
+trsapp.f:201:72:
+
+  201 |   210 HD(I)=HD(I)+HQ(IH)*D(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 210 at (1)
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c trsbox.f -o trsbox.o
+trsbox.f:71:72:
+
+   71 |    10 GNEW(I)=GOPT(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 10 at (1)
+trsbox.f:92:72:
+
+   92 |    40 STEPSQ=STEPSQ+S(I)**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 40 at (1)
+trsbox.f:163:72:
+
+  163 |    80     D(I)=D(I)+STPLEN*S(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 80 at (1)
+trsbox.f:304:72:
+
+  304 |   170 REDSAV=REDNEW
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 170 at (1)
+trsbox.f:333:72:
+
+  333 |   180 HRED(I)=CTH*HRED(I)+STH*HS(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 180 at (1)
+trsbox.f:351:72:
+
+  351 |   200 DSQ=DSQ+D(I)**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 200 at (1)
+trsbox.f:362:72:
+
+  362 |       DO 220 I=1,J
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 220 at (1)
+trsbox.f:365:72:
+
+  365 |   220 HS(I)=HS(I)+HQ(IH)*S(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 220 at (1)
+trsbox.f:370:72:
+
+  370 |   230     TEMP=TEMP+XPT(K,J)*S(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 230 at (1)
+trsbox.f:373:72:
+
+  373 |   240     HS(I)=HS(I)+TEMP*XPT(K,I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 240 at (1)
+trsbox.f:379:72:
+
+  379 |   260 HRED(I)=HS(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 260 at (1)
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c trstep.f -o trstep.o
+trstep.f:41:72:
+
+   41 |       DO 10 J=1,I
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 10 at (1)
+trstep.f:42:72:
+
+   42 |    10 H(I,J)=H(J,I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 10 at (1)
+trstep.f:55:72:
+
+   55 |    20     SUM=SUM+H(I,K)**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 20 at (1)
+trstep.f:68:72:
+
+   68 |    30     Z(I)=TD(I)*W(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 30 at (1)
+trstep.f:74:72:
+
+   74 |    40     Z(J)=Z(J)+H(I,J)*W(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 40 at (1)
+trstep.f:75:72:
+
+   75 |    50     WZ=WZ+W(J)*Z(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 50 at (1)
+trstep.f:82:72:
+
+   82 |    60         H(I,J)=H(I,J)-W(I)*Z(J)-W(J)*(Z(I)-WZ*W(I))
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 60 at (1)
+trstep.f:93:72:
+
+   93 |    90 GSQ=GSQ+G(I)**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 90 at (1)
+trstep.f:99:72:
+
+   99 |   100 SUM=SUM+GG(I)*H(I,K)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 100 at (1)
+trstep.f:100:72:
+
+  100 |       DO 110 I=KP,N
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 110 at (1)
+trstep.f:101:72:
+
+  101 |   110 GG(I)=GG(I)-SUM*H(I,K)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 110 at (1)
+trstep.f:112:72:
+
+  112 |   120 TDMIN=DMIN1(TDMIN,TD(I))
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 120 at (1)
+trstep.f:117:72:
+
+  117 |   130     D(I)=-SCALE*GG(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 130 at (1)
+trstep.f:187:72:
+
+  187 |   180     D(I)=ZERO
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 180 at (1)
+trstep.f:200:72:
+
+  200 |   200     DTG=DTG+D(I)*GG(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 200 at (1)
+trstep.f:203:72:
+
+  203 |   210     D(I)=SCALE*D(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 210 at (1)
+trstep.f:222:72:
+
+  222 |   240 W(I)=(-GG(I)-TN(I-1)*W(I-1))/PIV(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 240 at (1)
+trstep.f:225:72:
+
+  225 |   250 D(I)=W(I)-TN(I)*D(I+1)/PIV(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 250 at (1)
+trstep.f:233:72:
+
+  233 |   260 WSQ=WSQ+PIV(I)*W(I)**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 260 at (1)
+trstep.f:244:72:
+
+  244 |   270     D(I)=SCALE*D(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 270 at (1)
+trstep.f:276:72:
+
+  276 |   280     W(I)=(DSIGN(ONE,TEMP)+TEMP)/PIV(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 280 at (1)
+trstep.f:279:72:
+
+  279 |   290     Z(I)=W(I)-TN(I)*Z(I+1)/PIV(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 290 at (1)
+trstep.f:286:72:
+
+  286 |   300     DTZ=DTZ+D(I)*Z(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 300 at (1)
+trstep.f:296:72:
+
+  296 |   310         D(I)=D(I)+GAM*Z(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 310 at (1)
+trstep.f:327:72:
+
+  327 |   330 SHFMAX=DMIN1(SHFMAX,PIVOT)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 330 at (1)
+trstep.f:371:72:
+
+  371 |   380 SUM=SUM+D(I)*H(I,K)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 380 at (1)
+trstep.f:372:72:
+
+  372 |       DO 390 I=KP,N
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 390 at (1)
+trstep.f:373:72:
+
+  373 |   390 D(I)=D(I)-SUM*H(I,K)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 390 at (1)
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c uobyqa.f -o uobyqa.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c uobyqb.f -o uobyqb.o
+uobyqb.f:49:72:
+
+   49 |       DO 10 K=1,NPT
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 10 at (1)
+uobyqb.f:50:72:
+
+   50 |    10 XPT(K,I)=ZERO
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 10 at (1)
+uobyqb.f:52:72:
+
+   52 |       DO 20 J=1,NPTM
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 20 at (1)
+uobyqb.f:53:72:
+
+   53 |    20 PL(K,J)=ZERO
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 20 at (1)
+uobyqb.f:61:72:
+
+   61 |    40 X(I)=XBASE(I)+XPT(NF+1,I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 40 at (1)
+uobyqb.f:173:72:
+
+  173 |       DO 80 I=1,J
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 80 at (1)
+uobyqb.f:177:72:
+
+  177 |    80 H(I,J)=PQ(IH)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 80 at (1)
+uobyqb.f:187:72:
+
+  187 |    90 TEMP=TEMP+D(I)**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 90 at (1)
+uobyqb.f:201:72:
+
+  201 |  110     X(I)=XBASE(I)+XNEW(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 110 at (1)
+uobyqb.f:230:72:
+
+  230 |       DO 150 I=1,J
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 150 at (1)
+uobyqb.f:234:72:
+
+  234 |   150 VQUAD=VQUAD+W(IH)*PQ(IH)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 150 at (1)
+uobyqb.f:238:72:
+
+  238 |   160 TEMP=TEMP+W(J)*PL(K,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 160 at (1)
+uobyqb.f:239:72:
+
+  239 |   170 VLAG(K)=TEMP
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 170 at (1)
+uobyqb.f:250:72:
+
+  250 |   180 TEMP=TEMP+(XPT(K,I)-XNEW(I))**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 180 at (1)
+uobyqb.f:252:72:
+
+  252 |   190 SUM=SUM+DABS(TEMP*TEMP*TEMP*VLAG(K))
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 190 at (1)
+uobyqb.f:262:72:
+
+  262 |   200     XOPT(I)=XNEW(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 200 at (1)
+uobyqb.f:298:72:
+
+  298 |   220 SUM=SUM+(XPT(K,I)-XOPT(I))**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 220 at (1)
+uobyqb.f:313:72:
+
+  313 |   250 XPT(KNEW,I)=XNEW(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 250 at (1)
+uobyqb.f:317:72:
+
+  317 |   260 PQ(J)=PQ(J)+DIFF*PL(KNEW,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 260 at (1)
+uobyqb.f:322:72:
+
+  322 |   270     PL(K,J)=PL(K,J)-TEMP*PL(KNEW,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 270 at (1)
+uobyqb.f:343:72:
+
+  343 |       DO 300 I=1,N
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 300 at (1)
+uobyqb.f:344:72:
+
+  344 |   300 W(K)=W(K)+(XPT(K,I)-XOPT(I))**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 300 at (1)
+uobyqb.f:371:72:
+
+  371 |   330     H(I,J)=TEMP
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 330 at (1)
+uobyqb.f:372:72:
+
+  372 |   340     SUMH=SUMH+HALF*TEMP*TEMP
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 340 at (1)
+uobyqb.f:382:72:
+
+  382 |   350         SUMG=SUMG+G(I)**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 350 at (1)
+uobyqb.f:409:72:
+
+  409 |   360     XPT(K,J)=XPT(K,J)-XOPT(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 360 at (1)
+uobyqb.f:410:72:
+
+  410 |           DO 380 I=1,J
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 380 at (1)
+uobyqb.f:416:72:
+
+  416 |   370         PL(K,J)=PL(K,J)+PL(K,IH)*XOPT(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 370 at (1)
+uobyqb.f:418:72:
+
+  418 |           DO 380 K=1,NPT
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 380 at (1)
+uobyqb.f:419:72:
+
+  419 |   380     PL(K,I)=PL(K,I)+PL(K,IH)*XOPT(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 380 at (1)
+uobyqb.f:453:72:
+
+  453 |   430     X(I)=XBASE(I)+XOPT(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 430 at (1)
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c update.f -o update.o
+update.f:30:72:
+
+   30 |    10     ZMAT(I,JL)=TEMP
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 10 at (1)
+update.f:61:72:
+
+   61 |    40     ZMAT(I,1)=TEMPA*ZMAT(I,1)-TEMPB*VLAG(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 40 at (1)
+update.f:79:72:
+
+   79 |    50     ZMAT(I,JB)=SCALB*(ZMAT(I,JB)-TEMPA*W(I)-TEMPB*VLAG(I))
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 50 at (1)
+update.f:94:72:
+
+   94 |    60     ZMAT(I,IDZ)=TEMP
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 60 at (1)
+update.f:104:72:
+
+  104 |       DO 70 I=1,JP
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 70 at (1)
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c updatebobyqa.f -o updatebobyqa.o
+updatebobyqa.f:22:72:
+
+   22 |       DO 10 J=1,NPTM
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 10 at (1)
+updatebobyqa.f:23:72:
+
+   23 |    10 ZTEST=DMAX1(ZTEST,DABS(ZMAT(K,J)))
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 10 at (1)
+updatebobyqa.f:37:72:
+
+   37 |    20     ZMAT(I,1)=TEMP
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 20 at (1)
+updatebobyqa.f:58:72:
+
+   58 |    50 ZMAT(I,1)=TEMPA*ZMAT(I,1)-TEMPB*VLAG(I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 50 at (1)
+updatebobyqa.f:67:72:
+
+   67 |       DO 60 I=1,JP
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 60 at (1)
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -shared -L/root/anaconda3/envs/r_env/lib/R/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/root/anaconda3/envs/r_env/lib -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib -L/root/anaconda3/envs/r_env/lib -o minqa.so altmov.o bigden.o biglag.o bobyqa.o bobyqb.o lagmax.o minqa.o newuoa.o newuob.o prelim.o rescue.o trsapp.o trsbox.o trstep.o uobyqa.o uobyqb.o update.o updatebobyqa.o -lgfortran -lm -lquadmath -L/root/anaconda3/envs/r_env/lib/R/lib -lR
+installing to /root/anaconda3/envs/r_env/lib/R/library/00LOCK-minqa/00new/minqa/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (minqa)
+* installing *source* package ‘carData’ ...
+** package ‘carData’ successfully unpacked and MD5 sums checked
+** using staged installation
+** data
+*** moving datasets to lazyload DB
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (carData)
+* installing *source* package ‘abind’ ...
+** package ‘abind’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (abind)
+* installing *source* package ‘pkgbuild’ ...
+** package ‘pkgbuild’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (pkgbuild)
+* installing *source* package ‘waldo’ ...
+** package ‘waldo’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (waldo)
+* installing *source* package ‘quantreg’ ...
+** package ‘quantreg’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘x86_64-conda-linux-gnu-cc (conda-forge gcc 13.2.0-5) 13.2.0’
+using Fortran compiler: ‘GNU Fortran (conda-forge gcc 13.2.0-5) 13.2.0’
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c akj.f -o akj.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c boot.f -o boot.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c bound.f -o bound.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c boundc.f -o boundc.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c brute.f -o brute.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c chlfct.f -o chlfct.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c cholesky.f -o cholesky.o
+cholesky.f:2948:72:
+
+ 2948 |                          IF  ( NODE )  400, 900, 500
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+cholesky.f:2982:72:
+
+ 2982 |                  IF  ( RNODE )  1100, 1800, 1200
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+cholesky.f:3299:72:
+
+ 3299 |                      IF  ( ENODE )  400, 800, 500
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+cholesky.f:3356:72:
+
+ 3356 |                              IF  ( NODE )  1000, 2100, 1100
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+cholesky.f:3430:72:
+
+ 3430 |                                          IF  ( NODE )  1700, 2000, 1800
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c combos.f -o combos.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c crqf.f -o crqf.o
+crqf.f:98:72:
+
+   98 |         DO 5 J=1,N
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 5 at (1)
+crqf.f:99:72:
+
+   99 |    5    WA(I,J) = X(I,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 5 at (1)
+crqf.f:140:72:
+
+  140 |   25      WA(L,J) = X(I,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 25 at (1)
+crqf.f:149:72:
+
+  149 |   50  SOL(J+1,1) = WF(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 50 at (1)
+crqf.f:165:72:
+
+  165 |   60    XH(K,J) = X(I,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 60 at (1)
+crqf.f:180:72:
+
+  180 |   80  S = S - WF(J)*X(I,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 80 at (1)
+crqf.f:181:72:
+
+  181 |   90  WE(I) = S
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 90 at (1)
+crqf.f:192:72:
+
+  192 |  210  S = DMIN1(WD(J),S)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 210 at (1)
+crqf.f:205:72:
+
+  205 |  240    SOL(J+1,LSOL) = WF(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 240 at (1)
+crqf.f:226:72:
+
+  226 |  250  WD(I) = ZERO
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 250 at (1)
+crqf.f:228:72:
+
+  228 |  260  WD(H(J)) = ONE
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 260 at (1)
+crqf.f:236:72:
+
+  236 |  270  S = S + X(I,J)*XH(J,KM)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 270 at (1)
+crqf.f:258:72:
+
+  258 |         DO 310 J = 1,N
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 310 at (1)
+crqf.f:259:72:
+
+  259 |  310    XH(K,J) = X(I,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 310 at (1)
+crqf.f:273:72:
+
+  273 |  330  S = S + XH(K,J)*Y(H(J))
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 330 at (1)
+crqf.f:274:72:
+
+  274 |  340  WF(K) = S
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 340 at (1)
+crqf.f:278:72:
+
+  278 |  350  S = S - WF(J)*X(I,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 350 at (1)
+crqf.f:279:72:
+
+  279 |  360  WE(I) = S
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 360 at (1)
+crqf.f:287:72:
+
+  287 |  370    SOL(J+1,LSOL) = WF(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 370 at (1)
+crqf.f:330:72:
+
+  330 | 396       B2 = B2 + X(I,J) * SOL(J+1,LSOL - 1)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 396 at (1)
+crqf.f:369:72:
+
+  369 |  506  WF(J) = ZERO
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 506 at (1)
+crqf.f:376:72:
+
+  376 |  510      WA(L1,J) = X(I,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 510 at (1)
+crqf.f:379:72:
+
+  379 |  514      WF(J) = WF(J) + X(I,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 514 at (1)
+crqf.f:389:72:
+
+  389 |  520      WF(J) = WF(J) + (ONE - W) * X(I,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 520 at (1)
+crqf.f:394:72:
+
+  394 |  534  WA(MAL,J) = WF(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 534 at (1)
+crqf.f:413:72:
+
+  413 |  540        XH(K,J) = X(I,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 540 at (1)
+crqf.f:429:72:
+
+  429 |  610  WD(I) = SOL(N+2,I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 610 at (1)
+crqf.f:441:72:
+
+  441 |  650  WF(J) = S/V
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 650 at (1)
+crqf.f:445:72:
+
+  445 |  660    S = S + WF(J) * SOL(J+1,I)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 660 at (1)
+crqf.f:446:72:
+
+  446 |  670  SOL(N+2,I) = S
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 670 at (1)
+crqf.f:487:72:
+
+  487 |   60    A = A + X(I,K)*XH(K,J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 60 at (1)
+crqf.f:488:72:
+
+  488 |   70  WA(I,J) = A
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 70 at (1)
+crqf.f:497:72:
+
+  497 |   90  IFLAG(I) = 0
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 90 at (1)
+crqf.f:499:72:
+
+  499 |   95  IFLAG(H(J)) = 1
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 95 at (1)
+crqf.f:544:72:
+
+  544 |  130  IFLAG(J) = IFLAG(J+M)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 130 at (1)
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c crqfnb.f -o crqfnb.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c dsel05.f -o dsel05.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c extract.f -o extract.o
+x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c frand.c -o frand.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c grexp.f -o grexp.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c idmin.f -o idmin.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c iswap.f -o iswap.o
+iswap.f:40:72:
+
+   40 |       IF (INCX-1) 5,20,60
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Arithmetic IF statement at (1)
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c kuantile.f -o kuantile.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c kuantiles.f -o kuantiles.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c linpack.f -o linpack.o
+x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c mcmb.c -o mcmb.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c penalty.f -o penalty.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c pfnb.f -o pfnb.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c powell.f -o powell.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c profnb.f -o profnb.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c pwxy.f -o pwxy.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c qfnb.f -o qfnb.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c qselect.f -o qselect.o
+x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c quantreg_init.c -o quantreg_init.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c rls.f -o rls.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c rq0.f -o rq0.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c rq1.f -o rq1.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c rqbr.f -o rqbr.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c rqfn.f -o rqfn.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c rqfnb.f -o rqfnb.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c rqfnc.f -o rqfnc.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c rqs.f -o rqs.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c sakj.f -o sakj.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c sparskit2.f -o sparskit2.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c srqfn.f -o srqfn.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c srqfnc.f -o srqfnc.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c srtpai.f -o srtpai.o
+srtpai.f:19:72:
+
+   19 |  10     P(1, I) = I
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 10 at (1)
+x86_64-conda-linux-gnu-cc -shared -L/root/anaconda3/envs/r_env/lib/R/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/root/anaconda3/envs/r_env/lib -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib -L/root/anaconda3/envs/r_env/lib -o quantreg.so akj.o boot.o bound.o boundc.o brute.o chlfct.o cholesky.o combos.o crqf.o crqfnb.o dsel05.o extract.o frand.o grexp.o idmin.o iswap.o kuantile.o kuantiles.o linpack.o mcmb.o penalty.o pfnb.o powell.o profnb.o pwxy.o qfnb.o qselect.o quantreg_init.o rls.o rq0.o rq1.o rqbr.o rqfn.o rqfnb.o rqfnc.o rqs.o sakj.o sparskit2.o srqfn.o srqfnc.o srtpai.o -llapack -lblas -lgfortran -lm -lquadmath -lgfortran -lm -lquadmath -L/root/anaconda3/envs/r_env/lib/R/lib -lR
+installing to /root/anaconda3/envs/r_env/lib/R/library/00LOCK-quantreg/00new/quantreg/libs
+** R
+** data
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (quantreg)
+* installing *source* package ‘pkgload’ ...
+** package ‘pkgload’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (pkgload)
+* installing *source* package ‘testthat’ ...
+** package ‘testthat’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘x86_64-conda-linux-gnu-cc (conda-forge gcc 13.2.0-5) 13.2.0’
+using C++ compiler: ‘x86_64-conda-linux-gnu-c++ (conda-forge gcc 13.2.0-5) 13.2.0’
+x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG -I../inst/include -DCOMPILING_TESTTHAT  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c init.c -o init.o
+x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG -I../inst/include -DCOMPILING_TESTTHAT  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c reassign.c -o reassign.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG -I../inst/include -DCOMPILING_TESTTHAT  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c test-catch.cpp -o test-catch.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG -I../inst/include -DCOMPILING_TESTTHAT  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c test-example.cpp -o test-example.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG -I../inst/include -DCOMPILING_TESTTHAT  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c test-runner.cpp -o test-runner.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -shared -L/root/anaconda3/envs/r_env/lib/R/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/root/anaconda3/envs/r_env/lib -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib -L/root/anaconda3/envs/r_env/lib -o testthat.so init.o reassign.o test-catch.o test-example.o test-runner.o -L/root/anaconda3/envs/r_env/lib/R/lib -lR
+installing to /root/anaconda3/envs/r_env/lib/R/library/00LOCK-testthat/00new/testthat/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (testthat)
+* installing *source* package ‘nloptr’ ...
+** package ‘nloptr’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C++... yes
+checking whether x86_64-conda-linux-gnu-c++ -std=gnu++17 accepts -g... yes
+checking for x86_64-conda-linux-gnu-c++ -std=gnu++17 option to enable C++11 features... none needed
+checking how to run the C++ preprocessor... x86_64-conda-linux-gnu-c++ -std=gnu++17 -E
+checking whether the compiler supports GNU C++... (cached) yes
+checking whether x86_64-conda-linux-gnu-c++ -std=gnu++17 accepts -g... (cached) yes
+checking for x86_64-conda-linux-gnu-c++ -std=gnu++17 option to enable C++11 features... (cached) none needed
+checking for pkg-config... no
+checking for cmake... no
+
+------------------ CMAKE NOT FOUND --------------------
+
+CMake was not found on the PATH. Please install CMake:
+
+ - sudo yum install cmake          (Fedora/CentOS; inside a terminal)
+ - sudo apt install cmake          (Debian/Ubuntu; inside a terminal).
+ - sudo pacman -S cmake            (Arch Linux; inside a terminal).
+ - sudo brew install cmake         (MacOS; inside a terminal with Homebrew)
+ - sudo port install cmake         (MacOS; inside a terminal with MacPorts)
+
+Alternatively install CMake from: <https://cmake.org/>
+
+-------------------------------------------------------
+
+ERROR: configuration failed for package ‘nloptr’
+* removing ‘/root/anaconda3/envs/r_env/lib/R/library/nloptr’
+ERROR: dependency ‘nloptr’ is not available for package ‘lme4’
+* removing ‘/root/anaconda3/envs/r_env/lib/R/library/lme4’
+ERROR: dependency ‘lme4’ is not available for package ‘pbkrtest’
+* removing ‘/root/anaconda3/envs/r_env/lib/R/library/pbkrtest’
+ERROR: dependencies ‘pbkrtest’, ‘lme4’ are not available for package ‘car’
+* removing ‘/root/anaconda3/envs/r_env/lib/R/library/car’
+
+The downloaded source packages are in
+	‘/tmp/RtmpEMAhsD/downloaded_packages’
+trying URL 'https://cran.r-project.org/src/contrib/lmtest_0.9-40.tar.gz'
+Content type 'application/x-gzip' length 230313 bytes (224 KB)
+==================================================
+downloaded 224 KB
+
+* installing *source* package ‘lmtest’ ...
+** package ‘lmtest’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘x86_64-conda-linux-gnu-cc (conda-forge gcc 13.2.0-5) 13.2.0’
+using Fortran compiler: ‘GNU Fortran (conda-forge gcc 13.2.0-5) 13.2.0’
+x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c init.c -o init.o
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c pan.f -o pan.o
+x86_64-conda-linux-gnu-cc -shared -L/root/anaconda3/envs/r_env/lib/R/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/root/anaconda3/envs/r_env/lib -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib -L/root/anaconda3/envs/r_env/lib -o lmtest.so init.o pan.o -lgfortran -lm -lquadmath -L/root/anaconda3/envs/r_env/lib/R/lib -lR
+installing to /root/anaconda3/envs/r_env/lib/R/library/00LOCK-lmtest/00new/lmtest/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (lmtest)
+
+The downloaded source packages are in
+	‘/tmp/RtmpEMAhsD/downloaded_packages’
+[I 2024-03-20 02:37:15.836 ServerApp] Saving file at /regression analysis/RA 2/Untitled.ipynb
+[I 2024-03-20 02:37:55.219 ServerApp] Creating new directory in /regression analysis
+[I 2024-03-20 02:39:15.932 ServerApp] Saving file at /regression analysis/RA 2/Untitled.ipynb
+[I 2024-03-20 02:41:16.730 ServerApp] Saving file at /regression analysis/RA 2/Untitled.ipynb
+[I 2024-03-20 02:43:17.696 ServerApp] Saving file at /regression analysis/RA 2/Untitled.ipynb
+[I 2024-03-20 02:45:17.757 ServerApp] Saving file at /regression analysis/RA 2/Untitled.ipynb
+[I 2024-03-20 02:47:18.712 ServerApp] Saving file at /regression analysis/RA 2/Untitled.ipynb
+[I 2024-03-20 02:49:18.816 ServerApp] Saving file at /regression analysis/RA 2/Untitled.ipynb
+[I 2024-03-20 02:51:18.904 ServerApp] Saving file at /regression analysis/RA 2/Untitled.ipynb
+[I 2024-03-20 02:53:19.132 ServerApp] Saving file at /regression analysis/RA 2/Untitled.ipynb
+[I 2024-03-20 02:55:19.203 ServerApp] Saving file at /regression analysis/RA 2/Untitled.ipynb
+[I 2024-03-20 02:57:19.295 ServerApp] Saving file at /regression analysis/RA 2/Untitled.ipynb
+[I 2024-03-20 02:59:19.376 ServerApp] Saving file at /regression analysis/RA 2/Untitled.ipynb
+[I 2024-03-20 03:01:19.501 ServerApp] Saving file at /regression analysis/RA 2/Untitled.ipynb
+[I 2024-03-20 03:03:19.727 ServerApp] Saving file at /regression analysis/RA 2/Untitled.ipynb
+[I 2024-03-20 03:05:20.006 ServerApp] Saving file at /regression analysis/RA 2/Untitled.ipynb
+[I 2024-03-20 03:06:53.648 ServerApp] Starting buffering for a2430e45-4e23-4ea7-8019-312405f6eae9:a4aa4441-1864-4926-8076-bb3834213d1c
+[I 2024-03-20 03:42:05.891 ServerApp] 302 GET / (@121.154.64.157) 0.33ms
+[I 2024-03-20 03:42:08.113 ServerApp] Connecting to kernel 91277f06-818b-4acd-9743-3af5ffae59b4.
+[I 2024-03-20 03:42:08.143 ServerApp] Connecting to kernel 62c40eec-b4a5-4425-9d27-587734e84cce.
+[I 2024-03-20 03:42:08.169 ServerApp] Starting buffering for 91277f06-818b-4acd-9743-3af5ffae59b4:dbf457b2-268f-4e39-9f91-c62da3bb6d4b
+[I 2024-03-20 03:42:08.172 ServerApp] Connecting to kernel a2430e45-4e23-4ea7-8019-312405f6eae9.
+[W 2024-03-20 03:42:08.177 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-03-20 03:42:08.345 ServerApp] Starting buffering for 62c40eec-b4a5-4425-9d27-587734e84cce:02cf5714-2f10-4810-8249-860f3d4ef798
+[I 2024-03-20 03:42:08.478 ServerApp] Starting buffering for a2430e45-4e23-4ea7-8019-312405f6eae9:5c048ebe-9e47-4288-9881-4b5dd1d8d461
+[I 2024-03-20 03:42:09.140 ServerApp] Connecting to kernel a2430e45-4e23-4ea7-8019-312405f6eae9.
+Warning messages:
+1: In .helpForCall(topicExpr, parent.frame()) :
+  no method defined for function ‘$’ and signature ‘x = "lm"’
+2: In .helpForCall(topicExpr, parent.frame()) :
+  no method defined for function ‘$’ and signature ‘x = "lm"’
+3: In .helpForCall(topicExpr, parent.frame()) :
+  no method defined for function ‘$’ and signature ‘x = "lm"’
+4: In .helpForCall(topicExpr, parent.frame()) :
+  no method defined for function ‘$’ and signature ‘x = "lm"’
+[I 2024-03-20 03:42:24.469 ServerApp] Kernel restarted: a2430e45-4e23-4ea7-8019-312405f6eae9
+[I 2024-03-20 03:42:24.571 ServerApp] Starting buffering for a2430e45-4e23-4ea7-8019-312405f6eae9:42368d1d-f92b-435f-95e8-82c147b9c703
+[I 2024-03-20 03:42:24.573 ServerApp] Connecting to kernel a2430e45-4e23-4ea7-8019-312405f6eae9.
+[I 2024-03-20 03:42:24.573 ServerApp] Restoring connection for a2430e45-4e23-4ea7-8019-312405f6eae9:42368d1d-f92b-435f-95e8-82c147b9c703
+[I 2024-03-20 03:42:28.488 ServerApp] Kernel restarted: a2430e45-4e23-4ea7-8019-312405f6eae9
+[I 2024-03-20 03:42:28.570 ServerApp] Starting buffering for a2430e45-4e23-4ea7-8019-312405f6eae9:42368d1d-f92b-435f-95e8-82c147b9c703
+[I 2024-03-20 03:42:28.573 ServerApp] Connecting to kernel a2430e45-4e23-4ea7-8019-312405f6eae9.
+[I 2024-03-20 03:42:28.573 ServerApp] Restoring connection for a2430e45-4e23-4ea7-8019-312405f6eae9:42368d1d-f92b-435f-95e8-82c147b9c703
+[I 2024-03-20 03:44:08.873 ServerApp] Saving file at /regression analysis/RA 2/Untitled.ipynb
+[I 2024-03-20 03:46:08.936 ServerApp] Saving file at /regression analysis/RA 2/Untitled.ipynb
+[I 2024-03-20 03:50:09.014 ServerApp] Saving file at /regression analysis/RA 2/Untitled.ipynb
+[I 2024-03-20 03:52:09.095 ServerApp] Saving file at /regression analysis/RA 2/Untitled.ipynb
+[I 2024-03-20 03:54:09.190 ServerApp] Saving file at /regression analysis/RA 2/Untitled.ipynb
+[I 2024-03-20 03:56:09.277 ServerApp] Saving file at /regression analysis/RA 2/Untitled.ipynb
+[I 2024-03-20 03:58:09.377 ServerApp] Saving file at /regression analysis/RA 2/Untitled.ipynb
+[I 2024-03-20 04:00:09.463 ServerApp] Saving file at /regression analysis/RA 2/Untitled.ipynb
+[I 2024-03-20 04:02:09.541 ServerApp] Saving file at /regression analysis/RA 2/Untitled.ipynb
+[I 2024-03-20 04:04:09.620 ServerApp] Saving file at /regression analysis/RA 2/Untitled.ipynb
+[I 2024-03-20 04:06:09.703 ServerApp] Saving file at /regression analysis/RA 2/Untitled.ipynb
+[I 2024-03-20 04:08:09.796 ServerApp] Saving file at /regression analysis/RA 2/Untitled.ipynb
+[I 2024-03-20 04:10:09.867 ServerApp] Saving file at /regression analysis/RA 2/Untitled.ipynb
+[I 2024-03-20 04:12:09.969 ServerApp] Saving file at /regression analysis/RA 2/Untitled.ipynb
+[I 2024-03-20 04:12:25.645 ServerApp] Saving file at /regression analysis/RA 2/Untitled.ipynb
+[I 2024-03-20 04:12:32.328 ServerApp] Starting buffering for a2430e45-4e23-4ea7-8019-312405f6eae9:42368d1d-f92b-435f-95e8-82c147b9c703
+[I 2024-03-20 04:51:32.082 ServerApp] 302 GET / (@172.22.138.29) 0.48ms
+[I 2024-03-20 04:51:32.129 LabApp] 302 GET /lab? (@172.22.138.29) 0.56ms
+[I 2024-03-20 04:51:35.531 ServerApp] User 0817074570f143d0989164f6a313f593 logged in.
+[I 2024-03-20 04:51:35.532 ServerApp] 302 POST /login?next=%2Flab%3F (0817074570f143d0989164f6a313f593@172.22.138.29) 28.80ms
+[I 2024-03-20 04:51:36.306 ServerApp] Connecting to kernel 91277f06-818b-4acd-9743-3af5ffae59b4.
+[I 2024-03-20 04:51:36.327 ServerApp] Connecting to kernel 62c40eec-b4a5-4425-9d27-587734e84cce.
+[W 2024-03-20 04:51:36.330 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-03-20 04:51:36.347 ServerApp] Connecting to kernel a2430e45-4e23-4ea7-8019-312405f6eae9.
+[I 2024-03-20 04:51:36.396 ServerApp] Starting buffering for 91277f06-818b-4acd-9743-3af5ffae59b4:8ba97554-8212-4048-aeab-5bbadb3c3aff
+[I 2024-03-20 04:51:36.467 ServerApp] Starting buffering for a2430e45-4e23-4ea7-8019-312405f6eae9:8e66a355-3d00-42c1-98e7-003f65e0ba95
+[I 2024-03-20 04:51:36.467 ServerApp] Starting buffering for 62c40eec-b4a5-4425-9d27-587734e84cce:1bcb067d-ddbe-4d92-a00a-d5d8eceb4930
