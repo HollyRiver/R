@@ -15111,3 +15111,40 @@ Error in eval(argExpr, envir) : object 'uniiris' not found
 [I 2024-03-22 10:04:54.631 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_202014107_HW01.ipynb
 [I 2024-03-22 10:04:54.679 ServerApp] Starting buffering for 8a4cf7cc-0334-4ec6-b277-bd310888f8a4:198a4426-82b2-42bf-a620-e4b09a0fa7a7
 [I 2024-03-22 10:04:55.650 ServerApp] Starting buffering for a2430e45-4e23-4ea7-8019-312405f6eae9:5622de20-8010-4160-bb05-2fc1a27754cb
+[I 2024-03-25 04:22:07.440 ServerApp] 302 GET / (@172.22.138.29) 0.63ms
+[I 2024-03-25 04:22:07.444 LabApp] 302 GET /lab? (@172.22.138.29) 0.88ms
+[W 2024-03-25 12:21:53.179 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-03-25 12:21:53.334 ServerApp] Connecting to kernel 91277f06-818b-4acd-9743-3af5ffae59b4.
+[I 2024-03-25 12:21:53.364 ServerApp] Connecting to kernel 62c40eec-b4a5-4425-9d27-587734e84cce.
+[I 2024-03-25 12:21:53.387 ServerApp] Connecting to kernel a2430e45-4e23-4ea7-8019-312405f6eae9.
+[I 2024-03-25 12:21:53.601 ServerApp] Connecting to kernel 8a4cf7cc-0334-4ec6-b277-bd310888f8a4.
+[I 2024-03-25 12:21:53.635 ServerApp] Connecting to kernel 39706a01-7095-4496-934c-cc097b3d6608.
+[I 2024-03-25 12:21:53.658 ServerApp] Starting buffering for a2430e45-4e23-4ea7-8019-312405f6eae9:c7e1c547-bf37-4f11-b5c1-00f9a82f82e3
+[I 2024-03-25 12:21:53.686 ServerApp] Connecting to kernel 81f3d5a4-f9e4-4864-8267-c5ebccb97e5b.
+[I 2024-03-25 12:21:53.710 ServerApp] Connecting to kernel 6b6079f1-98ed-4f16-8c75-f72541dd6a5c.
+[I 2024-03-25 12:21:53.732 ServerApp] Connecting to kernel d97353af-a312-49e9-9681-ce261f76ccc6.
+[I 2024-03-25 12:21:53.755 ServerApp] Connecting to kernel 8d5c2a0a-ac6f-469f-b07f-723ad5e1cd65.
+[I 2024-03-25 12:21:53.899 ServerApp] Starting buffering for 62c40eec-b4a5-4425-9d27-587734e84cce:fb04e42b-4651-40f1-aefb-e6dfb22b3781
+[I 2024-03-25 12:21:53.900 ServerApp] Starting buffering for 91277f06-818b-4acd-9743-3af5ffae59b4:6176f39b-0ace-4ac1-b61e-76556a89e9c3
+[I 2024-03-25 12:21:53.908 ServerApp] Starting buffering for 8a4cf7cc-0334-4ec6-b277-bd310888f8a4:5da7ef0c-b23a-4521-bb77-09d30e972f00
+[I 2024-03-25 12:21:53.923 ServerApp] Starting buffering for 39706a01-7095-4496-934c-cc097b3d6608:342426ea-46f0-4e57-be72-effa8f81d922
+[I 2024-03-25 12:21:53.975 ServerApp] Starting buffering for 81f3d5a4-f9e4-4864-8267-c5ebccb97e5b:af6fdaec-1495-453a-9a70-5246df4b7ae3
+[I 2024-03-25 12:21:53.981 ServerApp] Starting buffering for 6b6079f1-98ed-4f16-8c75-f72541dd6a5c:7375013b-49d5-410d-85cf-09a5943f1502
+[I 2024-03-25 12:21:54.002 ServerApp] Starting buffering for d97353af-a312-49e9-9681-ce261f76ccc6:8273c7c4-4351-4232-8eb6-5ad23b90995a
+[I 2024-03-25 12:21:54.003 ServerApp] Starting buffering for 8d5c2a0a-ac6f-469f-b07f-723ad5e1cd65:82642a5f-6c26-48ee-8b3f-9f77ef3a0b01
+[I 2024-03-25 12:22:00.685 ServerApp] Connecting to kernel 8a4cf7cc-0334-4ec6-b277-bd310888f8a4.
+[I 2024-03-25 12:22:40.483 ServerApp] Starting buffering for 8a4cf7cc-0334-4ec6-b277-bd310888f8a4:25d6e9af-88f2-42fc-a78f-f7cd614d9905
+[I 2024-03-25 12:33:49.550 ServerApp] Connecting to kernel 8a4cf7cc-0334-4ec6-b277-bd310888f8a4.
+[I 2024-03-25 12:33:49.550 ServerApp] Restoring connection for 8a4cf7cc-0334-4ec6-b277-bd310888f8a4:25d6e9af-88f2-42fc-a78f-f7cd614d9905
+[I 2024-03-25 12:35:30.001 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_202014107_HW01.ipynb
+[I 2024-03-25 12:35:37.221 ServerApp] Starting buffering for 8a4cf7cc-0334-4ec6-b277-bd310888f8a4:25d6e9af-88f2-42fc-a78f-f7cd614d9905
+[I 2024-03-25 12:42:15.548 ServerApp] Connecting to kernel 8a4cf7cc-0334-4ec6-b277-bd310888f8a4.
+[I 2024-03-25 12:42:15.548 ServerApp] Restoring connection for 8a4cf7cc-0334-4ec6-b277-bd310888f8a4:25d6e9af-88f2-42fc-a78f-f7cd614d9905
+[I 2024-03-25 12:43:48.494 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_202014107_HW01.ipynb
+[W 2024-03-25 12:44:14.441 ServerApp] Alternative text is missing on 5 image(s).
+[W 2024-03-25 12:45:49.645 ServerApp] Alternative text is missing on 5 image(s).
+[I 2024-03-25 12:46:17.480 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_202014107_HW01.ipynb
+[W 2024-03-25 12:46:18.239 ServerApp] Alternative text is missing on 5 image(s).
+[I 2024-03-25 12:48:17.612 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_202014107_HW01.ipynb
+[W 2024-03-25 12:48:21.276 ServerApp] Alternative text is missing on 5 image(s).
+[I 2024-03-25 12:48:56.355 ServerApp] Starting buffering for 8a4cf7cc-0334-4ec6-b277-bd310888f8a4:25d6e9af-88f2-42fc-a78f-f7cd614d9905
