@@ -15485,3 +15485,132 @@ There were 24 warnings (use warnings() to see them)
 [I 2024-03-27 13:00:13.972 ServerApp] Starting buffering for 6eb3ea2c-dedd-44ca-861f-ebebb19483c2:942e08d4-68ec-448a-90de-0f0bc429faa3
 [I 2024-03-27 13:00:13.983 ServerApp] Starting buffering for 46cdf019-e239-42a5-a2cb-d931873766bf:54245f78-2981-4006-92bf-f2c1a246d7df
 [I 2024-03-27 13:00:15.639 ServerApp] Connecting to kernel bde71efe-d32a-4cda-944e-f44e5446ff05.
+[I 2024-03-27 13:00:32.325 ServerApp] Starting buffering for bde71efe-d32a-4cda-944e-f44e5446ff05:70ca35a2-e822-4ce4-a0fe-49246aba25f1
+[I 2024-03-28 04:44:17.110 ServerApp] Malformed HTTP message from 172.22.138.27: no colon in header line
+[I 2024-03-28 04:44:20.121 ServerApp] 302 GET / (@172.22.138.27) 0.65ms
+[I 2024-03-28 04:44:20.124 LabApp] 302 GET /lab? (@172.22.138.27) 0.74ms
+[I 2024-03-28 04:44:25.844 ServerApp] User 504f9ba77f404122a81ed7de15c60bb5 logged in.
+[I 2024-03-28 04:44:25.845 ServerApp] 302 POST /login?next=%2Flab%3F (504f9ba77f404122a81ed7de15c60bb5@172.22.138.27) 26.35ms
+[I 2024-03-28 04:44:26.624 ServerApp] Connecting to kernel 46cdf019-e239-42a5-a2cb-d931873766bf.
+[I 2024-03-28 04:44:26.642 ServerApp] Connecting to kernel bde71efe-d32a-4cda-944e-f44e5446ff05.
+[I 2024-03-28 04:44:26.653 ServerApp] Starting buffering for 46cdf019-e239-42a5-a2cb-d931873766bf:bd512cb6-abe6-4017-90f9-518885220475
+[I 2024-03-28 04:44:26.654 ServerApp] Starting buffering for bde71efe-d32a-4cda-944e-f44e5446ff05:4e4bf720-b401-4ecf-9203-0db4815ace57
+[I 2024-03-28 04:44:26.655 ServerApp] Connecting to kernel 5113fe1a-ce29-4230-98f3-f22b09a1bac2.
+[I 2024-03-28 04:44:26.669 ServerApp] Connecting to kernel 7ac8cad2-4a13-4063-88e7-16b80aaa1452.
+[I 2024-03-28 04:44:26.672 ServerApp] Starting buffering for 5113fe1a-ce29-4230-98f3-f22b09a1bac2:248f53a3-27ee-4497-9a88-ba3a2795b376
+[I 2024-03-28 04:44:26.683 ServerApp] Starting buffering for 7ac8cad2-4a13-4063-88e7-16b80aaa1452:ee63d862-ec7a-41f3-9a20-1d1ea3497dcb
+[I 2024-03-28 04:44:26.684 ServerApp] Connecting to kernel 6eb3ea2c-dedd-44ca-861f-ebebb19483c2.
+[I 2024-03-28 04:44:26.698 ServerApp] Starting buffering for 6eb3ea2c-dedd-44ca-861f-ebebb19483c2:05c10f55-39b0-4e85-ad03-4b0f64119625
+[W 2024-03-28 04:44:26.859 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2024-03-28 04:44:26.989 ServerApp] 404 GET /api/contents/SDB2024/course/0327.ipynb?content=0&hash=0&1711601066450 (504f9ba77f404122a81ed7de15c60bb5@172.22.138.27) 0.76ms referer=http://210.117.173.186:34107/lab?
+[W 2024-03-28 04:44:26.989 ServerApp] 404 GET /api/contents/SDB2024/course/0327.ipynb?content=0&hash=0&1711601066450 (172.22.138.27): No such file or directory: SDB2024/course/0327.ipynb
+[W 2024-03-28 04:44:26.989 ServerApp] 404 GET /api/contents/SDB2024/course/summary.ipynb?content=0&hash=0&1711601066450 (504f9ba77f404122a81ed7de15c60bb5@172.22.138.27) 0.56ms referer=http://210.117.173.186:34107/lab?
+[W 2024-03-28 04:44:26.990 ServerApp] 404 GET /api/contents/SDB2024/course/summary.ipynb?content=0&hash=0&1711601066450 (172.22.138.27): No such file or directory: SDB2024/course/summary.ipynb
+[W 2024-03-28 04:44:26.990 ServerApp] 404 GET /api/contents/SDB2024/course/0306.ipynb?content=0&hash=0&1711601066450 (504f9ba77f404122a81ed7de15c60bb5@172.22.138.27) 0.64ms referer=http://210.117.173.186:34107/lab?
+[W 2024-03-28 04:44:26.990 ServerApp] 404 GET /api/contents/SDB2024/course/0306.ipynb?content=0&hash=0&1711601066450 (172.22.138.27): No such file or directory: SDB2024/course/0306.ipynb
+[W 2024-03-28 04:44:28.075 ServerApp] 404 GET /api/contents/SDB2024/course?1711601067537 (504f9ba77f404122a81ed7de15c60bb5@172.22.138.27) 0.48ms referer=http://210.117.173.186:34107/lab?
+[W 2024-03-28 04:44:28.075 ServerApp] 404 GET /api/contents/SDB2024/course?1711601067537 (172.22.138.27): No such file or directory: SDB2024/course
+[I 2024-03-28 04:45:23.433 ServerApp] Connecting to kernel bde71efe-d32a-4cda-944e-f44e5446ff05.
+[I 2024-03-28 04:45:28.931 ServerApp] Creating new notebook in /탐색적자료분석
+[I 2024-03-28 04:45:30.607 ServerApp] Kernel started: a692adff-f0c5-4f98-af73-a294a8ceb2cd
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+[I 2024-03-28 04:45:31.059 ServerApp] Connecting to kernel a692adff-f0c5-4f98-af73-a294a8ceb2cd.
+[I 2024-03-28 04:45:31.076 ServerApp] Connecting to kernel a692adff-f0c5-4f98-af73-a294a8ceb2cd.
+[I 2024-03-28 04:45:31.091 ServerApp] Connecting to kernel a692adff-f0c5-4f98-af73-a294a8ceb2cd.
+[I 2024-03-28 04:47:10.328 ServerApp] Connecting to kernel 7ac8cad2-4a13-4063-88e7-16b80aaa1452.
+[I 2024-03-28 04:47:36.520 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 04:48:00.713 ServerApp] Connecting to kernel 6eb3ea2c-dedd-44ca-861f-ebebb19483c2.
+[I 2024-03-28 04:48:01.402 ServerApp] Starting buffering for 7ac8cad2-4a13-4063-88e7-16b80aaa1452:a8450af4-3b5a-4681-b1fe-d25178aa5cc9
+[I 2024-03-28 04:48:03.569 ServerApp] Connecting to kernel 46cdf019-e239-42a5-a2cb-d931873766bf.
+[I 2024-03-28 04:49:23.315 ServerApp] Saving file at /탐색적자료분석/code assemble.ipynb
+[I 2024-03-28 04:53:23.368 ServerApp] Saving file at /탐색적자료분석/code assemble.ipynb
+[I 2024-03-28 04:55:23.416 ServerApp] Saving file at /탐색적자료분석/code assemble.ipynb
+[I 2024-03-28 04:57:23.453 ServerApp] Saving file at /탐색적자료분석/code assemble.ipynb
+[I 2024-03-28 05:01:23.501 ServerApp] Saving file at /탐색적자료분석/code assemble.ipynb
+[I 2024-03-28 05:03:23.544 ServerApp] Saving file at /탐색적자료분석/code assemble.ipynb
+[I 2024-03-28 05:04:00.683 ServerApp] Saving file at /탐색적자료분석/0321.ipynb
+[I 2024-03-28 05:05:23.588 ServerApp] Saving file at /탐색적자료분석/code assemble.ipynb
+[I 2024-03-28 05:07:23.638 ServerApp] Saving file at /탐색적자료분석/code assemble.ipynb
+[I 2024-03-28 05:09:09.426 ServerApp] Kernel started: dd8d2f97-381d-4b3e-85e9-cfda6918c3a3
+[I 2024-03-28 05:09:09.427 ServerApp] Kernel shutdown: a692adff-f0c5-4f98-af73-a294a8ceb2cd
+[I 2024-03-28 05:09:10.097 ServerApp] Connecting to kernel dd8d2f97-381d-4b3e-85e9-cfda6918c3a3.
+[I 2024-03-28 05:09:23.691 ServerApp] Saving file at /탐색적자료분석/code assemble.ipynb
+[I 2024-03-28 05:09:36.699 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 05:13:36.743 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 05:15:36.805 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 05:17:36.838 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 05:19:36.876 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 05:23:36.949 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 05:25:37.022 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 05:27:37.057 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 05:29:37.092 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 05:31:37.129 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 05:33:37.181 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 05:35:37.224 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 05:37:37.274 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 05:39:37.311 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 05:41:37.355 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 05:43:37.395 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 05:49:37.461 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 05:51:37.496 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 05:53:37.530 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 05:55:37.581 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 05:57:37.619 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 05:59:37.665 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 06:01:37.703 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 06:03:38.307 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 06:05:39.319 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 06:07:39.385 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 06:09:39.444 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 06:11:39.588 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 06:13:39.653 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 06:15:39.719 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 06:17:39.781 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 06:23:39.896 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 06:25:39.973 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 06:27:40.042 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 06:33:24.542 ServerApp] Saving file at /탐색적자료분석/code assemble.ipynb
+[I 2024-03-28 06:33:40.142 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 06:35:24.616 ServerApp] Saving file at /탐색적자료분석/code assemble.ipynb
+[I 2024-03-28 06:39:24.701 ServerApp] Saving file at /탐색적자료분석/code assemble.ipynb
+[I 2024-03-28 06:39:40.245 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 06:49:40.370 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 06:53:40.457 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 06:54:12.863 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 06:54:15.300 ServerApp] Starting buffering for bde71efe-d32a-4cda-944e-f44e5446ff05:d684e357-92e6-4288-a603-f74245a17447
+[I 2024-03-28 06:58:12.932 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 07:00:13.004 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 07:02:13.472 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 07:53:32.632 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 11:14:35.430 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2024-03-28 11:14:35.434 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2024-03-28 11:14:35.438 ServerApp] jupyterlab | extension was successfully linked.
+[I 2024-03-28 11:14:35.442 ServerApp] notebook | extension was successfully linked.
+[I 2024-03-28 11:14:35.618 ServerApp] notebook_shim | extension was successfully linked.
+[I 2024-03-28 11:14:35.642 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-03-28 11:14:35.644 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2024-03-28 11:14:35.644 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2024-03-28 11:14:35.646 LabApp] JupyterLab extension loaded from /root/anaconda3/envs/r_env/lib/python3.12/site-packages/jupyterlab
+[I 2024-03-28 11:14:35.646 LabApp] JupyterLab application directory is /root/anaconda3/envs/r_env/share/jupyter/lab
+[I 2024-03-28 11:14:35.646 LabApp] Extension Manager is 'pypi'.
+[I 2024-03-28 11:14:35.657 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-03-28 11:14:35.659 ServerApp] notebook | extension was successfully loaded.
+[I 2024-03-28 11:14:35.660 ServerApp] Serving notebooks from local directory: /root/R
+[I 2024-03-28 11:14:35.660 ServerApp] Jupyter Server 2.13.0 is running at:
+[I 2024-03-28 11:14:35.660 ServerApp] http://1711c9b98586:34107/lab
+[I 2024-03-28 11:14:35.660 ServerApp]     http://127.0.0.1:34107/lab
+[I 2024-03-28 11:14:35.660 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+During startup - Warning messages:
+1: Setting LC_COLLATE failed, using "C" 
+2: Setting LC_TIME failed, using "C" 
+3: Setting LC_MESSAGES failed, using "C" 
+4: Setting LC_MONETARY failed, using "C" 
+5: Setting LC_PAPER failed, using "C" 
+6: Setting LC_MEASUREMENT failed, using "C" 
+[I 2024-03-28 11:14:36.095 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2024-03-28 11:14:44.019 ServerApp] 302 GET / (@222.105.106.20) 0.53ms
+[W 2024-03-28 11:14:45.975 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-03-28 11:14:46.629 ServerApp] New terminal with automatic name: 7
