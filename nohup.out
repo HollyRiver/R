@@ -15614,3 +15614,24 @@ During startup - Warning messages:
 [I 2024-03-28 11:14:44.019 ServerApp] 302 GET / (@222.105.106.20) 0.53ms
 [W 2024-03-28 11:14:45.975 LabApp] Could not determine jupyterlab build status without nodejs
 [I 2024-03-28 11:14:46.629 ServerApp] New terminal with automatic name: 7
+[W 2024-03-28 11:15:28.699 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-03-28 11:15:34.292 ServerApp] Kernel started: 57ee820e-43a7-4b2f-89d2-db8ad89eb78b
+During startup - Warning messages:
+1: Setting LC_COLLATE failed, using "C" 
+2: Setting LC_TIME failed, using "C" 
+3: Setting LC_MESSAGES failed, using "C" 
+4: Setting LC_MONETARY failed, using "C" 
+5: Setting LC_PAPER failed, using "C" 
+6: Setting LC_MEASUREMENT failed, using "C" 
+[I 2024-03-28 11:15:34.919 ServerApp] Connecting to kernel 57ee820e-43a7-4b2f-89d2-db8ad89eb78b.
+[I 2024-03-28 11:15:35.028 ServerApp] Connecting to kernel 57ee820e-43a7-4b2f-89d2-db8ad89eb78b.
+[I 2024-03-28 11:15:35.062 ServerApp] Connecting to kernel 57ee820e-43a7-4b2f-89d2-db8ad89eb78b.
+[I 2024-03-28 11:17:34.438 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 11:19:34.524 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 11:21:34.651 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 11:23:35.396 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 11:25:35.510 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 11:27:35.632 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 11:29:35.826 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 11:31:35.982 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
+[I 2024-03-28 11:32:02.463 ServerApp] Saving file at /탐색적자료분석/0328.ipynb
