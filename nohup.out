@@ -15883,3 +15883,282 @@ In addition: Warning messages:
 [I 2024-04-04 11:59:06.689 ServerApp] Starting buffering for 65293cd8-83d7-43ea-a20a-24f4994167b1:60eff2cc-db86-464a-a287-a126b3fa6a65
 [I 2024-04-04 11:59:09.459 ServerApp] Starting buffering for c330eb72-4e0d-42b3-bddf-c29113918b2a:cc939241-3f41-46dc-8b17-ecec22963ff5
 [I 2024-04-04 11:59:09.872 ServerApp] Starting buffering for 48272e31-21ca-4a10-8c24-f91ba5cd28fe:6df72c59-972c-4e08-8823-2dbf12e688e9
+[I 2024-04-05 08:26:36.642 ServerApp] 302 GET / (@222.105.106.20) 0.59ms
+[W 2024-04-05 08:26:40.545 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-04-05 08:26:40.748 ServerApp] Connecting to kernel 48272e31-21ca-4a10-8c24-f91ba5cd28fe.
+[I 2024-04-05 08:26:40.779 ServerApp] Connecting to kernel 65293cd8-83d7-43ea-a20a-24f4994167b1.
+[I 2024-04-05 08:26:40.814 ServerApp] Connecting to kernel 12a11200-a5a5-4ae3-b274-c1cfa4b0dcf5.
+[I 2024-04-05 08:26:40.850 ServerApp] Connecting to kernel 983804f0-a181-40dd-ae53-e944bbba5416.
+[I 2024-04-05 08:26:40.880 ServerApp] Connecting to kernel 3cacf295-f512-4e58-8078-9443e001cb5e.
+[I 2024-04-05 08:26:40.913 ServerApp] Connecting to kernel c330eb72-4e0d-42b3-bddf-c29113918b2a.
+[I 2024-04-05 08:26:41.287 ServerApp] Starting buffering for c330eb72-4e0d-42b3-bddf-c29113918b2a:bd462ebc-f3a8-44b8-a721-a2e7c95c40b5
+[I 2024-04-05 08:26:41.366 ServerApp] Starting buffering for 65293cd8-83d7-43ea-a20a-24f4994167b1:8ba58298-7f92-4d9d-b0f6-853946781939
+[I 2024-04-05 08:26:41.367 ServerApp] Starting buffering for 48272e31-21ca-4a10-8c24-f91ba5cd28fe:86525308-c949-43b8-98f3-fe7311b0a760
+[I 2024-04-05 08:26:41.367 ServerApp] Starting buffering for 983804f0-a181-40dd-ae53-e944bbba5416:6844c426-6d20-44de-8d94-249bfc714f51
+[I 2024-04-05 08:26:41.377 ServerApp] Starting buffering for 3cacf295-f512-4e58-8078-9443e001cb5e:85c7c252-2a01-486a-a193-4c7674d53085
+[I 2024-04-05 08:26:41.377 ServerApp] Starting buffering for 12a11200-a5a5-4ae3-b274-c1cfa4b0dcf5:cfa4af19-9a2a-4b31-8a0b-d790d816929f
+[I 2024-04-05 08:27:08.464 ServerApp] Creating new notebook in /regression analysis/hw/RA 2
+[I 2024-04-05 08:27:13.988 ServerApp] Kernel started: 943876d5-c2c7-4a51-b408-1b4cb280477e
+[I 2024-04-05 08:27:14.636 ServerApp] Connecting to kernel 943876d5-c2c7-4a51-b408-1b4cb280477e.
+[W 2024-04-05 08:28:13.473 TerminalsExtensionApp] WebSocket ping timeout after 90001 ms.
+[I 2024-04-05 08:29:21.973 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 08:39:22.111 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 08:41:22.239 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+Task exception was never retrieved
+future: <Task finished name='Task-254785' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /root/anaconda3/envs/r_env/lib/python3.12/site-packages/tornado/websocket.py:1086> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/r_env/lib/python3.12/site-packages/tornado/websocket.py", line 1088, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/r_env/lib/python3.12/site-packages/tornado/websocket.py", line 1090, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-254791' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /root/anaconda3/envs/r_env/lib/python3.12/site-packages/tornado/websocket.py:1086> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/r_env/lib/python3.12/site-packages/tornado/websocket.py", line 1088, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/r_env/lib/python3.12/site-packages/tornado/websocket.py", line 1090, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-254793' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /root/anaconda3/envs/r_env/lib/python3.12/site-packages/tornado/websocket.py:1086> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/r_env/lib/python3.12/site-packages/tornado/websocket.py", line 1088, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/r_env/lib/python3.12/site-packages/tornado/websocket.py", line 1090, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-254798' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /root/anaconda3/envs/r_env/lib/python3.12/site-packages/tornado/websocket.py:1086> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/r_env/lib/python3.12/site-packages/tornado/websocket.py", line 1088, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/r_env/lib/python3.12/site-packages/tornado/websocket.py", line 1090, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-254804' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /root/anaconda3/envs/r_env/lib/python3.12/site-packages/tornado/websocket.py:1086> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/r_env/lib/python3.12/site-packages/tornado/websocket.py", line 1088, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/r_env/lib/python3.12/site-packages/tornado/websocket.py", line 1090, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-254806' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /root/anaconda3/envs/r_env/lib/python3.12/site-packages/tornado/websocket.py:1086> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/r_env/lib/python3.12/site-packages/tornado/websocket.py", line 1088, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/r_env/lib/python3.12/site-packages/tornado/websocket.py", line 1090, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-254842' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /root/anaconda3/envs/r_env/lib/python3.12/site-packages/tornado/websocket.py:1086> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/r_env/lib/python3.12/site-packages/tornado/websocket.py", line 1088, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/r_env/lib/python3.12/site-packages/tornado/websocket.py", line 1090, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-254848' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /root/anaconda3/envs/r_env/lib/python3.12/site-packages/tornado/websocket.py:1086> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/r_env/lib/python3.12/site-packages/tornado/websocket.py", line 1088, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/r_env/lib/python3.12/site-packages/tornado/websocket.py", line 1090, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+Task exception was never retrieved
+future: <Task finished name='Task-254850' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at /root/anaconda3/envs/r_env/lib/python3.12/site-packages/tornado/websocket.py:1086> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/r_env/lib/python3.12/site-packages/tornado/websocket.py", line 1088, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/r_env/lib/python3.12/site-packages/tornado/websocket.py", line 1090, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+[I 2024-04-05 08:43:22.335 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 08:45:22.402 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 08:47:22.504 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 08:49:22.590 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[W 2024-04-05 09:00:02.589 TerminalsExtensionApp] WebSocket ping timeout after 119985 ms.
+[W 2024-04-05 09:00:14.637 ServerApp] WebSocket ping timeout after 119899 ms.
+[I 2024-04-05 09:00:19.638 ServerApp] Starting buffering for 943876d5-c2c7-4a51-b408-1b4cb280477e:35de10c2-96a5-4342-a63b-9b327201b9cc
+[I 2024-04-05 10:19:33.735 ServerApp] 302 GET / (@222.105.106.20) 0.87ms
+[W 2024-04-05 10:19:37.464 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-04-05 10:19:37.554 ServerApp] Connecting to kernel 48272e31-21ca-4a10-8c24-f91ba5cd28fe.
+[I 2024-04-05 10:19:37.583 ServerApp] Connecting to kernel 65293cd8-83d7-43ea-a20a-24f4994167b1.
+[I 2024-04-05 10:19:37.635 ServerApp] Connecting to kernel 12a11200-a5a5-4ae3-b274-c1cfa4b0dcf5.
+[I 2024-04-05 10:19:37.667 ServerApp] Connecting to kernel 983804f0-a181-40dd-ae53-e944bbba5416.
+[I 2024-04-05 10:19:37.731 ServerApp] Connecting to kernel c330eb72-4e0d-42b3-bddf-c29113918b2a.
+[I 2024-04-05 10:19:37.773 ServerApp] Connecting to kernel 3cacf295-f512-4e58-8078-9443e001cb5e.
+[I 2024-04-05 10:19:37.813 ServerApp] Connecting to kernel 943876d5-c2c7-4a51-b408-1b4cb280477e.
+[I 2024-04-05 10:19:38.002 ServerApp] Starting buffering for 983804f0-a181-40dd-ae53-e944bbba5416:4b59a290-8a73-436b-b41b-f04adf05a045
+[I 2024-04-05 10:19:38.002 ServerApp] Starting buffering for 65293cd8-83d7-43ea-a20a-24f4994167b1:ffc73388-d08d-4f30-9cf3-16c7c29d1fe2
+[I 2024-04-05 10:19:38.003 ServerApp] Starting buffering for 12a11200-a5a5-4ae3-b274-c1cfa4b0dcf5:be51afc0-87f1-4dda-a626-e9e7572a222a
+[I 2024-04-05 10:19:38.004 ServerApp] Starting buffering for 48272e31-21ca-4a10-8c24-f91ba5cd28fe:6b77c177-9da9-44d4-9abc-cf3ee5707ce0
+[I 2024-04-05 10:19:38.019 ServerApp] Starting buffering for c330eb72-4e0d-42b3-bddf-c29113918b2a:5ee20b8b-270e-4f66-9a45-60cf2c8a1a9d
+[I 2024-04-05 10:19:38.270 ServerApp] Starting buffering for 943876d5-c2c7-4a51-b408-1b4cb280477e:6e379e4a-5d45-4904-bae5-52eb96b6b205
+[I 2024-04-05 10:19:38.271 ServerApp] Starting buffering for 3cacf295-f512-4e58-8078-9443e001cb5e:67f6f477-26d1-4d36-9802-36655d52c51b
+[I 2024-04-05 10:19:38.768 ServerApp] Connecting to kernel 943876d5-c2c7-4a51-b408-1b4cb280477e.
+[I 2024-04-05 10:21:38.396 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 10:23:38.592 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 10:25:38.660 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 10:27:15.900 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 10:27:39.435 ServerApp] Starting buffering for 943876d5-c2c7-4a51-b408-1b4cb280477e:a47ee4b3-d18c-45ea-8739-67c74ecdb6ec
+[W 2024-04-05 10:43:12.854 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-04-05 10:43:12.949 ServerApp] Connecting to kernel 48272e31-21ca-4a10-8c24-f91ba5cd28fe.
+[I 2024-04-05 10:43:12.978 ServerApp] Connecting to kernel 65293cd8-83d7-43ea-a20a-24f4994167b1.
+[I 2024-04-05 10:43:13.005 ServerApp] Connecting to kernel 12a11200-a5a5-4ae3-b274-c1cfa4b0dcf5.
+[I 2024-04-05 10:43:13.040 ServerApp] Connecting to kernel 983804f0-a181-40dd-ae53-e944bbba5416.
+[I 2024-04-05 10:43:13.072 ServerApp] Connecting to kernel c330eb72-4e0d-42b3-bddf-c29113918b2a.
+[I 2024-04-05 10:43:13.105 ServerApp] Connecting to kernel 3cacf295-f512-4e58-8078-9443e001cb5e.
+[I 2024-04-05 10:43:13.143 ServerApp] Connecting to kernel 943876d5-c2c7-4a51-b408-1b4cb280477e.
+[I 2024-04-05 10:43:13.233 ServerApp] Starting buffering for 983804f0-a181-40dd-ae53-e944bbba5416:52ce089b-21d1-4226-9fca-2c351a381b4b
+[I 2024-04-05 10:43:13.264 ServerApp] Starting buffering for 12a11200-a5a5-4ae3-b274-c1cfa4b0dcf5:58eea818-babf-4d0b-afb9-8f35bcebc0c3
+[I 2024-04-05 10:43:13.265 ServerApp] Starting buffering for 65293cd8-83d7-43ea-a20a-24f4994167b1:2d0c9526-f6a0-4179-9b2a-be5a13c8b8d1
+[I 2024-04-05 10:43:13.266 ServerApp] Starting buffering for 48272e31-21ca-4a10-8c24-f91ba5cd28fe:295762de-35da-46af-9baf-fc744b42a86f
+[I 2024-04-05 10:43:13.328 ServerApp] Starting buffering for c330eb72-4e0d-42b3-bddf-c29113918b2a:f5c7626d-7e99-4fc4-b068-4efaa77dab48
+[I 2024-04-05 10:43:13.349 ServerApp] Starting buffering for 943876d5-c2c7-4a51-b408-1b4cb280477e:870db000-e17a-410a-8bff-20d1093b87be
+[I 2024-04-05 10:43:13.349 ServerApp] Starting buffering for 3cacf295-f512-4e58-8078-9443e001cb5e:ef322351-673b-4f90-bb05-7374e10c1bc2
+[I 2024-04-05 10:43:15.881 ServerApp] Connecting to kernel 943876d5-c2c7-4a51-b408-1b4cb280477e.
+[I 2024-04-05 10:45:16.352 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 10:47:16.467 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 10:49:16.564 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 10:51:16.693 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 10:53:17.382 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+trying URL 'https://cran.r-project.org/src/contrib/dplyr_1.1.4.tar.gz'
+Content type 'application/x-gzip' length 1207521 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+* installing *source* package ‘dplyr’ ...
+** package ‘dplyr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘x86_64-conda-linux-gnu-c++ (conda-forge gcc 13.2.0-5) 13.2.0’
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c chop.cpp -o chop.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c filter.cpp -o filter.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c funs.cpp -o funs.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c group_by.cpp -o group_by.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c group_data.cpp -o group_data.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c imports.cpp -o imports.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c init.cpp -o init.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c mask.cpp -o mask.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c mutate.cpp -o mutate.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c reconstruct.cpp -o reconstruct.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c slice.cpp -o slice.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c summarise.cpp -o summarise.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -shared -L/root/anaconda3/envs/r_env/lib/R/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/root/anaconda3/envs/r_env/lib -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib -L/root/anaconda3/envs/r_env/lib -o dplyr.so chop.o filter.o funs.o group_by.o group_data.o imports.o init.o mask.o mutate.o reconstruct.o slice.o summarise.o -L/root/anaconda3/envs/r_env/lib/R/lib -lR
+installing to /root/anaconda3/envs/r_env/lib/R/library/00LOCK-dplyr/00new/dplyr/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (dplyr)
+
+The downloaded source packages are in
+	‘/tmp/RtmpscWrZA/downloaded_packages’
+[I 2024-04-05 10:55:17.460 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 10:57:17.615 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 10:59:17.716 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 11:01:17.814 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 11:03:17.928 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 11:05:18.100 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 11:07:18.200 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 11:09:18.277 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+Error in eval(argExpr, envir) : object 'as.matdf' not found
+In addition: Warning messages:
+1: In .helpForCall(topicExpr, parent.frame()) :
+  no method defined for function ‘$’ and signature ‘x = "lm"’
+2: In .helpForCall(topicExpr, parent.frame()) :
+  no method defined for function ‘$’ and signature ‘x = "lm"’
+3: In .helpForCall(topicExpr, parent.frame()) :
+  no method defined for function ‘$’ and signature ‘x = "lm"’
+4: In .helpForCall(topicExpr, parent.frame()) :
+  no method defined for function ‘$’ and signature ‘x = "lm"’
+[I 2024-04-05 11:11:18.348 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 11:13:18.544 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 11:15:18.642 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 11:17:18.741 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 11:19:18.844 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 11:21:19.424 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 11:23:19.559 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 11:25:19.682 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 11:27:20.351 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 11:29:20.483 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 11:31:20.632 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 11:33:20.721 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 11:35:20.859 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 11:37:20.948 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 11:39:21.064 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 11:41:21.152 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 11:43:21.239 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 11:45:21.321 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 11:47:21.416 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 11:49:21.531 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 11:51:21.672 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 11:53:21.784 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 11:57:21.859 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 11:59:21.944 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 12:01:22.025 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 12:03:22.111 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 12:05:22.194 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 12:07:22.266 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 12:09:22.349 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 12:10:05.569 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-05 12:10:07.645 ServerApp] Starting buffering for 943876d5-c2c7-4a51-b408-1b4cb280477e:9884a12d-4a02-475c-80b9-1bf865f66b53
