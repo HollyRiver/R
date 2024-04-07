@@ -16162,3 +16162,977 @@ In addition: Warning messages:
 [I 2024-04-05 12:09:22.349 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
 [I 2024-04-05 12:10:05.569 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
 [I 2024-04-05 12:10:07.645 ServerApp] Starting buffering for 943876d5-c2c7-4a51-b408-1b4cb280477e:9884a12d-4a02-475c-80b9-1bf865f66b53
+[I 2024-04-06 01:46:57.491 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2024-04-06 01:46:57.494 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2024-04-06 01:46:57.498 ServerApp] jupyterlab | extension was successfully linked.
+[I 2024-04-06 01:46:57.502 ServerApp] notebook | extension was successfully linked.
+[I 2024-04-06 01:46:57.662 ServerApp] notebook_shim | extension was successfully linked.
+[I 2024-04-06 01:46:57.681 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-04-06 01:46:57.682 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2024-04-06 01:46:57.683 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2024-04-06 01:46:57.684 LabApp] JupyterLab extension loaded from /root/anaconda3/envs/r_env/lib/python3.12/site-packages/jupyterlab
+[I 2024-04-06 01:46:57.684 LabApp] JupyterLab application directory is /root/anaconda3/envs/r_env/share/jupyter/lab
+[I 2024-04-06 01:46:57.685 LabApp] Extension Manager is 'pypi'.
+[I 2024-04-06 01:46:57.696 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-04-06 01:46:57.698 ServerApp] notebook | extension was successfully loaded.
+[I 2024-04-06 01:46:57.698 ServerApp] Serving notebooks from local directory: /root/R
+[I 2024-04-06 01:46:57.698 ServerApp] Jupyter Server 2.13.0 is running at:
+[I 2024-04-06 01:46:57.698 ServerApp] http://1711c9b98586:34107/lab
+[I 2024-04-06 01:46:57.698 ServerApp]     http://127.0.0.1:34107/lab
+[I 2024-04-06 01:46:57.698 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2024-04-06 01:46:58.101 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2024-04-06 01:47:47.504 ServerApp] 302 GET / (@118.235.7.184) 0.55ms
+[W 2024-04-06 01:47:49.715 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-04-06 01:47:50.321 ServerApp] New terminal with automatic name: 2
+[I 2024-04-06 01:51:31.197 ServerApp] 302 GET / (@118.235.16.194) 0.51ms
+[I 2024-04-06 01:51:31.259 LabApp] 302 GET /lab? (@118.235.16.194) 0.41ms
+[I 2024-04-06 01:51:35.071 ServerApp] User f8151abf348f4d0ea66edc7cb70a0874 logged in.
+[I 2024-04-06 01:51:35.071 ServerApp] 302 POST /login?next=%2Flab%3F (f8151abf348f4d0ea66edc7cb70a0874@118.235.16.194) 32.34ms
+[W 2024-04-06 01:51:37.461 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-04-06 01:51:41.452 ServerApp] Kernel started: 4b4bd2b0-cbec-4040-8803-35bce56aaa3c
+[I 2024-04-06 01:51:42.090 ServerApp] Connecting to kernel 4b4bd2b0-cbec-4040-8803-35bce56aaa3c.
+[I 2024-04-06 01:51:42.205 ServerApp] Connecting to kernel 4b4bd2b0-cbec-4040-8803-35bce56aaa3c.
+[I 2024-04-06 01:51:42.322 ServerApp] Connecting to kernel 4b4bd2b0-cbec-4040-8803-35bce56aaa3c.
+[I 2024-04-06 01:53:41.174 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 01:53:49.611 ServerApp] Kernel restarted: 4b4bd2b0-cbec-4040-8803-35bce56aaa3c
+[I 2024-04-06 01:53:49.691 ServerApp] Starting buffering for 4b4bd2b0-cbec-4040-8803-35bce56aaa3c:d050f733-6d0a-41f9-9f85-23c0db042e0a
+[I 2024-04-06 01:53:49.793 ServerApp] Connecting to kernel 4b4bd2b0-cbec-4040-8803-35bce56aaa3c.
+[I 2024-04-06 01:53:49.793 ServerApp] Restoring connection for 4b4bd2b0-cbec-4040-8803-35bce56aaa3c:d050f733-6d0a-41f9-9f85-23c0db042e0a
+[I 2024-04-06 01:55:41.456 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 01:57:41.736 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 01:59:41.992 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 02:01:42.295 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 02:03:43.662 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 02:05:43.932 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 02:07:44.385 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 02:47:36.318 ServerApp] Starting buffering for 4b4bd2b0-cbec-4040-8803-35bce56aaa3c:d050f733-6d0a-41f9-9f85-23c0db042e0a
+[W 2024-04-06 04:30:11.930 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-04-06 04:30:12.127 ServerApp] Connecting to kernel 4b4bd2b0-cbec-4040-8803-35bce56aaa3c.
+[I 2024-04-06 04:30:12.609 ServerApp] Starting buffering for 4b4bd2b0-cbec-4040-8803-35bce56aaa3c:71e70c5b-8f1f-40b5-a469-6c5091f475f9
+[I 2024-04-06 04:30:13.440 ServerApp] Connecting to kernel 4b4bd2b0-cbec-4040-8803-35bce56aaa3c.
+[I 2024-04-06 04:30:22.099 ServerApp] Starting buffering for 4b4bd2b0-cbec-4040-8803-35bce56aaa3c:884bb343-8ad4-41a0-80a4-08f294c45258
+[W 2024-04-06 04:32:19.789 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-04-06 04:32:19.985 ServerApp] Connecting to kernel 4b4bd2b0-cbec-4040-8803-35bce56aaa3c.
+[I 2024-04-06 04:32:20.377 ServerApp] Starting buffering for 4b4bd2b0-cbec-4040-8803-35bce56aaa3c:9d0670c3-b6af-4d3c-a296-47463209c26a
+[I 2024-04-06 04:32:21.049 ServerApp] Connecting to kernel 4b4bd2b0-cbec-4040-8803-35bce56aaa3c.
+[I 2024-04-06 05:11:20.383 ServerApp] Starting buffering for 4b4bd2b0-cbec-4040-8803-35bce56aaa3c:661a92fb-98dc-4c52-81ef-24dbef1f0629
+[I 2024-04-06 11:31:04.602 ServerApp] 302 GET / (@222.105.106.20) 0.45ms
+[I 2024-04-06 11:31:06.206 ServerApp] Connecting to kernel 4b4bd2b0-cbec-4040-8803-35bce56aaa3c.
+[W 2024-04-06 11:31:06.221 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-04-06 11:31:06.347 ServerApp] Starting buffering for 4b4bd2b0-cbec-4040-8803-35bce56aaa3c:e155dd0e-2284-49ed-aa79-467aee922c58
+[I 2024-04-06 11:31:07.174 ServerApp] Connecting to kernel 4b4bd2b0-cbec-4040-8803-35bce56aaa3c.
+trying URL 'https://cran.r-project.org/src/contrib/nloptr_2.0.3.tar.gz'
+Content type 'application/x-gzip' length 2219877 bytes (2.1 MB)
+==================================================
+downloaded 2.1 MB
+
+trying URL 'https://cran.r-project.org/src/contrib/pbkrtest_0.5.2.tar.gz'
+Content type 'application/x-gzip' length 75295 bytes (73 KB)
+==================================================
+downloaded 73 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/lme4_1.1-35.2.tar.gz'
+Content type 'application/x-gzip' length 2943611 bytes (2.8 MB)
+==================================================
+downloaded 2.8 MB
+
+trying URL 'https://cran.r-project.org/src/contrib/car_3.1-2.tar.gz'
+Content type 'application/x-gzip' length 579829 bytes (566 KB)
+==================================================
+downloaded 566 KB
+
+* installing *source* package ‘nloptr’ ...
+** package ‘nloptr’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C++... yes
+checking whether x86_64-conda-linux-gnu-c++ -std=gnu++17 accepts -g... yes
+checking for x86_64-conda-linux-gnu-c++ -std=gnu++17 option to enable C++11 features... none needed
+checking how to run the C++ preprocessor... x86_64-conda-linux-gnu-c++ -std=gnu++17 -E
+checking whether the compiler supports GNU C++... (cached) yes
+checking whether x86_64-conda-linux-gnu-c++ -std=gnu++17 accepts -g... (cached) yes
+checking for x86_64-conda-linux-gnu-c++ -std=gnu++17 option to enable C++11 features... (cached) none needed
+checking for pkg-config... no
+checking for cmake... no
+
+------------------ CMAKE NOT FOUND --------------------
+
+CMake was not found on the PATH. Please install CMake:
+
+ - sudo yum install cmake          (Fedora/CentOS; inside a terminal)
+ - sudo apt install cmake          (Debian/Ubuntu; inside a terminal).
+ - sudo pacman -S cmake            (Arch Linux; inside a terminal).
+ - sudo brew install cmake         (MacOS; inside a terminal with Homebrew)
+ - sudo port install cmake         (MacOS; inside a terminal with MacPorts)
+
+Alternatively install CMake from: <https://cmake.org/>
+
+-------------------------------------------------------
+
+ERROR: configuration failed for package ‘nloptr’
+* removing ‘/root/anaconda3/envs/r_env/lib/R/library/nloptr’
+ERROR: dependency ‘nloptr’ is not available for package ‘lme4’
+* removing ‘/root/anaconda3/envs/r_env/lib/R/library/lme4’
+ERROR: dependency ‘lme4’ is not available for package ‘pbkrtest’
+* removing ‘/root/anaconda3/envs/r_env/lib/R/library/pbkrtest’
+ERROR: dependencies ‘pbkrtest’, ‘lme4’ are not available for package ‘car’
+* removing ‘/root/anaconda3/envs/r_env/lib/R/library/car’
+
+The downloaded source packages are in
+	‘/tmp/Rtmp1tOxmE/downloaded_packages’
+trying URL 'https://cran.r-project.org/src/contrib/nloptr_2.0.3.tar.gz'
+Content type 'application/x-gzip' length 2219877 bytes (2.1 MB)
+==================================================
+downloaded 2.1 MB
+
+trying URL 'https://cran.r-project.org/src/contrib/pbkrtest_0.5.2.tar.gz'
+Content type 'application/x-gzip' length 75295 bytes (73 KB)
+==================================================
+downloaded 73 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/lme4_1.1-35.2.tar.gz'
+Content type 'application/x-gzip' length 2943611 bytes (2.8 MB)
+==================================================
+downloaded 2.8 MB
+
+trying URL 'https://cran.r-project.org/src/contrib/car_3.1-2.tar.gz'
+Content type 'application/x-gzip' length 579829 bytes (566 KB)
+==================================================
+downloaded 566 KB
+
+* installing *source* package ‘nloptr’ ...
+** package ‘nloptr’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C++... yes
+checking whether x86_64-conda-linux-gnu-c++ -std=gnu++17 accepts -g... yes
+checking for x86_64-conda-linux-gnu-c++ -std=gnu++17 option to enable C++11 features... none needed
+checking how to run the C++ preprocessor... x86_64-conda-linux-gnu-c++ -std=gnu++17 -E
+checking whether the compiler supports GNU C++... (cached) yes
+checking whether x86_64-conda-linux-gnu-c++ -std=gnu++17 accepts -g... (cached) yes
+checking for x86_64-conda-linux-gnu-c++ -std=gnu++17 option to enable C++11 features... (cached) none needed
+checking for pkg-config... no
+checking for cmake... no
+
+------------------ CMAKE NOT FOUND --------------------
+
+CMake was not found on the PATH. Please install CMake:
+
+ - sudo yum install cmake          (Fedora/CentOS; inside a terminal)
+ - sudo apt install cmake          (Debian/Ubuntu; inside a terminal).
+ - sudo pacman -S cmake            (Arch Linux; inside a terminal).
+ - sudo brew install cmake         (MacOS; inside a terminal with Homebrew)
+ - sudo port install cmake         (MacOS; inside a terminal with MacPorts)
+
+Alternatively install CMake from: <https://cmake.org/>
+
+-------------------------------------------------------
+
+ERROR: configuration failed for package ‘nloptr’
+* removing ‘/root/anaconda3/envs/r_env/lib/R/library/nloptr’
+ERROR: dependency ‘nloptr’ is not available for package ‘lme4’
+* removing ‘/root/anaconda3/envs/r_env/lib/R/library/lme4’
+ERROR: dependency ‘lme4’ is not available for package ‘pbkrtest’
+* removing ‘/root/anaconda3/envs/r_env/lib/R/library/pbkrtest’
+ERROR: dependencies ‘pbkrtest’, ‘lme4’ are not available for package ‘car’
+* removing ‘/root/anaconda3/envs/r_env/lib/R/library/car’
+
+The downloaded source packages are in
+	‘/tmp/Rtmp1tOxmE/downloaded_packages’
+[I 2024-04-06 11:33:07.378 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+trying URL 'https://cran.r-project.org/src/contrib/nloptr_2.0.3.tar.gz'
+Content type 'application/x-gzip' length 2219877 bytes (2.1 MB)
+==================================================
+downloaded 2.1 MB
+
+trying URL 'https://cran.r-project.org/src/contrib/pbkrtest_0.5.2.tar.gz'
+Content type 'application/x-gzip' length 75295 bytes (73 KB)
+==================================================
+downloaded 73 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/lme4_1.1-35.2.tar.gz'
+Content type 'application/x-gzip' length 2943611 bytes (2.8 MB)
+==================================================
+downloaded 2.8 MB
+
+trying URL 'https://cran.r-project.org/src/contrib/car_3.1-2.tar.gz'
+Content type 'application/x-gzip' length 579829 bytes (566 KB)
+==================================================
+downloaded 566 KB
+
+* installing *source* package ‘nloptr’ ...
+** package ‘nloptr’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C++... yes
+checking whether x86_64-conda-linux-gnu-c++ -std=gnu++17 accepts -g... yes
+checking for x86_64-conda-linux-gnu-c++ -std=gnu++17 option to enable C++11 features... none needed
+checking how to run the C++ preprocessor... x86_64-conda-linux-gnu-c++ -std=gnu++17 -E
+checking whether the compiler supports GNU C++... (cached) yes
+checking whether x86_64-conda-linux-gnu-c++ -std=gnu++17 accepts -g... (cached) yes
+checking for x86_64-conda-linux-gnu-c++ -std=gnu++17 option to enable C++11 features... (cached) none needed
+checking for pkg-config... no
+checking for cmake... no
+
+------------------ CMAKE NOT FOUND --------------------
+
+CMake was not found on the PATH. Please install CMake:
+
+ - sudo yum install cmake          (Fedora/CentOS; inside a terminal)
+ - sudo apt install cmake          (Debian/Ubuntu; inside a terminal).
+ - sudo pacman -S cmake            (Arch Linux; inside a terminal).
+ - sudo brew install cmake         (MacOS; inside a terminal with Homebrew)
+ - sudo port install cmake         (MacOS; inside a terminal with MacPorts)
+
+Alternatively install CMake from: <https://cmake.org/>
+
+-------------------------------------------------------
+
+ERROR: configuration failed for package ‘nloptr’
+* removing ‘/root/anaconda3/envs/r_env/lib/R/library/nloptr’
+ERROR: dependency ‘nloptr’ is not available for package ‘lme4’
+* removing ‘/root/anaconda3/envs/r_env/lib/R/library/lme4’
+ERROR: dependency ‘lme4’ is not available for package ‘pbkrtest’
+* removing ‘/root/anaconda3/envs/r_env/lib/R/library/pbkrtest’
+ERROR: dependencies ‘pbkrtest’, ‘lme4’ are not available for package ‘car’
+* removing ‘/root/anaconda3/envs/r_env/lib/R/library/car’
+
+The downloaded source packages are in
+	‘/tmp/Rtmp1tOxmE/downloaded_packages’
+[I 2024-04-06 11:35:08.369 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+trying URL 'https://cran.r-project.org/src/contrib/nloptr_2.0.3.tar.gz'
+Content type 'application/x-gzip' length 2219877 bytes (2.1 MB)
+==================================================
+downloaded 2.1 MB
+
+trying URL 'https://cran.r-project.org/src/contrib/pbkrtest_0.5.2.tar.gz'
+Content type 'application/x-gzip' length 75295 bytes (73 KB)
+==================================================
+downloaded 73 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/lme4_1.1-35.2.tar.gz'
+Content type 'application/x-gzip' length 2943611 bytes (2.8 MB)
+==================================================
+downloaded 2.8 MB
+
+trying URL 'https://cran.r-project.org/src/contrib/car_3.1-2.tar.gz'
+Content type 'application/x-gzip' length 579829 bytes (566 KB)
+==================================================
+downloaded 566 KB
+
+* installing *source* package ‘nloptr’ ...
+** package ‘nloptr’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C++... yes
+checking whether x86_64-conda-linux-gnu-c++ -std=gnu++17 accepts -g... yes
+checking for x86_64-conda-linux-gnu-c++ -std=gnu++17 option to enable C++11 features... none needed
+checking how to run the C++ preprocessor... x86_64-conda-linux-gnu-c++ -std=gnu++17 -E
+checking whether the compiler supports GNU C++... (cached) yes
+checking whether x86_64-conda-linux-gnu-c++ -std=gnu++17 accepts -g... (cached) yes
+checking for x86_64-conda-linux-gnu-c++ -std=gnu++17 option to enable C++11 features... (cached) none needed
+checking for pkg-config... no
+checking for cmake... no
+
+------------------ CMAKE NOT FOUND --------------------
+
+CMake was not found on the PATH. Please install CMake:
+
+ - sudo yum install cmake          (Fedora/CentOS; inside a terminal)
+ - sudo apt install cmake          (Debian/Ubuntu; inside a terminal).
+ - sudo pacman -S cmake            (Arch Linux; inside a terminal).
+ - sudo brew install cmake         (MacOS; inside a terminal with Homebrew)
+ - sudo port install cmake         (MacOS; inside a terminal with MacPorts)
+
+Alternatively install CMake from: <https://cmake.org/>
+
+-------------------------------------------------------
+
+ERROR: configuration failed for package ‘nloptr’
+* removing ‘/root/anaconda3/envs/r_env/lib/R/library/nloptr’
+ERROR: dependency ‘nloptr’ is not available for package ‘lme4’
+* removing ‘/root/anaconda3/envs/r_env/lib/R/library/lme4’
+ERROR: dependency ‘lme4’ is not available for package ‘pbkrtest’
+* removing ‘/root/anaconda3/envs/r_env/lib/R/library/pbkrtest’
+ERROR: dependencies ‘pbkrtest’, ‘lme4’ are not available for package ‘car’
+* removing ‘/root/anaconda3/envs/r_env/lib/R/library/car’
+
+The downloaded source packages are in
+	‘/tmp/Rtmp1tOxmE/downloaded_packages’
+[I 2024-04-06 11:37:09.358 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 11:43:10.377 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+trying URL 'https://cran.r-project.org/src/contrib/nloptr_2.0.3.tar.gz'
+Content type 'application/x-gzip' length 2219877 bytes (2.1 MB)
+=[I 2024-04-06 11:45:10.450 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+=================================================
+downloaded 2.1 MB
+
+* installing *source* package ‘nloptr’ ...
+** package ‘nloptr’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C++... yes
+checking whether x86_64-conda-linux-gnu-c++ -std=gnu++17 accepts -g... yes
+checking for x86_64-conda-linux-gnu-c++ -std=gnu++17 option to enable C++11 features... none needed
+checking how to run the C++ preprocessor... x86_64-conda-linux-gnu-c++ -std=gnu++17 -E
+checking whether the compiler supports GNU C++... (cached) yes
+checking whether x86_64-conda-linux-gnu-c++ -std=gnu++17 accepts -g... (cached) yes
+checking for x86_64-conda-linux-gnu-c++ -std=gnu++17 option to enable C++11 features... (cached) none needed
+checking for pkg-config... no
+checking for cmake... no
+
+------------------ CMAKE NOT FOUND --------------------
+
+CMake was not found on the PATH. Please install CMake:
+
+ - sudo yum install cmake          (Fedora/CentOS; inside a terminal)
+ - sudo apt install cmake          (Debian/Ubuntu; inside a terminal).
+ - sudo pacman -S cmake            (Arch Linux; inside a terminal).
+ - sudo brew install cmake         (MacOS; inside a terminal with Homebrew)
+ - sudo port install cmake         (MacOS; inside a terminal with MacPorts)
+
+Alternatively install CMake from: <https://cmake.org/>
+
+-------------------------------------------------------
+
+ERROR: configuration failed for package ‘nloptr’
+* removing ‘/root/anaconda3/envs/r_env/lib/R/library/nloptr’
+
+The downloaded source packages are in
+	‘/tmp/Rtmp1tOxmE/downloaded_packages’
+[I 2024-04-06 11:47:11.373 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+trying URL 'https://cran.r-project.org/src/contrib/credentials_2.0.1.tar.gz'
+Content type 'application/x-gzip' length 283844 bytes (277 KB)
+==================================================
+downloaded 277 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/zip_2.3.1.tar.gz'
+Content type 'application/x-gzip' length 111280 bytes (108 KB)
+==================================================
+downloaded 108 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/gitcreds_0.1.2.tar.gz'
+Content type 'application/x-gzip' length 62569 bytes (61 KB)
+==================================================
+downloaded 61 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/httr2_1.0.1.tar.gz'
+Content type 'application/x-gzip' length 214736 bytes (209 KB)
+==================================================
+downloaded 209 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/ini_0.3.1.tar.gz'
+Content type 'application/x-gzip' length 3488 bytes
+==================================================
+downloaded 3488 bytes
+
+trying URL 'https://cran.r-project.org/src/contrib/gert_2.0.1.tar.gz'
+Content type 'application/x-gzip' length 122723 bytes (119 KB)
+==================================================
+downloaded 119 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/gh_1.4.1.tar.gz'
+Content type 'application/x-gzip' length 46164 bytes (45 KB)
+==================================================
+downloaded 45 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/whisker_0.4.1.tar.gz'
+Content type 'application/x-gzip' length 28586 bytes (27 KB)
+==================================================
+downloaded 27 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/downlit_0.4.3.tar.gz'
+Content type 'application/x-gzip' length 36888 bytes (36 KB)
+==================================================
+downloaded 36 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/xopen_1.0.0.tar.gz'
+Content type 'application/x-gzip' length 11221 bytes (10 KB)
+==================================================
+downloaded 10 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/brew_1.0-10.tar.gz'
+Content type 'application/x-gzip' length 71087 bytes (69 KB)
+==================================================
+downloaded 69 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/usethis_2.2.3.tar.gz'
+Content type 'application/x-gzip' length 371088 bytes (362 KB)
+==================================================
+downloaded 362 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/miniUI_0.1.1.1.tar.gz'
+Content type 'application/x-gzip' length 97958 bytes (95 KB)
+==================================================
+downloaded 95 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/pkgdown_2.0.7.tar.gz'
+Content type 'application/x-gzip' length 871465 bytes (851 KB)
+==================================================
+downloaded 851 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/profvis_0.3.8.tar.gz'
+Content type 'application/x-gzip' length 149012 bytes (145 KB)
+==================================================
+downloaded 145 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/rcmdcheck_1.4.0.tar.gz'
+Content type 'application/x-gzip' length 73522 bytes (71 KB)
+==================================================
+downloaded 71 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/remotes_2.5.0.tar.gz'
+Content type 'application/x-gzip' length 164496 bytes (160 KB)
+==================================================
+downloaded 160 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/roxygen2_7.3.1.tar.gz'
+Content type 'application/x-gzip' length 295558 bytes (288 KB)
+==================================================
+downloaded 288 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/rversions_2.1.2.tar.gz'
+Content type 'application/x-gzip' length 42135 bytes (41 KB)
+==================================================
+downloaded 41 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/sessioninfo_1.2.2.tar.gz'
+Content type 'application/x-gzip' length 170924 bytes (166 KB)
+==================================================
+downloaded 166 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/urlchecker_1.0.1.tar.gz'
+Content type 'application/x-gzip' length 13340 bytes (13 KB)
+==================================================
+downloaded 13 KB
+
+trying URL 'https://cran.r-project.org/src/contrib/devtools_2.4.5.tar.gz'
+Content type 'application/x-gzip' length 374718 bytes (365 KB)
+==================================================
+downloaded 365 KB
+
+* installing *source* package ‘credentials’ ...
+** package ‘credentials’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (credentials)
+* installing *source* package ‘zip’ ...
+** package ‘zip’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘x86_64-conda-linux-gnu-cc (conda-forge gcc 13.2.0-5) 13.2.0’
+x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  miniz.c zip.c unixutils.c tools/cmdzip.c -o tools/cmdzip
+x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  miniz.c zip.c unixutils.c tools/cmdunzip.c -o tools/cmdunzip
+x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib   -fvisibility=hidden -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c init.c -o init.o
+x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib   -fvisibility=hidden -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c miniz.c -o miniz.o
+x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib   -fvisibility=hidden -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c rzip.c -o rzip.o
+x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib   -fvisibility=hidden -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c zip.c -o zip.o
+x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib   -fvisibility=hidden -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c unixutils.c -o unixutils.o
+x86_64-conda-linux-gnu-cc -shared -L/root/anaconda3/envs/r_env/lib/R/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/root/anaconda3/envs/r_env/lib -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib -L/root/anaconda3/envs/r_env/lib -o zip.so init.o miniz.o rzip.o zip.o unixutils.o -L/root/anaconda3/envs/r_env/lib/R/lib -lR
+installing via 'install.libs.R' to /root/anaconda3/envs/r_env/lib/R/library/00LOCK-zip/00new/zip
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (zip)
+* installing *source* package ‘gitcreds’ ...
+** package ‘gitcreds’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (gitcreds)
+* installing *source* package ‘httr2’ ...
+** package ‘httr2’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (httr2)
+* installing *source* package ‘ini’ ...
+** package ‘ini’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (ini)
+* installing *source* package ‘whisker’ ...
+** package ‘whisker’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (whisker)
+* installing *source* package ‘downlit’ ...
+** package ‘downlit’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (downlit)
+* installing *source* package ‘xopen’ ...
+** package ‘xopen’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (xopen)
+* installing *source* package ‘brew’ ...
+** package ‘brew’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (brew)
+* installing *source* package ‘miniUI’ ...
+** package ‘miniUI’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (miniUI)
+* installing *source* package ‘profvis’ ...
+** package ‘profvis’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘x86_64-conda-linux-gnu-cc (conda-forge gcc 13.2.0-5) 13.2.0’
+x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c pause.c -o pause.o
+x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c profvis-init.c -o profvis-init.o
+x86_64-conda-linux-gnu-cc -shared -L/root/anaconda3/envs/r_env/lib/R/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/root/anaconda3/envs/r_env/lib -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib -L/root/anaconda3/envs/r_env/lib -o profvis.so pause.o profvis-init.o -L/root/anaconda3/envs/r_env/lib/R/lib -lR
+installing to /root/anaconda3/envs/r_env/lib/R/library/00LOCK-profvis/00new/profvis/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (profvis)
+* installing *source* package ‘remotes’ ...
+** package ‘remotes’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (remotes)
+* installing *source* package ‘rversions’ ...
+** package ‘rversions’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (rversions)
+* installing *source* package ‘sessioninfo’ ...
+** package ‘sessioninfo’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (sessioninfo)
+* installing *source* package ‘urlchecker’ ...
+** package ‘urlchecker’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (urlchecker)
+* installing *source* package ‘gert’ ...
+** package ‘gert’ successfully unpacked and MD5 sums checked
+** using staged installation
+Found OpenSSL3
+Using static libgit2 for Linux x86_64
+Using PKG_CFLAGS=-DSTATIC_LIBGIT2 -I/tmp/RtmptKjU1h/R.INSTALL4a32381c58df/gert/libgit2-1.4.2-x86_64_linux/include
+Using PKG_LIBS=-L/tmp/RtmptKjU1h/R.INSTALL4a32381c58df/gert/libgit2-1.4.2-x86_64_linux/lib -lstatgit2 -lrt -lpthread -lstatssh2 -lstatssl -lstatcrypto -ldl
+Configuration OK!
+** libs
+using C compiler: ‘x86_64-conda-linux-gnu-cc (conda-forge gcc 13.2.0-5) 13.2.0’
+rm -f gert.so branch.o clone.o commit.o config.o conflicts.o files.o ignore.o init.o merge.o rebase.o stash.o submodules.o tag.o utils.o version.o
+x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG -DSTATIC_LIBGIT2 -I/tmp/RtmptKjU1h/R.INSTALL4a32381c58df/gert/libgit2-1.4.2-x86_64_linux/include -DR_NO_REMAP -DSTRICT_R_HEADERS  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib   -fvisibility=hidden -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c branch.c -o branch.o
+x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG -DSTATIC_LIBGIT2 -I/tmp/RtmptKjU1h/R.INSTALL4a32381c58df/gert/libgit2-1.4.2-x86_64_linux/include -DR_NO_REMAP -DSTRICT_R_HEADERS  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib   -fvisibility=hidden -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c clone.c -o clone.o
+x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG -DSTATIC_LIBGIT2 -I/tmp/RtmptKjU1h/R.INSTALL4a32381c58df/gert/libgit2-1.4.2-x86_64_linux/include -DR_NO_REMAP -DSTRICT_R_HEADERS  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib   -fvisibility=hidden -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c commit.c -o commit.o
+x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG -DSTATIC_LIBGIT2 -I/tmp/RtmptKjU1h/R.INSTALL4a32381c58df/gert/libgit2-1.4.2-x86_64_linux/include -DR_NO_REMAP -DSTRICT_R_HEADERS  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib   -fvisibility=hidden -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c config.c -o config.o
+x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG -DSTATIC_LIBGIT2 -I/tmp/RtmptKjU1h/R.INSTALL4a32381c58df/gert/libgit2-1.4.2-x86_64_linux/include -DR_NO_REMAP -DSTRICT_R_HEADERS  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib   -fvisibility=hidden -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c conflicts.c -o conflicts.o
+x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG -DSTATIC_LIBGIT2 -I/tmp/RtmptKjU1h/R.INSTALL4a32381c58df/gert/libgit2-1.4.2-x86_64_linux/include -DR_NO_REMAP -DSTRICT_R_HEADERS  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib   -fvisibility=hidden -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c files.c -o files.o
+x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG -DSTATIC_LIBGIT2 -I/tmp/RtmptKjU1h/R.INSTALL4a32381c58df/gert/libgit2-1.4.2-x86_64_linux/include -DR_NO_REMAP -DSTRICT_R_HEADERS  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib   -fvisibility=hidden -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c ignore.c -o ignore.o
+x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG -DSTATIC_LIBGIT2 -I/tmp/RtmptKjU1h/R.INSTALL4a32381c58df/gert/libgit2-1.4.2-x86_64_linux/include -DR_NO_REMAP -DSTRICT_R_HEADERS  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib   -fvisibility=hidden -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c init.c -o init.o
+x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG -DSTATIC_LIBGIT2 -I/tmp/RtmptKjU1h/R.INSTALL4a32381c58df/gert/libgit2-1.4.2-x86_64_linux/include -DR_NO_REMAP -DSTRICT_R_HEADERS  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib   -fvisibility=hidden -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c merge.c -o merge.o
+x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG -DSTATIC_LIBGIT2 -I/tmp/RtmptKjU1h/R.INSTALL4a32381c58df/gert/libgit2-1.4.2-x86_64_linux/include -DR_NO_REMAP -DSTRICT_R_HEADERS  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib   -fvisibility=hidden -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c rebase.c -o rebase.o
+x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG -DSTATIC_LIBGIT2 -I/tmp/RtmptKjU1h/R.INSTALL4a32381c58df/gert/libgit2-1.4.2-x86_64_linux/include -DR_NO_REMAP -DSTRICT_R_HEADERS  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib   -fvisibility=hidden -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c stash.c -o stash.o
+x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG -DSTATIC_LIBGIT2 -I/tmp/RtmptKjU1h/R.INSTALL4a32381c58df/gert/libgit2-1.4.2-x86_64_linux/include -DR_NO_REMAP -DSTRICT_R_HEADERS  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib   -fvisibility=hidden -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c submodules.c -o submodules.o
+x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG -DSTATIC_LIBGIT2 -I/tmp/RtmptKjU1h/R.INSTALL4a32381c58df/gert/libgit2-1.4.2-x86_64_linux/include -DR_NO_REMAP -DSTRICT_R_HEADERS  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib   -fvisibility=hidden -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c tag.c -o tag.o
+x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG -DSTATIC_LIBGIT2 -I/tmp/RtmptKjU1h/R.INSTALL4a32381c58df/gert/libgit2-1.4.2-x86_64_linux/include -DR_NO_REMAP -DSTRICT_R_HEADERS  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib   -fvisibility=hidden -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c utils.c -o utils.o
+x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG -DSTATIC_LIBGIT2 -I/tmp/RtmptKjU1h/R.INSTALL4a32381c58df/gert/libgit2-1.4.2-x86_64_linux/include -DR_NO_REMAP -DSTRICT_R_HEADERS  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib   -fvisibility=hidden -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c version.c -o version.o
+x86_64-conda-linux-gnu-cc -shared -L/root/anaconda3/envs/r_env/lib/R/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/root/anaconda3/envs/r_env/lib -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib -L/root/anaconda3/envs/r_env/lib -o gert.so branch.o clone.o commit.o config.o conflicts.o files.o ignore.o init.o merge.o rebase.o stash.o submodules.o tag.o utils.o version.o -L/tmp/RtmptKjU1h/R.INSTALL4a32381c58df/gert/libgit2-1.4.2-x86_64_linux/lib -lstatgit2 -lrt -lpthread -lstatssh2 -lstatssl -lstatcrypto -ldl -L/root/anaconda3/envs/r_env/lib/R/lib -lR
+installing to /root/anaconda3/envs/r_env/lib/R/library/00LOCK-gert/00new/gert/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (gert)
+* installing *source* package ‘gh’ ...
+** package ‘gh’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (gh)
+* installing *source* package ‘pkgdown’ ...
+** package ‘pkgdown’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (pkgdown)
+* installing *source* package ‘rcmdcheck’ ...
+** package ‘rcmdcheck’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (rcmdcheck)
+* installing *source* package ‘roxygen2’ ...
+** package ‘roxygen2’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘x86_64-conda-linux-gnu-c++ (conda-forge gcc 13.2.0-5) 13.2.0’
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG  -I'/root/anaconda3/envs/r_env/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c cpp11.cpp -o cpp11.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG  -I'/root/anaconda3/envs/r_env/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c escapeExamples.cpp -o escapeExamples.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG  -I'/root/anaconda3/envs/r_env/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c isComplete.cpp -o isComplete.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG  -I'/root/anaconda3/envs/r_env/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c leadingSpaces.cpp -o leadingSpaces.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG  -I'/root/anaconda3/envs/r_env/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c parser2.cpp -o parser2.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG  -I'/root/anaconda3/envs/r_env/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c wrapUsage.cpp -o wrapUsage.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -shared -L/root/anaconda3/envs/r_env/lib/R/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/root/anaconda3/envs/r_env/lib -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib -L/root/anaconda3/envs/r_env/lib -o roxygen2.so cpp11.o escapeExamples.o isComplete.o leadingSpaces.o parser2.o wrapUsage.o -L/root/anaconda3/envs/r_env/lib/R/lib -lR
+installing to /root/anaconda3/envs/r_env/lib/R/library/00LOCK-roxygen2/00new/roxygen2/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (roxygen2)
+* installing *source* package ‘usethis’ ...
+** package ‘usethis’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (usethis)
+[I 2024-04-06 11:49:07.000 ServerApp] New terminal with automatic name: 1
+* installing *source* package ‘devtools’ ...
+** package ‘devtools’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+[I 2024-04-06 11:49:11.442 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+** testing if installed package keeps a record of temporary installation path
+* DONE (devtools)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp1tOxmE/downloaded_packages’
+[I 2024-04-06 11:51:11.527 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 11:53:11.604 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 11:53:12.299 ServerApp] Kernel restarted: 4b4bd2b0-cbec-4040-8803-35bce56aaa3c
+[I 2024-04-06 11:53:12.312 ServerApp] Starting buffering for 4b4bd2b0-cbec-4040-8803-35bce56aaa3c:530f37ec-9188-4886-9ad5-e28843be1763
+[I 2024-04-06 11:53:12.394 ServerApp] Connecting to kernel 4b4bd2b0-cbec-4040-8803-35bce56aaa3c.
+[I 2024-04-06 11:53:12.394 ServerApp] Restoring connection for 4b4bd2b0-cbec-4040-8803-35bce56aaa3c:530f37ec-9188-4886-9ad5-e28843be1763
+[I 2024-04-06 11:55:12.393 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 11:57:13.381 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 11:59:13.513 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 12:01:13.591 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 12:03:13.686 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 12:05:13.760 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 12:07:13.840 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 12:09:13.920 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 12:11:13.993 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 12:13:14.075 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 12:15:14.166 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 12:17:14.257 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 12:19:14.328 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 12:21:14.399 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 12:23:14.481 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 12:25:14.553 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 12:27:14.658 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 12:29:14.740 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 12:31:14.832 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 12:32:43.233 ServerApp] Uploading file to /regression analysis/data/NFL14.csv
+[I 2024-04-06 12:32:43.235 ServerApp] Uploading file to /regression analysis/data/wine38.csv
+[I 2024-04-06 12:33:14.923 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 12:35:15.109 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 12:37:15.325 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 12:39:15.435 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 12:41:15.520 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 12:43:15.627 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 12:47:16.393 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 12:51:17.432 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 12:55:17.633 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 12:57:18.391 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 13:01:18.520 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 13:03:18.615 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 13:05:18.728 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 13:07:18.826 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 13:09:18.946 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 13:11:19.031 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 13:13:19.125 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 13:15:19.252 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 13:17:19.355 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 13:19:19.443 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 13:21:19.634 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 13:23:19.768 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 13:25:19.904 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 13:27:20.151 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 13:29:20.257 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 13:31:20.441 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 13:33:21.396 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 13:35:21.510 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 13:37:21.615 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 13:39:21.763 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 13:41:21.863 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 13:43:22.004 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 13:45:22.166 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 13:47:22.260 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 13:49:22.457 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 13:51:22.566 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 13:53:22.702 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 13:55:22.860 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 13:57:23.016 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 13:58:18.991 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-06 13:58:20.496 ServerApp] Starting buffering for 4b4bd2b0-cbec-4040-8803-35bce56aaa3c:530f37ec-9188-4886-9ad5-e28843be1763
+[I 2024-04-06 23:55:54.282 ServerApp] 302 GET / (@222.105.106.20) 0.87ms
+[W 2024-04-06 23:55:56.469 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-04-06 23:55:56.566 ServerApp] Connecting to kernel 4b4bd2b0-cbec-4040-8803-35bce56aaa3c.
+[I 2024-04-06 23:55:56.865 ServerApp] Starting buffering for 4b4bd2b0-cbec-4040-8803-35bce56aaa3c:a1d317e4-9c8c-4ecc-a42d-a29cc08a3210
+[I 2024-04-06 23:56:11.853 ServerApp] Kernel started: a2a31cff-d8a8-410e-832a-42b57cdaf00c
+[I 2024-04-06 23:56:12.442 ServerApp] Connecting to kernel a2a31cff-d8a8-410e-832a-42b57cdaf00c.
+[I 2024-04-06 23:56:26.248 ServerApp] Connecting to kernel 4b4bd2b0-cbec-4040-8803-35bce56aaa3c.
+Warning messages:
+1: In .helpForCall(topicExpr, parent.frame()) :
+  no method defined for function ‘$’ and signature ‘x = "lm"’
+2: In .helpForCall(topicExpr, parent.frame()) :
+  no method defined for function ‘$’ and signature ‘x = "lm"’
+3: In .helpForCall(topicExpr, parent.frame()) :
+  no method defined for function ‘$’ and signature ‘x = "data.frame"’
+4: In .helpForCall(topicExpr, parent.frame()) :
+  no method defined for function ‘$’ and signature ‘x = "data.frame"’
+[I 2024-04-06 23:56:31.679 ServerApp] Kernel restarted: 4b4bd2b0-cbec-4040-8803-35bce56aaa3c
+[I 2024-04-06 23:56:31.692 ServerApp] Starting buffering for 4b4bd2b0-cbec-4040-8803-35bce56aaa3c:346cc381-fa81-4fcb-b671-57d422fb8547
+[I 2024-04-06 23:56:31.709 ServerApp] Connecting to kernel 4b4bd2b0-cbec-4040-8803-35bce56aaa3c.
+[I 2024-04-06 23:56:31.709 ServerApp] Restoring connection for 4b4bd2b0-cbec-4040-8803-35bce56aaa3c:346cc381-fa81-4fcb-b671-57d422fb8547
+[I 2024-04-06 23:58:25.959 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-07 00:00:26.171 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-07 00:02:26.295 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-07 00:04:26.451 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-07 00:06:26.577 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-07 00:08:27.697 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-07 00:10:27.858 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-07 00:12:27.992 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-07 00:14:28.103 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-07 00:16:28.238 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-07 00:18:28.383 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-07 00:20:28.546 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-07 00:22:29.605 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-07 00:26:30.656 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-07 00:28:30.924 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-07 00:30:31.056 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-07 00:32:31.174 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-07 00:34:31.625 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-07 00:36:31.823 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-07 00:38:32.001 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-07 00:40:32.143 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-07 00:42:32.262 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-07 00:44:32.385 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-07 00:46:32.547 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-07 00:48:32.687 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-07 00:50:32.843 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-07 00:54:32.959 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-07 00:56:33.108 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-07 01:00:33.252 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-07 01:02:33.390 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-07 01:04:33.499 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-07 01:16:33.675 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-07 01:18:33.812 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-07 01:20:33.978 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-07 01:22:34.247 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-07 01:24:34.675 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-07 01:26:34.815 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-07 01:28:34.929 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-07 01:32:35.057 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-07 01:34:35.180 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-07 01:36:35.293 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-07 01:41:29.325 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[W 2024-04-07 01:41:48.937 ServerApp] Alternative text is missing on 1 image(s).
+[I 2024-04-07 01:42:24.097 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-07 01:43:26.668 ServerApp] Starting buffering for 4b4bd2b0-cbec-4040-8803-35bce56aaa3c:346cc381-fa81-4fcb-b671-57d422fb8547
+[I 2024-04-07 01:43:26.668 ServerApp] Starting buffering for a2a31cff-d8a8-410e-832a-42b57cdaf00c:3818819d-8cef-4090-b81a-07e78a5a290b
+[I 2024-04-07 01:43:32.159 ServerApp] 302 GET / (@222.105.106.20) 0.25ms
+[I 2024-04-07 01:43:34.920 ServerApp] Connecting to kernel 4b4bd2b0-cbec-4040-8803-35bce56aaa3c.
+[I 2024-04-07 01:43:35.006 ServerApp] Connecting to kernel a2a31cff-d8a8-410e-832a-42b57cdaf00c.
+[I 2024-04-07 01:43:35.014 ServerApp] Starting buffering for 4b4bd2b0-cbec-4040-8803-35bce56aaa3c:b1b50509-c5c4-4c47-9129-db41e64f44c4
+[I 2024-04-07 01:43:35.077 ServerApp] Starting buffering for a2a31cff-d8a8-410e-832a-42b57cdaf00c:def695f0-953a-477c-9ba1-e1c427f97707
+[W 2024-04-07 01:43:35.578 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-04-07 01:43:37.323 ServerApp] Connecting to kernel 4b4bd2b0-cbec-4040-8803-35bce56aaa3c.
+[I 2024-04-07 01:43:37.357 ServerApp] Connecting to kernel a2a31cff-d8a8-410e-832a-42b57cdaf00c.
+[I 2024-04-07 01:43:46.256 ServerApp] New terminal with automatic name: 3
