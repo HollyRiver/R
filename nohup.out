@@ -17136,3 +17136,51 @@ Warning messages:
 [I 2024-04-07 01:43:37.323 ServerApp] Connecting to kernel 4b4bd2b0-cbec-4040-8803-35bce56aaa3c.
 [I 2024-04-07 01:43:37.357 ServerApp] Connecting to kernel a2a31cff-d8a8-410e-832a-42b57cdaf00c.
 [I 2024-04-07 01:43:46.256 ServerApp] New terminal with automatic name: 3
+[I 2024-04-07 01:44:13.475 ServerApp] Starting buffering for a2a31cff-d8a8-410e-832a-42b57cdaf00c:c9c485fa-7c70-484f-b037-fb87f1a0985b
+[I 2024-04-07 01:44:13.475 ServerApp] Starting buffering for 4b4bd2b0-cbec-4040-8803-35bce56aaa3c:9fc333b6-e98a-4ce4-99ae-1ab91dfafd50
+[I 2024-04-07 06:50:42.333 ServerApp] 302 GET / (@59.1.226.133) 0.49ms
+[I 2024-04-07 08:57:52.661 ServerApp] 302 GET / (@118.235.16.151) 0.46ms
+[W 2024-04-07 08:57:55.310 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-04-07 08:57:55.478 ServerApp] Connecting to kernel 4b4bd2b0-cbec-4040-8803-35bce56aaa3c.
+[I 2024-04-07 08:57:55.592 ServerApp] Connecting to kernel a2a31cff-d8a8-410e-832a-42b57cdaf00c.
+[I 2024-04-07 08:57:55.903 ServerApp] Starting buffering for a2a31cff-d8a8-410e-832a-42b57cdaf00c:137056b5-6bb7-4045-868b-18d139536201
+[I 2024-04-07 08:57:55.941 ServerApp] Starting buffering for 4b4bd2b0-cbec-4040-8803-35bce56aaa3c:324c3714-f9b2-487f-be3d-33f8e29c1d2c
+[W 2024-04-07 08:57:56.049 ServerApp] 404 GET /api/contents/SDB2024/course/Untitled.ipynb?content=0&hash=0&1712480277028 (f8151abf348f4d0ea66edc7cb70a0874@118.235.16.151) 1.02ms referer=http://210.117.173.186:34107/lab?
+[W 2024-04-07 08:57:56.049 ServerApp] 404 GET /api/contents/SDB2024/course/Untitled.ipynb?content=0&hash=0&1712480277028 (118.235.16.151): No such file or directory: SDB2024/course/Untitled.ipynb
+[W 2024-04-07 08:57:56.050 ServerApp] 404 GET /api/contents/SDB2024/course/exam%20summay.ipynb?content=0&hash=0&1712480277027 (f8151abf348f4d0ea66edc7cb70a0874@118.235.16.151) 0.66ms referer=http://210.117.173.186:34107/lab?
+[W 2024-04-07 08:57:56.050 ServerApp] 404 GET /api/contents/SDB2024/course/exam%20summay.ipynb?content=0&hash=0&1712480277027 (118.235.16.151): No such file or directory: SDB2024/course/exam summay.ipynb
+[W 2024-04-07 08:57:56.051 ServerApp] 404 GET /api/contents/SDB2024/course/0325.ipynb?content=0&hash=0&1712480277029 (f8151abf348f4d0ea66edc7cb70a0874@118.235.16.151) 0.96ms referer=http://210.117.173.186:34107/lab?
+[W 2024-04-07 08:57:56.051 ServerApp] 404 GET /api/contents/SDB2024/course/0325.ipynb?content=0&hash=0&1712480277029 (118.235.16.151): No such file or directory: SDB2024/course/0325.ipynb
+[W 2024-04-07 08:57:56.911 ServerApp] 404 GET /api/contents/SDB2024/course?1712480277899 (f8151abf348f4d0ea66edc7cb70a0874@118.235.16.151) 0.94ms referer=http://210.117.173.186:34107/lab?
+[W 2024-04-07 08:57:56.911 ServerApp] 404 GET /api/contents/SDB2024/course?1712480277899 (118.235.16.151): No such file or directory: SDB2024/course
+[I 2024-04-08 04:34:15.996 ServerApp] 302 GET / (@172.22.138.29) 0.50ms
+[I 2024-04-08 04:34:15.999 LabApp] 302 GET /lab? (@172.22.138.29) 0.86ms
+[I 2024-04-08 04:34:18.665 ServerApp] User 5fc53df994ac4a79ab6d1ea0c24c06b0 logged in.
+[I 2024-04-08 04:34:18.666 ServerApp] 302 POST /login?next=%2Flab%3F (5fc53df994ac4a79ab6d1ea0c24c06b0@172.22.138.29) 25.69ms
+[I 2024-04-08 04:34:19.443 ServerApp] Connecting to kernel 4b4bd2b0-cbec-4040-8803-35bce56aaa3c.
+[I 2024-04-08 04:34:19.463 ServerApp] Connecting to kernel a2a31cff-d8a8-410e-832a-42b57cdaf00c.
+[I 2024-04-08 04:34:19.467 ServerApp] Starting buffering for 4b4bd2b0-cbec-4040-8803-35bce56aaa3c:f901b85d-98ca-4e26-97d3-c7d6da1c6b85
+[I 2024-04-08 04:34:19.476 ServerApp] Starting buffering for a2a31cff-d8a8-410e-832a-42b57cdaf00c:e94acf20-d4f8-4f89-a0a3-bffe9fbfbfdb
+[W 2024-04-08 04:34:19.510 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2024-04-08 04:34:19.639 ServerApp] 404 GET /api/contents/SDB2024/course/exam%20summay.ipynb?content=0&hash=0&1712550859061 (5fc53df994ac4a79ab6d1ea0c24c06b0@172.22.138.29) 0.88ms referer=http://210.117.173.186:34107/lab?
+[W 2024-04-08 04:34:19.639 ServerApp] 404 GET /api/contents/SDB2024/course/exam%20summay.ipynb?content=0&hash=0&1712550859061 (172.22.138.29): No such file or directory: SDB2024/course/exam summay.ipynb
+[W 2024-04-08 04:34:20.218 ServerApp] 404 GET /api/contents/SDB2024/course?1712550859640 (5fc53df994ac4a79ab6d1ea0c24c06b0@172.22.138.29) 0.86ms referer=http://210.117.173.186:34107/lab?
+[W 2024-04-08 04:34:20.218 ServerApp] 404 GET /api/contents/SDB2024/course?1712550859640 (172.22.138.29): No such file or directory: SDB2024/course
+[I 2024-04-08 04:34:53.791 ServerApp] Creating new notebook in /regression analysis/RA 2
+[I 2024-04-08 04:34:57.978 ServerApp] Kernel started: 425dd81b-4ee4-40fc-895e-51653033def8
+[I 2024-04-08 04:34:58.587 ServerApp] Connecting to kernel 425dd81b-4ee4-40fc-895e-51653033def8.
+[I 2024-04-08 04:37:03.835 ServerApp] Saving file at /regression analysis/RA 2/0404.ipynb
+[I 2024-04-08 04:39:03.879 ServerApp] Saving file at /regression analysis/RA 2/0404.ipynb
+[I 2024-04-08 04:41:04.449 ServerApp] Saving file at /regression analysis/RA 2/0404.ipynb
+[I 2024-04-08 04:43:04.518 ServerApp] Saving file at /regression analysis/RA 2/0404.ipynb
+[I 2024-04-08 04:44:08.361 ServerApp] Connecting to kernel 4b4bd2b0-cbec-4040-8803-35bce56aaa3c.
+[I 2024-04-08 04:45:04.565 ServerApp] Saving file at /regression analysis/RA 2/0404.ipynb
+[I 2024-04-08 04:47:04.621 ServerApp] Saving file at /regression analysis/RA 2/0404.ipynb
+[I 2024-04-08 04:49:04.676 ServerApp] Saving file at /regression analysis/RA 2/0404.ipynb
+[I 2024-04-08 04:53:04.748 ServerApp] Saving file at /regression analysis/RA 2/0404.ipynb
+[I 2024-04-08 04:55:04.803 ServerApp] Saving file at /regression analysis/RA 2/0404.ipynb
+[I 2024-04-08 04:57:04.860 ServerApp] Saving file at /regression analysis/RA 2/0404.ipynb
+[I 2024-04-08 04:59:04.925 ServerApp] Saving file at /regression analysis/RA 2/0404.ipynb
+[I 2024-04-08 04:59:23.379 ServerApp] Saving file at /regression analysis/RA 2/0404.ipynb
+[I 2024-04-08 04:59:23.397 ServerApp] Starting buffering for 425dd81b-4ee4-40fc-895e-51653033def8:b6a879db-a4d7-4622-b9dc-a556477dcb8b
+[I 2024-04-08 04:59:25.738 ServerApp] Starting buffering for 4b4bd2b0-cbec-4040-8803-35bce56aaa3c:5785481d-03ac-4aa5-9bd9-af598b2ef154
