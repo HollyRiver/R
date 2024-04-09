@@ -17184,3 +17184,260 @@ Warning messages:
 [I 2024-04-08 04:59:23.379 ServerApp] Saving file at /regression analysis/RA 2/0404.ipynb
 [I 2024-04-08 04:59:23.397 ServerApp] Starting buffering for 425dd81b-4ee4-40fc-895e-51653033def8:b6a879db-a4d7-4622-b9dc-a556477dcb8b
 [I 2024-04-08 04:59:25.738 ServerApp] Starting buffering for 4b4bd2b0-cbec-4040-8803-35bce56aaa3c:5785481d-03ac-4aa5-9bd9-af598b2ef154
+[I 2024-04-08 06:07:40.389 ServerApp] 302 GET / (@172.22.138.29) 0.31ms
+[I 2024-04-08 06:07:40.812 ServerApp] Connecting to kernel 4b4bd2b0-cbec-4040-8803-35bce56aaa3c.
+[I 2024-04-08 06:07:40.830 ServerApp] Connecting to kernel a2a31cff-d8a8-410e-832a-42b57cdaf00c.
+[I 2024-04-08 06:07:40.834 ServerApp] Starting buffering for 4b4bd2b0-cbec-4040-8803-35bce56aaa3c:d1cf86c6-efc1-4502-ac2e-f5bee439edae
+[I 2024-04-08 06:07:40.844 ServerApp] Starting buffering for a2a31cff-d8a8-410e-832a-42b57cdaf00c:0ade8e2d-11a2-4a3f-b556-0281462799f4
+[I 2024-04-08 06:07:40.846 ServerApp] Connecting to kernel 425dd81b-4ee4-40fc-895e-51653033def8.
+[I 2024-04-08 06:07:40.860 ServerApp] Starting buffering for 425dd81b-4ee4-40fc-895e-51653033def8:5d467ed5-9f30-4071-b8b3-8263a67a1e67
+[W 2024-04-08 06:07:41.087 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2024-04-08 06:07:41.226 ServerApp] 404 GET /api/contents/SDB2024/course/exam%20summay.ipynb?content=0&hash=0&1712556460397 (5fc53df994ac4a79ab6d1ea0c24c06b0@172.22.138.29) 0.59ms referer=http://210.117.173.186:34107/lab?
+[W 2024-04-08 06:07:41.226 ServerApp] 404 GET /api/contents/SDB2024/course/exam%20summay.ipynb?content=0&hash=0&1712556460397 (172.22.138.29): No such file or directory: SDB2024/course/exam summay.ipynb
+[W 2024-04-08 06:07:41.227 ServerApp] 404 GET /api/contents/SDB2024/R%20packages/0401.ipynb?content=0&hash=0&1712556460397 (5fc53df994ac4a79ab6d1ea0c24c06b0@172.22.138.29) 0.51ms referer=http://210.117.173.186:34107/lab?
+[W 2024-04-08 06:07:41.227 ServerApp] 404 GET /api/contents/SDB2024/R%20packages/0401.ipynb?content=0&hash=0&1712556460397 (172.22.138.29): No such file or directory: SDB2024/R packages/0401.ipynb
+[W 2024-04-08 06:07:41.228 ServerApp] 404 GET /api/contents/SDB2024/R%20packages/python.ipynb?content=0&hash=0&1712556460398 (5fc53df994ac4a79ab6d1ea0c24c06b0@172.22.138.29) 0.79ms referer=http://210.117.173.186:34107/lab?
+[W 2024-04-08 06:07:41.228 ServerApp] 404 GET /api/contents/SDB2024/R%20packages/python.ipynb?content=0&hash=0&1712556460398 (172.22.138.29): No such file or directory: SDB2024/R packages/python.ipynb
+[W 2024-04-08 06:07:41.228 ServerApp] 404 GET /api/contents/SDB2024/R%20packages/0408.ipynb?content=0&hash=0&1712556460398 (5fc53df994ac4a79ab6d1ea0c24c06b0@172.22.138.29) 1.15ms referer=http://210.117.173.186:34107/lab?
+[W 2024-04-08 06:07:41.228 ServerApp] 404 GET /api/contents/SDB2024/R%20packages/0408.ipynb?content=0&hash=0&1712556460398 (172.22.138.29): No such file or directory: SDB2024/R packages/0408.ipynb
+[W 2024-04-08 06:07:41.803 ServerApp] 404 GET /api/contents/SDB2024/R%20packages?1712556460974 (5fc53df994ac4a79ab6d1ea0c24c06b0@172.22.138.29) 0.50ms referer=http://210.117.173.186:34107/lab?
+[W 2024-04-08 06:07:41.803 ServerApp] 404 GET /api/contents/SDB2024/R%20packages?1712556460974 (172.22.138.29): No such file or directory: SDB2024/R packages
+[I 2024-04-08 06:07:47.101 ServerApp] Creating new directory in 
+[I 2024-04-08 06:07:53.093 ServerApp] Creating new notebook in /SDB
+[I 2024-04-08 06:07:55.393 ServerApp] Kernel started: a09dd45a-9751-40e8-a113-6c06bc9ce341
+[I 2024-04-08 06:07:56.078 ServerApp] Connecting to kernel a09dd45a-9751-40e8-a113-6c06bc9ce341.
+trying URL 'https://cran.r-project.org/src/contrib/MASS_7.3-60.0.1.tar.gz'
+Content type 'application/x-gzip' length 561605 bytes (548 KB)
+==================================================
+downloaded 548 KB
+
+* installing *source* package ‘MASS’ ...
+** package ‘MASS’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘x86_64-conda-linux-gnu-cc (conda-forge gcc 13.2.0-5) 13.2.0’
+x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c MASS.c -o MASS.o
+x86_64-conda-linux-gnu-cc -I"/root/anaconda3/envs/r_env/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /root/anaconda3/envs/r_env/include -I/root/anaconda3/envs/r_env/include -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c lqs.c -o lqs.o
+x86_64-conda-linux-gnu-cc -shared -L/root/anaconda3/envs/r_env/lib/R/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/root/anaconda3/envs/r_env/lib -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib -L/root/anaconda3/envs/r_env/lib -o MASS.so MASS.o lqs.o -L/root/anaconda3/envs/r_env/lib/R/lib -lR
+installing to /root/anaconda3/envs/r_env/lib/R/library/00LOCK-MASS/00new/MASS/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (MASS)
+
+The downloaded source packages are in
+	‘/tmp/RtmpknlT2c/downloaded_packages’
+[I 2024-04-08 06:09:58.385 ServerApp] Saving file at /SDB/0408.ipynb
+[I 2024-04-08 06:11:58.424 ServerApp] Saving file at /SDB/0408.ipynb
+[I 2024-04-08 06:13:58.459 ServerApp] Saving file at /SDB/0408.ipynb
+[I 2024-04-08 06:15:58.507 ServerApp] Saving file at /SDB/0408.ipynb
+[I 2024-04-08 06:17:58.550 ServerApp] Saving file at /SDB/0408.ipynb
+[I 2024-04-08 06:19:58.593 ServerApp] Saving file at /SDB/0408.ipynb
+[I 2024-04-08 06:21:58.651 ServerApp] Saving file at /SDB/0408.ipynb
+[I 2024-04-08 06:23:58.706 ServerApp] Saving file at /SDB/0408.ipynb
+[I 2024-04-08 06:25:58.763 ServerApp] Saving file at /SDB/0408.ipynb
+[I 2024-04-08 06:27:58.817 ServerApp] Saving file at /SDB/0408.ipynb
+[I 2024-04-08 06:29:58.877 ServerApp] Saving file at /SDB/0408.ipynb
+[I 2024-04-08 06:31:58.938 ServerApp] Saving file at /SDB/0408.ipynb
+[I 2024-04-08 06:33:59.001 ServerApp] Saving file at /SDB/0408.ipynb
+[I 2024-04-08 06:35:59.068 ServerApp] Saving file at /SDB/0408.ipynb
+[I 2024-04-08 06:37:59.136 ServerApp] Saving file at /SDB/0408.ipynb
+[I 2024-04-08 06:39:59.202 ServerApp] Saving file at /SDB/0408.ipynb
+[I 2024-04-08 06:41:59.277 ServerApp] Saving file at /SDB/0408.ipynb
+[I 2024-04-08 06:43:59.804 ServerApp] Saving file at /SDB/0408.ipynb
+[I 2024-04-08 06:45:59.883 ServerApp] Saving file at /SDB/0408.ipynb
+[I 2024-04-08 06:47:59.965 ServerApp] Saving file at /SDB/0408.ipynb
+[I 2024-04-08 06:50:00.043 ServerApp] Saving file at /SDB/0408.ipynb
+[I 2024-04-08 06:52:00.116 ServerApp] Saving file at /SDB/0408.ipynb
+[I 2024-04-08 06:54:00.194 ServerApp] Saving file at /SDB/0408.ipynb
+[I 2024-04-08 06:54:14.613 ServerApp] Starting buffering for a09dd45a-9751-40e8-a113-6c06bc9ce341:ef254ff8-619f-4c67-9371-895ca39cfd8c
+[I 2024-04-08 10:39:24.728 ServerApp] 302 GET / (@121.154.64.157) 0.33ms
+[W 2024-04-08 10:39:26.656 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2024-04-08 10:39:26.968 ServerApp] 404 GET /api/contents/SDB2024/course/exam%20summay.ipynb?content=0&hash=0&1712572766440 (2b65fff4b5164febaaa8a0989c567e91@121.154.64.157) 0.56ms referer=http://210.117.173.186:34107/lab?
+[W 2024-04-08 10:39:26.968 ServerApp] 404 GET /api/contents/SDB2024/course/exam%20summay.ipynb?content=0&hash=0&1712572766440 (121.154.64.157): No such file or directory: SDB2024/course/exam summay.ipynb
+[W 2024-04-08 10:39:26.969 ServerApp] 404 GET /api/contents/SDB2024/R%20packages/0401.ipynb?content=0&hash=0&1712572766440 (2b65fff4b5164febaaa8a0989c567e91@121.154.64.157) 0.52ms referer=http://210.117.173.186:34107/lab?
+[W 2024-04-08 10:39:26.969 ServerApp] 404 GET /api/contents/SDB2024/R%20packages/0401.ipynb?content=0&hash=0&1712572766440 (121.154.64.157): No such file or directory: SDB2024/R packages/0401.ipynb
+[W 2024-04-08 10:39:26.970 ServerApp] 404 GET /api/contents/SDB2024/R%20packages/python.ipynb?content=0&hash=0&1712572766440 (2b65fff4b5164febaaa8a0989c567e91@121.154.64.157) 0.79ms referer=http://210.117.173.186:34107/lab?
+[W 2024-04-08 10:39:26.970 ServerApp] 404 GET /api/contents/SDB2024/R%20packages/python.ipynb?content=0&hash=0&1712572766440 (121.154.64.157): No such file or directory: SDB2024/R packages/python.ipynb
+[W 2024-04-08 10:39:27.698 ServerApp] 404 GET /api/contents/SDB2024/R%20packages?1712572767167 (2b65fff4b5164febaaa8a0989c567e91@121.154.64.157) 0.87ms referer=http://210.117.173.186:34107/lab?
+[W 2024-04-08 10:39:27.698 ServerApp] 404 GET /api/contents/SDB2024/R%20packages?1712572767167 (121.154.64.157): No such file or directory: SDB2024/R packages
+[I 2024-04-08 10:39:36.939 ServerApp] Connecting to kernel 4b4bd2b0-cbec-4040-8803-35bce56aaa3c.
+[I 2024-04-08 10:39:36.971 ServerApp] Connecting to kernel a2a31cff-d8a8-410e-832a-42b57cdaf00c.
+[I 2024-04-08 10:39:37.001 ServerApp] Connecting to kernel 425dd81b-4ee4-40fc-895e-51653033def8.
+[I 2024-04-08 10:39:37.054 ServerApp] Connecting to kernel a09dd45a-9751-40e8-a113-6c06bc9ce341.
+[I 2024-04-08 10:39:37.154 ServerApp] Starting buffering for 4b4bd2b0-cbec-4040-8803-35bce56aaa3c:39bc7c47-3ae9-4973-abff-9c6c11acf4bc
+[I 2024-04-08 10:39:37.154 ServerApp] Starting buffering for a2a31cff-d8a8-410e-832a-42b57cdaf00c:863d12fe-75bb-423a-b572-7b80a3f2b639
+[I 2024-04-08 10:39:37.156 ServerApp] Starting buffering for 425dd81b-4ee4-40fc-895e-51653033def8:6ace2dbb-6656-4226-8355-1b6f1f1999c3
+[I 2024-04-08 10:39:37.251 ServerApp] Starting buffering for a09dd45a-9751-40e8-a113-6c06bc9ce341:b32d5252-aa53-4a1e-8cde-619e7448cfb4
+[I 2024-04-08 10:39:45.390 ServerApp] Connecting to kernel 4b4bd2b0-cbec-4040-8803-35bce56aaa3c.
+[I 2024-04-08 10:41:45.070 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-08 10:49:45.711 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-08 10:51:45.809 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[I 2024-04-08 10:53:34.627 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[W 2024-04-08 10:53:35.542 ServerApp] Alternative text is missing on 1 image(s).
+[I 2024-04-08 10:54:53.274 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW02.ipynb
+[W 2024-04-08 10:54:54.174 ServerApp] Alternative text is missing on 1 image(s).
+[I 2024-04-08 10:55:41.314 ServerApp] Starting buffering for 4b4bd2b0-cbec-4040-8803-35bce56aaa3c:9ad5c7f1-4393-4cba-8a09-7dc12ef4bf5a
+[I 2024-04-09 03:47:46.658 ServerApp] 302 GET / (@61.99.5.194) 0.66ms
+[I 2024-04-09 03:47:48.320 ServerApp] Connecting to kernel 4b4bd2b0-cbec-4040-8803-35bce56aaa3c.
+[I 2024-04-09 03:47:48.344 ServerApp] Connecting to kernel a2a31cff-d8a8-410e-832a-42b57cdaf00c.
+[W 2024-04-09 03:47:48.346 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-04-09 03:47:48.375 ServerApp] Connecting to kernel 425dd81b-4ee4-40fc-895e-51653033def8.
+[I 2024-04-09 03:47:48.398 ServerApp] Connecting to kernel a09dd45a-9751-40e8-a113-6c06bc9ce341.
+[I 2024-04-09 03:47:48.699 ServerApp] Starting buffering for a09dd45a-9751-40e8-a113-6c06bc9ce341:991c6a8b-ad6d-4507-a663-7904d0e35488
+[I 2024-04-09 03:47:48.700 ServerApp] Starting buffering for 425dd81b-4ee4-40fc-895e-51653033def8:833dfa8e-808e-467a-a4b8-17807d21cb4a
+[I 2024-04-09 03:47:48.701 ServerApp] Starting buffering for 4b4bd2b0-cbec-4040-8803-35bce56aaa3c:1a6fbf96-ed60-4871-baea-bb3a30e7e24c
+[I 2024-04-09 03:47:48.701 ServerApp] Starting buffering for a2a31cff-d8a8-410e-832a-42b57cdaf00c:d9191a8d-c765-40a0-9423-35f7cbdcf6b7
+[I 2024-04-09 03:47:49.693 ServerApp] Connecting to kernel 4b4bd2b0-cbec-4040-8803-35bce56aaa3c.
+[I 2024-04-09 03:48:05.520 ServerApp] Starting buffering for 4b4bd2b0-cbec-4040-8803-35bce56aaa3c:98df8d95-9f91-45f8-9a36-beca181aaefb
+[I 2024-04-09 04:03:03.350 ServerApp] Kernel started: fed3aa7e-cc64-4bc0-bf37-0606e96d1d2d
+[I 2024-04-09 04:03:04.002 ServerApp] Connecting to kernel fed3aa7e-cc64-4bc0-bf37-0606e96d1d2d.
+[I 2024-04-09 04:05:03.045 ServerApp] Saving file at /탐색적자료분석/code assemble.ipynb
+[W 2024-04-09 04:10:18.885 TerminalsExtensionApp] WebSocket ping timeout after 119993 ms.
+[W 2024-04-09 04:10:34.003 ServerApp] WebSocket ping timeout after 119959 ms.
+[I 2024-04-09 04:10:39.004 ServerApp] Starting buffering for fed3aa7e-cc64-4bc0-bf37-0606e96d1d2d:6e07c5cd-9a9b-4182-bebe-2f709825a845
+[I 2024-04-09 06:27:33.460 ServerApp] 302 GET / (@61.99.5.194) 0.45ms
+[W 2024-04-09 06:27:35.916 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-04-09 06:27:36.021 ServerApp] Connecting to kernel 4b4bd2b0-cbec-4040-8803-35bce56aaa3c.
+[I 2024-04-09 06:27:36.041 ServerApp] Connecting to kernel a2a31cff-d8a8-410e-832a-42b57cdaf00c.
+[I 2024-04-09 06:27:36.064 ServerApp] Connecting to kernel 425dd81b-4ee4-40fc-895e-51653033def8.
+[I 2024-04-09 06:27:36.086 ServerApp] Connecting to kernel a09dd45a-9751-40e8-a113-6c06bc9ce341.
+[I 2024-04-09 06:27:36.128 ServerApp] Connecting to kernel fed3aa7e-cc64-4bc0-bf37-0606e96d1d2d.
+[I 2024-04-09 06:27:36.311 ServerApp] Starting buffering for a2a31cff-d8a8-410e-832a-42b57cdaf00c:c1bd1cdb-1402-4891-87e4-73cb3b250218
+[I 2024-04-09 06:27:36.311 ServerApp] Starting buffering for 425dd81b-4ee4-40fc-895e-51653033def8:08efa2e6-07f8-4efd-93ca-fc026dc5fff4
+[I 2024-04-09 06:27:36.321 ServerApp] Starting buffering for a09dd45a-9751-40e8-a113-6c06bc9ce341:57f76e4f-ff1a-4682-a0c6-a3ea4f5f1568
+[I 2024-04-09 06:27:36.347 ServerApp] Starting buffering for 4b4bd2b0-cbec-4040-8803-35bce56aaa3c:eee49c48-b420-4eb8-b7ff-fcd36b9b280f
+[I 2024-04-09 06:27:36.408 ServerApp] Starting buffering for fed3aa7e-cc64-4bc0-bf37-0606e96d1d2d:bde5f329-ff73-480b-877e-82418cfd40f3
+[I 2024-04-09 06:27:37.896 ServerApp] Connecting to kernel fed3aa7e-cc64-4bc0-bf37-0606e96d1d2d.
+[I 2024-04-09 06:31:28.315 ServerApp] Starting buffering for fed3aa7e-cc64-4bc0-bf37-0606e96d1d2d:743c9910-a274-41f8-a3a7-27fe9594d792
+[I 2024-04-09 06:44:00.334 ServerApp] Malformed HTTP message from 172.22.138.26: Malformed HTTP request line
+[I 2024-04-09 06:44:03.340 ServerApp] 302 GET / (@172.22.138.26) 0.38ms
+[I 2024-04-09 06:44:03.343 LabApp] 302 GET /lab? (@172.22.138.26) 0.58ms
+[I 2024-04-09 06:44:12.273 ServerApp] User bd9bc9803bc54fe3aaa3d5f45e777276 logged in.
+[I 2024-04-09 06:44:12.274 ServerApp] 302 POST /login?next=%2Flab%3F (bd9bc9803bc54fe3aaa3d5f45e777276@172.22.138.26) 26.31ms
+[I 2024-04-09 06:44:13.056 ServerApp] Connecting to kernel 4b4bd2b0-cbec-4040-8803-35bce56aaa3c.
+[I 2024-04-09 06:44:13.074 ServerApp] Connecting to kernel a2a31cff-d8a8-410e-832a-42b57cdaf00c.
+[I 2024-04-09 06:44:13.078 ServerApp] Starting buffering for 4b4bd2b0-cbec-4040-8803-35bce56aaa3c:3de5d30a-e1a4-41e8-baaf-e2a576bf4b45
+[I 2024-04-09 06:44:13.088 ServerApp] Starting buffering for a2a31cff-d8a8-410e-832a-42b57cdaf00c:ae822c5b-df1c-428f-938a-d06c52700dd5
+[I 2024-04-09 06:44:13.091 ServerApp] Connecting to kernel 425dd81b-4ee4-40fc-895e-51653033def8.
+[I 2024-04-09 06:44:13.103 ServerApp] Starting buffering for 425dd81b-4ee4-40fc-895e-51653033def8:d26b9d2a-a6dc-42f5-8b9c-256261081cf0
+[I 2024-04-09 06:44:13.105 ServerApp] Connecting to kernel a09dd45a-9751-40e8-a113-6c06bc9ce341.
+[I 2024-04-09 06:44:13.118 ServerApp] Starting buffering for a09dd45a-9751-40e8-a113-6c06bc9ce341:d9f2956b-899f-4324-99ee-a275585f2aec
+[I 2024-04-09 06:44:13.121 ServerApp] Connecting to kernel fed3aa7e-cc64-4bc0-bf37-0606e96d1d2d.
+[I 2024-04-09 06:44:13.135 ServerApp] Starting buffering for fed3aa7e-cc64-4bc0-bf37-0606e96d1d2d:4e233d21-7b76-4fc0-9579-33a7a2296125
+[W 2024-04-09 06:44:13.284 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-04-09 06:44:13.832 ServerApp] Connecting to kernel fed3aa7e-cc64-4bc0-bf37-0606e96d1d2d.
+[I 2024-04-09 06:46:13.711 ServerApp] Saving file at /탐색적자료분석/code assemble.ipynb
+[I 2024-04-09 06:48:13.769 ServerApp] Saving file at /탐색적자료분석/code assemble.ipynb
+[I 2024-04-09 06:48:17.455 ServerApp] Creating new notebook in /탐색적자료분석
+[I 2024-04-09 06:48:21.060 ServerApp] Kernel started: f935953b-a5f7-451b-80ee-07daecd11580
+[I 2024-04-09 06:48:21.682 ServerApp] Connecting to kernel f935953b-a5f7-451b-80ee-07daecd11580.
+trying URL 'https://cran.r-project.org/src/contrib/aplpack_1.3.5.tar.gz'
+Content type 'application/x-gzip' length 3437817 bytes (3.3 MB)
+==================================================
+downloaded 3.3 MB
+
+* installing *source* package ‘aplpack’ ...
+** package ‘aplpack’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: no DISPLAY variable so Tk is not available
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: no DISPLAY variable so Tk is not available
+** testing if installed package can be loaded from final location
+Warning: no DISPLAY variable so Tk is not available
+** testing if installed package keeps a record of temporary installation path
+* DONE (aplpack)
+
+The downloaded source packages are in
+	‘/tmp/RtmpioK41W/downloaded_packages’
+[I 2024-04-09 06:50:29.652 ServerApp] Saving file at /탐색적자료분석/1~6.ipynb
+[I 2024-04-09 06:52:29.696 ServerApp] Saving file at /탐색적자료분석/1~6.ipynb
+[I 2024-04-09 06:54:29.734 ServerApp] Saving file at /탐색적자료분석/1~6.ipynb
+[I 2024-04-09 06:56:29.788 ServerApp] Saving file at /탐색적자료분석/1~6.ipynb
+[I 2024-04-09 06:58:29.827 ServerApp] Saving file at /탐색적자료분석/1~6.ipynb
+[I 2024-04-09 07:00:29.876 ServerApp] Saving file at /탐색적자료분석/1~6.ipynb
+[I 2024-04-09 07:02:13.903 ServerApp] Saving file at /탐색적자료분석/code assemble.ipynb
+[I 2024-04-09 07:07:27.306 ServerApp] Starting buffering for f935953b-a5f7-451b-80ee-07daecd11580:765a0a86-282f-4b94-aeb2-970d6b9b981f
+[I 2024-04-09 07:08:14.192 ServerApp] Saving file at /탐색적자료분석/code assemble.ipynb
+[I 2024-04-09 07:09:06.734 ServerApp] Creating new notebook in /탐색적자료분석
+[I 2024-04-09 07:09:09.801 ServerApp] Kernel started: 5bf1eceb-3d37-4b4d-bbd6-95c4506be4a8
+[I 2024-04-09 07:09:10.549 ServerApp] Connecting to kernel 5bf1eceb-3d37-4b4d-bbd6-95c4506be4a8.
+[I 2024-04-09 07:11:14.075 ServerApp] Saving file at /탐색적자료분석/0409.ipynb
+[I 2024-04-09 07:13:14.110 ServerApp] Saving file at /탐색적자료분석/0409.ipynb
+[I 2024-04-09 07:17:14.174 ServerApp] Saving file at /탐색적자료분석/0409.ipynb
+[I 2024-04-09 07:19:14.229 ServerApp] Saving file at /탐색적자료분석/0409.ipynb
+[I 2024-04-09 07:21:14.271 ServerApp] Saving file at /탐색적자료분석/0409.ipynb
+[I 2024-04-09 07:23:14.320 ServerApp] Saving file at /탐색적자료분석/0409.ipynb
+[I 2024-04-09 07:27:14.376 ServerApp] Saving file at /탐색적자료분석/0409.ipynb
+[I 2024-04-09 07:29:14.422 ServerApp] Saving file at /탐색적자료분석/0409.ipynb
+[I 2024-04-09 07:31:14.476 ServerApp] Saving file at /탐색적자료분석/0409.ipynb
+[I 2024-04-09 07:33:14.532 ServerApp] Saving file at /탐색적자료분석/0409.ipynb
+[I 2024-04-09 07:35:14.586 ServerApp] Saving file at /탐색적자료분석/0409.ipynb
+Read 0 items
+[I 2024-04-09 07:41:14.678 ServerApp] Saving file at /탐색적자료분석/0409.ipynb
+[I 2024-04-09 07:43:14.731 ServerApp] Saving file at /탐색적자료분석/0409.ipynb
+[I 2024-04-09 07:47:14.793 ServerApp] Saving file at /탐색적자료분석/0409.ipynb
+[I 2024-04-09 07:47:33.014 ServerApp] Starting buffering for fed3aa7e-cc64-4bc0-bf37-0606e96d1d2d:ba95a31a-d68b-480e-bb05-17d627d4f9a8
+[I 2024-04-09 07:47:33.015 ServerApp] Starting buffering for 5bf1eceb-3d37-4b4d-bbd6-95c4506be4a8:951730a9-68d4-47f4-a47f-35f3c4107075
+[I 2024-04-09 08:56:08.020 ServerApp] 302 GET / (@118.235.16.93) 0.49ms
+[W 2024-04-09 08:56:10.811 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-04-09 08:56:11.019 ServerApp] Connecting to kernel 4b4bd2b0-cbec-4040-8803-35bce56aaa3c.
+[I 2024-04-09 08:56:11.181 ServerApp] Connecting to kernel a2a31cff-d8a8-410e-832a-42b57cdaf00c.
+[I 2024-04-09 08:56:11.301 ServerApp] Starting buffering for 4b4bd2b0-cbec-4040-8803-35bce56aaa3c:816f598d-3977-44c8-8c34-34ac34e4c976
+[I 2024-04-09 08:56:11.310 ServerApp] Connecting to kernel 425dd81b-4ee4-40fc-895e-51653033def8.
+[I 2024-04-09 08:56:11.448 ServerApp] Starting buffering for a2a31cff-d8a8-410e-832a-42b57cdaf00c:95ff8559-4767-41f7-a7d6-eef8c26cf133
+[I 2024-04-09 08:56:11.450 ServerApp] Connecting to kernel a09dd45a-9751-40e8-a113-6c06bc9ce341.
+[I 2024-04-09 08:56:11.529 ServerApp] Starting buffering for 425dd81b-4ee4-40fc-895e-51653033def8:9bbd1d37-b986-43df-a99a-3b12a25c9926
+[I 2024-04-09 08:56:11.604 ServerApp] Connecting to kernel fed3aa7e-cc64-4bc0-bf37-0606e96d1d2d.
+[I 2024-04-09 08:56:11.826 ServerApp] Connecting to kernel f935953b-a5f7-451b-80ee-07daecd11580.
+[I 2024-04-09 08:56:12.007 ServerApp] Starting buffering for fed3aa7e-cc64-4bc0-bf37-0606e96d1d2d:112aa934-a808-43c3-92e0-1b495d4fa38b
+[I 2024-04-09 08:56:12.033 ServerApp] Starting buffering for a09dd45a-9751-40e8-a113-6c06bc9ce341:84d58982-aa93-41a0-a329-6998b728ede5
+[I 2024-04-09 08:56:12.084 ServerApp] Connecting to kernel 5bf1eceb-3d37-4b4d-bbd6-95c4506be4a8.
+[I 2024-04-09 08:56:12.219 ServerApp] Starting buffering for f935953b-a5f7-451b-80ee-07daecd11580:a983d5b7-3cc9-4ef0-8b5f-dc636fa3d236
+[I 2024-04-09 08:56:12.284 ServerApp] Connecting to kernel 5bf1eceb-3d37-4b4d-bbd6-95c4506be4a8.
+[I 2024-04-09 08:56:12.520 ServerApp] Connecting to kernel fed3aa7e-cc64-4bc0-bf37-0606e96d1d2d.
+[I 2024-04-09 08:56:16.417 ServerApp] Starting buffering for 5bf1eceb-3d37-4b4d-bbd6-95c4506be4a8:395ddd76-7420-445e-a304-01732cefdc77
+[I 2024-04-09 09:18:40.072 ServerApp] Starting buffering for fed3aa7e-cc64-4bc0-bf37-0606e96d1d2d:b88774b2-52d6-44b5-b6a8-7f3f5665436f
+[I 2024-04-09 11:09:44.712 ServerApp] 302 GET / (@121.154.64.157) 0.83ms
+[I 2024-04-09 11:09:46.389 ServerApp] Connecting to kernel 4b4bd2b0-cbec-4040-8803-35bce56aaa3c.
+[W 2024-04-09 11:09:46.406 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-04-09 11:09:46.412 ServerApp] Connecting to kernel a2a31cff-d8a8-410e-832a-42b57cdaf00c.
+[I 2024-04-09 11:09:46.437 ServerApp] Connecting to kernel 425dd81b-4ee4-40fc-895e-51653033def8.
+[I 2024-04-09 11:09:46.459 ServerApp] Connecting to kernel a09dd45a-9751-40e8-a113-6c06bc9ce341.
+[I 2024-04-09 11:09:46.490 ServerApp] Connecting to kernel fed3aa7e-cc64-4bc0-bf37-0606e96d1d2d.
+[I 2024-04-09 11:09:46.515 ServerApp] Connecting to kernel f935953b-a5f7-451b-80ee-07daecd11580.
+[I 2024-04-09 11:09:46.545 ServerApp] Connecting to kernel 5bf1eceb-3d37-4b4d-bbd6-95c4506be4a8.
+[I 2024-04-09 11:09:46.746 ServerApp] Starting buffering for f935953b-a5f7-451b-80ee-07daecd11580:f28f66bb-9cd1-4ad8-aeed-d589216cc8b1
+[I 2024-04-09 11:09:46.747 ServerApp] Starting buffering for a2a31cff-d8a8-410e-832a-42b57cdaf00c:fa94bee4-8a25-4b09-b823-1d8dc5dd77fb
+[I 2024-04-09 11:09:46.747 ServerApp] Starting buffering for 425dd81b-4ee4-40fc-895e-51653033def8:24231b32-ead9-4563-b3ad-a4ee9de05467
+[I 2024-04-09 11:09:46.747 ServerApp] Starting buffering for a09dd45a-9751-40e8-a113-6c06bc9ce341:5506f489-fd4a-4cb0-8cdb-4f7d1b810c03
+[I 2024-04-09 11:09:46.748 ServerApp] Starting buffering for fed3aa7e-cc64-4bc0-bf37-0606e96d1d2d:c978f84e-5c93-465c-a42d-030a464c9e03
+[I 2024-04-09 11:09:46.748 ServerApp] Starting buffering for 4b4bd2b0-cbec-4040-8803-35bce56aaa3c:8bd4b873-46a4-49de-aa36-4d4b8fe896ed
+[I 2024-04-09 11:09:46.788 ServerApp] Starting buffering for 5bf1eceb-3d37-4b4d-bbd6-95c4506be4a8:209fc9ba-ef7e-4ccf-9c89-22149911be2b
+[I 2024-04-09 11:09:47.819 ServerApp] Connecting to kernel fed3aa7e-cc64-4bc0-bf37-0606e96d1d2d.
+[I 2024-04-09 11:11:47.178 ServerApp] Saving file at /탐색적자료분석/code assemble.ipynb
+[I 2024-04-09 11:39:41.584 ServerApp] Kernel started: a634cb17-d20d-4294-ab87-9f92616f740f
+[I 2024-04-09 11:39:42.185 ServerApp] Connecting to kernel a634cb17-d20d-4294-ab87-9f92616f740f.
+[I 2024-04-09 11:41:41.424 ServerApp] Saving file at /탐색적자료분석/Independent practice.ipynb
+[I 2024-04-09 11:43:41.483 ServerApp] Saving file at /탐색적자료분석/Independent practice.ipynb
+[I 2024-04-09 11:53:44.194 ServerApp] Saving file at /탐색적자료분석/Independent practice.ipynb
+[I 2024-04-09 11:55:45.177 ServerApp] Saving file at /탐색적자료분석/Independent practice.ipynb
+[I 2024-04-09 12:53:26.068 ServerApp] Starting buffering for a634cb17-d20d-4294-ab87-9f92616f740f:04504fa5-babe-4186-88fd-31cfba4c19f2
+[I 2024-04-09 12:53:26.936 ServerApp] Starting buffering for fed3aa7e-cc64-4bc0-bf37-0606e96d1d2d:7cb8cb36-bd38-451f-9ec6-5193ace033d0
+[I 2024-04-09 12:53:32.494 ServerApp] New terminal with automatic name: 4
