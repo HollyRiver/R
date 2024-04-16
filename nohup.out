@@ -18490,3 +18490,28 @@ The downloaded source packages are in
 [W 2024-04-15 13:30:22.202 ServerApp] 404 GET /api/contents/R/SDB?1713187820989 (2b65fff4b5164febaaa8a0989c567e91@121.154.64.157) 0.49ms referer=http://210.117.173.186:34107/lab?
 [W 2024-04-15 13:30:22.202 ServerApp] 404 GET /api/contents/R/SDB?1713187820989 (121.154.64.157): No such file or directory: R/SDB
 [I 2024-04-16 00:24:30.101 ServerApp] 302 GET / (@121.154.64.157) 0.52ms
+[I 2024-04-16 06:44:20.853 ServerApp] User ecc62904edfb478da154b44a49082f85 logged in.
+[I 2024-04-16 06:44:20.854 ServerApp] 302 POST /login?next=%2Flab%3F (ecc62904edfb478da154b44a49082f85@172.22.138.26) 26.31ms
+[I 2024-04-16 06:44:21.644 ServerApp] Connecting to kernel 4d8f4a7b-9a05-4065-a1fc-601d6e10b0ab.
+[I 2024-04-16 06:44:21.661 ServerApp] Connecting to kernel 7fb31839-bd86-4897-8e73-ff9be3960182.
+[I 2024-04-16 06:44:21.665 ServerApp] Starting buffering for 4d8f4a7b-9a05-4065-a1fc-601d6e10b0ab:b2971886-610b-4967-8f72-1995ca9541df
+[I 2024-04-16 06:44:21.674 ServerApp] Connecting to kernel 19b02fc0-35e6-4412-96b7-1d4eaf1b7818.
+[I 2024-04-16 06:44:21.677 ServerApp] Starting buffering for 7fb31839-bd86-4897-8e73-ff9be3960182:9392ed64-8645-47be-95cf-1986ea0010a8
+[I 2024-04-16 06:44:21.686 ServerApp] Starting buffering for 19b02fc0-35e6-4412-96b7-1d4eaf1b7818:f346ccd5-364d-438f-b66c-b76a99f98823
+[I 2024-04-16 06:44:21.688 ServerApp] Connecting to kernel 043d4052-25aa-481d-a913-b5af701a4db3.
+[I 2024-04-16 06:44:21.702 ServerApp] Starting buffering for 043d4052-25aa-481d-a913-b5af701a4db3:897c1fce-9ca7-4763-9bd4-6294ecfb9983
+[I 2024-04-16 06:44:21.704 ServerApp] Connecting to kernel f6f576b0-1126-4268-be22-ada9b9f95641.
+[I 2024-04-16 06:44:21.720 ServerApp] Starting buffering for f6f576b0-1126-4268-be22-ada9b9f95641:92c16274-e01c-4f43-b65a-5ad5b9117252
+[I 2024-04-16 06:44:21.722 ServerApp] Connecting to kernel b37da93d-ab15-4e7c-8304-acc3b3bf1afd.
+[I 2024-04-16 06:44:21.741 ServerApp] Starting buffering for b37da93d-ab15-4e7c-8304-acc3b3bf1afd:5ebcecbe-4fa1-41cb-a0b1-a2462ac5bca4
+[W 2024-04-16 06:44:21.853 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2024-04-16 06:44:21.984 ServerApp] 404 GET /api/contents/SDB2024/course/summary.ipynb?content=0&hash=0&1713249861790 (ecc62904edfb478da154b44a49082f85@172.22.138.26) 0.54ms referer=http://210.117.173.186:34107/lab?
+[W 2024-04-16 06:44:21.984 ServerApp] 404 GET /api/contents/SDB2024/course/summary.ipynb?content=0&hash=0&1713249861790 (172.22.138.26): No such file or directory: SDB2024/course/summary.ipynb
+[W 2024-04-16 06:44:21.985 ServerApp] 404 GET /api/contents/SDB2024/course/exam%20summay.ipynb?content=0&hash=0&1713249861790 (ecc62904edfb478da154b44a49082f85@172.22.138.26) 0.49ms referer=http://210.117.173.186:34107/lab?
+[W 2024-04-16 06:44:21.985 ServerApp] 404 GET /api/contents/SDB2024/course/exam%20summay.ipynb?content=0&hash=0&1713249861790 (172.22.138.26): No such file or directory: SDB2024/course/exam summay.ipynb
+[W 2024-04-16 06:44:22.796 ServerApp] 404 GET /api/contents/Julia/lecture?1713249862602 (ecc62904edfb478da154b44a49082f85@172.22.138.26) 0.51ms referer=http://210.117.173.186:34107/lab?
+[W 2024-04-16 06:44:22.796 ServerApp] 404 GET /api/contents/Julia/lecture?1713249862602 (172.22.138.26): No such file or directory: Julia/lecture
+[I 2024-04-16 06:44:27.921 ServerApp] Creating new notebook in /EDA
+[I 2024-04-16 06:44:31.493 ServerApp] Kernel started: d600ad4f-4668-4953-8bd7-99bb2cdaa855
+[I 2024-04-16 06:44:32.199 ServerApp] Connecting to kernel d600ad4f-4668-4953-8bd7-99bb2cdaa855.
+[I 2024-04-16 06:44:58.169 ServerApp] New terminal with automatic name: 2
