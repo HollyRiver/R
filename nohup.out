@@ -18758,3 +18758,64 @@ The downloaded source packages are in
 [I 2024-04-18 06:44:10.564 ServerApp] Starting buffering for 19b02fc0-35e6-4412-96b7-1d4eaf1b7818:00bfacbd-c32b-4b08-92a5-0264757f3bb2
 [I 2024-04-18 06:44:11.800 ServerApp] Starting buffering for b65da401-3684-4a58-ae18-9441d5592486:977c6805-0334-48bd-bec0-50ba933b5b98
 [I 2024-04-18 06:44:18.024 ServerApp] New terminal with automatic name: 3
+[I 2024-04-18 10:44:16.227 ServerApp] 302 GET / (@222.105.106.20) 0.58ms
+[W 2024-04-18 10:44:17.709 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-04-18 10:44:17.873 ServerApp] Connecting to kernel 4d8f4a7b-9a05-4065-a1fc-601d6e10b0ab.
+[I 2024-04-18 10:44:17.899 ServerApp] Connecting to kernel 7fb31839-bd86-4897-8e73-ff9be3960182.
+[I 2024-04-18 10:44:17.928 ServerApp] Connecting to kernel 19b02fc0-35e6-4412-96b7-1d4eaf1b7818.
+[I 2024-04-18 10:44:17.956 ServerApp] Connecting to kernel 043d4052-25aa-481d-a913-b5af701a4db3.
+[I 2024-04-18 10:44:17.984 ServerApp] Connecting to kernel f6f576b0-1126-4268-be22-ada9b9f95641.
+[I 2024-04-18 10:44:18.013 ServerApp] Connecting to kernel b37da93d-ab15-4e7c-8304-acc3b3bf1afd.
+[I 2024-04-18 10:44:18.041 ServerApp] Connecting to kernel d600ad4f-4668-4953-8bd7-99bb2cdaa855.
+[I 2024-04-18 10:44:18.069 ServerApp] Connecting to kernel 34f567e6-c084-4832-96d4-62c10faf30ae.
+[I 2024-04-18 10:44:18.095 ServerApp] Connecting to kernel 4f3a27eb-4e76-491e-adb2-1a0a72ea7aa1.
+[I 2024-04-18 10:44:18.125 ServerApp] Connecting to kernel 06924964-9fe1-4d89-a176-d90aa7dc2549.
+[I 2024-04-18 10:44:18.161 ServerApp] Connecting to kernel 31e4b932-9bd1-483d-964c-09ad7a52d37d.
+[I 2024-04-18 10:44:18.189 ServerApp] Connecting to kernel b65da401-3684-4a58-ae18-9441d5592486.
+[I 2024-04-18 10:44:18.452 ServerApp] Starting buffering for d600ad4f-4668-4953-8bd7-99bb2cdaa855:ca6ca453-1a58-481a-b331-69cf6be326a3
+[I 2024-04-18 10:44:18.462 ServerApp] Starting buffering for 4d8f4a7b-9a05-4065-a1fc-601d6e10b0ab:c9a5be55-6761-49e5-979a-58070ed9fbf6
+[I 2024-04-18 10:44:18.463 ServerApp] Starting buffering for 7fb31839-bd86-4897-8e73-ff9be3960182:be0dcc40-9448-4b7e-b870-5c9d574131be
+[I 2024-04-18 10:44:18.463 ServerApp] Starting buffering for f6f576b0-1126-4268-be22-ada9b9f95641:ed4ad7c2-6d04-4719-87c4-245a7cd4bb67
+[I 2024-04-18 10:44:18.464 ServerApp] Starting buffering for 043d4052-25aa-481d-a913-b5af701a4db3:1b5f40d1-9302-4e5e-a41b-2ea9658dab98
+[I 2024-04-18 10:44:18.464 ServerApp] Starting buffering for b37da93d-ab15-4e7c-8304-acc3b3bf1afd:630c9fd3-8092-4830-91ae-15094b44c0df
+[I 2024-04-18 10:44:18.464 ServerApp] Starting buffering for 19b02fc0-35e6-4412-96b7-1d4eaf1b7818:10e2ae67-abf9-4b75-96ec-8806af3ba8fb
+[I 2024-04-18 10:44:18.464 ServerApp] Starting buffering for 34f567e6-c084-4832-96d4-62c10faf30ae:b91a51ba-8bfa-41fc-ad18-c09c1e1cd84a
+[I 2024-04-18 10:44:18.546 ServerApp] Starting buffering for b65da401-3684-4a58-ae18-9441d5592486:08c66db7-20dc-4483-9418-cd5ec4ad4ba4
+[I 2024-04-18 10:44:18.547 ServerApp] Starting buffering for 06924964-9fe1-4d89-a176-d90aa7dc2549:f4e1756b-8323-4192-937c-ec97de808840
+[I 2024-04-18 10:44:18.547 ServerApp] Starting buffering for 31e4b932-9bd1-483d-964c-09ad7a52d37d:fcdb0567-4a32-448c-b1ed-dbb7b25d5ff2
+[I 2024-04-18 10:44:18.547 ServerApp] Starting buffering for 4f3a27eb-4e76-491e-adb2-1a0a72ea7aa1:d1595cad-aa59-49f5-bf86-6d16b4407775
+[W 2024-04-18 10:44:19.495 ServerApp] 404 GET /api/contents/Julia/lecture?1713437057772 (2b65fff4b5164febaaa8a0989c567e91@222.105.106.20) 0.79ms referer=http://210.117.173.186:34107/lab?
+[W 2024-04-18 10:44:19.496 ServerApp] 404 GET /api/contents/Julia/lecture?1713437057772 (222.105.106.20): No such file or directory: Julia/lecture
+[I 2024-04-18 10:59:33.144 ServerApp] Connecting to kernel 19b02fc0-35e6-4412-96b7-1d4eaf1b7818.
+[I 2024-04-18 11:55:40.741 ServerApp] Connecting to kernel d600ad4f-4668-4953-8bd7-99bb2cdaa855.
+[I 2024-04-18 11:56:06.899 ServerApp] Saving file at /EDA/0416.ipynb
+[I 2024-04-18 11:56:42.806 ServerApp] Starting buffering for d600ad4f-4668-4953-8bd7-99bb2cdaa855:bda64a97-1731-4a14-9b32-d4772a16950d
+[I 2024-04-18 11:56:42.807 ServerApp] Starting buffering for 19b02fc0-35e6-4412-96b7-1d4eaf1b7818:1025ccb9-3672-41fe-8bba-7b28b37e92c4
+[I 2024-04-18 11:56:52.112 ServerApp] 302 GET / (@222.105.106.20) 0.29ms
+[W 2024-04-18 11:56:54.555 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-04-18 11:56:54.748 ServerApp] Connecting to kernel 4d8f4a7b-9a05-4065-a1fc-601d6e10b0ab.
+[I 2024-04-18 11:56:54.782 ServerApp] Connecting to kernel 7fb31839-bd86-4897-8e73-ff9be3960182.
+[I 2024-04-18 11:56:54.814 ServerApp] Connecting to kernel 19b02fc0-35e6-4412-96b7-1d4eaf1b7818.
+[I 2024-04-18 11:56:54.845 ServerApp] Connecting to kernel 043d4052-25aa-481d-a913-b5af701a4db3.
+[I 2024-04-18 11:56:54.908 ServerApp] Connecting to kernel f6f576b0-1126-4268-be22-ada9b9f95641.
+[I 2024-04-18 11:56:54.949 ServerApp] Connecting to kernel b37da93d-ab15-4e7c-8304-acc3b3bf1afd.
+[I 2024-04-18 11:56:54.982 ServerApp] Connecting to kernel d600ad4f-4668-4953-8bd7-99bb2cdaa855.
+[I 2024-04-18 11:56:55.031 ServerApp] Connecting to kernel 34f567e6-c084-4832-96d4-62c10faf30ae.
+[I 2024-04-18 11:56:55.090 ServerApp] Connecting to kernel 4f3a27eb-4e76-491e-adb2-1a0a72ea7aa1.
+[I 2024-04-18 11:56:55.131 ServerApp] Connecting to kernel 06924964-9fe1-4d89-a176-d90aa7dc2549.
+[I 2024-04-18 11:56:55.166 ServerApp] Connecting to kernel 31e4b932-9bd1-483d-964c-09ad7a52d37d.
+[I 2024-04-18 11:56:55.201 ServerApp] Connecting to kernel b65da401-3684-4a58-ae18-9441d5592486.
+[I 2024-04-18 11:56:55.424 ServerApp] Starting buffering for 4d8f4a7b-9a05-4065-a1fc-601d6e10b0ab:b0c60fd8-6ad1-45d3-ad08-9d5136e571f1
+[I 2024-04-18 11:56:55.424 ServerApp] Starting buffering for 19b02fc0-35e6-4412-96b7-1d4eaf1b7818:85ead017-ce51-42bf-b2fd-ff304eb5dcf5
+[I 2024-04-18 11:56:55.424 ServerApp] Starting buffering for 7fb31839-bd86-4897-8e73-ff9be3960182:fb07d8d0-d045-4f8e-8ba0-aa87eea94f56
+[I 2024-04-18 11:56:55.427 ServerApp] Starting buffering for 043d4052-25aa-481d-a913-b5af701a4db3:5fa5776b-463f-4293-b67d-2755decaa048
+[I 2024-04-18 11:56:55.435 ServerApp] Starting buffering for f6f576b0-1126-4268-be22-ada9b9f95641:28f04067-91e6-4cd6-a7ee-3b72a06ac152
+[I 2024-04-18 11:56:55.437 ServerApp] Starting buffering for b37da93d-ab15-4e7c-8304-acc3b3bf1afd:0b600065-6328-473a-b471-1c303661cf0b
+[I 2024-04-18 11:56:55.503 ServerApp] Starting buffering for d600ad4f-4668-4953-8bd7-99bb2cdaa855:582ab304-414f-48a9-9826-ba37b5be6ecb
+[I 2024-04-18 11:56:55.540 ServerApp] Starting buffering for 06924964-9fe1-4d89-a176-d90aa7dc2549:cd6223d6-f32d-4a84-a0f4-16f07e075e8b
+[I 2024-04-18 11:56:55.540 ServerApp] Starting buffering for 4f3a27eb-4e76-491e-adb2-1a0a72ea7aa1:40888b7d-db77-4feb-b8a9-a1ccc6abbcb2
+[I 2024-04-18 11:56:55.540 ServerApp] Starting buffering for 31e4b932-9bd1-483d-964c-09ad7a52d37d:859f4746-2bc8-4179-901a-fd63adeabf68
+[I 2024-04-18 11:56:55.541 ServerApp] Starting buffering for 34f567e6-c084-4832-96d4-62c10faf30ae:211f45f9-4956-4095-8eeb-ae24feac342d
+[I 2024-04-18 11:56:55.541 ServerApp] Starting buffering for b65da401-3684-4a58-ae18-9441d5592486:85431939-2ab9-406d-8538-22d4ee629b46
+[I 2024-04-18 11:56:57.297 ServerApp] Connecting to kernel d600ad4f-4668-4953-8bd7-99bb2cdaa855.
+[I 2024-04-18 11:56:57.339 ServerApp] Connecting to kernel 19b02fc0-35e6-4412-96b7-1d4eaf1b7818.
