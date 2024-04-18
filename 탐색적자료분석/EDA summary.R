@@ -1,0 +1,131 @@
+#-------setting-------
+
+rm(list = ls())
+library(aplpack)  ## stem.leaf.backback()
+library(MASS)
+library(dplyr)
+library(readxl)
+library(ggplot2)
+
+#-------basic-------
+
+data("Aids2")
+ls()
+attach(Aids2)
+detach(Aids2)
+head(Aids2)
+str(Aids2)  ## structure
+hist(death) ## histogram
+length(death)
+
+A = matrix(1:9, ncol = 3, byrow = TRUE)
+B = list(a = "apple", b = c("banana", "boolean"), c = matrix(1:9, nrow = 3))
+cbind(A, B[["c"]]); rbind(A, B[["c"]])
+array(1:12, c(3, 2, 2))
+eigen(t(A)%*%A, symmetric = T)
+
+seq(1, 10, by = 2)
+seq(1, 10, length = 4)
+rep(1, 5)
+
+X = rnorm(100); X[which(X > 0)]
+which(X > 0)
+
+x = c(1,2,3,NA); mean(x, na.rm = T)
+
+fact_dt = factor(c(1,2,2,3), levels = 1:3)
+levels(fact_dt) = c("sans", "pap", "toriel"); fact_dt
+table(fact_dt)
+
+d = list(d1 = c(1,2,3,4), d2 = c(2,3,4,5))
+transform(d, tot = d1+d2)
+
+aa = c(12, 5, 6, 3, 1)
+sort(aa)
+order(aa)
+rank(aa)
+
+apply(Aids2[, 3:4], 2, sum); lapply(Aids2[, 3:4], sum)  ## lapply는 axis = 2만 가능
+
+data("geyser")
+plot(geyser$waiting~geyser$duration, xlim = c(0.6, 6), ylim = c(40, 110), xlab = "duration", ylab = "waiting", main = "geyser", type = "n")
+text(geyser$waiting~geyser$duration, cex = 0.5)
+
+par(mfrow = c(2,2))
+hist(rbeta(400, 1, 1), breaks = seq(0, 1, 0.1), prob = T, ylim = c(0, 3))
+hist(rbeta(400, 2, 2), breaks = seq(0, 1, 0.1), freq = F, ylim = c(0, 3))
+hist(rbeta(400, 4, 4), breaks = seq(0, 1, 0.1), prob = T, ylim = c(0, 3))
+hist(rbeta(400, 8, 8), breaks = seq(0, 1, 0.1), freq = F, ylim = c(0, 3))
+par(mfrow = c(1,1))
+
+x = seq(-6, 6, 0.01); m = 0; s = sd(rt(1000, 5))
+hist(rt(1000, 5), prob = T, breaks = 20)
+curve(dnorm(x, m, s), add = T)
+
+read.csv("file name", header = T)
+
+#-------stem and leaf plot-------
+
+stem.leaf.backback(head(Aids2$death, 50), tail(Aids2$death, 40))
+
+data("Boston")
+x <- Boston$medv
+stem.leaf(x, unit = 0.1, m = 1)  ## m으로 스케일 조절
+stem(x, scale = 2)
+hist(x, breaks = 20)
+
+#-------values display and box plot-------
+
+x <- rnorm(65)
+
+lwb <- quantile(x, c(0.5, 0.25, 0.125, 0.0625), type = 8)
+upb <- quantile(x, 1 - c(0.5, 0.25, 0.125, 0.0625), type = 8)
+spr <- upb - lwb
+mid <- (upb + lwb) / 2
+
+stat_display <- data.frame(lwb, upb, mid, spr, row.names = c("M", "H", "E", "D"))
+stat_display
+
+library(ggplot2)
+data("iris")
+
+ggplot(iris, aes(Species, Sepal.Length)) +
+  geom_boxplot()
+
+boxplot(Sepal.Length~Species, iris, xlab = "종", ylab = "꽃받침 길이", main = "종별 상자 그림")
+
+unique(iris$Species)
+spr = c()
+med = c()
+a = 1
+
+for (i in unique(iris$Species)) {
+    temp_dt = iris[iris$Species == i,]
+    spr[a] = fivenum(temp_dt$Sepal.Length)[4] - fivenum(temp_dt$Sepal.Length)[2]
+    med[a] = fivenum(temp_dt$Sepal.Length)[3]
+    a = a + 1
+}
+
+trans_spr = log(spr)
+trans_med = log(med)
+
+lm(trans_spr~trans_med)  ## 1-p = 2.267, p = -1.167
+
+boxplot(iris$Sepal.Length^(-1.167)~Species, iris)  ## 분포가 비슷해졌당
+boxplot(Sepal.Length~Species, iris, notch = TRUE)
+
+ggplot(iris, aes(Species, Sepal.Length)) + 
+  geom_boxplot(notch = TRUE)
+#  geom_violin(width = 0.8)
+
+dbinom(0, 3, 0.5); dbinom(1, 3, 0.5); dbinom(2, 3, 0.5); dbinom(3, 3, 0.5)
+
+x <- rnorm(100)
+qqnorm(x)
+qqline(x)
+
+plot((seq(1:100)-0.5)/100, pnorm(sort(x)), xlab = expression(p[i]), ylab = expression(F(x[(i)])), main = "PP plot")
+abline(0, 1)
+
+
+library(readxl)
