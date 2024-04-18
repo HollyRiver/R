@@ -94,38 +94,43 @@ ggplot(iris, aes(Species, Sepal.Length)) +
 
 boxplot(Sepal.Length~Species, iris, xlab = "종", ylab = "꽃받침 길이", main = "종별 상자 그림")
 
-unique(iris$Species)
 spr = c()
 med = c()
-a = 1
-
-for (i in unique(iris$Species)) {
-    temp_dt = iris[iris$Species == i,]
-    spr[a] = fivenum(temp_dt$Sepal.Length)[4] - fivenum(temp_dt$Sepal.Length)[2]
-    med[a] = fivenum(temp_dt$Sepal.Length)[3]
-    a = a + 1
+for (i in 1:3) {
+    temp_dt = iris[iris$Species == unique(iris$Species)[i],]
+    spr[i] = fivenum(temp_dt$Sepal.Length)[4] - fivenum(temp_dt$Sepal.Length)[2]
+    med[i] = fivenum(temp_dt$Sepal.Length)[3]
 }
-
 trans_spr = log(spr)
 trans_med = log(med)
-
 lm(trans_spr~trans_med)  ## 1-p = 2.267, p = -1.167
 
-boxplot(iris$Sepal.Length^(-1.167)~Species, iris)  ## 분포가 비슷해졌당
+boxplot(iris$Sepal.Length^(-1.167)~Species, iris, xlab = "Species", ylab = "transformed Sepan Length", main = "변환된 상자 그림")  ## 분포가 비슷해졌당
 boxplot(Sepal.Length~Species, iris, notch = TRUE)
 
-ggplot(iris, aes(Species, Sepal.Length)) + 
-  geom_boxplot(notch = TRUE)
-#  geom_violin(width = 0.8)
+#-------probability plot using-------
 
-dbinom(0, 3, 0.5); dbinom(1, 3, 0.5); dbinom(2, 3, 0.5); dbinom(3, 3, 0.5)
+dbinom(0, 3, 0.5); dbinom(1, 3, 0.5); dbinom(2, 3, 0.5); dbinom(3, 3, 0.5) # frequency table
 
+n = 100
 x <- rnorm(100)
+p_i <- (seq(1:n) - 0.5)/n
+p_norm <- pnorm(sort(x))
+
+plot(p_norm~p_i, xlab = "Theorical probability", ylab = "Sample probability", main = "PP plot")
+abline(0, 1)
+
+q_i <- sort(x)
+q_norm <- qnorm(p_i)
+
+par(mfcol = c(1, 2))
+plot(q_i~q_norm, xlab = "Theorical quantiles", ylab = "Sample quantiles", main = "QQ plot")
+abline(0, 1)
+
 qqnorm(x)
 qqline(x)
 
-plot((seq(1:100)-0.5)/100, pnorm(sort(x)), xlab = expression(p[i]), ylab = expression(F(x[(i)])), main = "PP plot")
-abline(0, 1)
-
-
-library(readxl)
+par(mfcol = c(1,1))
+q_i <- sort(rexp(n, 0.5))
+q_exp <- -log(1-p_i)
+plot(q_exp, q_i, xlab = "Theorical Quantiles", ylab = "Sample Quantiles", main = "Exponential Q-Q plot")
