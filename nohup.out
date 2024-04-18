@@ -18515,3 +18515,246 @@ The downloaded source packages are in
 [I 2024-04-16 06:44:31.493 ServerApp] Kernel started: d600ad4f-4668-4953-8bd7-99bb2cdaa855
 [I 2024-04-16 06:44:32.199 ServerApp] Connecting to kernel d600ad4f-4668-4953-8bd7-99bb2cdaa855.
 [I 2024-04-16 06:44:58.169 ServerApp] New terminal with automatic name: 2
+[I 2024-04-16 06:46:36.141 ServerApp] Saving file at /EDA/0416.ipynb
+[I 2024-04-16 07:04:36.301 ServerApp] Saving file at /EDA/0416.ipynb
+[I 2024-04-16 07:06:36.334 ServerApp] Saving file at /EDA/0416.ipynb
+[I 2024-04-16 07:08:36.368 ServerApp] Saving file at /EDA/0416.ipynb
+[I 2024-04-16 07:10:36.415 ServerApp] Saving file at /EDA/0416.ipynb
+[I 2024-04-16 07:12:36.454 ServerApp] Saving file at /EDA/0416.ipynb
+[I 2024-04-16 07:14:36.495 ServerApp] Saving file at /EDA/0416.ipynb
+[I 2024-04-16 07:16:36.533 ServerApp] Saving file at /EDA/0416.ipynb
+[I 2024-04-16 07:18:36.568 ServerApp] Saving file at /EDA/0416.ipynb
+[I 2024-04-16 07:20:36.615 ServerApp] Saving file at /EDA/0416.ipynb
+[I 2024-04-16 07:22:36.652 ServerApp] Saving file at /EDA/0416.ipynb
+[I 2024-04-16 07:24:36.705 ServerApp] Saving file at /EDA/0416.ipynb
+[I 2024-04-16 07:26:36.750 ServerApp] Saving file at /EDA/0416.ipynb
+[I 2024-04-16 07:28:36.796 ServerApp] Saving file at /EDA/0416.ipynb
+[I 2024-04-16 07:29:53.883 ServerApp] Creating new notebook in /EDA
+[I 2024-04-16 07:29:56.196 ServerApp] Kernel started: 34f567e6-c084-4832-96d4-62c10faf30ae
+[I 2024-04-16 07:29:56.776 ServerApp] Connecting to kernel 34f567e6-c084-4832-96d4-62c10faf30ae.
+[I 2024-04-16 07:32:00.596 ServerApp] Saving file at /EDA/0416_2.ipynb
+[I 2024-04-16 07:32:36.852 ServerApp] Saving file at /EDA/0416.ipynb
+[I 2024-04-16 07:34:36.898 ServerApp] Saving file at /EDA/0416.ipynb
+[I 2024-04-16 07:36:36.934 ServerApp] Saving file at /EDA/0416.ipynb
+[I 2024-04-16 07:38:36.977 ServerApp] Saving file at /EDA/0416.ipynb
+[I 2024-04-16 07:39:14.634 ServerApp] Saving file at /EDA/0416.ipynb
+[I 2024-04-16 07:39:16.838 ServerApp] Starting buffering for d600ad4f-4668-4953-8bd7-99bb2cdaa855:7cac0af2-761b-4508-8c0d-cb0e0782ad15
+[I 2024-04-16 07:39:17.226 ServerApp] Starting buffering for 34f567e6-c084-4832-96d4-62c10faf30ae:0a01447f-d606-41e6-bc9f-70a2b5a88a16
+[I 2024-04-16 07:53:30.319 ServerApp] 302 GET / (@61.99.5.148) 0.50ms
+[I 2024-04-16 07:53:32.476 ServerApp] Connecting to kernel 4d8f4a7b-9a05-4065-a1fc-601d6e10b0ab.
+[I 2024-04-16 07:53:32.505 ServerApp] Connecting to kernel 7fb31839-bd86-4897-8e73-ff9be3960182.
+[I 2024-04-16 07:53:32.533 ServerApp] Starting buffering for 4d8f4a7b-9a05-4065-a1fc-601d6e10b0ab:1cce1ed5-0cf9-4fa8-8d54-f1c1a6d0b63c
+[I 2024-04-16 07:53:32.542 ServerApp] Connecting to kernel 19b02fc0-35e6-4412-96b7-1d4eaf1b7818.
+[W 2024-04-16 07:53:32.543 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-04-16 07:53:32.580 ServerApp] Connecting to kernel 043d4052-25aa-481d-a913-b5af701a4db3.
+[I 2024-04-16 07:53:32.657 ServerApp] Connecting to kernel f6f576b0-1126-4268-be22-ada9b9f95641.
+[I 2024-04-16 07:53:32.679 ServerApp] Starting buffering for 7fb31839-bd86-4897-8e73-ff9be3960182:c6f445bb-d33d-43ab-a527-89bfe329a890
+[I 2024-04-16 07:53:32.687 ServerApp] Connecting to kernel b37da93d-ab15-4e7c-8304-acc3b3bf1afd.
+[I 2024-04-16 07:53:32.713 ServerApp] Connecting to kernel d600ad4f-4668-4953-8bd7-99bb2cdaa855.
+[I 2024-04-16 07:53:32.748 ServerApp] Connecting to kernel 34f567e6-c084-4832-96d4-62c10faf30ae.
+[I 2024-04-16 07:53:32.805 ServerApp] Starting buffering for f6f576b0-1126-4268-be22-ada9b9f95641:f55dd4a4-8750-44ea-9286-b86672edf064
+[I 2024-04-16 07:53:32.805 ServerApp] Starting buffering for 043d4052-25aa-481d-a913-b5af701a4db3:c3a39bb2-02a5-494f-85a1-a58c837330e4
+[I 2024-04-16 07:53:32.806 ServerApp] Starting buffering for 19b02fc0-35e6-4412-96b7-1d4eaf1b7818:f8ec111d-b3f4-4f06-a593-34ac95840968
+[I 2024-04-16 07:53:32.939 ServerApp] Starting buffering for 34f567e6-c084-4832-96d4-62c10faf30ae:3830eae3-494b-4a60-a2a6-1621c2341b85
+[I 2024-04-16 07:53:32.945 ServerApp] Starting buffering for b37da93d-ab15-4e7c-8304-acc3b3bf1afd:8f52f6fa-0eaf-48c5-8f69-d4796dc5b2a9
+[I 2024-04-16 07:53:32.946 ServerApp] Starting buffering for d600ad4f-4668-4953-8bd7-99bb2cdaa855:21f588f2-b356-4db2-9d6e-996b3bf6ca0e
+[I 2024-04-16 07:53:39.627 ServerApp] Kernel started: 4f3a27eb-4e76-491e-adb2-1a0a72ea7aa1
+[I 2024-04-16 07:53:40.204 ServerApp] Connecting to kernel 4f3a27eb-4e76-491e-adb2-1a0a72ea7aa1.
+[I 2024-04-16 07:53:42.164 ServerApp] Connecting to kernel 19b02fc0-35e6-4412-96b7-1d4eaf1b7818.
+[I 2024-04-16 07:55:42.554 ServerApp] Saving file at /EDA/code assemble.ipynb
+[I 2024-04-16 07:58:52.953 ServerApp] Connecting to kernel d600ad4f-4668-4953-8bd7-99bb2cdaa855.
+[I 2024-04-16 09:19:32.666 ServerApp] Saving file at /EDA/0416.ipynb
+[I 2024-04-16 09:19:34.390 ServerApp] Starting buffering for 19b02fc0-35e6-4412-96b7-1d4eaf1b7818:e3f30485-cb12-47eb-b572-03732f0402a7
+[I 2024-04-16 09:19:34.391 ServerApp] Starting buffering for d600ad4f-4668-4953-8bd7-99bb2cdaa855:362f554e-41c1-4b33-acfc-2ba852b7e77f
+[I 2024-04-16 09:19:34.391 ServerApp] Starting buffering for 4f3a27eb-4e76-491e-adb2-1a0a72ea7aa1:92482a8c-ce4a-4e6d-b395-420da570293f
+[I 2024-04-16 11:50:03.999 ServerApp] 302 GET / (@121.154.64.157) 0.43ms
+[W 2024-04-16 11:50:06.191 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2024-04-16 11:50:06.428 ServerApp] 404 GET /api/contents/SDB2024/course/exam%20summay.ipynb?content=0&hash=0&1713268206412 (2b65fff4b5164febaaa8a0989c567e91@121.154.64.157) 0.63ms referer=http://210.117.173.186:34107/lab?
+[W 2024-04-16 11:50:06.428 ServerApp] 404 GET /api/contents/SDB2024/course/exam%20summay.ipynb?content=0&hash=0&1713268206412 (121.154.64.157): No such file or directory: SDB2024/course/exam summay.ipynb
+[W 2024-04-16 11:50:07.227 ServerApp] 404 GET /api/contents/SDB2024/course?1713268207211 (2b65fff4b5164febaaa8a0989c567e91@121.154.64.157) 0.74ms referer=http://210.117.173.186:34107/lab?
+[W 2024-04-16 11:50:07.227 ServerApp] 404 GET /api/contents/SDB2024/course?1713268207211 (121.154.64.157): No such file or directory: SDB2024/course
+[I 2024-04-16 13:37:55.856 ServerApp] 302 GET / (@121.154.64.157) 0.27ms
+[I 2024-04-16 13:37:57.147 ServerApp] Connecting to kernel 4d8f4a7b-9a05-4065-a1fc-601d6e10b0ab.
+[I 2024-04-16 13:37:57.167 ServerApp] Connecting to kernel 7fb31839-bd86-4897-8e73-ff9be3960182.
+[W 2024-04-16 13:37:57.173 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-04-16 13:37:57.199 ServerApp] Connecting to kernel 19b02fc0-35e6-4412-96b7-1d4eaf1b7818.
+[I 2024-04-16 13:37:57.220 ServerApp] Connecting to kernel 043d4052-25aa-481d-a913-b5af701a4db3.
+[I 2024-04-16 13:37:57.243 ServerApp] Connecting to kernel f6f576b0-1126-4268-be22-ada9b9f95641.
+[I 2024-04-16 13:37:57.265 ServerApp] Connecting to kernel d600ad4f-4668-4953-8bd7-99bb2cdaa855.
+[I 2024-04-16 13:37:57.288 ServerApp] Connecting to kernel b37da93d-ab15-4e7c-8304-acc3b3bf1afd.
+[I 2024-04-16 13:37:57.308 ServerApp] Connecting to kernel 34f567e6-c084-4832-96d4-62c10faf30ae.
+[I 2024-04-16 13:37:57.333 ServerApp] Connecting to kernel 4f3a27eb-4e76-491e-adb2-1a0a72ea7aa1.
+[I 2024-04-16 13:37:57.471 ServerApp] Starting buffering for b37da93d-ab15-4e7c-8304-acc3b3bf1afd:341ed5d5-06b3-4809-bf64-eeddc635a196
+[I 2024-04-16 13:37:57.472 ServerApp] Starting buffering for 7fb31839-bd86-4897-8e73-ff9be3960182:bfb0df1f-db6b-482a-96ab-611fe8dce198
+[I 2024-04-16 13:37:57.472 ServerApp] Starting buffering for 043d4052-25aa-481d-a913-b5af701a4db3:5254e15d-b570-4473-896a-51498cf2cf7c
+[I 2024-04-16 13:37:57.472 ServerApp] Starting buffering for 19b02fc0-35e6-4412-96b7-1d4eaf1b7818:e336b7c7-8489-4b60-91b3-17f90ceb1dda
+[I 2024-04-16 13:37:57.472 ServerApp] Starting buffering for f6f576b0-1126-4268-be22-ada9b9f95641:0c00137e-8778-4313-9583-7d6a8b0b2067
+[I 2024-04-16 13:37:57.473 ServerApp] Starting buffering for d600ad4f-4668-4953-8bd7-99bb2cdaa855:98006a7f-4663-4c84-bb22-ff229b222b3d
+[I 2024-04-16 13:37:57.473 ServerApp] Starting buffering for 34f567e6-c084-4832-96d4-62c10faf30ae:d0661433-0eee-47e5-8e56-94697a7a8f6a
+[I 2024-04-16 13:37:57.473 ServerApp] Starting buffering for 4d8f4a7b-9a05-4065-a1fc-601d6e10b0ab:f45f4329-f248-4006-bf56-37f39f2275f8
+[W 2024-04-16 13:37:57.506 ServerApp] 404 GET /api/contents/SDB2024/course/summary.ipynb?content=0&hash=0&1713274677447 (2b65fff4b5164febaaa8a0989c567e91@121.154.64.157) 0.59ms referer=http://210.117.173.186:34107/lab?
+[W 2024-04-16 13:37:57.506 ServerApp] 404 GET /api/contents/SDB2024/course/summary.ipynb?content=0&hash=0&1713274677447 (121.154.64.157): No such file or directory: SDB2024/course/summary.ipynb
+[W 2024-04-16 13:37:57.507 ServerApp] 404 GET /api/contents/SDB2024/course/Untitled.ipynb?content=0&hash=0&1713274677446 (2b65fff4b5164febaaa8a0989c567e91@121.154.64.157) 0.61ms referer=http://210.117.173.186:34107/lab?
+[W 2024-04-16 13:37:57.507 ServerApp] 404 GET /api/contents/SDB2024/course/Untitled.ipynb?content=0&hash=0&1713274677446 (121.154.64.157): No such file or directory: SDB2024/course/Untitled.ipynb
+[W 2024-04-16 13:37:57.508 ServerApp] 404 GET /api/contents/SDB2024/course/exam%20summay.ipynb?content=0&hash=0&1713274677447 (2b65fff4b5164febaaa8a0989c567e91@121.154.64.157) 0.68ms referer=http://210.117.173.186:34107/lab?
+[W 2024-04-16 13:37:57.508 ServerApp] 404 GET /api/contents/SDB2024/course/exam%20summay.ipynb?content=0&hash=0&1713274677447 (121.154.64.157): No such file or directory: SDB2024/course/exam summay.ipynb
+[W 2024-04-16 13:37:57.508 ServerApp] 404 GET /api/contents/R/SDB/0415.ipynb?content=0&hash=0&1713274677447 (2b65fff4b5164febaaa8a0989c567e91@121.154.64.157) 0.99ms referer=http://210.117.173.186:34107/lab?
+[W 2024-04-16 13:37:57.508 ServerApp] 404 GET /api/contents/R/SDB/0415.ipynb?content=0&hash=0&1713274677447 (121.154.64.157): No such file or directory: R/SDB/0415.ipynb
+[I 2024-04-16 13:37:57.665 ServerApp] Starting buffering for 4f3a27eb-4e76-491e-adb2-1a0a72ea7aa1:9e76cc9b-b17d-4f3f-8962-b174f5fe5700
+[W 2024-04-16 13:37:58.183 ServerApp] 404 GET /api/contents/R/SDB?1713274678122 (2b65fff4b5164febaaa8a0989c567e91@121.154.64.157) 0.75ms referer=http://210.117.173.186:34107/lab?
+[W 2024-04-16 13:37:58.183 ServerApp] 404 GET /api/contents/R/SDB?1713274678122 (121.154.64.157): No such file or directory: R/SDB
+[I 2024-04-17 00:47:44.865 ServerApp] 302 GET / (@121.154.64.157) 0.84ms
+[W 2024-04-17 00:47:48.491 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-04-17 00:47:51.015 ServerApp] 302 GET / (@121.154.64.157) 0.37ms
+[W 2024-04-17 00:47:52.289 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-04-17 00:47:52.388 ServerApp] Connecting to kernel 4d8f4a7b-9a05-4065-a1fc-601d6e10b0ab.
+[I 2024-04-17 00:47:52.444 ServerApp] Connecting to kernel 7fb31839-bd86-4897-8e73-ff9be3960182.
+[I 2024-04-17 00:47:52.531 ServerApp] Connecting to kernel 19b02fc0-35e6-4412-96b7-1d4eaf1b7818.
+[I 2024-04-17 00:47:52.557 ServerApp] Connecting to kernel 043d4052-25aa-481d-a913-b5af701a4db3.
+[I 2024-04-17 00:47:52.676 ServerApp] Connecting to kernel f6f576b0-1126-4268-be22-ada9b9f95641.
+[I 2024-04-17 00:47:52.701 ServerApp] Connecting to kernel d600ad4f-4668-4953-8bd7-99bb2cdaa855.
+[I 2024-04-17 00:47:52.709 ServerApp] Starting buffering for 4d8f4a7b-9a05-4065-a1fc-601d6e10b0ab:edecc0bb-084f-4ed0-ac50-31a23c1c79e6
+[I 2024-04-17 00:47:52.724 ServerApp] Connecting to kernel b37da93d-ab15-4e7c-8304-acc3b3bf1afd.
+[I 2024-04-17 00:47:52.744 ServerApp] Connecting to kernel 34f567e6-c084-4832-96d4-62c10faf30ae.
+[I 2024-04-17 00:47:52.767 ServerApp] Connecting to kernel 4f3a27eb-4e76-491e-adb2-1a0a72ea7aa1.
+[I 2024-04-17 00:47:53.004 ServerApp] Starting buffering for 7fb31839-bd86-4897-8e73-ff9be3960182:ab70f4bf-e174-4408-8b6b-df30dec065cf
+[I 2024-04-17 00:47:53.005 ServerApp] Starting buffering for 19b02fc0-35e6-4412-96b7-1d4eaf1b7818:5dd7d1aa-3c38-4e97-b13b-573fc945cff2
+[I 2024-04-17 00:47:53.005 ServerApp] Starting buffering for 043d4052-25aa-481d-a913-b5af701a4db3:57992abe-05ca-4dd7-abee-fc4dc76a4d25
+[I 2024-04-17 00:47:53.013 ServerApp] Starting buffering for f6f576b0-1126-4268-be22-ada9b9f95641:a2a16d6a-6001-4d80-8a94-0a58b9aa8d1e
+[I 2024-04-17 00:47:53.026 ServerApp] Starting buffering for d600ad4f-4668-4953-8bd7-99bb2cdaa855:b9ec878f-f085-4815-93b6-84b71cc4a856
+[I 2024-04-17 00:47:53.075 ServerApp] Starting buffering for b37da93d-ab15-4e7c-8304-acc3b3bf1afd:a8ce255b-dc32-4561-985f-3cf91b3c42bb
+[I 2024-04-17 00:47:53.075 ServerApp] Starting buffering for 4f3a27eb-4e76-491e-adb2-1a0a72ea7aa1:b8c84264-23b3-4e15-bac0-5988cdbe5e6f
+[I 2024-04-17 00:47:53.075 ServerApp] Starting buffering for 34f567e6-c084-4832-96d4-62c10faf30ae:2b6ac96c-4921-4296-a9e2-b86e9eaba745
+[I 2024-04-17 00:48:17.075 ServerApp] Creating new notebook in /regression analysis/RA 2
+[I 2024-04-17 00:48:21.598 ServerApp] Kernel started: 06924964-9fe1-4d89-a176-d90aa7dc2549
+[I 2024-04-17 00:48:22.221 ServerApp] Connecting to kernel 06924964-9fe1-4d89-a176-d90aa7dc2549.
+[I 2024-04-17 00:49:30.797 ServerApp] Starting buffering for 06924964-9fe1-4d89-a176-d90aa7dc2549:528be419-328a-4e88-be58-a759c1c3bc97
+[I 2024-04-17 01:50:45.444 ServerApp] 302 GET / (@121.154.64.157) 0.51ms
+[I 2024-04-17 01:50:46.658 ServerApp] Connecting to kernel 4d8f4a7b-9a05-4065-a1fc-601d6e10b0ab.
+[I 2024-04-17 01:50:46.680 ServerApp] Connecting to kernel 7fb31839-bd86-4897-8e73-ff9be3960182.
+[W 2024-04-17 01:50:46.681 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-04-17 01:50:46.704 ServerApp] Connecting to kernel 19b02fc0-35e6-4412-96b7-1d4eaf1b7818.
+[I 2024-04-17 01:50:46.724 ServerApp] Connecting to kernel 043d4052-25aa-481d-a913-b5af701a4db3.
+[I 2024-04-17 01:50:46.745 ServerApp] Connecting to kernel f6f576b0-1126-4268-be22-ada9b9f95641.
+[I 2024-04-17 01:50:46.774 ServerApp] Connecting to kernel b37da93d-ab15-4e7c-8304-acc3b3bf1afd.
+[I 2024-04-17 01:50:46.796 ServerApp] Connecting to kernel d600ad4f-4668-4953-8bd7-99bb2cdaa855.
+[I 2024-04-17 01:50:46.814 ServerApp] Connecting to kernel 34f567e6-c084-4832-96d4-62c10faf30ae.
+[I 2024-04-17 01:50:46.838 ServerApp] Connecting to kernel 4f3a27eb-4e76-491e-adb2-1a0a72ea7aa1.
+[I 2024-04-17 01:50:46.859 ServerApp] Connecting to kernel 06924964-9fe1-4d89-a176-d90aa7dc2549.
+[I 2024-04-17 01:50:46.973 ServerApp] Starting buffering for 7fb31839-bd86-4897-8e73-ff9be3960182:bb82d2bc-46c5-4a5d-832a-78fcdbfc84d5
+[I 2024-04-17 01:50:46.973 ServerApp] Starting buffering for 043d4052-25aa-481d-a913-b5af701a4db3:4a6e7954-7c54-4d76-8532-81f675ad4f32
+[I 2024-04-17 01:50:46.973 ServerApp] Starting buffering for f6f576b0-1126-4268-be22-ada9b9f95641:ead876bc-93af-4a02-9275-79399d831af0
+[I 2024-04-17 01:50:46.974 ServerApp] Starting buffering for 19b02fc0-35e6-4412-96b7-1d4eaf1b7818:7d1c0b72-b49e-4789-9bd8-059857a75d77
+[I 2024-04-17 01:50:46.974 ServerApp] Starting buffering for b37da93d-ab15-4e7c-8304-acc3b3bf1afd:38d0dd9d-290f-485f-bb52-b1f6a9fbc37a
+[I 2024-04-17 01:50:46.974 ServerApp] Starting buffering for 4d8f4a7b-9a05-4065-a1fc-601d6e10b0ab:9cfc8c51-e8d9-4553-8a3c-008bdca2f572
+[I 2024-04-17 01:50:47.000 ServerApp] Starting buffering for d600ad4f-4668-4953-8bd7-99bb2cdaa855:534e9301-0d82-40be-87a8-95fc49e0a76d
+[W 2024-04-17 01:50:47.002 ServerApp] 404 GET /api/contents/SDB2024/course/summary.ipynb?content=0&hash=0&1713318645639 (2b65fff4b5164febaaa8a0989c567e91@121.154.64.157) 0.78ms referer=http://210.117.173.186:34107/lab?
+[W 2024-04-17 01:50:47.003 ServerApp] 404 GET /api/contents/SDB2024/course/summary.ipynb?content=0&hash=0&1713318645639 (121.154.64.157): No such file or directory: SDB2024/course/summary.ipynb
+[W 2024-04-17 01:50:47.004 ServerApp] 404 GET /api/contents/SDB2024/course/exam%20summay.ipynb?content=0&hash=0&1713318645639 (2b65fff4b5164febaaa8a0989c567e91@121.154.64.157) 0.65ms referer=http://210.117.173.186:34107/lab?
+[W 2024-04-17 01:50:47.004 ServerApp] 404 GET /api/contents/SDB2024/course/exam%20summay.ipynb?content=0&hash=0&1713318645639 (121.154.64.157): No such file or directory: SDB2024/course/exam summay.ipynb
+[W 2024-04-17 01:50:47.004 ServerApp] 404 GET /api/contents/R/SDB/0415.ipynb?content=0&hash=0&1713318645640 (2b65fff4b5164febaaa8a0989c567e91@121.154.64.157) 0.97ms referer=http://210.117.173.186:34107/lab?
+[W 2024-04-17 01:50:47.004 ServerApp] 404 GET /api/contents/R/SDB/0415.ipynb?content=0&hash=0&1713318645640 (121.154.64.157): No such file or directory: R/SDB/0415.ipynb
+[I 2024-04-17 01:50:47.115 ServerApp] Starting buffering for 06924964-9fe1-4d89-a176-d90aa7dc2549:0bd76350-6ce5-4cdc-ab65-491c46572090
+[I 2024-04-17 01:50:47.115 ServerApp] Starting buffering for 4f3a27eb-4e76-491e-adb2-1a0a72ea7aa1:6789670c-b60e-43a8-98e7-585b8db5c448
+[I 2024-04-17 01:50:47.116 ServerApp] Starting buffering for 34f567e6-c084-4832-96d4-62c10faf30ae:01ce88e3-0fc0-442c-b5af-a3de5dfeddf7
+[W 2024-04-17 01:50:47.663 ServerApp] 404 GET /api/contents/R/SDB?1713318646298 (2b65fff4b5164febaaa8a0989c567e91@121.154.64.157) 0.98ms referer=http://210.117.173.186:34107/lab?
+[W 2024-04-17 01:50:47.663 ServerApp] 404 GET /api/contents/R/SDB?1713318646298 (121.154.64.157): No such file or directory: R/SDB
+[I 2024-04-18 04:41:34.933 ServerApp] 302 GET / (@172.22.138.38) 0.83ms
+[I 2024-04-18 04:41:34.936 LabApp] 302 GET /lab? (@172.22.138.38) 0.65ms
+[I 2024-04-18 04:41:39.105 ServerApp] User f41acc191fb04371b80aac14e8114b1d logged in.
+[I 2024-04-18 04:41:39.105 ServerApp] 302 POST /login?next=%2Flab%3F (f41acc191fb04371b80aac14e8114b1d@172.22.138.38) 26.18ms
+[I 2024-04-18 04:41:39.884 ServerApp] Connecting to kernel 4d8f4a7b-9a05-4065-a1fc-601d6e10b0ab.
+[I 2024-04-18 04:41:39.903 ServerApp] Connecting to kernel 7fb31839-bd86-4897-8e73-ff9be3960182.
+[I 2024-04-18 04:41:39.906 ServerApp] Starting buffering for 4d8f4a7b-9a05-4065-a1fc-601d6e10b0ab:bb743b83-9ea6-4823-a7d5-29585666bb58
+[I 2024-04-18 04:41:39.917 ServerApp] Starting buffering for 7fb31839-bd86-4897-8e73-ff9be3960182:7ae56220-1a28-4d4e-b84b-6684fd818ce3
+[I 2024-04-18 04:41:39.919 ServerApp] Connecting to kernel 19b02fc0-35e6-4412-96b7-1d4eaf1b7818.
+[W 2024-04-18 04:41:39.923 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-04-18 04:41:39.934 ServerApp] Connecting to kernel 043d4052-25aa-481d-a913-b5af701a4db3.
+[I 2024-04-18 04:41:39.949 ServerApp] Connecting to kernel f6f576b0-1126-4268-be22-ada9b9f95641.
+[I 2024-04-18 04:41:39.962 ServerApp] Connecting to kernel b37da93d-ab15-4e7c-8304-acc3b3bf1afd.
+[I 2024-04-18 04:41:39.975 ServerApp] Connecting to kernel d600ad4f-4668-4953-8bd7-99bb2cdaa855.
+[I 2024-04-18 04:41:39.987 ServerApp] Starting buffering for 19b02fc0-35e6-4412-96b7-1d4eaf1b7818:ac3089e7-58ea-476e-9bec-fd2b9e60af0a
+[I 2024-04-18 04:41:39.989 ServerApp] Connecting to kernel 4f3a27eb-4e76-491e-adb2-1a0a72ea7aa1.
+[I 2024-04-18 04:41:40.005 ServerApp] Connecting to kernel 34f567e6-c084-4832-96d4-62c10faf30ae.
+[I 2024-04-18 04:41:40.072 ServerApp] Connecting to kernel 06924964-9fe1-4d89-a176-d90aa7dc2549.
+[I 2024-04-18 04:41:40.073 ServerApp] Starting buffering for 043d4052-25aa-481d-a913-b5af701a4db3:96dd2fdf-299f-42ba-9149-42ec7e5e2c8c
+[I 2024-04-18 04:41:40.074 ServerApp] Starting buffering for d600ad4f-4668-4953-8bd7-99bb2cdaa855:b6d28726-77cc-4b53-89b5-34324ae3f111
+[I 2024-04-18 04:41:40.074 ServerApp] Starting buffering for f6f576b0-1126-4268-be22-ada9b9f95641:8eb1f00b-963a-4956-a5d5-6dd4af68c0a3
+[I 2024-04-18 04:41:40.074 ServerApp] Starting buffering for b37da93d-ab15-4e7c-8304-acc3b3bf1afd:29744175-d21a-4dee-86c8-00d9c3667044
+[I 2024-04-18 04:41:40.097 ServerApp] Starting buffering for 06924964-9fe1-4d89-a176-d90aa7dc2549:ee29111a-ee22-4d44-8fb6-c8a3bb411407
+[W 2024-04-18 04:41:40.100 ServerApp] 404 GET /api/contents/SDB2024/course/summary.ipynb?content=0&hash=0&1713415300090 (f41acc191fb04371b80aac14e8114b1d@172.22.138.38) 0.54ms referer=http://210.117.173.186:34107/lab?
+[W 2024-04-18 04:41:40.100 ServerApp] 404 GET /api/contents/SDB2024/course/summary.ipynb?content=0&hash=0&1713415300090 (172.22.138.38): No such file or directory: SDB2024/course/summary.ipynb
+[W 2024-04-18 04:41:40.101 ServerApp] 404 GET /api/contents/SDB2024/course/Untitled.ipynb?content=0&hash=0&1713415300090 (f41acc191fb04371b80aac14e8114b1d@172.22.138.38) 0.64ms referer=http://210.117.173.186:34107/lab?
+[W 2024-04-18 04:41:40.101 ServerApp] 404 GET /api/contents/SDB2024/course/Untitled.ipynb?content=0&hash=0&1713415300090 (172.22.138.38): No such file or directory: SDB2024/course/Untitled.ipynb
+[W 2024-04-18 04:41:40.101 ServerApp] 404 GET /api/contents/R/SDB/0415.ipynb?content=0&hash=0&1713415300090 (f41acc191fb04371b80aac14e8114b1d@172.22.138.38) 0.93ms referer=http://210.117.173.186:34107/lab?
+[W 2024-04-18 04:41:40.101 ServerApp] 404 GET /api/contents/R/SDB/0415.ipynb?content=0&hash=0&1713415300090 (172.22.138.38): No such file or directory: R/SDB/0415.ipynb
+[W 2024-04-18 04:41:40.102 ServerApp] 404 GET /api/contents/SDB2024/course/exam%20summay.ipynb?content=0&hash=0&1713415300091 (f41acc191fb04371b80aac14e8114b1d@172.22.138.38) 0.64ms referer=http://210.117.173.186:34107/lab?
+[W 2024-04-18 04:41:40.102 ServerApp] 404 GET /api/contents/SDB2024/course/exam%20summay.ipynb?content=0&hash=0&1713415300091 (172.22.138.38): No such file or directory: SDB2024/course/exam summay.ipynb
+[W 2024-04-18 04:41:40.103 ServerApp] 404 GET /api/contents/SDB2024/course/0325.ipynb?content=0&hash=0&1713415300091 (f41acc191fb04371b80aac14e8114b1d@172.22.138.38) 0.94ms referer=http://210.117.173.186:34107/lab?
+[W 2024-04-18 04:41:40.103 ServerApp] 404 GET /api/contents/SDB2024/course/0325.ipynb?content=0&hash=0&1713415300091 (172.22.138.38): No such file or directory: SDB2024/course/0325.ipynb
+[I 2024-04-18 04:41:40.133 ServerApp] Starting buffering for 4f3a27eb-4e76-491e-adb2-1a0a72ea7aa1:da620947-0b5c-467b-b1cd-357e049e37d0
+[I 2024-04-18 04:41:40.134 ServerApp] Starting buffering for 34f567e6-c084-4832-96d4-62c10faf30ae:81011884-7843-4d33-8aab-8ad10e4216bc
+[W 2024-04-18 04:41:40.667 ServerApp] 404 GET /api/contents/SDB2024/course?1713415300657 (f41acc191fb04371b80aac14e8114b1d@172.22.138.38) 0.47ms referer=http://210.117.173.186:34107/lab?
+[W 2024-04-18 04:41:40.667 ServerApp] 404 GET /api/contents/SDB2024/course?1713415300657 (172.22.138.38): No such file or directory: SDB2024/course
+[I 2024-04-18 04:42:23.888 ServerApp] Kernel started: 31e4b932-9bd1-483d-964c-09ad7a52d37d
+[I 2024-04-18 04:42:24.496 ServerApp] Connecting to kernel 31e4b932-9bd1-483d-964c-09ad7a52d37d.
+[I 2024-04-18 04:42:26.927 ServerApp] Starting buffering for 31e4b932-9bd1-483d-964c-09ad7a52d37d:c15e9a4d-604e-4f2d-add0-0ff89941be11
+[I 2024-04-18 04:43:11.208 ServerApp] Creating new notebook in /EDA
+[I 2024-04-18 04:43:14.675 ServerApp] Kernel started: b65da401-3684-4a58-ae18-9441d5592486
+[I 2024-04-18 04:43:15.273 ServerApp] Connecting to kernel b65da401-3684-4a58-ae18-9441d5592486.
+[I 2024-04-18 04:44:12.906 ServerApp] Connecting to kernel 19b02fc0-35e6-4412-96b7-1d4eaf1b7818.
+[I 2024-04-18 04:45:19.203 ServerApp] Saving file at /EDA/0418.ipynb
+[I 2024-04-18 04:46:12.574 ServerApp] Saving file at /EDA/code assemble.ipynb
+[I 2024-04-18 04:48:12.731 ServerApp] Saving file at /EDA/code assemble.ipynb
+[I 2024-04-18 05:09:08.534 ServerApp] Saving file at /EDA/0418.ipynb
+[I 2024-04-18 05:11:08.576 ServerApp] Saving file at /EDA/0418.ipynb
+[I 2024-04-18 05:13:08.611 ServerApp] Saving file at /EDA/0418.ipynb
+[I 2024-04-18 05:15:08.653 ServerApp] Saving file at /EDA/0418.ipynb
+[I 2024-04-18 05:17:08.693 ServerApp] Saving file at /EDA/0418.ipynb
+[I 2024-04-18 05:19:08.735 ServerApp] Saving file at /EDA/0418.ipynb
+[I 2024-04-18 05:21:08.775 ServerApp] Saving file at /EDA/0418.ipynb
+[I 2024-04-18 05:23:08.817 ServerApp] Saving file at /EDA/0418.ipynb
+[I 2024-04-18 05:25:08.866 ServerApp] Saving file at /EDA/0418.ipynb
+[I 2024-04-18 05:27:08.906 ServerApp] Saving file at /EDA/0418.ipynb
+[I 2024-04-18 05:29:08.946 ServerApp] Saving file at /EDA/0418.ipynb
+[I 2024-04-18 05:31:08.984 ServerApp] Saving file at /EDA/0418.ipynb
+[I 2024-04-18 05:33:09.015 ServerApp] Saving file at /EDA/0418.ipynb
+[I 2024-04-18 05:35:09.056 ServerApp] Saving file at /EDA/0418.ipynb
+[I 2024-04-18 05:37:09.093 ServerApp] Saving file at /EDA/0418.ipynb
+[I 2024-04-18 05:39:09.124 ServerApp] Saving file at /EDA/0418.ipynb
+[I 2024-04-18 05:41:09.164 ServerApp] Saving file at /EDA/0418.ipynb
+[I 2024-04-18 05:43:09.214 ServerApp] Saving file at /EDA/0418.ipynb
+[I 2024-04-18 05:45:09.259 ServerApp] Saving file at /EDA/0418.ipynb
+[I 2024-04-18 05:47:09.304 ServerApp] Saving file at /EDA/0418.ipynb
+[I 2024-04-18 05:50:06.108 ServerApp] Saving file at /EDA/code assemble.ipynb
+[I 2024-04-18 05:52:06.180 ServerApp] Saving file at /EDA/code assemble.ipynb
+[I 2024-04-18 05:54:06.254 ServerApp] Saving file at /EDA/code assemble.ipynb
+[I 2024-04-18 05:56:06.317 ServerApp] Saving file at /EDA/code assemble.ipynb
+[I 2024-04-18 05:58:06.382 ServerApp] Saving file at /EDA/code assemble.ipynb
+[I 2024-04-18 06:00:06.452 ServerApp] Saving file at /EDA/code assemble.ipynb
+[I 2024-04-18 06:02:06.528 ServerApp] Saving file at /EDA/code assemble.ipynb
+[I 2024-04-18 06:04:06.598 ServerApp] Saving file at /EDA/code assemble.ipynb
+[I 2024-04-18 06:06:06.674 ServerApp] Saving file at /EDA/code assemble.ipynb
+[I 2024-04-18 06:07:09.467 ServerApp] Saving file at /EDA/0418.ipynb
+[I 2024-04-18 06:09:09.510 ServerApp] Saving file at /EDA/0418.ipynb
+[I 2024-04-18 06:11:09.554 ServerApp] Saving file at /EDA/0418.ipynb
+[I 2024-04-18 06:13:09.617 ServerApp] Saving file at /EDA/0418.ipynb
+[I 2024-04-18 06:15:09.663 ServerApp] Saving file at /EDA/0418.ipynb
+[I 2024-04-18 06:17:09.698 ServerApp] Saving file at /EDA/0418.ipynb
+[I 2024-04-18 06:19:09.737 ServerApp] Saving file at /EDA/0418.ipynb
+[I 2024-04-18 06:21:09.774 ServerApp] Saving file at /EDA/0418.ipynb
+[I 2024-04-18 06:23:09.814 ServerApp] Saving file at /EDA/0418.ipynb
+[I 2024-04-18 06:25:09.864 ServerApp] Saving file at /EDA/0418.ipynb
+[I 2024-04-18 06:27:09.909 ServerApp] Saving file at /EDA/0418.ipynb
+[I 2024-04-18 06:29:09.947 ServerApp] Saving file at /EDA/0418.ipynb
+[I 2024-04-18 06:31:09.995 ServerApp] Saving file at /EDA/0418.ipynb
+[I 2024-04-18 06:33:10.045 ServerApp] Saving file at /EDA/0418.ipynb
+[I 2024-04-18 06:35:10.078 ServerApp] Saving file at /EDA/0418.ipynb
+[I 2024-04-18 06:37:10.117 ServerApp] Saving file at /EDA/0418.ipynb
+[I 2024-04-18 06:39:11.031 ServerApp] Saving file at /EDA/0418.ipynb
+[I 2024-04-18 06:43:12.056 ServerApp] Saving file at /EDA/0418.ipynb
+[I 2024-04-18 06:43:21.003 ServerApp] Saving file at /EDA/0418.ipynb
+[I 2024-04-18 06:44:07.871 ServerApp] Saving file at /EDA/code assemble.ipynb
+[I 2024-04-18 06:44:10.564 ServerApp] Starting buffering for 19b02fc0-35e6-4412-96b7-1d4eaf1b7818:00bfacbd-c32b-4b08-92a5-0264757f3bb2
+[I 2024-04-18 06:44:11.800 ServerApp] Starting buffering for b65da401-3684-4a58-ae18-9441d5592486:977c6805-0334-48bd-bec0-50ba933b5b98
+[I 2024-04-18 06:44:18.024 ServerApp] New terminal with automatic name: 3
