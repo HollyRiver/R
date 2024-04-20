@@ -18819,3 +18819,56 @@ The downloaded source packages are in
 [I 2024-04-18 11:56:55.541 ServerApp] Starting buffering for b65da401-3684-4a58-ae18-9441d5592486:85431939-2ab9-406d-8538-22d4ee629b46
 [I 2024-04-18 11:56:57.297 ServerApp] Connecting to kernel d600ad4f-4668-4953-8bd7-99bb2cdaa855.
 [I 2024-04-18 11:56:57.339 ServerApp] Connecting to kernel 19b02fc0-35e6-4412-96b7-1d4eaf1b7818.
+[I 2024-04-18 11:57:27.740 ServerApp] Starting buffering for d600ad4f-4668-4953-8bd7-99bb2cdaa855:0c3bd345-f6f8-4d8c-9d6a-b34dc74722f9
+[I 2024-04-18 11:57:27.740 ServerApp] Starting buffering for 19b02fc0-35e6-4412-96b7-1d4eaf1b7818:fb7db706-9512-4efa-ba42-3889451db61a
+[I 2024-04-20 00:33:02.615 ServerApp] 302 GET / (@222.105.106.20) 0.68ms
+[W 2024-04-20 00:33:05.411 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-04-20 00:33:06.112 ServerApp] Connecting to kernel 4d8f4a7b-9a05-4065-a1fc-601d6e10b0ab.
+[I 2024-04-20 00:33:06.188 ServerApp] Connecting to kernel 7fb31839-bd86-4897-8e73-ff9be3960182.
+[I 2024-04-20 00:33:06.216 ServerApp] Connecting to kernel 19b02fc0-35e6-4412-96b7-1d4eaf1b7818.
+[I 2024-04-20 00:33:06.247 ServerApp] Connecting to kernel 043d4052-25aa-481d-a913-b5af701a4db3.
+[I 2024-04-20 00:33:06.280 ServerApp] Connecting to kernel f6f576b0-1126-4268-be22-ada9b9f95641.
+[I 2024-04-20 00:33:06.331 ServerApp] Connecting to kernel b37da93d-ab15-4e7c-8304-acc3b3bf1afd.
+[I 2024-04-20 00:33:06.394 ServerApp] Connecting to kernel 34f567e6-c084-4832-96d4-62c10faf30ae.
+[I 2024-04-20 00:33:06.423 ServerApp] Connecting to kernel d600ad4f-4668-4953-8bd7-99bb2cdaa855.
+[I 2024-04-20 00:33:06.496 ServerApp] Connecting to kernel 4f3a27eb-4e76-491e-adb2-1a0a72ea7aa1.
+[I 2024-04-20 00:33:06.529 ServerApp] Connecting to kernel 31e4b932-9bd1-483d-964c-09ad7a52d37d.
+[I 2024-04-20 00:33:06.536 ServerApp] Starting buffering for 7fb31839-bd86-4897-8e73-ff9be3960182:23b85c58-aedd-4313-8397-70ab546de5e6
+[I 2024-04-20 00:33:06.572 ServerApp] Starting buffering for 19b02fc0-35e6-4412-96b7-1d4eaf1b7818:f7212d44-793c-48f7-88e2-c6a2d2d63b72
+[I 2024-04-20 00:33:06.572 ServerApp] Starting buffering for 043d4052-25aa-481d-a913-b5af701a4db3:58b62a29-c4f1-4c8d-9600-884cd24024bd
+[I 2024-04-20 00:33:06.576 ServerApp] Starting buffering for 4d8f4a7b-9a05-4065-a1fc-601d6e10b0ab:071cae4d-7938-4213-9251-798145677e84
+[I 2024-04-20 00:33:06.593 ServerApp] Connecting to kernel 06924964-9fe1-4d89-a176-d90aa7dc2549.
+[I 2024-04-20 00:33:06.629 ServerApp] Connecting to kernel b65da401-3684-4a58-ae18-9441d5592486.
+[I 2024-04-20 00:33:06.960 ServerApp] Starting buffering for 34f567e6-c084-4832-96d4-62c10faf30ae:779430fb-2687-4da5-8bc2-8a5e021d5a00
+[I 2024-04-20 00:33:06.961 ServerApp] Starting buffering for 31e4b932-9bd1-483d-964c-09ad7a52d37d:a46c37bb-bbb1-4cb5-9f5d-07f24c773da8
+[I 2024-04-20 00:33:06.961 ServerApp] Starting buffering for 4f3a27eb-4e76-491e-adb2-1a0a72ea7aa1:2bbcc95b-67dc-44fa-90dd-e92ced71caaf
+[I 2024-04-20 00:33:06.961 ServerApp] Starting buffering for d600ad4f-4668-4953-8bd7-99bb2cdaa855:9b3f1e1c-6994-4c6b-b7b2-ffc3c886a113
+[I 2024-04-20 00:33:06.971 ServerApp] Starting buffering for b37da93d-ab15-4e7c-8304-acc3b3bf1afd:3734fa61-3633-4eb1-97e6-35a8cadc1ada
+[I 2024-04-20 00:33:06.990 ServerApp] Starting buffering for f6f576b0-1126-4268-be22-ada9b9f95641:83a9ef6f-0be7-472a-8a04-e7745531a022
+[I 2024-04-20 00:33:07.234 ServerApp] Starting buffering for 06924964-9fe1-4d89-a176-d90aa7dc2549:cbaa4c5b-c351-4f2f-8fbf-46d288639c87
+[I 2024-04-20 00:33:07.246 ServerApp] Starting buffering for b65da401-3684-4a58-ae18-9441d5592486:02ce86a0-8b61-4833-878f-2a3eae16b074
+[I 2024-04-20 00:33:07.264 ServerApp] Connecting to kernel 19b02fc0-35e6-4412-96b7-1d4eaf1b7818.
+[I 2024-04-20 00:33:07.299 ServerApp] Connecting to kernel d600ad4f-4668-4953-8bd7-99bb2cdaa855.
+[I 2024-04-20 00:34:06.693 ServerApp] Connecting to kernel 06924964-9fe1-4d89-a176-d90aa7dc2549.
+[I 2024-04-20 00:36:07.345 ServerApp] Saving file at /regression analysis/RA 2/0417.ipynb
+[I 2024-04-20 00:41:37.830 ServerApp] Kernel started: f38a625b-c22d-4517-a1be-678edd8fc33c
+[I 2024-04-20 00:41:38.453 ServerApp] Connecting to kernel f38a625b-c22d-4517-a1be-678edd8fc33c.
+[I 2024-04-20 00:41:48.265 ServerApp] Creating new notebook in /regression analysis/RA 2
+[I 2024-04-20 00:41:52.673 ServerApp] Kernel started: b1140c31-bc67-4864-b765-f4160491f5cf
+[I 2024-04-20 00:41:53.320 ServerApp] Connecting to kernel b1140c31-bc67-4864-b765-f4160491f5cf.
+[I 2024-04-20 00:43:59.977 ServerApp] Saving file at /regression analysis/RA 2/0408.ipynb
+[I 2024-04-20 00:46:00.116 ServerApp] Saving file at /regression analysis/RA 2/0408.ipynb
+[I 2024-04-20 00:48:00.286 ServerApp] Saving file at /regression analysis/RA 2/0408.ipynb
+[I 2024-04-20 00:50:00.372 ServerApp] Saving file at /regression analysis/RA 2/0408.ipynb
+[I 2024-04-20 00:52:00.619 ServerApp] Saving file at /regression analysis/RA 2/0408.ipynb
+[I 2024-04-20 00:54:00.736 ServerApp] Saving file at /regression analysis/RA 2/0408.ipynb
+[I 2024-04-20 00:56:00.981 ServerApp] Saving file at /regression analysis/RA 2/0408.ipynb
+[I 2024-04-20 00:58:01.076 ServerApp] Saving file at /regression analysis/RA 2/0408.ipynb
+[I 2024-04-20 01:00:01.182 ServerApp] Saving file at /regression analysis/RA 2/0408.ipynb
+[I 2024-04-20 01:02:01.295 ServerApp] Saving file at /regression analysis/RA 2/0408.ipynb
+[I 2024-04-20 01:04:01.511 ServerApp] Saving file at /regression analysis/RA 2/0408.ipynb
+[I 2024-04-20 01:06:01.632 ServerApp] Saving file at /regression analysis/RA 2/0408.ipynb
+[I 2024-04-20 01:08:01.900 ServerApp] Saving file at /regression analysis/RA 2/0408.ipynb
+[I 2024-04-20 01:09:29.623 ServerApp] Saving file at /regression analysis/RA 2/0408.ipynb
+[I 2024-04-20 01:09:29.747 ServerApp] Starting buffering for b1140c31-bc67-4864-b765-f4160491f5cf:a5094e15-76a3-43d6-8c7e-9e5132463957
+[I 2024-04-20 01:09:33.647 ServerApp] New terminal with automatic name: 4
