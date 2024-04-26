@@ -20581,3 +20581,74 @@ During startup - Warning messages:
 5: Setting LC_PAPER failed, using "C" 
 6: Setting LC_MEASUREMENT failed, using "C" 
 [I 2024-04-24 00:33:45.834 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2024-04-25 04:20:58.434 ServerApp] 302 GET / (@172.22.138.30) 0.46ms
+[I 2024-04-25 04:20:58.442 LabApp] 302 GET /lab? (@172.22.138.30) 0.51ms
+[I 2024-04-25 04:21:01.610 ServerApp] User ccbacd1cbe424903a7095140cac38a00 logged in.
+[I 2024-04-25 04:21:01.611 ServerApp] 302 POST /login?next=%2Flab%3F (ccbacd1cbe424903a7095140cac38a00@172.22.138.30) 32.33ms
+[W 2024-04-25 04:21:02.601 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-04-25 04:21:02.889 ServerApp] New terminal with automatic name: 1
+[W 2024-04-25 04:21:03.468 ServerApp] 404 GET /api/contents/SDB2024/Python/data?1714018864254 (ccbacd1cbe424903a7095140cac38a00@172.22.138.30) 0.52ms referer=http://210.117.173.186:34107/lab?
+[W 2024-04-25 04:21:03.468 ServerApp] 404 GET /api/contents/SDB2024/Python/data?1714018864254 (172.22.138.30): No such file or directory: SDB2024/Python/data
+[I 2024-04-25 04:22:46.370 ServerApp] Malformed HTTP message from 172.22.138.30: no colon in header line
+[I 2024-04-25 04:22:46.406 ServerApp] Malformed HTTP message from 172.22.138.30: no colon in header line
+[I 2024-04-25 04:22:46.426 ServerApp] 302 GET / (@172.22.138.30) 0.39ms
+[I 2024-04-25 04:22:46.447 LabApp] 302 GET /lab? (@172.22.138.30) 0.46ms
+[I 2024-04-25 04:22:51.125 ServerApp] User 3e9d3d029ffe4bd09b95e23e803a7b71 logged in.
+[I 2024-04-25 04:22:51.125 ServerApp] 302 POST /login?next=%2Flab%3F (3e9d3d029ffe4bd09b95e23e803a7b71@172.22.138.30) 28.63ms
+[W 2024-04-25 04:23:01.539 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-04-26 01:02:15.069 ServerApp] 302 GET / (@118.235.66.151) 0.28ms
+[W 2024-04-26 01:02:17.893 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2024-04-26 02:43:12.736 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-04-26 02:58:28.974 ServerApp] 302 GET / (@118.235.66.243) 0.32ms
+[W 2024-04-26 02:58:31.114 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-04-26 02:58:51.250 ServerApp] Kernel started: cd00c7de-7fda-4b35-becc-04a2d39b60fe
+During startup - Warning messages:
+1: Setting LC_COLLATE failed, using "C" 
+2: Setting LC_TIME failed, using "C" 
+3: Setting LC_MESSAGES failed, using "C" 
+4: Setting LC_MONETARY failed, using "C" 
+5: Setting LC_PAPER failed, using "C" 
+6: Setting LC_MEASUREMENT failed, using "C" 
+[I 2024-04-26 02:58:51.933 ServerApp] Connecting to kernel cd00c7de-7fda-4b35-becc-04a2d39b60fe.
+[I 2024-04-26 02:58:52.047 ServerApp] Connecting to kernel cd00c7de-7fda-4b35-becc-04a2d39b60fe.
+[I 2024-04-26 02:58:52.164 ServerApp] Connecting to kernel cd00c7de-7fda-4b35-becc-04a2d39b60fe.
+[I 2024-04-26 02:58:53.974 ServerApp] Kernel started: 613b5974-6220-41ee-b5a9-1cbc6189f941
+During startup - Warning messages:
+1: Setting LC_COLLATE failed, using "C" 
+2: Setting LC_TIME failed, using "C" 
+3: Setting LC_MESSAGES failed, using "C" 
+4: Setting LC_MONETARY failed, using "C" 
+5: Setting LC_PAPER failed, using "C" 
+6: Setting LC_MEASUREMENT failed, using "C" 
+[I 2024-04-26 02:58:54.625 ServerApp] Connecting to kernel 613b5974-6220-41ee-b5a9-1cbc6189f941.
+[I 2024-04-26 02:58:59.257 ServerApp] Kernel restarted: 613b5974-6220-41ee-b5a9-1cbc6189f941
+[I 2024-04-26 02:58:59.327 ServerApp] Starting buffering for 613b5974-6220-41ee-b5a9-1cbc6189f941:c1226c44-950c-4d37-b7ca-eb8a685f1eee
+[I 2024-04-26 02:58:59.428 ServerApp] Connecting to kernel 613b5974-6220-41ee-b5a9-1cbc6189f941.
+[I 2024-04-26 02:58:59.428 ServerApp] Restoring connection for 613b5974-6220-41ee-b5a9-1cbc6189f941:c1226c44-950c-4d37-b7ca-eb8a685f1eee
+During startup - Warning messages:
+1: Setting LC_COLLATE failed, using "C" 
+2: Setting LC_TIME failed, using "C" 
+3: Setting LC_MESSAGES failed, using "C" 
+4: Setting LC_MONETARY failed, using "C" 
+5: Setting LC_PAPER failed, using "C" 
+6: Setting LC_MEASUREMENT failed, using "C" 
+[I 2024-04-26 03:01:00.890 ServerApp] Saving file at /regression analysis/RA 2/0408.ipynb
+[I 2024-04-26 03:05:10.768 ServerApp] Starting buffering for cd00c7de-7fda-4b35-becc-04a2d39b60fe:17f46d53-b6e1-4967-ba74-9119f515d590
+[I 2024-04-26 03:05:10.769 ServerApp] Starting buffering for 613b5974-6220-41ee-b5a9-1cbc6189f941:c1226c44-950c-4d37-b7ca-eb8a685f1eee
+[I 2024-04-26 03:08:47.506 ServerApp] Connecting to kernel cd00c7de-7fda-4b35-becc-04a2d39b60fe.
+[I 2024-04-26 03:08:47.506 ServerApp] Restoring connection for cd00c7de-7fda-4b35-becc-04a2d39b60fe:17f46d53-b6e1-4967-ba74-9119f515d590
+[I 2024-04-26 03:08:47.626 ServerApp] Connecting to kernel 613b5974-6220-41ee-b5a9-1cbc6189f941.
+[I 2024-04-26 03:08:47.626 ServerApp] Restoring connection for 613b5974-6220-41ee-b5a9-1cbc6189f941:c1226c44-950c-4d37-b7ca-eb8a685f1eee
+[W 2024-04-26 03:10:17.508 ServerApp] WebSocket ping timeout after 90001 ms.
+[W 2024-04-26 03:10:17.628 ServerApp] WebSocket ping timeout after 90002 ms.
+[I 2024-04-26 03:10:22.510 ServerApp] Starting buffering for cd00c7de-7fda-4b35-becc-04a2d39b60fe:17f46d53-b6e1-4967-ba74-9119f515d590
+[I 2024-04-26 03:10:22.630 ServerApp] Starting buffering for 613b5974-6220-41ee-b5a9-1cbc6189f941:c1226c44-950c-4d37-b7ca-eb8a685f1eee
+[W 2024-04-26 03:52:53.297 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-04-26 03:52:53.533 ServerApp] Connecting to kernel cd00c7de-7fda-4b35-becc-04a2d39b60fe.
+[I 2024-04-26 03:52:53.661 ServerApp] Connecting to kernel 613b5974-6220-41ee-b5a9-1cbc6189f941.
+[I 2024-04-26 03:52:53.922 ServerApp] Starting buffering for cd00c7de-7fda-4b35-becc-04a2d39b60fe:2ad8aca7-25e2-4c46-afca-19f59cd51e39
+[I 2024-04-26 03:52:54.117 ServerApp] Starting buffering for 613b5974-6220-41ee-b5a9-1cbc6189f941:a8f6171e-56b2-474c-bef7-9329a1785f7d
+[I 2024-04-26 03:52:55.236 ServerApp] Connecting to kernel 613b5974-6220-41ee-b5a9-1cbc6189f941.
+[I 2024-04-26 03:52:55.719 ServerApp] Connecting to kernel cd00c7de-7fda-4b35-becc-04a2d39b60fe.
+[I 2024-04-26 03:52:58.877 ServerApp] Starting buffering for cd00c7de-7fda-4b35-becc-04a2d39b60fe:c9c476ac-0f2c-46b9-8956-c26a53730ffe
+[I 2024-04-26 03:52:58.878 ServerApp] Starting buffering for 613b5974-6220-41ee-b5a9-1cbc6189f941:f4a11378-b447-4051-b466-060c19626bbc
