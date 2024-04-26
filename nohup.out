@@ -20652,3 +20652,218 @@ During startup - Warning messages:
 [I 2024-04-26 03:52:55.719 ServerApp] Connecting to kernel cd00c7de-7fda-4b35-becc-04a2d39b60fe.
 [I 2024-04-26 03:52:58.877 ServerApp] Starting buffering for cd00c7de-7fda-4b35-becc-04a2d39b60fe:c9c476ac-0f2c-46b9-8956-c26a53730ffe
 [I 2024-04-26 03:52:58.878 ServerApp] Starting buffering for 613b5974-6220-41ee-b5a9-1cbc6189f941:f4a11378-b447-4051-b466-060c19626bbc
+[I 2024-04-26 09:04:32.556 ServerApp] 302 GET / (@222.105.106.20) 0.52ms
+[W 2024-04-26 09:04:35.036 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-04-26 09:04:35.212 ServerApp] Connecting to kernel cd00c7de-7fda-4b35-becc-04a2d39b60fe.
+[I 2024-04-26 09:04:35.290 ServerApp] Connecting to kernel 613b5974-6220-41ee-b5a9-1cbc6189f941.
+[I 2024-04-26 09:04:35.963 ServerApp] Starting buffering for cd00c7de-7fda-4b35-becc-04a2d39b60fe:37965611-9a75-447d-8cae-0d73ae5407ea
+[I 2024-04-26 09:04:35.964 ServerApp] Starting buffering for 613b5974-6220-41ee-b5a9-1cbc6189f941:5941cc68-fc67-49a2-b9a6-e89db2a9b49d
+[I 2024-04-26 09:04:37.104 ServerApp] Connecting to kernel 613b5974-6220-41ee-b5a9-1cbc6189f941.
+[I 2024-04-26 09:04:37.170 ServerApp] Connecting to kernel cd00c7de-7fda-4b35-becc-04a2d39b60fe.
+[I 2024-04-26 09:05:24.950 ServerApp] Uploading file to /regression analysis/data/HW3_dt2.csv
+[I 2024-04-26 09:05:24.951 ServerApp] Uploading file to /regression analysis/data/HW3_dt1.csv
+[I 2024-04-26 09:05:24.952 ServerApp] Uploading file to /regression analysis/data/wine38_2.csv
+[I 2024-04-26 09:05:37.295 ServerApp] Creating new notebook in /regression analysis/hw/RA 2
+[I 2024-04-26 09:05:50.938 ServerApp] Kernel started: 28d3a07d-4a09-4016-9c22-258aac3e2525
+During startup - Warning messages:
+1: Setting LC_COLLATE failed, using "C" 
+2: Setting LC_TIME failed, using "C" 
+3: Setting LC_MESSAGES failed, using "C" 
+4: Setting LC_MONETARY failed, using "C" 
+5: Setting LC_PAPER failed, using "C" 
+6: Setting LC_MEASUREMENT failed, using "C" 
+[I 2024-04-26 09:05:51.673 ServerApp] Connecting to kernel 28d3a07d-4a09-4016-9c22-258aac3e2525.
+[I 2024-04-26 09:06:03.906 ServerApp] Kernel started: df7867c1-5165-4fdc-9c80-17098ba27e10
+During startup - Warning messages:
+1: Setting LC_COLLATE failed, using "C" 
+2: Setting LC_TIME failed, using "C" 
+3: Setting LC_MESSAGES failed, using "C" 
+4: Setting LC_MONETARY failed, using "C" 
+5: Setting LC_PAPER failed, using "C" 
+6: Setting LC_MEASUREMENT failed, using "C" 
+[I 2024-04-26 09:06:04.628 ServerApp] Connecting to kernel df7867c1-5165-4fdc-9c80-17098ba27e10.
+[I 2024-04-26 09:06:08.439 ServerApp] Starting buffering for df7867c1-5165-4fdc-9c80-17098ba27e10:8b618aa3-83de-433f-b732-1b465f2c638a
+[I 2024-04-26 09:06:20.975 ServerApp] Connecting to kernel df7867c1-5165-4fdc-9c80-17098ba27e10.
+[I 2024-04-26 09:08:00.451 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 09:10:00.600 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 09:12:00.700 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 09:14:00.901 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 09:16:01.006 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 09:18:01.105 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 09:20:01.289 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 09:22:01.474 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 09:24:01.579 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 09:26:01.700 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 09:28:01.810 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 09:30:02.073 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 09:32:02.155 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 09:34:02.261 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 09:36:02.359 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 09:38:02.466 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[W 2024-04-26 09:38:53.722 ServerApp] Notebook regression analysis/RA 2/0426.ipynb is not trusted
+[I 2024-04-26 09:38:54.350 ServerApp] Kernel started: 66ab713d-a5c9-4117-a30f-aac4a023bcb4
+During startup - Warning messages:
+1: Setting LC_COLLATE failed, using "C" 
+2: Setting LC_TIME failed, using "C" 
+3: Setting LC_MESSAGES failed, using "C" 
+4: Setting LC_MONETARY failed, using "C" 
+5: Setting LC_PAPER failed, using "C" 
+6: Setting LC_MEASUREMENT failed, using "C" 
+[I 2024-04-26 09:38:55.020 ServerApp] Connecting to kernel 66ab713d-a5c9-4117-a30f-aac4a023bcb4.
+[I 2024-04-26 09:40:02.609 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 09:40:54.045 ServerApp] Saving file at /regression analysis/RA 2/0426.ipynb
+[W 2024-04-26 09:40:54.046 ServerApp] Notebook regression analysis/RA 2/0426.ipynb is not trusted
+[I 2024-04-26 09:42:54.338 ServerApp] Saving file at /regression analysis/RA 2/0426.ipynb
+[W 2024-04-26 09:42:54.338 ServerApp] Notebook regression analysis/RA 2/0426.ipynb is not trusted
+[I 2024-04-26 09:44:02.745 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 09:46:02.884 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 09:48:03.001 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 09:50:03.103 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 09:52:03.234 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 09:54:03.346 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 09:56:03.475 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 09:58:03.643 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 10:00:03.863 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 10:02:03.970 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 10:04:04.085 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 10:06:04.210 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 10:08:04.308 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 10:10:04.430 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 10:12:04.585 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 10:14:05.098 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 10:16:03.560 ServerApp] 302 GET / (@222.105.106.20) 0.49ms
+[I 2024-04-26 10:16:06.096 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 10:18:07.098 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 10:20:07.202 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 10:22:07.341 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 10:24:07.433 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 10:26:07.518 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 10:28:07.609 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 10:30:07.688 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 10:32:07.827 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 10:34:07.939 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 10:36:08.024 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 10:38:08.138 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 10:40:08.233 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 10:42:08.321 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 10:44:08.448 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 10:46:08.534 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 10:48:08.618 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 10:50:08.800 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 10:52:09.087 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 10:54:09.182 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 10:56:09.280 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 10:58:09.386 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 11:00:09.496 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 11:02:09.594 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 11:08:09.777 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 11:10:09.893 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 11:11:25.252 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 11:12:59.917 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 11:13:02.597 ServerApp] Starting buffering for 28d3a07d-4a09-4016-9c22-258aac3e2525:722c21b3-e5cb-416a-9c14-af12a15c8977
+[I 2024-04-26 11:13:05.130 ServerApp] Connecting to kernel 28d3a07d-4a09-4016-9c22-258aac3e2525.
+Warning message:
+In .helpForCall(topicExpr, parent.frame()) :
+  no method defined for function ‘$’ and signature ‘x = "data.frame"’
+[I 2024-04-26 11:13:08.277 ServerApp] Kernel restarted: 28d3a07d-4a09-4016-9c22-258aac3e2525
+[I 2024-04-26 11:13:08.327 ServerApp] Starting buffering for 28d3a07d-4a09-4016-9c22-258aac3e2525:78ca8732-677d-44cf-9c13-37e72509c4ad
+[I 2024-04-26 11:13:08.342 ServerApp] Connecting to kernel 28d3a07d-4a09-4016-9c22-258aac3e2525.
+[I 2024-04-26 11:13:08.342 ServerApp] Restoring connection for 28d3a07d-4a09-4016-9c22-258aac3e2525:78ca8732-677d-44cf-9c13-37e72509c4ad
+During startup - Warning messages:
+1: Setting LC_COLLATE failed, using "C" 
+2: Setting LC_TIME failed, using "C" 
+3: Setting LC_MESSAGES failed, using "C" 
+4: Setting LC_MONETARY failed, using "C" 
+5: Setting LC_PAPER failed, using "C" 
+6: Setting LC_MEASUREMENT failed, using "C" 
+[I 2024-04-26 11:13:23.180 ServerApp] Starting buffering for 28d3a07d-4a09-4016-9c22-258aac3e2525:78ca8732-677d-44cf-9c13-37e72509c4ad
+[I 2024-04-26 11:13:23.181 ServerApp] Starting buffering for 613b5974-6220-41ee-b5a9-1cbc6189f941:ec38959d-72f9-44d6-b265-d74a53a738a5
+[I 2024-04-26 11:13:23.181 ServerApp] Starting buffering for 66ab713d-a5c9-4117-a30f-aac4a023bcb4:1488560e-d6b1-443e-aea4-91231f5ad82d
+[I 2024-04-26 11:13:23.181 ServerApp] Starting buffering for cd00c7de-7fda-4b35-becc-04a2d39b60fe:c4906eb0-25d9-47f6-88ff-bb1a2f009ebc
+[I 2024-04-26 11:13:23.182 ServerApp] Starting buffering for df7867c1-5165-4fdc-9c80-17098ba27e10:c42c64fb-a199-4bc5-851a-e0e7f6093701
+[I 2024-04-26 11:54:18.562 ServerApp] 302 GET / (@222.105.106.20) 0.31ms
+[I 2024-04-26 11:54:19.997 ServerApp] Connecting to kernel cd00c7de-7fda-4b35-becc-04a2d39b60fe.
+[W 2024-04-26 11:54:20.017 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-04-26 11:54:20.028 ServerApp] Connecting to kernel 613b5974-6220-41ee-b5a9-1cbc6189f941.
+[I 2024-04-26 11:54:20.074 ServerApp] Connecting to kernel 28d3a07d-4a09-4016-9c22-258aac3e2525.
+[I 2024-04-26 11:54:20.102 ServerApp] Connecting to kernel df7867c1-5165-4fdc-9c80-17098ba27e10.
+[I 2024-04-26 11:54:20.164 ServerApp] Connecting to kernel 66ab713d-a5c9-4117-a30f-aac4a023bcb4.
+[I 2024-04-26 11:54:20.513 ServerApp] Starting buffering for 28d3a07d-4a09-4016-9c22-258aac3e2525:ef02ac82-97b5-4ccd-a34c-6aede196fb1c
+[I 2024-04-26 11:54:20.513 ServerApp] Starting buffering for 66ab713d-a5c9-4117-a30f-aac4a023bcb4:93d4b23a-e7a8-4387-90ab-0d6166d45bd6
+[I 2024-04-26 11:54:20.514 ServerApp] Starting buffering for df7867c1-5165-4fdc-9c80-17098ba27e10:9dad6309-dfbf-4b40-bb34-64f1a61c15ab
+[I 2024-04-26 11:54:20.514 ServerApp] Starting buffering for cd00c7de-7fda-4b35-becc-04a2d39b60fe:0feb2333-aefb-4bc3-a66e-7312ab8584ea
+[I 2024-04-26 11:54:20.515 ServerApp] Starting buffering for 613b5974-6220-41ee-b5a9-1cbc6189f941:e0792acf-62de-43db-a865-24434d9fd3fe
+[W 2024-04-26 11:54:21.017 ServerApp] Notebook regression analysis/RA 2/0426.ipynb is not trusted
+[I 2024-04-26 11:54:22.766 ServerApp] Connecting to kernel 613b5974-6220-41ee-b5a9-1cbc6189f941.
+[I 2024-04-26 11:54:22.799 ServerApp] Connecting to kernel df7867c1-5165-4fdc-9c80-17098ba27e10.
+[I 2024-04-26 11:54:22.832 ServerApp] Connecting to kernel 28d3a07d-4a09-4016-9c22-258aac3e2525.
+[I 2024-04-26 11:54:22.874 ServerApp] Connecting to kernel cd00c7de-7fda-4b35-becc-04a2d39b60fe.
+[I 2024-04-26 11:54:22.919 ServerApp] Connecting to kernel 66ab713d-a5c9-4117-a30f-aac4a023bcb4.
+[I 2024-04-26 11:56:21.469 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 11:58:21.642 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+Error in eval(argExpr, envir) : object 'rstudt1_model' not found
+In addition: Warning message:
+In .helpForCall(topicExpr, parent.frame()) :
+  no method defined for function ‘$’ and signature ‘x = "lm"’
+[I 2024-04-26 12:00:21.748 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 12:02:21.877 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 12:04:22.031 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 12:06:22.122 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 12:08:22.217 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 12:10:22.430 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 12:12:22.521 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 12:14:22.629 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 12:16:22.778 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 12:18:22.888 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 12:20:23.039 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 12:22:23.124 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 12:22:38.814 ServerApp] Starting buffering for 66ab713d-a5c9-4117-a30f-aac4a023bcb4:5e254cfa-b443-475c-a8bf-4aba231b231f
+[I 2024-04-26 12:24:23.365 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 12:26:23.541 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 12:28:23.651 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 12:30:23.777 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 12:32:23.887 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 12:34:24.065 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 12:36:24.182 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 12:38:24.288 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 12:40:24.569 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 12:42:24.672 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 12:44:24.769 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 12:46:24.921 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 12:48:25.027 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 12:50:25.211 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 12:52:25.426 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 12:54:25.531 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 12:56:25.654 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 12:58:25.813 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 13:00:25.940 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 13:02:26.077 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 13:04:26.219 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 13:06:26.355 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 13:08:26.507 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 13:10:26.756 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 13:12:27.019 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 13:14:27.149 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 13:16:27.373 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 13:18:27.494 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 13:20:27.767 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 13:22:27.887 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 13:24:28.056 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 13:26:28.303 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 13:28:28.476 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 13:30:28.591 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 13:32:28.717 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 13:34:28.891 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 13:36:29.011 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 13:38:29.204 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 13:40:29.361 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 13:42:29.543 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 13:44:29.711 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 13:46:29.836 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 13:48:30.118 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 13:50:06.686 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-26 13:50:12.652 ServerApp] Starting buffering for 28d3a07d-4a09-4016-9c22-258aac3e2525:f5102232-b25a-464f-af30-2b46634186ff
+[I 2024-04-26 13:50:14.370 ServerApp] Starting buffering for df7867c1-5165-4fdc-9c80-17098ba27e10:1a8cd2ae-0f2b-4627-b9bf-48b8020c215c
+[I 2024-04-26 13:50:15.117 ServerApp] Starting buffering for 613b5974-6220-41ee-b5a9-1cbc6189f941:85cfa446-5e0b-4233-908c-091e2928dcbe
+[I 2024-04-26 13:50:15.928 ServerApp] Starting buffering for cd00c7de-7fda-4b35-becc-04a2d39b60fe:a2dbb686-3b06-48dc-a534-bdfd2d9830db
+[I 2024-04-26 13:50:20.124 ServerApp] New terminal with automatic name: 2
