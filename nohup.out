@@ -20922,3 +20922,26 @@ In .helpForCall(topicExpr, parent.frame()) :
 [I 2024-04-28 09:42:09.356 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
 [I 2024-04-28 09:42:39.273 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
 [W 2024-04-28 09:43:00.906 ServerApp] Alternative text is missing on 7 image(s).
+[I 2024-04-28 09:45:29.349 ServerApp] Starting buffering for 28d3a07d-4a09-4016-9c22-258aac3e2525:6e6364bf-f8fc-40b7-9267-bb83e53a2d8c
+[I 2024-04-28 09:45:29.350 ServerApp] Starting buffering for 66ab713d-a5c9-4117-a30f-aac4a023bcb4:f63bc5e9-7bd4-4842-8043-600f7866ce3f
+[I 2024-04-28 09:45:29.351 ServerApp] Starting buffering for cd00c7de-7fda-4b35-becc-04a2d39b60fe:8091b176-b634-4bd9-abcd-1530ea36b794
+[I 2024-04-28 09:46:02.772 ServerApp] 302 GET / (@121.154.64.157) 0.74ms
+[I 2024-04-28 09:46:04.253 ServerApp] Connecting to kernel cd00c7de-7fda-4b35-becc-04a2d39b60fe.
+[I 2024-04-28 09:46:04.290 ServerApp] Connecting to kernel 613b5974-6220-41ee-b5a9-1cbc6189f941.
+[I 2024-04-28 09:46:04.311 ServerApp] Starting buffering for cd00c7de-7fda-4b35-becc-04a2d39b60fe:4da10cf8-fb49-41c4-a0f9-d2578aa9c34a
+[I 2024-04-28 09:46:04.315 ServerApp] Connecting to kernel 28d3a07d-4a09-4016-9c22-258aac3e2525.
+[I 2024-04-28 09:46:04.335 ServerApp] Starting buffering for 613b5974-6220-41ee-b5a9-1cbc6189f941:fdfea451-080a-4f2f-add4-d744db49cc42
+[I 2024-04-28 09:46:04.340 ServerApp] Connecting to kernel df7867c1-5165-4fdc-9c80-17098ba27e10.
+[I 2024-04-28 09:46:04.347 ServerApp] Starting buffering for 28d3a07d-4a09-4016-9c22-258aac3e2525:917b9ff4-8618-4d1b-b5a3-8b56a8d2f6a6
+[I 2024-04-28 09:46:04.365 ServerApp] Connecting to kernel 66ab713d-a5c9-4117-a30f-aac4a023bcb4.
+[I 2024-04-28 09:46:04.368 ServerApp] Starting buffering for df7867c1-5165-4fdc-9c80-17098ba27e10:6c7c7252-58e4-498a-9297-6dafde89e8a2
+[I 2024-04-28 09:46:04.393 ServerApp] Starting buffering for 66ab713d-a5c9-4117-a30f-aac4a023bcb4:89f472fd-42ae-47d6-a687-b8df572ea491
+[W 2024-04-28 09:46:04.734 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2024-04-28 09:46:05.550 ServerApp] Notebook regression analysis/RA 2/0426.ipynb is not trusted
+[I 2024-04-28 09:46:06.111 ServerApp] Connecting to kernel 66ab713d-a5c9-4117-a30f-aac4a023bcb4.
+[I 2024-04-28 09:46:06.134 ServerApp] Connecting to kernel cd00c7de-7fda-4b35-becc-04a2d39b60fe.
+[I 2024-04-28 09:46:06.164 ServerApp] Connecting to kernel 28d3a07d-4a09-4016-9c22-258aac3e2525.
+[I 2024-04-28 09:48:06.078 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-28 09:50:06.810 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[I 2024-04-28 09:52:06.530 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
+[W 2024-04-28 09:52:12.503 ServerApp] Alternative text is missing on 7 image(s).
