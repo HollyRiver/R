@@ -20945,3 +20945,324 @@ In .helpForCall(topicExpr, parent.frame()) :
 [I 2024-04-28 09:50:06.810 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
 [I 2024-04-28 09:52:06.530 ServerApp] Saving file at /regression analysis/hw/RA 2/강신성_HW03.ipynb
 [W 2024-04-28 09:52:12.503 ServerApp] Alternative text is missing on 7 image(s).
+[I 2024-04-28 09:52:45.960 ServerApp] Starting buffering for cd00c7de-7fda-4b35-becc-04a2d39b60fe:32972098-1a30-47cf-9733-e1fea79d33c1
+[I 2024-04-28 09:52:45.961 ServerApp] Starting buffering for 66ab713d-a5c9-4117-a30f-aac4a023bcb4:046fef4e-c854-4e5f-8fbc-64074bf07093
+[I 2024-04-28 09:52:45.962 ServerApp] Starting buffering for 28d3a07d-4a09-4016-9c22-258aac3e2525:ff177c9b-6756-4c6a-ab56-d4d5c1ab495b
+[I 2024-04-28 09:52:59.887 ServerApp] 302 GET / (@121.154.64.157) 0.91ms
+[W 2024-04-28 09:53:01.303 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-04-28 09:53:01.458 ServerApp] Connecting to kernel cd00c7de-7fda-4b35-becc-04a2d39b60fe.
+[I 2024-04-28 09:53:01.492 ServerApp] Connecting to kernel 613b5974-6220-41ee-b5a9-1cbc6189f941.
+[I 2024-04-28 09:53:01.519 ServerApp] Connecting to kernel 28d3a07d-4a09-4016-9c22-258aac3e2525.
+[I 2024-04-28 09:53:01.551 ServerApp] Connecting to kernel df7867c1-5165-4fdc-9c80-17098ba27e10.
+[I 2024-04-28 09:53:01.577 ServerApp] Connecting to kernel 66ab713d-a5c9-4117-a30f-aac4a023bcb4.
+[I 2024-04-28 09:53:02.001 ServerApp] Starting buffering for 28d3a07d-4a09-4016-9c22-258aac3e2525:c28189d6-b7f4-4c48-b798-6ae5df0489bd
+[I 2024-04-28 09:53:02.001 ServerApp] Starting buffering for 613b5974-6220-41ee-b5a9-1cbc6189f941:98749b75-a2ce-4331-88b3-590dbc11c1a0
+[I 2024-04-28 09:53:02.002 ServerApp] Starting buffering for cd00c7de-7fda-4b35-becc-04a2d39b60fe:7fef9f66-7338-49a9-9721-0d23540379a1
+[I 2024-04-28 09:53:02.002 ServerApp] Starting buffering for 66ab713d-a5c9-4117-a30f-aac4a023bcb4:178243f5-82cd-4b75-9770-7c2dd73ee632
+[I 2024-04-28 09:53:02.003 ServerApp] Starting buffering for df7867c1-5165-4fdc-9c80-17098ba27e10:5e4b16cf-9ad1-46a6-88f3-ca6ebd2968d9
+[W 2024-04-28 09:53:02.542 ServerApp] Notebook regression analysis/RA 2/0426.ipynb is not trusted
+[I 2024-04-28 09:53:03.171 ServerApp] Connecting to kernel 28d3a07d-4a09-4016-9c22-258aac3e2525.
+[I 2024-04-28 09:53:03.199 ServerApp] Connecting to kernel cd00c7de-7fda-4b35-becc-04a2d39b60fe.
+[I 2024-04-28 09:53:03.222 ServerApp] Connecting to kernel 66ab713d-a5c9-4117-a30f-aac4a023bcb4.
+[I 2024-04-28 09:54:52.270 ServerApp] Starting buffering for 66ab713d-a5c9-4117-a30f-aac4a023bcb4:7ce8e176-927f-458e-9c27-9c12a1513f2b
+[I 2024-04-28 09:54:52.272 ServerApp] Starting buffering for 28d3a07d-4a09-4016-9c22-258aac3e2525:eaef17a8-bbec-44a4-9fa4-f51305ad6948
+[I 2024-04-28 09:54:52.272 ServerApp] Starting buffering for cd00c7de-7fda-4b35-becc-04a2d39b60fe:70ad77bc-a833-4cd4-b01d-0e2e147837e3
+[I 2024-04-28 12:03:43.761 ServerApp] 302 GET / (@121.154.64.157) 0.39ms
+[I 2024-04-28 12:03:43.777 LabApp] 302 GET /lab? (@121.154.64.157) 0.55ms
+[I 2024-04-28 12:05:16.409 ServerApp] User c4d8fccb5ac74e8681cb37b88287ca7b logged in.
+[I 2024-04-28 12:05:16.409 ServerApp] 302 POST /login?next=%2Flab%3F (c4d8fccb5ac74e8681cb37b88287ca7b@121.154.64.157) 26.38ms
+[I 2024-04-28 12:05:18.899 ServerApp] Connecting to kernel cd00c7de-7fda-4b35-becc-04a2d39b60fe.
+[I 2024-04-28 12:05:19.112 ServerApp] Starting buffering for cd00c7de-7fda-4b35-becc-04a2d39b60fe:01fcd092-2de1-4647-b7e8-7638865eda7e
+[I 2024-04-28 12:05:19.113 ServerApp] Connecting to kernel 613b5974-6220-41ee-b5a9-1cbc6189f941.
+[W 2024-04-28 12:05:19.284 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-04-28 12:05:19.360 ServerApp] Connecting to kernel 28d3a07d-4a09-4016-9c22-258aac3e2525.
+[I 2024-04-28 12:05:19.460 ServerApp] Connecting to kernel df7867c1-5165-4fdc-9c80-17098ba27e10.
+[I 2024-04-28 12:05:19.621 ServerApp] Connecting to kernel 66ab713d-a5c9-4117-a30f-aac4a023bcb4.
+[I 2024-04-28 12:05:19.963 ServerApp] Starting buffering for 613b5974-6220-41ee-b5a9-1cbc6189f941:4febfa36-b489-469b-a7d9-6a5606309624
+[I 2024-04-28 12:05:19.972 ServerApp] Starting buffering for df7867c1-5165-4fdc-9c80-17098ba27e10:951fff92-4004-4e8d-8c08-cea1ca29ab0d
+[I 2024-04-28 12:05:19.972 ServerApp] Starting buffering for 28d3a07d-4a09-4016-9c22-258aac3e2525:654d2629-7bb5-4575-8146-f1800f50c8dd
+[I 2024-04-28 12:05:20.101 ServerApp] Starting buffering for 66ab713d-a5c9-4117-a30f-aac4a023bcb4:52d11a23-78b6-4eb8-b6bf-c91a423ec357
+[W 2024-04-28 12:05:20.467 ServerApp] Notebook regression analysis/RA 2/0426.ipynb is not trusted
+[I 2024-04-28 12:05:21.437 ServerApp] Connecting to kernel 28d3a07d-4a09-4016-9c22-258aac3e2525.
+[I 2024-04-28 12:05:21.464 ServerApp] Connecting to kernel 66ab713d-a5c9-4117-a30f-aac4a023bcb4.
+[I 2024-04-28 12:05:21.530 ServerApp] Connecting to kernel cd00c7de-7fda-4b35-becc-04a2d39b60fe.
+[I 2024-04-28 12:06:12.293 ServerApp] Starting buffering for 28d3a07d-4a09-4016-9c22-258aac3e2525:083e41a2-2b86-4c42-94b2-d7b0c3e108e3
+[I 2024-04-28 12:06:12.293 ServerApp] Starting buffering for 66ab713d-a5c9-4117-a30f-aac4a023bcb4:0976735f-60e3-42c0-a4e5-a6c333bd5b8b
+[I 2024-04-28 12:06:12.294 ServerApp] Starting buffering for cd00c7de-7fda-4b35-becc-04a2d39b60fe:890e03ff-c662-4ffb-9742-3bc49e623f06
+[I 2024-04-28 13:12:59.999 ServerApp] 302 GET / (@121.154.64.157) 0.52ms
+[W 2024-04-28 13:13:03.256 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-04-28 13:13:03.761 ServerApp] Connecting to kernel cd00c7de-7fda-4b35-becc-04a2d39b60fe.
+[I 2024-04-28 13:13:03.792 ServerApp] Connecting to kernel 613b5974-6220-41ee-b5a9-1cbc6189f941.
+[I 2024-04-28 13:13:03.815 ServerApp] Connecting to kernel 28d3a07d-4a09-4016-9c22-258aac3e2525.
+[I 2024-04-28 13:13:03.840 ServerApp] Connecting to kernel df7867c1-5165-4fdc-9c80-17098ba27e10.
+[I 2024-04-28 13:13:03.864 ServerApp] Connecting to kernel 66ab713d-a5c9-4117-a30f-aac4a023bcb4.
+[I 2024-04-28 13:13:05.135 ServerApp] Starting buffering for cd00c7de-7fda-4b35-becc-04a2d39b60fe:45ff5fb6-4631-4162-b0cf-364aaa414006
+[I 2024-04-28 13:13:05.137 ServerApp] Starting buffering for 613b5974-6220-41ee-b5a9-1cbc6189f941:4ad97b67-1e33-4afc-ba51-fd13d284e2df
+[I 2024-04-28 13:13:05.138 ServerApp] Starting buffering for 28d3a07d-4a09-4016-9c22-258aac3e2525:a208ab7c-8a14-4a17-81f6-5b079729ff48
+[I 2024-04-28 13:13:05.139 ServerApp] Starting buffering for df7867c1-5165-4fdc-9c80-17098ba27e10:8320aa83-1e7a-4061-a52d-92cf978cd4da
+[I 2024-04-28 13:13:05.143 ServerApp] Starting buffering for 66ab713d-a5c9-4117-a30f-aac4a023bcb4:4bb779ea-ddfc-4f6b-bd53-3018d0578092
+[W 2024-04-28 13:13:06.008 ServerApp] Notebook regression analysis/RA 2/0426.ipynb is not trusted
+[I 2024-04-28 13:13:08.740 ServerApp] Connecting to kernel 28d3a07d-4a09-4016-9c22-258aac3e2525.
+[I 2024-04-28 13:13:08.763 ServerApp] Connecting to kernel cd00c7de-7fda-4b35-becc-04a2d39b60fe.
+[I 2024-04-28 13:13:08.782 ServerApp] Connecting to kernel 66ab713d-a5c9-4117-a30f-aac4a023bcb4.
+[I 2024-04-28 13:14:27.418 ServerApp] Uploading file to /regression analysis/data/initech(1).csv
+[I 2024-04-28 13:14:27.420 ServerApp] Uploading file to /regression analysis/data/wind(1).csv
+[I 2024-04-28 13:14:27.427 ServerApp] Uploading file to /regression analysis/data/hardwood(1).csv
+[I 2024-04-28 13:14:27.428 ServerApp] Uploading file to /regression analysis/data/corr(1).csv
+[I 2024-04-28 13:14:49.704 ServerApp] Creating new notebook in /regression analysis/RA 2
+[I 2024-04-28 13:14:53.812 ServerApp] Kernel started: 19ae8580-281e-425c-9e4a-7f849eca6c9b
+During startup - Warning messages:
+1: Setting LC_COLLATE failed, using "C" 
+2: Setting LC_TIME failed, using "C" 
+3: Setting LC_MESSAGES failed, using "C" 
+4: Setting LC_MONETARY failed, using "C" 
+5: Setting LC_PAPER failed, using "C" 
+6: Setting LC_MEASUREMENT failed, using "C" 
+[I 2024-04-28 13:14:55.246 ServerApp] Connecting to kernel 19ae8580-281e-425c-9e4a-7f849eca6c9b.
+[I 2024-04-28 13:16:58.300 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-28 13:18:58.367 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-28 13:20:58.426 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-28 13:22:58.492 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-28 13:24:58.559 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-28 13:26:58.630 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-28 13:28:58.700 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-28 13:30:58.771 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-28 13:32:58.831 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-28 13:34:58.908 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-28 13:36:58.981 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-28 13:38:59.065 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-28 13:40:59.131 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-28 13:42:59.266 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-28 13:44:59.783 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-28 13:46:59.860 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-28 13:48:59.945 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-28 13:51:00.023 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-28 13:53:00.098 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-28 13:55:00.185 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-28 13:57:00.287 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-28 13:59:00.375 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-28 14:01:00.479 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-28 14:03:00.578 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-28 14:05:00.792 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-28 14:05:01.686 ServerApp] Starting buffering for cd00c7de-7fda-4b35-becc-04a2d39b60fe:57149e02-d10c-4a50-af28-893b3e3d32de
+[I 2024-04-28 14:05:01.686 ServerApp] Starting buffering for 28d3a07d-4a09-4016-9c22-258aac3e2525:02a733d5-ef2b-487a-8a35-58b625e51448
+[I 2024-04-28 14:05:01.687 ServerApp] Starting buffering for 66ab713d-a5c9-4117-a30f-aac4a023bcb4:8647b81d-48f8-4487-a6ab-688796f75ee1
+[I 2024-04-28 14:05:01.694 ServerApp] Starting buffering for 19ae8580-281e-425c-9e4a-7f849eca6c9b:4bb2c6cd-e9a8-40ff-bfac-315006aa64e2
+[I 2024-04-28 23:50:12.078 ServerApp] 302 GET / (@121.154.64.157) 0.48ms
+[W 2024-04-28 23:50:14.347 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-04-28 23:50:14.440 ServerApp] Connecting to kernel cd00c7de-7fda-4b35-becc-04a2d39b60fe.
+[I 2024-04-28 23:50:14.461 ServerApp] Connecting to kernel 613b5974-6220-41ee-b5a9-1cbc6189f941.
+[I 2024-04-28 23:50:14.537 ServerApp] Connecting to kernel 28d3a07d-4a09-4016-9c22-258aac3e2525.
+[I 2024-04-28 23:50:14.559 ServerApp] Connecting to kernel df7867c1-5165-4fdc-9c80-17098ba27e10.
+[I 2024-04-28 23:50:14.611 ServerApp] Connecting to kernel 66ab713d-a5c9-4117-a30f-aac4a023bcb4.
+[I 2024-04-28 23:50:14.634 ServerApp] Connecting to kernel 19ae8580-281e-425c-9e4a-7f849eca6c9b.
+[I 2024-04-28 23:50:14.727 ServerApp] Starting buffering for 613b5974-6220-41ee-b5a9-1cbc6189f941:4608adbc-e7b0-4757-86c5-15f90be7c08b
+[I 2024-04-28 23:50:14.727 ServerApp] Starting buffering for cd00c7de-7fda-4b35-becc-04a2d39b60fe:5a5ad28b-9719-48d5-8481-9cd5c2b5b3d8
+[I 2024-04-28 23:50:14.728 ServerApp] Starting buffering for 28d3a07d-4a09-4016-9c22-258aac3e2525:45425abf-c684-49a2-b85b-839a039e73dc
+[I 2024-04-28 23:50:14.891 ServerApp] Starting buffering for 19ae8580-281e-425c-9e4a-7f849eca6c9b:10de03e3-9fab-4305-b7c1-f7ba75e687c4
+[I 2024-04-28 23:50:14.899 ServerApp] Starting buffering for 66ab713d-a5c9-4117-a30f-aac4a023bcb4:cb4237de-8e0e-41ad-ace5-95d3f9c740f9
+[I 2024-04-28 23:50:14.899 ServerApp] Starting buffering for df7867c1-5165-4fdc-9c80-17098ba27e10:5d97a272-c047-4da3-abfc-44d68ade7113
+[W 2024-04-28 23:50:15.236 ServerApp] Notebook regression analysis/RA 2/0426.ipynb is not trusted
+[I 2024-04-28 23:50:16.321 ServerApp] Connecting to kernel 28d3a07d-4a09-4016-9c22-258aac3e2525.
+[I 2024-04-28 23:50:16.361 ServerApp] Connecting to kernel cd00c7de-7fda-4b35-becc-04a2d39b60fe.
+[I 2024-04-28 23:50:16.389 ServerApp] Connecting to kernel 66ab713d-a5c9-4117-a30f-aac4a023bcb4.
+[I 2024-04-28 23:50:16.420 ServerApp] Connecting to kernel 19ae8580-281e-425c-9e4a-7f849eca6c9b.
+[I 2024-04-28 23:52:16.091 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-29 00:00:17.165 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-29 00:02:17.880 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-29 00:06:18.008 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-29 00:10:18.158 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-29 00:14:18.890 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-29 00:16:19.015 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-29 00:18:19.229 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-29 00:20:19.876 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-29 00:21:42.631 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-29 00:21:45.244 ServerApp] Starting buffering for 66ab713d-a5c9-4117-a30f-aac4a023bcb4:c5c25f59-7300-42ed-b96d-3d9bab8e4d1f
+[I 2024-04-29 00:21:45.245 ServerApp] Starting buffering for cd00c7de-7fda-4b35-becc-04a2d39b60fe:32fcf3e3-2f75-4b3f-9a5f-87f96ad7cb59
+[I 2024-04-29 00:21:45.246 ServerApp] Starting buffering for 28d3a07d-4a09-4016-9c22-258aac3e2525:1b15470b-1129-4112-ac49-3e7f6949af02
+[I 2024-04-29 00:21:45.247 ServerApp] Starting buffering for 19ae8580-281e-425c-9e4a-7f849eca6c9b:fac9cf71-42e7-49bb-bff3-5c1a9990a458
+[I 2024-04-29 00:21:54.441 ServerApp] 302 GET / (@121.154.64.157) 0.47ms
+[W 2024-04-29 00:21:56.925 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-04-29 00:21:57.041 ServerApp] Connecting to kernel cd00c7de-7fda-4b35-becc-04a2d39b60fe.
+[I 2024-04-29 00:21:57.064 ServerApp] Connecting to kernel 613b5974-6220-41ee-b5a9-1cbc6189f941.
+[I 2024-04-29 00:21:57.145 ServerApp] Connecting to kernel 28d3a07d-4a09-4016-9c22-258aac3e2525.
+[I 2024-04-29 00:21:57.174 ServerApp] Connecting to kernel df7867c1-5165-4fdc-9c80-17098ba27e10.
+[I 2024-04-29 00:21:57.208 ServerApp] Connecting to kernel 66ab713d-a5c9-4117-a30f-aac4a023bcb4.
+[I 2024-04-29 00:21:57.241 ServerApp] Connecting to kernel 19ae8580-281e-425c-9e4a-7f849eca6c9b.
+[I 2024-04-29 00:21:57.340 ServerApp] Starting buffering for 613b5974-6220-41ee-b5a9-1cbc6189f941:8c48baf7-986a-46f9-92ed-ac351369a3eb
+[I 2024-04-29 00:21:57.340 ServerApp] Starting buffering for cd00c7de-7fda-4b35-becc-04a2d39b60fe:41774a83-5a80-4961-8244-ee7d49127627
+[I 2024-04-29 00:21:57.441 ServerApp] Starting buffering for 28d3a07d-4a09-4016-9c22-258aac3e2525:d177a71e-d837-4f89-b426-9df59bf4945a
+[I 2024-04-29 00:21:57.495 ServerApp] Starting buffering for df7867c1-5165-4fdc-9c80-17098ba27e10:dfcef6ce-8b06-4362-ba04-bcaad004b72a
+[I 2024-04-29 00:21:57.495 ServerApp] Starting buffering for 19ae8580-281e-425c-9e4a-7f849eca6c9b:6f3fbf40-5637-4321-bf45-87f90eb17cde
+[I 2024-04-29 00:21:57.495 ServerApp] Starting buffering for 66ab713d-a5c9-4117-a30f-aac4a023bcb4:bb971ea0-e23a-424d-877d-75648f9a7911
+[W 2024-04-29 00:21:57.872 ServerApp] Notebook regression analysis/RA 2/0426.ipynb is not trusted
+[I 2024-04-29 00:21:59.081 ServerApp] Connecting to kernel 19ae8580-281e-425c-9e4a-7f849eca6c9b.
+[I 2024-04-29 00:21:59.100 ServerApp] Connecting to kernel cd00c7de-7fda-4b35-becc-04a2d39b60fe.
+[I 2024-04-29 00:21:59.127 ServerApp] Connecting to kernel 66ab713d-a5c9-4117-a30f-aac4a023bcb4.
+[I 2024-04-29 00:21:59.154 ServerApp] Connecting to kernel 28d3a07d-4a09-4016-9c22-258aac3e2525.
+[I 2024-04-29 00:23:58.261 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-29 00:25:58.393 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-29 00:27:58.605 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-29 00:29:58.728 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-29 00:31:58.843 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-29 00:33:59.085 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-29 00:35:59.353 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-29 00:37:59.494 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[W 2024-04-29 00:37:59.515 ServerApp] /root/R/regression analysis/RA 2/.~0428.ipynb doesn't exist
+[I 2024-04-29 00:40:00.100 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-29 00:42:00.296 ServerApp] Saving file at /regression analysis/RA 2/0428.ipynb
+[I 2024-04-29 00:42:07.836 ServerApp] Starting buffering for 66ab713d-a5c9-4117-a30f-aac4a023bcb4:e9cb94c1-5a25-4244-943e-0801fe75baa5
+[I 2024-04-29 00:42:07.837 ServerApp] Starting buffering for cd00c7de-7fda-4b35-becc-04a2d39b60fe:0cb26f06-e4c8-403d-a489-e43fd92685ed
+[I 2024-04-29 00:42:07.837 ServerApp] Starting buffering for 28d3a07d-4a09-4016-9c22-258aac3e2525:c0358e94-f856-494c-8cee-7f44f81b6600
+[I 2024-04-29 00:42:07.837 ServerApp] Starting buffering for 19ae8580-281e-425c-9e4a-7f849eca6c9b:251e16fe-ad78-45d6-a385-77cfb6616e5f
+[I 2024-04-30 01:07:39.678 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2024-04-30 01:07:39.681 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2024-04-30 01:07:39.685 ServerApp] jupyterlab | extension was successfully linked.
+[I 2024-04-30 01:07:39.689 ServerApp] notebook | extension was successfully linked.
+[I 2024-04-30 01:07:39.841 ServerApp] notebook_shim | extension was successfully linked.
+[I 2024-04-30 01:07:39.857 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2024-04-30 01:07:39.859 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2024-04-30 01:07:39.860 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2024-04-30 01:07:39.861 LabApp] JupyterLab extension loaded from /root/anaconda3/envs/r_env/lib/python3.12/site-packages/jupyterlab
+[I 2024-04-30 01:07:39.861 LabApp] JupyterLab application directory is /root/anaconda3/envs/r_env/share/jupyter/lab
+[I 2024-04-30 01:07:39.861 LabApp] Extension Manager is 'pypi'.
+[I 2024-04-30 01:07:39.872 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-04-30 01:07:39.874 ServerApp] notebook | extension was successfully loaded.
+[I 2024-04-30 01:07:39.874 ServerApp] Serving notebooks from local directory: /root/R
+[I 2024-04-30 01:07:39.874 ServerApp] Jupyter Server 2.13.0 is running at:
+[I 2024-04-30 01:07:39.874 ServerApp] http://1711c9b98586:34107/lab
+[I 2024-04-30 01:07:39.874 ServerApp]     http://127.0.0.1:34107/lab
+[I 2024-04-30 01:07:39.875 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+During startup - Warning messages:
+1: Setting LC_COLLATE failed, using "C" 
+2: Setting LC_TIME failed, using "C" 
+3: Setting LC_MESSAGES failed, using "C" 
+4: Setting LC_MONETARY failed, using "C" 
+5: Setting LC_PAPER failed, using "C" 
+6: Setting LC_MEASUREMENT failed, using "C" 
+[I 2024-04-30 01:07:40.249 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2024-04-30 07:03:30.822 ServerApp] 302 GET / (@172.22.138.27) 0.64ms
+[I 2024-04-30 07:03:30.824 LabApp] 302 GET /lab? (@172.22.138.27) 0.54ms
+[I 2024-04-30 07:03:33.408 ServerApp] User e450ac5da7144b3c9bd1df38c29ffd76 logged in.
+[I 2024-04-30 07:03:33.409 ServerApp] 302 POST /login?next=%2Flab%3F (e450ac5da7144b3c9bd1df38c29ffd76@172.22.138.27) 33.86ms
+[W 2024-04-30 07:03:34.220 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2024-04-30 07:03:34.344 ServerApp] 404 GET /api/contents/DL2024/course/0411.ipynb?content=0&hash=0&1714460604387 (e450ac5da7144b3c9bd1df38c29ffd76@172.22.138.27) 0.57ms referer=http://210.117.173.186:34107/lab?
+[W 2024-04-30 07:03:34.344 ServerApp] 404 GET /api/contents/DL2024/course/0411.ipynb?content=0&hash=0&1714460604387 (172.22.138.27): No such file or directory: DL2024/course/0411.ipynb
+[I 2024-04-30 07:03:34.510 ServerApp] New terminal with automatic name: 1
+[W 2024-04-30 07:03:35.576 ServerApp] 404 GET /api/contents/Transformer?1714460605618 (e450ac5da7144b3c9bd1df38c29ffd76@172.22.138.27) 0.76ms referer=http://210.117.173.186:34107/lab?
+[W 2024-04-30 07:03:35.576 ServerApp] 404 GET /api/contents/Transformer?1714460605618 (172.22.138.27): No such file or directory: Transformer
+[I 2024-04-30 07:04:37.657 ServerApp] Uploading file to /EDA/data/stock_sam.xlsx
+[I 2024-04-30 07:05:10.860 ServerApp] Uploading file to /EDA/data/export.txt
+[I 2024-04-30 07:05:43.684 ServerApp] Creating new notebook in /EDA
+[I 2024-04-30 07:05:46.769 ServerApp] Kernel started: 4821b112-a840-46e8-bd14-a9b04d1139e3
+During startup - Warning messages:
+1: Setting LC_COLLATE failed, using "C" 
+2: Setting LC_TIME failed, using "C" 
+3: Setting LC_MESSAGES failed, using "C" 
+4: Setting LC_MONETARY failed, using "C" 
+5: Setting LC_PAPER failed, using "C" 
+6: Setting LC_MEASUREMENT failed, using "C" 
+[I 2024-04-30 07:05:47.384 ServerApp] Connecting to kernel 4821b112-a840-46e8-bd14-a9b04d1139e3.
+[I 2024-04-30 07:05:47.415 ServerApp] Connecting to kernel 4821b112-a840-46e8-bd14-a9b04d1139e3.
+[I 2024-04-30 07:05:47.429 ServerApp] Connecting to kernel 4821b112-a840-46e8-bd14-a9b04d1139e3.
+[I 2024-04-30 07:07:49.766 ServerApp] Saving file at /EDA/0430.ipynb
+[I 2024-04-30 07:13:49.847 ServerApp] Saving file at /EDA/0430.ipynb
+[I 2024-04-30 07:15:49.923 ServerApp] Saving file at /EDA/0430.ipynb
+[I 2024-04-30 07:17:50.016 ServerApp] Saving file at /EDA/0430.ipynb
+[I 2024-04-30 07:19:50.065 ServerApp] Saving file at /EDA/0430.ipynb
+[I 2024-04-30 07:21:50.112 ServerApp] Saving file at /EDA/0430.ipynb
+[I 2024-04-30 07:23:50.167 ServerApp] Saving file at /EDA/0430.ipynb
+[I 2024-04-30 07:25:50.223 ServerApp] Saving file at /EDA/0430.ipynb
+[I 2024-04-30 07:27:50.276 ServerApp] Saving file at /EDA/0430.ipynb
+[I 2024-04-30 07:29:50.339 ServerApp] Saving file at /EDA/0430.ipynb
+[I 2024-04-30 07:31:50.387 ServerApp] Saving file at /EDA/0430.ipynb
+[I 2024-04-30 07:33:50.447 ServerApp] Saving file at /EDA/0430.ipynb
+[I 2024-04-30 07:35:50.520 ServerApp] Saving file at /EDA/0430.ipynb
+[I 2024-04-30 07:37:50.599 ServerApp] Saving file at /EDA/0430.ipynb
+[I 2024-04-30 07:39:50.677 ServerApp] Saving file at /EDA/0430.ipynb
+[I 2024-04-30 07:41:50.759 ServerApp] Saving file at /EDA/0430.ipynb
+[I 2024-04-30 07:43:50.836 ServerApp] Saving file at /EDA/0430.ipynb
+[I 2024-04-30 07:45:50.960 ServerApp] Saving file at /EDA/0430.ipynb
+[I 2024-04-30 07:47:51.077 ServerApp] Saving file at /EDA/0430.ipynb
+[I 2024-04-30 07:51:43.216 ServerApp] Kernel started: c9fc1d97-58ec-44e7-af6c-16718b151bba
+During startup - Warning messages:
+1: Setting LC_COLLATE failed, using "C" 
+2: Setting LC_TIME failed, using "C" 
+3: Setting LC_MESSAGES failed, using "C" 
+4: Setting LC_MONETARY failed, using "C" 
+5: Setting LC_PAPER failed, using "C" 
+6: Setting LC_MEASUREMENT failed, using "C" 
+[I 2024-04-30 07:51:43.794 ServerApp] Connecting to kernel c9fc1d97-58ec-44e7-af6c-16718b151bba.
+[I 2024-04-30 07:55:43.997 ServerApp] Saving file at /EDA/0418.ipynb
+[I 2024-04-30 07:55:46.670 ServerApp] Starting buffering for c9fc1d97-58ec-44e7-af6c-16718b151bba:db2f8dc6-5659-423f-881f-f1031a989078
+[I 2024-04-30 07:55:48.512 ServerApp] Saving file at /EDA/0430.ipynb
+[I 2024-04-30 07:55:48.546 ServerApp] Starting buffering for 4821b112-a840-46e8-bd14-a9b04d1139e3:8b8b3220-3b01-4433-b625-7be75d6f1036
+[I 2024-05-02 04:55:12.322 ServerApp] 302 GET / (@172.22.138.38) 1.98ms
+[I 2024-05-02 04:55:12.325 LabApp] 302 GET /lab? (@172.22.138.38) 0.72ms
+[I 2024-05-02 04:55:15.288 ServerApp] User 9001fa05f7e34213b8dd9cac588a5e76 logged in.
+[I 2024-05-02 04:55:15.289 ServerApp] 302 POST /login?next=%2Flab%3F (9001fa05f7e34213b8dd9cac588a5e76@172.22.138.38) 28.15ms
+[I 2024-05-02 04:55:16.113 ServerApp] Connecting to kernel 4821b112-a840-46e8-bd14-a9b04d1139e3.
+[I 2024-05-02 04:55:16.130 ServerApp] Connecting to kernel c9fc1d97-58ec-44e7-af6c-16718b151bba.
+[I 2024-05-02 04:55:16.143 ServerApp] Starting buffering for 4821b112-a840-46e8-bd14-a9b04d1139e3:8e995da9-e86c-4cf9-b277-713771fcede5
+[I 2024-05-02 04:55:16.144 ServerApp] Starting buffering for c9fc1d97-58ec-44e7-af6c-16718b151bba:6aba83b5-6a00-4e6f-9245-42ede93ce59d
+[W 2024-05-02 04:55:16.340 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-05-02 05:03:03.609 ServerApp] Creating new notebook in /EDA
+[I 2024-05-02 05:03:06.462 ServerApp] Kernel started: 70cec305-c4a9-415e-8834-39e8da377143
+During startup - Warning messages:
+1: Setting LC_COLLATE failed, using "C" 
+2: Setting LC_TIME failed, using "C" 
+3: Setting LC_MESSAGES failed, using "C" 
+4: Setting LC_MONETARY failed, using "C" 
+5: Setting LC_PAPER failed, using "C" 
+6: Setting LC_MEASUREMENT failed, using "C" 
+[I 2024-05-02 05:03:07.174 ServerApp] Connecting to kernel 70cec305-c4a9-415e-8834-39e8da377143.
+[I 2024-05-02 05:05:12.014 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 05:07:12.067 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 05:09:12.107 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 05:11:12.140 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 05:13:12.183 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 05:15:13.185 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 05:17:14.193 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 05:19:14.240 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 05:21:14.288 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 05:23:14.329 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 05:25:14.374 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 05:27:14.424 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 05:29:14.471 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 05:31:14.511 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 05:33:14.553 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 05:35:15.256 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 05:41:17.271 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 05:43:17.318 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 05:47:17.376 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 05:49:17.425 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 05:51:17.464 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 05:53:17.503 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 05:55:17.542 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 05:57:17.619 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 05:59:17.656 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 06:01:18.324 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 06:03:18.375 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 06:05:18.423 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 06:07:18.475 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 06:09:18.531 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 06:11:18.585 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 06:13:18.637 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 06:15:18.701 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 06:17:18.762 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 06:19:18.822 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 06:21:18.890 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 06:23:19.407 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 06:25:19.470 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 06:27:19.554 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 06:29:20.429 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 06:33:21.437 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 06:35:21.518 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 06:37:21.609 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 06:39:21.681 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 06:41:21.762 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 06:43:21.836 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 06:45:21.906 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 06:47:21.993 ServerApp] Saving file at /EDA/0502.ipynb
+[I 2024-05-02 06:48:03.191 ServerApp] Starting buffering for 70cec305-c4a9-415e-8834-39e8da377143:3b6bcbe3-565a-40f9-a440-c5119b22a7e5
+[I 2024-05-02 06:48:07.607 ServerApp] New terminal with automatic name: 2
