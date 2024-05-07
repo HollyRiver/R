@@ -21266,3 +21266,43 @@ During startup - Warning messages:
 [I 2024-05-02 06:47:21.993 ServerApp] Saving file at /EDA/0502.ipynb
 [I 2024-05-02 06:48:03.191 ServerApp] Starting buffering for 70cec305-c4a9-415e-8834-39e8da377143:3b6bcbe3-565a-40f9-a440-c5119b22a7e5
 [I 2024-05-02 06:48:07.607 ServerApp] New terminal with automatic name: 2
+[I 2024-05-07 07:02:24.031 ServerApp] 302 GET / (@172.22.138.26) 0.77ms
+[I 2024-05-07 07:02:24.035 LabApp] 302 GET /lab? (@172.22.138.26) 0.87ms
+[I 2024-05-07 07:02:27.877 ServerApp] User ba68d3f315b540a9a8c9ebc6d42e4f7f logged in.
+[I 2024-05-07 07:02:27.878 ServerApp] 302 POST /login?next=%2Flab%3F (ba68d3f315b540a9a8c9ebc6d42e4f7f@172.22.138.26) 27.56ms
+[I 2024-05-07 07:02:28.665 ServerApp] Connecting to kernel 4821b112-a840-46e8-bd14-a9b04d1139e3.
+[I 2024-05-07 07:02:28.685 ServerApp] Connecting to kernel c9fc1d97-58ec-44e7-af6c-16718b151bba.
+[I 2024-05-07 07:02:28.690 ServerApp] Starting buffering for 4821b112-a840-46e8-bd14-a9b04d1139e3:72f0444a-bbe5-4e18-8e28-9c2e83de8fca
+[I 2024-05-07 07:02:28.699 ServerApp] Starting buffering for c9fc1d97-58ec-44e7-af6c-16718b151bba:e4c1a94f-ce82-400d-9001-f5fe297c57d3
+[I 2024-05-07 07:02:28.701 ServerApp] Connecting to kernel 70cec305-c4a9-415e-8834-39e8da377143.
+[I 2024-05-07 07:02:28.713 ServerApp] Starting buffering for 70cec305-c4a9-415e-8834-39e8da377143:5ff7c6da-b358-4d8a-86dc-bbddb5bfdd19
+[W 2024-05-07 07:02:28.828 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-05-07 07:03:31.116 ServerApp] Creating new notebook in /EDA
+[I 2024-05-07 07:03:33.549 ServerApp] Kernel started: 7e75d88f-ffbf-4911-8126-8f8fb2ec4c0a
+During startup - Warning messages:
+1: Setting LC_COLLATE failed, using "C" 
+2: Setting LC_TIME failed, using "C" 
+3: Setting LC_MESSAGES failed, using "C" 
+4: Setting LC_MONETARY failed, using "C" 
+5: Setting LC_PAPER failed, using "C" 
+6: Setting LC_MEASUREMENT failed, using "C" 
+[I 2024-05-07 07:03:34.208 ServerApp] Connecting to kernel 7e75d88f-ffbf-4911-8126-8f8fb2ec4c0a.
+[I 2024-05-07 07:05:38.998 ServerApp] Saving file at /EDA/0507.ipynb
+[I 2024-05-07 07:09:40.020 ServerApp] Saving file at /EDA/0507.ipynb
+[I 2024-05-07 07:11:40.064 ServerApp] Saving file at /EDA/0507.ipynb
+[I 2024-05-07 07:13:40.113 ServerApp] Saving file at /EDA/0507.ipynb
+[I 2024-05-07 07:15:40.153 ServerApp] Saving file at /EDA/0507.ipynb
+[I 2024-05-07 07:17:40.201 ServerApp] Saving file at /EDA/0507.ipynb
+[I 2024-05-07 07:19:40.254 ServerApp] Saving file at /EDA/0507.ipynb
+[I 2024-05-07 07:21:40.314 ServerApp] Saving file at /EDA/0507.ipynb
+[I 2024-05-07 07:23:40.363 ServerApp] Saving file at /EDA/0507.ipynb
+[I 2024-05-07 07:25:40.424 ServerApp] Saving file at /EDA/0507.ipynb
+[I 2024-05-07 07:27:40.486 ServerApp] Saving file at /EDA/0507.ipynb
+[I 2024-05-07 07:29:40.535 ServerApp] Saving file at /EDA/0507.ipynb
+[I 2024-05-07 07:31:41.075 ServerApp] Saving file at /EDA/0507.ipynb
+[I 2024-05-07 07:33:41.140 ServerApp] Saving file at /EDA/0507.ipynb
+[I 2024-05-07 07:35:41.217 ServerApp] Saving file at /EDA/0507.ipynb
+[I 2024-05-07 07:37:41.293 ServerApp] Saving file at /EDA/0507.ipynb
+[I 2024-05-07 07:39:41.366 ServerApp] Saving file at /EDA/0507.ipynb
+[I 2024-05-07 07:49:36.223 ServerApp] Saving file at /EDA/0507.ipynb
+[I 2024-05-07 07:49:37.599 ServerApp] Starting buffering for 7e75d88f-ffbf-4911-8126-8f8fb2ec4c0a:9df29966-1879-4164-9974-ca637efa52c2
