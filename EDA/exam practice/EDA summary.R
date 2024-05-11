@@ -38,7 +38,8 @@ levels(fact_dt) = c("sans", "pap", "toriel"); fact_dt
 table(fact_dt)
 
 d = list(d1 = c(1,2,3,4), d2 = c(2,3,4,5))
-transform(d, tot = d1+d2)
+tr = transform(d, tot = d1+d2)
+class(tr)
 
 aa = c(12, 5, 6, 3, 1)
 sort(aa)
@@ -66,12 +67,13 @@ read.csv("file name", header = T)
 
 #-------stem and leaf plot-------
 
+# library(aplpack)
 stem.leaf.backback(head(Aids2$death, 50), tail(Aids2$death, 40))
 
 data("Boston")
 x <- Boston$medv
 stem.leaf(x, unit = 0.1, m = 1)  ## m으로 스케일 조절
-stem(x, scale = 2)
+stem(x, scale = 2)  ## scale과 m은 거의 그냥 똑같음
 hist(x, breaks = 20)
 
 #-------values display and box plot-------

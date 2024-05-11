@@ -290,3 +290,199 @@ y <- rbeta(1200, 3, 2)*100
 
 fivenum(x)
 fivenum(y)
+
+
+#-----------------
+
+
+setwd("C:\\Users\\hollyriver\\Documents\\Github\\R\\EDA\\data\\")
+acid = scan("acid rain.txt")
+stem(acid)
+library(aplpack)
+stem.leaf(acid, m = 0.5)
+
+king <- read.table("chosun kings.txt", fileEncoding = "CP949", header = T)
+king
+
+stem(king$Life)
+stem.leaf(king$Life, m = 1)
+hist(king$Life, prob = T)
+
+exam1 <- read.table("exam1.txt", header = T)
+summary(exam1$score)[-4]
+fivenum(exam1$score)
+quantile(exam1$score, type = 8)
+
+lwv <- quantile(exam1$score, c(1/2, 1/4, 1/8, 1/16, 0), type = 8)
+upv <- quantile(exam1$score, 1-c(1/2, 1/4, 1/8, 1/16, 0), type = 8)
+spr <- upv - lwv
+mid <- (upv + lwv) / 2
+
+value_summarize <- data.frame(lwv, upv, spr, mid, row.names = c("M", "H", "E", "D", "끝값"))
+value_summarize
+
+IQR <- qnorm(0.75) - qnorm(0.25)
+pnorm(qnorm(0.25) - 1.5*IQR)*2
+
+population <- read.csv("광역시-구 인구.csv", header = T, fileEncoding = "CP949")
+population
+
+boxplot(population$인구~population$지역명)
+population$지역명 <- reorder(population$지역명, population$지역코드)
+boxplot(population$인구~population$지역명)
+
+power_trans <- function(x, p) {
+  return(1/p * ((x+1)^p + 1))
+}
+
+x <- Animals$brain
+
+hist(x, breaks = 8)
+hist(power_trans(x, 0.25), breaks = 6)
+hist(power_trans(x, 0.125), breaks = 6)
+hist(power_trans(x, 0.0625), breaks = 6)
+
+x <- Animals$body
+y <- Animals$brain
+
+dev.new()
+par(mfcol = c(1,2))
+plot(y~x, type = "n")
+text(x, y, labels = abbreviate(rownames(Animals)), cex = 0.5)  ## ㅈㄴ 겹쳐있음
+
+plot(log(y)~log(x), type = "n")
+text(log(x), log(y), labels = abbreviate(rownames(Animals)), cex = 0.8)  ## 흩어짐, 선형성이 보임.
+
+abbreviate(rownames(Animals))
+
+library(MASS)
+dev.new()
+par(mfcol = c(1, 2))
+plot(log(y)~log(x), pch = 16, main = "Ordinary Linear Model")
+abline(rlm(log(y)~log(x)))
+plot(log(y)~log(x), pch = 16, main = "Robust Linear Model")
+abline(lm(log(y)~log(x)))
+
+x <- rnorm(100, 40, 10)
+y <- c(rnorm(90, 40, 10), rnorm(10, 80, 5))
+z_x <- (x - mean(x))/sd(x)
+z_y <- (y - mean(y))/sd(y)
+zz_x <- (x - median(x))/(IQR(x)/1.35)
+zz_y <- (y - median(y))/(IQR(y)/1.35)
+
+dev.new()
+par(mfrow = c(2,2))
+hist(z_x, breaks = 10)
+hist(z_y, breaks = 10)
+hist(zz_x, breaks = 10)
+hist(zz_y, breaks = 10)
+
+
+
+x1 <- rgamma(100, 4)
+x2 <- rgamma(100, 5)
+x3 <- rgamma(100, 9)
+
+insurance <- data.frame(claims = c(x1, x2, x3), groups = rep(c("A", "B", "C"), c(100, 100, 100)))
+
+par(mfcol = c(1,1))
+boxplot(insurance$claims~insurance$groups)
+
+y <- insurance$claims
+x <- insurance$groups
+
+groups <- unique(x)
+
+spr <- c()
+med <- c()
+
+for (i in 1:3) {
+  temp_dt <- insurance[insurance$groups == groups[i], 1]
+  temp_five <- fivenum(temp_dt)
+  spr <- c(spr, temp_five[4] - temp_five[2])
+  med <- c(med, temp_five[3])
+}
+
+trans_spr <- log(spr)
+trans_med <- log(med)
+
+lm(trans_spr~trans_med)$coef  ## 1-p
+
+p <- 1-lm(trans_spr~trans_med)$coef[2]
+p
+
+par(mfcol = c(1,2))
+boxplot(insurance$claims~insurance$groups, main = "기존 상자 그림", xlab = "groups", ylab = "claims")
+boxplot(insurance$claims^p~insurance$groups, main = "산포가 균일화된 상자그림", xlab = "groups", ylab = "transformed claims")
+
+boxplot(insurance$claims^0.5~insurance$groups, xlab = "groups", ylab = "claims")
+boxplot(insurance$claims^0.25~insurance$groups, xlab = "groups", ylab = "claims")
+
+
+# ppplot : (p_i, F(q_i))  -> 실제로는 순서가 바뀌긴 함. x축이 이론적인 분포
+# qqplot : (q_i, Finv(p_i))
+
+darwin <- c(49, -67, 8, 16, 6, 23, 28, 41, 14, 29, 56, 24, 75, 60, -48)
+darwin <- sort(darwin)
+
+length(darwin)
+
+p_i <- (seq(1:15) - 0.5)/15
+
+par(mfcol = c(1,2))
+plot(p_i, pnorm(stand_darwin, mean(darwin), sd(darwin)), xlab = "Sample provability", ylab = "Theoretical provability", main = "Normal P-P Plot")
+qqnorm(darwin)
+
+par(mfcol = c(1,1))
+
+x <- c(25, 175, rnorm(38,100,15))
+
+x_i <- sort(x)
+
+length(x)
+
+p_i <- (seq(1:40) - 0.5)/40
+
+par(mfcol = c(1, 2))
+qqnorm(x)
+
+stand_x <- (x_i - mean(x))/sd(x)
+plot(p_i, pnorm(stand_x))   ## 거의 비슷하긴 한데, 좀 다름
+
+length(leukemia)
+
+p_i <- (seq(1:21)-0.5)/21
+
+plot(qexp(p_i), sort(leukemia))
+plot(qweibull(p_i, 2), sort(leukemia))
+plot(qgamma(p_i, 2), sort(leukemia))
+
+
+qnorm(0.25)
+qnorm(0.125)
+qnorm(0.0625)
+
+qexp(0.5)
+log(2)  ## log(2)/lambda, lambda = 1
+
+qexp(0.75)
+log(4)
+
+qexp(0.875)
+log(8)
+
+qexp(0.9375)
+log(16)
+
+# mu - log(2) - 1.5*2log(2) = mu - log(16), P(X < mu -log(16)) = 0.0625
+
+pexp(log(16), lower.tail = FALSE)  ## 자료 중 특이점의 비율 : 12.5%
+
+qnorm(0.25) - 1.5*(qnorm(0.75) - qnorm(0.25))  ## -2.7정도
+
+pnorm(-2.7)*2  ## 약 0.007, 즉, 자료 중 특이점의 비율 : 0.7%
+
+
+qunif(0.25) - 1.5 * (qunif(0.75) - qunif(0.25))
+
+punif(-0.5)  ## 자료에서 특이점이 나올 수 없음.
