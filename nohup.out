@@ -21637,3 +21637,46 @@ During startup - Warning messages:
 [I 2024-05-11 08:09:53.639 ServerApp] Saving file at /EDA/code assemble.ipynb
 [I 2024-05-11 08:10:01.918 ServerApp] Starting buffering for 70cec305-c4a9-415e-8834-39e8da377143:9feefb41-aeb4-4a20-86de-19ff01a01f2c
 [I 2024-05-11 08:10:04.564 ServerApp] Starting buffering for 3c70d02b-5705-4a2e-96e1-7f3c9fd0c4f9:7717c94f-9d0a-4ac4-835a-986f4c4e1fa6
+[I 2024-05-11 08:10:23.241 ServerApp] Connecting to kernel 3c70d02b-5705-4a2e-96e1-7f3c9fd0c4f9.
+[I 2024-05-11 08:10:29.834 ServerApp] Starting buffering for 3c70d02b-5705-4a2e-96e1-7f3c9fd0c4f9:8f6c76a3-65f4-4975-8dc4-9158603f7fa0
+[I 2024-05-12 05:12:56.945 ServerApp] 302 GET / (@222.105.106.20) 0.51ms
+[W 2024-05-12 05:13:00.126 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-05-12 05:13:00.256 ServerApp] Connecting to kernel 4821b112-a840-46e8-bd14-a9b04d1139e3.
+[I 2024-05-12 05:13:00.291 ServerApp] Connecting to kernel c9fc1d97-58ec-44e7-af6c-16718b151bba.
+[I 2024-05-12 05:13:00.317 ServerApp] Connecting to kernel 70cec305-c4a9-415e-8834-39e8da377143.
+[I 2024-05-12 05:13:00.361 ServerApp] Connecting to kernel 7e75d88f-ffbf-4911-8126-8f8fb2ec4c0a.
+[I 2024-05-12 05:13:00.403 ServerApp] Connecting to kernel 7092db2f-7ba9-4925-8fe5-4a998be94360.
+[I 2024-05-12 05:13:00.434 ServerApp] Connecting to kernel cbfbc679-798e-4652-8660-6e31fd167205.
+[I 2024-05-12 05:13:00.465 ServerApp] Connecting to kernel 3c70d02b-5705-4a2e-96e1-7f3c9fd0c4f9.
+[I 2024-05-12 05:13:00.712 ServerApp] Starting buffering for 4821b112-a840-46e8-bd14-a9b04d1139e3:e5273378-2920-41a2-83b8-bc4709cce6de
+[I 2024-05-12 05:13:00.712 ServerApp] Starting buffering for c9fc1d97-58ec-44e7-af6c-16718b151bba:ee5fe24a-c3e5-4f8f-8aa4-203ceac23570
+[I 2024-05-12 05:13:00.713 ServerApp] Starting buffering for 7e75d88f-ffbf-4911-8126-8f8fb2ec4c0a:3bf03b29-8520-422e-b13d-c26e222a6d5c
+[I 2024-05-12 05:13:00.713 ServerApp] Starting buffering for 70cec305-c4a9-415e-8834-39e8da377143:44b56243-e126-40ee-ba29-439e89440d62
+[I 2024-05-12 05:13:00.729 ServerApp] Starting buffering for 7092db2f-7ba9-4925-8fe5-4a998be94360:0724407e-f5df-4af5-a82e-8c2c55e9a200
+[I 2024-05-12 05:13:01.008 ServerApp] Starting buffering for cbfbc679-798e-4652-8660-6e31fd167205:93ed9517-b76e-4686-8538-f4d5b63c8d0e
+[I 2024-05-12 05:13:01.009 ServerApp] Starting buffering for 3c70d02b-5705-4a2e-96e1-7f3c9fd0c4f9:a5611895-449a-43ee-a2a3-50437d0b42b1
+[I 2024-05-12 05:13:01.969 ServerApp] Connecting to kernel 3c70d02b-5705-4a2e-96e1-7f3c9fd0c4f9.
+[I 2024-05-12 05:19:01.479 ServerApp] Saving file at /EDA/code assemble.ipynb
+[I 2024-05-12 05:19:18.534 ServerApp] Starting buffering for 3c70d02b-5705-4a2e-96e1-7f3c9fd0c4f9:125354c4-9139-4cc7-8b2a-b62a04773d17
+[I 2024-05-12 06:57:37.954 ServerApp] 302 GET / (@222.105.106.20) 0.44ms
+[W 2024-05-12 06:57:41.124 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-05-12 06:57:41.263 ServerApp] Connecting to kernel 4821b112-a840-46e8-bd14-a9b04d1139e3.
+[I 2024-05-12 06:57:41.297 ServerApp] Connecting to kernel c9fc1d97-58ec-44e7-af6c-16718b151bba.
+[I 2024-05-12 06:57:41.330 ServerApp] Connecting to kernel 70cec305-c4a9-415e-8834-39e8da377143.
+[I 2024-05-12 06:57:41.367 ServerApp] Connecting to kernel 7e75d88f-ffbf-4911-8126-8f8fb2ec4c0a.
+[I 2024-05-12 06:57:41.411 ServerApp] Connecting to kernel 7092db2f-7ba9-4925-8fe5-4a998be94360.
+[I 2024-05-12 06:57:41.444 ServerApp] Connecting to kernel cbfbc679-798e-4652-8660-6e31fd167205.
+[I 2024-05-12 06:57:41.484 ServerApp] Connecting to kernel 3c70d02b-5705-4a2e-96e1-7f3c9fd0c4f9.
+[I 2024-05-12 06:57:41.697 ServerApp] Starting buffering for 7092db2f-7ba9-4925-8fe5-4a998be94360:1092b24e-0d3b-4869-9ca7-e6040f316414
+[I 2024-05-12 06:57:41.704 ServerApp] Starting buffering for 7e75d88f-ffbf-4911-8126-8f8fb2ec4c0a:2a1aab19-9aba-4cdb-b4ab-623b18293392
+[I 2024-05-12 06:57:41.704 ServerApp] Starting buffering for 70cec305-c4a9-415e-8834-39e8da377143:74d5f3ce-bda7-41e2-b2db-28285d4ca42f
+[I 2024-05-12 06:57:41.705 ServerApp] Starting buffering for c9fc1d97-58ec-44e7-af6c-16718b151bba:6ccae39d-4bb5-4021-82e5-1d0979b4dd67
+[I 2024-05-12 06:57:41.705 ServerApp] Starting buffering for 4821b112-a840-46e8-bd14-a9b04d1139e3:a9e263e1-b911-4f6b-b2cb-0489608b3c07
+[I 2024-05-12 06:57:41.714 ServerApp] Starting buffering for cbfbc679-798e-4652-8660-6e31fd167205:5a030e6d-3406-44d8-a2ad-09b9944ffa14
+[I 2024-05-12 06:57:41.836 ServerApp] Starting buffering for 3c70d02b-5705-4a2e-96e1-7f3c9fd0c4f9:b3cf2803-61e3-4e10-b276-7bf758db739a
+[I 2024-05-12 06:57:43.176 ServerApp] Connecting to kernel 3c70d02b-5705-4a2e-96e1-7f3c9fd0c4f9.
+[I 2024-05-12 07:05:42.923 ServerApp] Saving file at /EDA/code assemble.ipynb
+[I 2024-05-12 07:05:54.632 ServerApp] Starting buffering for 3c70d02b-5705-4a2e-96e1-7f3c9fd0c4f9:fb7dc25a-cbb0-40a8-b24b-3da3a4839d9d
+[I 2024-05-12 10:59:47.700 ServerApp] Connecting to kernel 3c70d02b-5705-4a2e-96e1-7f3c9fd0c4f9.
+[I 2024-05-12 10:59:47.701 ServerApp] Restoring connection for 3c70d02b-5705-4a2e-96e1-7f3c9fd0c4f9:fb7dc25a-cbb0-40a8-b24b-3da3a4839d9d
+[I 2024-05-12 11:02:18.799 ServerApp] Starting buffering for 3c70d02b-5705-4a2e-96e1-7f3c9fd0c4f9:fb7dc25a-cbb0-40a8-b24b-3da3a4839d9d
