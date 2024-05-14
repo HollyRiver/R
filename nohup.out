@@ -21680,3 +21680,175 @@ During startup - Warning messages:
 [I 2024-05-12 10:59:47.700 ServerApp] Connecting to kernel 3c70d02b-5705-4a2e-96e1-7f3c9fd0c4f9.
 [I 2024-05-12 10:59:47.701 ServerApp] Restoring connection for 3c70d02b-5705-4a2e-96e1-7f3c9fd0c4f9:fb7dc25a-cbb0-40a8-b24b-3da3a4839d9d
 [I 2024-05-12 11:02:18.799 ServerApp] Starting buffering for 3c70d02b-5705-4a2e-96e1-7f3c9fd0c4f9:fb7dc25a-cbb0-40a8-b24b-3da3a4839d9d
+[I 2024-05-14 02:17:34.365 ServerApp] 302 GET / (@121.154.64.157) 0.97ms
+[I 2024-05-14 02:17:35.840 LabApp] 302 GET /lab? (@182.172.56.199) 0.60ms
+[I 2024-05-14 02:17:35.997 LabApp] 302 GET /lab? (@211.117.24.132) 0.28ms
+[W 2024-05-14 02:17:36.516 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2024-05-14 02:17:36.647 ServerApp] Connecting to kernel 4821b112-a840-46e8-bd14-a9b04d1139e3.
+[I 2024-05-14 02:17:36.679 ServerApp] Connecting to kernel c9fc1d97-58ec-44e7-af6c-16718b151bba.
+[I 2024-05-14 02:17:36.701 ServerApp] Connecting to kernel 70cec305-c4a9-415e-8834-39e8da377143.
+[I 2024-05-14 02:17:36.730 ServerApp] Connecting to kernel 7e75d88f-ffbf-4911-8126-8f8fb2ec4c0a.
+[I 2024-05-14 02:17:36.753 ServerApp] Connecting to kernel cbfbc679-798e-4652-8660-6e31fd167205.
+[I 2024-05-14 02:17:36.782 ServerApp] Connecting to kernel 7092db2f-7ba9-4925-8fe5-4a998be94360.
+[I 2024-05-14 02:17:36.807 ServerApp] Connecting to kernel 3c70d02b-5705-4a2e-96e1-7f3c9fd0c4f9.
+[I 2024-05-14 02:17:37.041 ServerApp] Starting buffering for 7092db2f-7ba9-4925-8fe5-4a998be94360:94c65ecd-3788-4c1c-a68d-b3fe571c19b9
+[I 2024-05-14 02:17:37.054 ServerApp] Starting buffering for 4821b112-a840-46e8-bd14-a9b04d1139e3:c278b86b-c3f2-474e-bd88-d77db5ee758b
+[I 2024-05-14 02:17:37.055 ServerApp] Starting buffering for 3c70d02b-5705-4a2e-96e1-7f3c9fd0c4f9:b8981f1a-9de0-48fb-b15a-d1575388c151
+[I 2024-05-14 02:17:37.084 ServerApp] Starting buffering for c9fc1d97-58ec-44e7-af6c-16718b151bba:113f9c88-bf98-4119-b06f-ce2f7d7ecbd9
+[I 2024-05-14 02:17:37.085 ServerApp] Starting buffering for cbfbc679-798e-4652-8660-6e31fd167205:5f8dcef6-3bab-43d1-b45e-bbe111947a00
+[I 2024-05-14 02:17:37.085 ServerApp] Starting buffering for 70cec305-c4a9-415e-8834-39e8da377143:fc3bdefc-2c8e-4325-84e5-e7242f06836c
+[I 2024-05-14 02:17:37.085 ServerApp] Starting buffering for 7e75d88f-ffbf-4911-8126-8f8fb2ec4c0a:d8a52882-5b44-4350-bcc6-6f925c3e9326
+[W 2024-05-14 02:17:37.126 ServerApp] 404 GET /api/contents/SDB2024/course/0513.ipynb?content=0&hash=0&1715653056593 (c4d8fccb5ac74e8681cb37b88287ca7b@121.154.64.157) 0.61ms referer=http://210.117.173.186:34107/lab?
+[W 2024-05-14 02:17:37.126 ServerApp] 404 GET /api/contents/SDB2024/course/0513.ipynb?content=0&hash=0&1715653056593 (121.154.64.157): No such file or directory: SDB2024/course/0513.ipynb
+[W 2024-05-14 02:17:37.840 ServerApp] 404 GET /api/contents/SDB2024/course?1715653057305 (c4d8fccb5ac74e8681cb37b88287ca7b@121.154.64.157) 0.50ms referer=http://210.117.173.186:34107/lab?
+[W 2024-05-14 02:17:37.840 ServerApp] 404 GET /api/contents/SDB2024/course?1715653057305 (121.154.64.157): No such file or directory: SDB2024/course
+[I 2024-05-14 02:17:48.854 ServerApp] Creating new notebook in /regression analysis/RA 2
+[I 2024-05-14 02:17:52.295 ServerApp] Kernel started: 6d9f9255-bf81-4ba8-9fd9-8cb1890ea562
+During startup - Warning messages:
+1: Setting LC_COLLATE failed, using "C" 
+2: Setting LC_TIME failed, using "C" 
+3: Setting LC_MESSAGES failed, using "C" 
+4: Setting LC_MONETARY failed, using "C" 
+5: Setting LC_PAPER failed, using "C" 
+6: Setting LC_MEASUREMENT failed, using "C" 
+[I 2024-05-14 02:17:52.983 ServerApp] Connecting to kernel 6d9f9255-bf81-4ba8-9fd9-8cb1890ea562.
+[I 2024-05-14 02:19:58.916 ServerApp] Saving file at /regression analysis/RA 2/0514.ipynb
+[I 2024-05-14 02:21:59.169 ServerApp] Saving file at /regression analysis/RA 2/0514.ipynb
+[I 2024-05-14 02:23:59.266 ServerApp] Saving file at /regression analysis/RA 2/0514.ipynb
+[I 2024-05-14 02:25:59.353 ServerApp] Saving file at /regression analysis/RA 2/0514.ipynb
+[I 2024-05-14 02:27:59.462 ServerApp] Saving file at /regression analysis/RA 2/0514.ipynb
+[I 2024-05-14 02:29:59.680 ServerApp] Saving file at /regression analysis/RA 2/0514.ipynb
+[I 2024-05-14 02:31:59.768 ServerApp] Saving file at /regression analysis/RA 2/0514.ipynb
+[I 2024-05-14 02:33:59.855 ServerApp] Saving file at /regression analysis/RA 2/0514.ipynb
+[I 2024-05-14 02:35:59.949 ServerApp] Saving file at /regression analysis/RA 2/0514.ipynb
+[I 2024-05-14 02:38:00.156 ServerApp] Saving file at /regression analysis/RA 2/0514.ipynb
+[I 2024-05-14 02:40:00.368 ServerApp] Saving file at /regression analysis/RA 2/0514.ipynb
+[I 2024-05-14 02:42:00.473 ServerApp] Saving file at /regression analysis/RA 2/0514.ipynb
+trying URL 'https://cran.r-project.org/src/contrib/leaps_3.1.tar.gz'
+Content type 'application/x-gzip' length 28558 bytes (27 KB)
+==================================================
+downloaded 27 KB
+
+During startup - Warning messages:
+1: Setting LC_TIME failed, using "C" 
+2: Setting LC_MESSAGES failed, using "C" 
+3: Setting LC_MONETARY failed, using "C" 
+4: Setting LC_PAPER failed, using "C" 
+5: Setting LC_MEASUREMENT failed, using "C" 
+* installing *source* package ‘leaps’ ...
+** package ‘leaps’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using Fortran compiler: ‘GNU Fortran (conda-forge gcc 13.2.0-5) 13.2.0’
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c leaps.f -o leaps.o
+leaps.f:218:72:
+
+  218 |    20 RBAR(I) = ZERO
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 20 at (1)
+leaps.f:412:72:
+
+  412 |      *            IL, VORDER)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 10 at (1)
+leaps.f:533:72:
+
+  533 |    10 WK(J) = SS(J)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 10 at (1)
+leaps.f:723:72:
+
+  723 |         DO 100 K = 1, POS
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: Shared DO termination label 100 at (1)
+leaps.f:889:72:
+
+  889 |    20 IWK(I) = LAST
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 20 at (1)
+leaps.f:917:72:
+
+  917 |      *             VORDER)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 50 at (1)
+leaps.f:922:72:
+
+  922 |    60 IWK(I) = NEWPOS - 1
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 60 at (1)
+leaps.f:1043:72:
+
+ 1043 |      *        IL, VORDER)
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 40 at (1)
+leaps.f:1126:72:
+
+ 1126 |    10 WORK(COL) = SQRT(D(COL))
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 10 at (1)
+leaps.f:1229:72:
+
+ 1229 |    10 WORK(ROW) = SQRT(D(ROW))
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 10 at (1)
+leaps.f:1316:72:
+
+ 1316 |    10 SUMY = SUMY + D(ROW) * THETAB(ROW)**2
+      |                                                                        1
+Warning: Fortran 2018 deleted feature: DO termination statement which is not END DO or CONTINUE with label 10 at (1)
+x86_64-conda-linux-gnu-gfortran  -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /root/anaconda3/envs/r_env/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1709218169200/work=/usr/local/src/conda/r-base-4.3.3 -fdebug-prefix-map=/root/anaconda3/envs/r_env=/usr/local/src/conda-prefix  -c leapshdr.f -o leapshdr.o
+x86_64-conda-linux-gnu-cc -shared -L/root/anaconda3/envs/r_env/lib/R/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/root/anaconda3/envs/r_env/lib -Wl,-rpath-link,/root/anaconda3/envs/r_env/lib -L/root/anaconda3/envs/r_env/lib -o leaps.so leaps.o leapshdr.o -lgfortran -lm -lquadmath -L/root/anaconda3/envs/r_env/lib/R/lib -lR
+installing to /root/anaconda3/envs/r_env/lib/R/library/00LOCK-leaps/00new/leaps/libs
+** R
+** byte-compile and prepare package for lazy loading
+During startup - Warning messages:
+1: Setting LC_TIME failed, using "C" 
+2: Setting LC_MESSAGES failed, using "C" 
+3: Setting LC_MONETARY failed, using "C" 
+4: Setting LC_PAPER failed, using "C" 
+5: Setting LC_MEASUREMENT failed, using "C" 
+** help
+*** installing help indices
+** building package indices
+During startup - Warning messages:
+1: Setting LC_TIME failed, using "C" 
+2: Setting LC_MESSAGES failed, using "C" 
+3: Setting LC_MONETARY failed, using "C" 
+4: Setting LC_PAPER failed, using "C" 
+5: Setting LC_MEASUREMENT failed, using "C" 
+** testing if installed package can be loaded from temporary location
+During startup - Warning messages:
+1: Setting LC_TIME failed, using "C" 
+2: Setting LC_MESSAGES failed, using "C" 
+3: Setting LC_MONETARY failed, using "C" 
+4: Setting LC_PAPER failed, using "C" 
+5: Setting LC_MEASUREMENT failed, using "C" 
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+During startup - Warning messages:
+1: Setting LC_TIME failed, using "C" 
+2: Setting LC_MESSAGES failed, using "C" 
+3: Setting LC_MONETARY failed, using "C" 
+4: Setting LC_PAPER failed, using "C" 
+5: Setting LC_MEASUREMENT failed, using "C" 
+** testing if installed package keeps a record of temporary installation path
+* DONE (leaps)
+
+The downloaded source packages are in
+	‘/tmp/RtmpnmI7NS/downloaded_packages’
+[I 2024-05-14 02:44:00.569 ServerApp] Saving file at /regression analysis/RA 2/0514.ipynb
+[I 2024-05-14 02:46:00.775 ServerApp] Saving file at /regression analysis/RA 2/0514.ipynb
+[I 2024-05-14 02:48:00.884 ServerApp] Saving file at /regression analysis/RA 2/0514.ipynb
+[I 2024-05-14 02:50:00.989 ServerApp] Saving file at /regression analysis/RA 2/0514.ipynb
+[I 2024-05-14 02:52:01.192 ServerApp] Saving file at /regression analysis/RA 2/0514.ipynb
+[I 2024-05-14 02:54:01.275 ServerApp] Saving file at /regression analysis/RA 2/0514.ipynb
+[I 2024-05-14 02:56:01.448 ServerApp] Saving file at /regression analysis/RA 2/0514.ipynb
+[I 2024-05-14 02:58:01.668 ServerApp] Saving file at /regression analysis/RA 2/0514.ipynb
+[I 2024-05-14 03:00:01.765 ServerApp] Saving file at /regression analysis/RA 2/0514.ipynb
+[I 2024-05-14 03:02:01.868 ServerApp] Saving file at /regression analysis/RA 2/0514.ipynb
+[I 2024-05-14 03:04:01.993 ServerApp] Saving file at /regression analysis/RA 2/0514.ipynb
+[I 2024-05-14 03:06:02.223 ServerApp] Saving file at /regression analysis/RA 2/0514.ipynb
+[I 2024-05-14 03:08:02.321 ServerApp] Saving file at /regression analysis/RA 2/0514.ipynb
+[I 2024-05-14 03:09:43.891 ServerApp] Saving file at /regression analysis/RA 2/0514.ipynb
+[I 2024-05-14 03:09:46.750 ServerApp] Saving file at /regression analysis/RA 2/0514.ipynb
+[I 2024-05-14 03:09:48.123 ServerApp] Starting buffering for 6d9f9255-bf81-4ba8-9fd9-8cb1890ea562:3dd9d48e-2b5a-4da7-ae12-ba5d3fa1a8f5
