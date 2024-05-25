@@ -1,7 +1,0 @@
-import Pkg
-
-Pkg.add("PlutoUI")
-Pkg.add("Plots")
-
-import Pluto
-Pluto.run()  ## jupyter lab
