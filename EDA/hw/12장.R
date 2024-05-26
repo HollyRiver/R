@@ -73,3 +73,6 @@ data(Cars93)
 attach(Cars93)
 imosaic(AirBags, Cylinders, Origin)
 imosaic(Type, Man.trans.avail)
+
+
+install.packages("tourr")
