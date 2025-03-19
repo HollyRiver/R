@@ -75,3 +75,82 @@ szn_fct2
 
 table(szn_fct2)
 barplot(table(szn_fct2))
+
+##----------3.4 Matrix and Array----------
+### 1. 행렬 생성
+m1 <- matrix(1:20, nrow = 4, ncol = 5)
+m1 ## 기본적으로 열부터 채움
+
+m1[1,]
+m1[3, 3]
+
+m2 <- matrix(1:20, nrow = 4, byrow = TRUE)
+m2 ## 행부터 채울 수 있음
+
+matrix(1:20, nrow = 4, ncol = 3) ## 행렬이 너무 작으면 뒤가 짤림
+
+#### 행/열에 이름 붙이기...???
+score <- matrix(c(80, 67, 74,
+                  82, 95, 88,
+                  75, 84, 82,
+                  95, 83, 76),
+                nrow = 4, byrow = TRUE) ## 이대로 들어가게 하려고 TRUE로...
+
+dim(score)
+nrow(score) ## dim(score)[1]
+ncol(score) ## dim(score)[2]
+
+rownames(score) ## NULL : 정의되지 않음
+colnames(score)
+
+rownames(score) <- c("Kim", "Lee", "Park", "Choi")
+colnames(score) <- c("Kor", "Eng", "Math")
+
+score ## 행의 이름과 열의 이름이 할당됨.
+
+### 2. 행렬 인덱싱
+m <- matrix(1:15, nrow = 3)
+m[2, 4] ## 하나를 추출
+m[3,] ## 한 행을 추출
+m[, 1] ## 한 열을 추출
+m[c(1,3),] ## 슬라이싱. 파이썬과 달리 그냥 벡터로 묶어서 넣으면 됨.
+m[,c(2,4,5)]
+
+
+m[-2,] ## 미친 경우. 빼고 호출하는 거임. 뒤에서부터 호출 못함.
+
+#### 비교연산자
+v <- 1:5
+v > 2 ## 벡터의 경우 각 원소마다 적용
+
+m > 7 ## 행렬도 각 원소마다 적용
+
+### 3. 행렬 산술연산
+m2 <-  matrix(1:20, nrow = 4)
+m3 <- matrix(21:40, nrow = 4)
+m4 <- matrix(1:10, nrow = 5)
+v1 <- c(1:4)
+
+m2 + m3 ## 기존 행렬의 합연산과 동일
+m2 - m3 ## 기존 행렬의 합연산과 동일
+m2 * m3 ## 행렬곱과 다름, 같은 위치에 있는 애들끼리 곱함
+m2 / m3 ## 같은 위치에 있는 애들끼리 나눔
+
+m2 %*% m4 ## 행렬곱 : (4, 2) matrix
+
+m2 + c(1:3) ## 열 순서대로 더해주는듯
+
+### 4. 특수행렬
+diag(1, nrow = 3, ncol = 3)   ## 단위행렬
+matrix(0, nrow = 3, ncol = 3) ## 영행렬, 원소 수가 모자라도 생성됨
+diag(c(1,2,3))  ## 대각행렬. 나머지는 다 0으로 채워줌
+matrix(c(1,2,2,1), nrow = 2)  ## 대칭행렬은 그냥 만들어야 함 ㅇㅇ
+
+A <- matrix(1:6, nrow = 2)
+t(A)  ## 전치행렬
+
+B <- matrix(1:4, nrow = 2)
+solve(B)  ## 역행렬
+det(B)    ## 행렬식
+
+B %*% solve(B) ## 단위행렬이 나옴. 잘 해줬음.
