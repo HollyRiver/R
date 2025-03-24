@@ -154,3 +154,93 @@ solve(B)  ## 역행렬
 det(B)    ## 행렬식
 
 B %*% solve(B) ## 단위행렬이 나옴. 잘 해줬음.
+
+### 5. 행렬 결합
+m4 <- matrix(1:12, nrow = 4)  ## 4*3
+m5 <- matrix(13:18, nrow = 2) ## 2*3
+
+m6 <- rbind(m4, m5)
+## rbind(m5, m4)
+
+## 행렬에 벡터도 결합할 수 있음 : 행의 개수가 동일하면
+v <- 1:6
+m7 <- cbind(m6, v)  ## 해당 열의 경우, 벡터의 변수명이 지정되어 있으므로 열이름
+colnames(m7)
+
+colnames(m7) <- NULL
+colnames(m7)
+
+### 6. 배열
+arr <- array(1:12, dim = c(2,2,3))
+arr
+
+##----------3.5 List----------
+### 1. 리스트 생성
+myinfo <- list(name = "Kim",
+               age = 25,
+               smoking = TRUE,
+               score = c(70, 85, 90)
+)
+
+myinfo$name
+myinfo$score[1]
+
+### 2. 리스트 인덱싱
+is(myinfo[[2]]) ## 리스트 원소만 호출함. is를 이용하여 타입을 나타낼 수 있음
+is(myinfo[2])   ## 리스트 그대로 호출함
+
+myinfo$age      ## 보통 이렇게 함
+
+
+##----------3.6 DataFrame----------
+### 1. 데이터프레임 생성
+df1 <- data.frame(name = c("Kim", "Lee", "Park", "Choi"),
+                  age = c(24, 25, 22, 27),
+                  btype = factor(c("A", 'B', 'O', 'B'), levels = c("A", "B", "AB", "O")),
+                  smoking = c(T, F, T, T)
+)
+
+df1$btype
+
+## 데이터 추가
+# data.frame(df1,
+#            pet = c("dog", "cat", "bird", "dog"))  ## 이렇게 써도 됨
+
+df2 <- cbind(df1, c("dog", "cat", "bird", "dog"))
+
+colnames(df2)[5] <- "pet"
+df2
+
+### 2. 데이터프레임 인덱싱 : matrix와 동일한 방법
+## matrix에서도 가능한 것
+df2[1, 2] ## 1행 2열에 위치한 값
+df2[, 3]  ## 3열에 위치한 모든 값
+df2[4,]   ## 4행에 위치한 모든 값
+df2[, "btype"]  ## btype 열(3열)에 위치한 모든 값
+df2[, c("name", 'age')] ## 추출하고 싶은 열이 여러 개인 경우
+df2[, 1:3]  ## 슬라이싱
+
+## 데이터프레임에서만 가능한거 : 리스트의 특별한 경우
+df2$smoking
+df2$age
+
+### 3. 데이터프레임 요약 함수
+head(iris)  ## 선수 6개 샘플 산출
+tail(iris)  ## 후수 6개 샘플 산출
+
+dim(iris)   ## (150, 5) 데이터프레임의 차원
+nrow(iris)
+ncol(iris)
+
+str(iris)   ## 이걸 쓰면 굳이 head나 tail, dim을 사용할 필요가 없음.
+
+unique(iris[5]) ## 5열 품종의 유니크 값 파악. 문자열로 저장되어 있을 경우 유용
+table(iris["Species"]) ## 각 유니크 값 별로 몇 개의 샘플이 있는지.
+
+colMeans(iris)  ## 안됨. 모두 수치형만 있어야 함.
+colMeans(iris[-5])
+colMeans(iris[, -5])
+colSums(iris[-5])
+
+rowMeans(iris[, -5])  ## -> 자주는 안씀 ㅇㅇ
+rowSums(iris[, -5])
