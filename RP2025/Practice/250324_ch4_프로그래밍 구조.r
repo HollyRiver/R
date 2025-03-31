@@ -3,18 +3,17 @@
 ### Title : 4. Programming Architecture
 
 ##----------2. Conditional Statement----------
-### 1. if¹®
-## ex) ½ÃÇè Á¡¼ö°¡ 80Á¡ ÀÌ»óÀÌ¸é ÇÕ°Ý Ãâ·Â
+### 1. if statement
+## ex)
 score <- 85
 
 if (score >= 80) {
   print("Pass")
 }
 
-## ½ÇÇàÇÏ°í ½ÍÀº °Ô ÇÑ ÁÙÀÌ¸é...
 if (score >= 80) print("Pass")
 
-### 2. if-else¹®
+### 2. if-else statement
 score <- 75
 
 if (score >= 80) {
@@ -23,21 +22,21 @@ if (score >= 80) {
   print("Fail")
 }
 
-if (score >= 80) print("Pass") else print("Fail") ## ÀÌ·±°Ç µÇ³×
+if (score >= 80) print("Pass") else print("Fail") ## one line all discription
 
-## µé¿©¾²±â °³ÆÇÀ¸·Î ÇØ³öµµ µ¹¾Æ°¨
+## pass or fail
 if (score >= 80) {
     print("Pass")
       } else {
   print("Fail")
 }
 
-### 3. ifelse() ÇÔ¼ö
+### 3. ifelse()
 score <- 85
 result <- ifelse(score >= 80, "Pass", "Fail") ## ifelse(bool, arg_T, arg_F)
 print(result)
 
-### 4. else if¹®
+### 4. else if
 score <- 85
 
 if (score >= 90) {
@@ -55,34 +54,32 @@ if (score >= 90) {
 print(grade)
 
 ##----------3. Reputative Statement----------
-### 1. for ¹®
-#### *À» 5¹ø Ãâ·Â
-for (¹Ýº¹º¯¼ö in 1:5) {
+### 1. for
+#### summation
+for (i in 1:5) {
   print("*")
 }
 
-#### ±¸±¸´Ü 2´ÜÀ» Ãâ·Â
+#### "cat"
 for (i in 1:9) {
-  print(cat("2 ¡¿", i, "=", 2*i))  ## ÀÌ·¸°Ô ¾²´Ï±î µÚ¿¡ NULLÀÌ ºÙÀ½;;
+  print(cat("2 ??", i, "=", 2*i))
 }
 
 output <- ""
 
 for (i in 1:9) {
-  output <- cat(output, "2 ¡¿", i, "=", 2*i, "\n")
+  output <- cat(output, "2 ??", i, "=", 2*i, "\n")
 }
 
-## ÀÌ°Íµµ ¾ÈµÇ³×. °³¿À¹Ù. ±×³É catÀº ÇÁ¸°Æ®¸¸ ÇØÁÖ´Â °ÅÀÎµí
 
-
-#### 1~20 »çÀÌÀÇ ¼ýÀÚ Áß Â¦¼ö¸¸ Ãâ·Â
+#### 1~20 only pair num
 for (i in 1:20) {
   if (i %% 2 == 0) {
     print(i)
   }
 }
 
-#### 1~n¹øÂ° ¿ø¼Ò±îÁöÀÇ ÇÕÀ» °è»ê -> µîÂ÷¼ö¿­ÀÇ ÇÕ
+#### 1~n summation
 sum <- 0
 n <- 100
 
@@ -90,10 +87,10 @@ for (i in 1:n) {
   sum <- sum + i
 }
 
-print(sum)  ## µîÂ÷¼ö¿­ ÇÕ°ø½Ä ¹¹´õ¶ó
+print(sum)
 
-### 2. while ¹®
-#### 1~100 »çÀÌÀÇ ¼ýÀÚ¸¦ ÇÕ°è Ãâ·Â
+### 2. while
+#### 1~100 summation
 sum <- 0
 i <- 1
 
@@ -104,10 +101,8 @@ while (i <= 100) {
 
 print(sum)
 
-#### ¹«ÇÑ·çÇÁ : ÇÏ¸é ¾ÈµÊ
-
-### 3. break¹®°ú next¹®
-## 1ºÎÅÍ 100±îÁö ´õÇÏ±â : while¹® ¹öÀü
+### 3. break/next
+## summation 1~100 : while
 sum <- 0
 i <- 1
 
@@ -120,7 +115,7 @@ while (TRUE) {
   }
 }
 
-## 1~10 »çÀÌÀÇ ¼ýÀÚ Áß¿¡¼­ È¦¼öÀÇ ÇÕ°è
+## summation 1~10 only pair numbers with next
 sum <- 0
 
 for (i in 1:10) {
@@ -130,4 +125,85 @@ for (i in 1:10) {
   sum <- sum + i
 }
 
-## ¦¦ ½Ç½ÀÀ» À§ÇÑ °ÍÀÏ»Ó, ¸Å¿ì È¿¿ë¼º ¾ø´Â ÄÚµåÀÓ. ±×³É ³×, ¹¹.
+
+### 4. apply family
+#### apply(obj, MARGIN, func)
+dim(iris) ## last col is string
+apply(iris[, 1:4], 1, mean) ## obj, axis(starting with 1), func
+## mean with all rows
+
+apply(iris[, -5], 2, mean)  ## mainly using
+## ì»´í”„ë¦¬í—¨ì…˜ ë§ˆë ¤ìš´ í•¨ìˆ˜
+
+#### lapply(obj, func)
+res <- lapply(iris[, 1:4], summary)  ## saving as colnames
+res$Sepal.Length
+
+#### sapply(obj, func)
+res <- sapply(iris[, 1:4], summary)
+res  ## matrix / array
+
+class(apply(iris[, 1:4], 2, summary)) ## same with sapply
+
+#### vapply(obj, func, format)
+vapply(iris[, 1:4], mean, numeric(1)) ## not well known
+
+#### tapply(obj1, obj2;grouping, func) -> groupby
+tapply(iris$Sepal.Length, iris$Species, mean)
+tapply(iris[, 1:4], iris$Species, summary)
+
+#### mapply(func,  obj1, obj2, ...)
+mapply(sum, iris$Sepal.Length, iris$Sepal.Width)
+apply(iris[, 1:2], 1, sum)  ## same method
+
+##----------4. costomizating function----------
+### input 2 numbers, return bigger one
+mymax <- function(x, y) {
+  if (x > y) {
+    return(x)
+  } else {
+    return(y)
+  }
+}
+
+mymax(1, 2)
+
+mymax <- function(x, y) {
+  max_value <- x
+  
+  if (x < y) max_value <- y
+  
+  return(max_value)
+}
+
+### setting default value
+### input 2 numbers x, y. return x/y
+### but, default value of y is 2
+mydiv <- function(x, y = 2) {
+  return(x/y)
+}
+
+mydiv(0.1, 40)
+mydiv(y = 50, x = 1)
+mydiv(10)
+
+### return more values
+### input parameters x, y. return sum/product as list
+myfunc <- function(x, y) {
+  return(list(sum = x+y, product = x*y))
+}
+
+myfunc(0.6, 8)
+myfunc(0.6, 0)
+myfunc(0, 15)
+
+res <- myfunc(5, 8)
+res$sum
+res$product
+
+unlist(res)
+
+##----------5. R Packages----------
+.libPaths() ## show library path
+install.packages("tidyverse")
+library(tidyverse)  ## Conflictions is not matter
