@@ -112,3 +112,55 @@ flights %>%
 
 flights %>% relocate(air_time, distance) ## 기본적으로 앞에 데려옴
 flights %>% relocate(carrier:tailnum, .before = day)  ## 콜론 사용 문법은 공유
+
+#----------mutate----------
+library(tidyverse)
+library(nycflights13)
+
+## 출발 지연 시간 - 도착 지연 시간 : 예상 비행시간보다 더 걸린 시간 아닌가
+flights %>% mutate(gain = dep_delay - arr_delay, .after = day) %>%
+  arrange(gain)
+## 파이프 연산자 연결한 상태에서 줄바꿈 시, 얘가 세미콜론을 무력화시켜주는 느낌으로 작용하는 듯
+
+## 속도 = 거리 / 비행시간 = mph
+flights %>% mutate(speed = distance / (air_time/60),
+                   .before = 1) ## 1번째 행 앞에 넣어라 == 맨 앞에 넣어라
+
+#----------mutate와 자주 쓰이는 함수----------
+## 전부 SQL 기능에 포함되는듯
+## row_number() : 비행기 순서대로 번호 부여
+flights %>% mutate(flight_order = row_number(), .before = 1)
+
+## min_rank() : 동순위 발생 시 minimum 값으로 일괄 매김
+## dense_rank() : 동순위 발생 시 항상 연속된 값을 부여
+
+?min_rank
+
+x <- c(5, 1, 3, 2, 2, NA) ## 결측값은 결측값으로
+row_number(x) ## 얘가 동순위 발생 시 가장 먼저 등장한 값을 우선순위 설정
+min_rank(x)
+dense_rank(x)
+min_rank(desc(x))
+dense_rank(desc(x))
+
+## 출발 지연시간의 순위
+flights %>%
+  mutate(delay_rank = min_rank(dep_delay), .before = 1) %>% ## 동순위 발생 시 건너뜀
+  mutate(delay_dense = dense_rank(dep_delay), .after = delay_rank)  ## 동순위 발생 시 연속된 값 부여
+
+## na_if(col, val) : 특정 값을 NA로 반환
+flights %>%
+  filter(dep_delay %in% c(-1, 0, 1)) %>%
+  relocate(dep_delay, .before = 1) %>%
+  mutate(dep_delay_na = na_if(dep_delay, 0))
+
+## coalesce() : 여러 열을 넣었을 때, 첫 번째로 NA가 아닌 값을 반환. 없다면 NA를 반환
+x <- c(1, 2, NA, NA, 5)
+y <- c(NA, NA, NA, 4, 5)
+coalesce(x, y)
+
+## 출발 지연 시간이 NA인 경우, 도착 지연 시간을 대신 사용하는 경우
+flights %>%
+  filter(is.na(dep_delay)) %>%
+  mutate(first_non_NA = coalesce(dep_delay, arr_delay), .before = 1) %>%
+  relocate(arr_delay, .before = 2) ## 둘다 NA인거 밖에 없네
