@@ -164,3 +164,171 @@ flights %>%
   filter(is.na(dep_delay)) %>%
   mutate(first_non_NA = coalesce(dep_delay, arr_delay), .before = 1) %>%
   relocate(arr_delay, .before = 2) ## 둘다 NA인거 밖에 없네
+
+#----------mutate 2----------#
+library(tidyverse)
+library(nycflights13)
+
+## 비행시간이 3시간 이상이면 Long Flight, 미만이면 Short Flight
+flights %>%
+  mutate(flight_time = if_else(air_time >= 180,
+                               "Long Flight", "Short Flight"),
+         .before = 1) %>%
+  relocate(air_time, .after = "flight_time")
+
+## 비행거리 기준으로 그룹화
+flights %>%
+  mutate(distance_group = case_when(
+    distance < 500 ~ "Short haul",
+    distance < 1500 ~ "Medium haul", ## 되는 것 같은데??????
+    distance >= 1500 ~ "Long haul"
+  ), .before = 1) %>%
+  relocate(distance, .after = "distance_group")
+
+## 항공사 이름 변경
+flights %>%
+  mutate(carrier_name = recode(carrier,
+                               "AA" = "American Airlines",
+                               "DL" = "Delta Airlines"),
+         .before = 1) %>%
+  relocate(carrier, carrier_name)
+
+## 다대다 변경
+mbti <- tibble(mbti = c("ESTJ", "ISFJ", "INTP", "ESTP"))
+mbti %>%
+  mutate(group = recode(mbti,
+                        "ESTP" = "E",
+                        "ESTJ" = "E",
+                        "ISFJ" = "I",
+                        "INTP" = "I"))
+## 일괄적으론 못바꾸나?
+
+
+#----------집단 관련 함수----------
+## summarize == summarise
+flights %>%
+  summarize(n = n(),
+            n_dis = n_distinct(air_time), ## 정수형임
+            mean = mean(air_time, na.rm = TRUE),
+            sd = sd(air_time, na.rm = TRUE),
+            `1st` = first(air_time),
+            last_value = last(air_time, na_rm = TRUE)) ## 따로 있는듯
+
+## group_by
+flights %>%
+  group_by(month) %>% ## 월별 그룹화
+  summarize(
+    count = n(),
+    delay = mean(dep_delay, na.rm = TRUE),
+  )
+
+### 여러 개의 변수로 그룹화
+flights %>%
+  group_by(month, day) %>%
+  summarize(n = n()) %>%
+  print(n = 100)
+
+### 항공사별 항공편 개수 -> 빈도표
+flights %>%
+  group_by(carrier) %>%
+  summarize(n = n())
+
+## 도우미 함수 count()
+flights %>% count(carrier)
+
+flights %>% count(flight) ## 항공편 번호 별 몇회? ㅇ?
+
+### 합계값 산출 -> n() 대신에 특정 변수 합계 출력
+flights %>% count(carrier, wt = air_time)
+
+
+#----------관계형 데이터 RD-----------
+## nycflights13 패키지에서 flights와 관련된 테이블
+airlines ## 항공사 풀네임
+airports ## 공항 위치 정보
+planes   ## 여객기 정보
+weather  ## NYC 공항의 시각 별 날씨 정보
+
+flights$flight %>% unique %>% length ## 중복 있음;
+dim(flights)
+
+flights$origin ## 출발
+flights$dest   ## 도착 -> 둘다 airports faa에 종속
+flights$tailnum ## planes tailnum에 종속
+flights$carrier ## airline carrier에 종속
+
+
+## 기본키 확인
+planes %>% count(tailnum) %>%
+  filter(n > 1) ## tailnum을 기준으로 그룹화한 것을 카운트했을 때, 전부 고유함
+
+flights %>% count(tailnum) %>%
+  filter(n > 1) ## 유니크가 3873.
+
+flights %>% count(flight) %>% filter(n > 1)
+## -> 기본키가 명시적으로 정해져있지 않을 수 있음. 차원이 1이지 않을 수 있음
+
+weather %>% count(year, month, day, hour, origin) %>%
+  filter(n > 1)
+## -> 얘도 잘 안됨
+weather
+unique(weather) ## 일단 유니크하긴 한듯? 관계형 데이터는 맞음
+
+
+## 뮤테이팅 조인 Mutating join
+x <- tibble(key = c(1, 2, 3),
+            value_x = c("x1", "x2", "x3"))
+y <- tibble(key = c(1, 2, 4),
+            value_y = c("y1", "y2", "y3"))
+
+### inner join
+x %>% inner_join(y) ## 알아서 이름이 같으면 자연조인 해줌
+x %>% inner_join(y, by = "key")
+
+### left_join
+x %>% left_join(y, by = "key")
+
+### right_join
+x %>% right_join(y, by = "key")
+
+### outer join
+x %>% full_join(y, by = "key")
+
+
+### 실제 데이터에서 활용
+flights2 <- flights %>% select(year, month, day, hour, origin,
+                               dest, tailnum, carrier)
+
+flights2 %>% left_join(weather, by = c("year", "month", "day", "hour", "origin"))
+flights2 %>% left_join(weather) ## 알아서 열 이름 같으면 잘 찾아서 해줌
+
+### flights2와 planes를 조인
+flights2 %>% left_join(planes) ## year, tailnum으로 매핑. 근데 각 테이블의 year 의미가 다름
+flights2 %>% left_join(planes, by = "tailnum")
+
+
+### flights2와 airports를 조인
+### 조인하려는 테이블의 키에 해당하는 변수 이름이 다를 경우
+flights2 %>% left_join(airports, by = c("origin" = "faa")) %>% ## 연산자 사용
+  glimpse
+
+
+## 필터링 조인
+### 가장 인기있는 상위 10개 도착지
+flights %>% count(dest) %>% arrange(desc(n)) %>%
+  head(10)
+
+top_dest <- flights %>% count(dest, sort = TRUE) %>% head(10) ## ASC면 어캄?
+
+### 전체 운행 데이터에서 상위 10개 도착지 중 한곳으로 운행한 항공편 필터링
+flights %>% semi_join(top_dest) ## 키는 알아서 똑같은거(dest) : 141135
+
+### 이외의 항공편 필터링
+flights %>% anti_join(top_dest) ## 195621
+
+nrow(flights) ==  141135 + 195621 ## ?? 다름 뭔가 조인에서 문제가 있나봄
+dim(flights)
+
+
+### 항공기 리스트에 매칭되지 않는 항공기 필터링
+flights %>% anti_join(planes, by = "tailnum") %>% count(tailnum, sort = TRUE)
