@@ -332,3 +332,31 @@ dim(flights)
 
 ### 항공기 리스트에 매칭되지 않는 항공기 필터링
 flights %>% anti_join(planes, by = "tailnum") %>% count(tailnum, sort = TRUE)
+
+
+#---------- tidyr ----------
+library(tidyverse)
+library(nycflights13)
+
+setwd("C:/Users/default.DESKTOP-VHFHFGU/Downloads")
+
+
+## 한글 데이터 불러오기
+mydata <- read_csv("mydata.csv",
+                   locale = locale(encoding = "CP949"))
+
+
+## tidyr 연습용 데이터 : WHO에서 발표한 3개 국가 결핵 사례 수
+table1 ## 이것도 근데 사실 long format 아님? -> 상대적 개념인듯
+table2 ## long format - 인구와 발병사례 수
+table3 ## 한 셀에 두 개의 값이 들어간 느낌
+
+## table1의 wide format
+table4a ## cases 연도를 열로 늘려버린 wide format
+table4b ## population
+
+table5  ## 연도를 문자열로 앞 뒤 두자리씩 나눔. 왜???
+
+table1 %>%
+  mutate(rate = paste0(as.character(cases), "/", as.character(population))) %>% ## 파이썬이 좋긴해
+  select(country, year, rate)
