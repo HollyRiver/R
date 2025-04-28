@@ -360,3 +360,197 @@ table5  ## 연도를 문자열로 앞 뒤 두자리씩 나눔. 왜???
 table1 %>%
   mutate(rate = paste0(as.character(cases), "/", as.character(population))) %>% ## 파이썬이 좋긴해
   select(country, year, rate)
+
+
+
+##----------포매팅----------##
+library(tidyverse)
+
+# wide to long - table4a
+table4a
+
+table4a %>%
+  pivot_longer(c(`1999`, `2000`), ## cols arg는 select문과 동일하게 사용
+               names_to = "year", values_to = "cases") %>%
+  mutate(year = parse_integer(year)) ## 그냥 as.numeric하면 안되나...?
+
+
+# wide to long 2 - table4b
+table4b
+
+table4b %>%
+  pivot_longer(c(`1999`, `2000`),
+               names_to = "year", values_to = "population") %>%
+  mutate(year = parse_integer(year))
+
+
+# wide to long 3 : 실습
+relig_income
+
+relig_income %>%
+  pivot_longer(contains("k"), names_to = "incomes", values_to = "count")
+
+## select 문법 : 마이너스 부호를 사용하여 제거할 수 있음
+relig_income %>%
+  pivot_longer(-religion, names_to = "incomes", values_to = "count")
+
+#----------------------------------#
+
+billboard %>% colnames
+
+billboard %>%
+  pivot_longer(starts_with("wk"), names_to = "week", values_to = "rank")
+
+
+billboard %>%
+  pivot_longer(starts_with("wk"),
+               names_to = "week", values_to = "rank",
+               names_prefix = "wk", ## 접두사 제거
+               values_drop_na = TRUE ## 결측값 제거
+               )
+
+
+# long to wide 1
+table2
+
+table2 %>%
+  pivot_wider(names_from = type,
+              values_from = count) ## 없앨 column
+
+?pivot_wider
+
+
+## 인구 10만명 당 평균 결핵 건수
+table2 %>%
+  pivot_wider(names_from = type,
+              values_from = count) %>%
+  mutate(cpp = cases / population * 1e5)
+
+
+## year를 기준으론 long format이므로, 더 늘림
+table2 %>%
+  pivot_wider(names_from = type,
+              values_from = count) %>%
+  mutate(cpp = cases / population * 1e5) %>%
+  ## year에 대한 wide format
+  pivot_wider(names_from = year,
+              values_from = c(cases, population, cpp)) %>%
+  View
+
+
+table2 %>%
+  pivot_wider(names_from = type,
+              values_from = count) %>%
+  mutate(cpp = cases / population * 1e5) %>%
+  pivot_wider(names_from = year,
+              values_from = c(cases, population, cpp)) %>%
+  relocate(country, contains("1999")) %>% ## 연도별로 정렬하고 싶음
+  View
+
+## 한번에도 됨
+table2 %>%
+  pivot_wider(names_from = c(type, year),
+              values_from = count)
+
+
+# long to wide 2
+fish_encounters
+fish_encounters$seen %>% unique() ## 1
+
+fish_encounters %>%
+  pivot_wider(names_from = station, values_from = seen) ## 매칭되지 않는 값은 자동 NA
+
+## 물고기를 봤냐/못봤냐니까 1과 0으로 바꾸고 싶음 : NA -> 0
+fish_encounters %>%
+  pivot_wider(names_from = station,
+              values_from = seen, values_fill = 0)
+
+
+
+##----------열의 분리 및 결합-----------##
+
+# 분리
+table3
+
+table3 %>%
+  separate(rate, into = c("cases", "population"), sep = "/") %>%
+  mutate(cases = parse_integer(cases),
+         population = parse_integer(population))
+
+
+# 결합
+table5 %>%
+  unite(col = year, century, year, sep = "") %>%
+  mutate(year = parse_integer(year))
+
+
+
+##----------결측값의 처리----------##
+# 전염성 contagious
+x <- c(1,2,3, NA)
+sum(x, na.rm = TRUE)
+
+NA + 10 ## 전염성
+10 == NA ## 산술 연산자가 아닌 비교연산자도 동일
+
+a <- NA
+is.na(a)
+
+
+# 명시적/암묵적 결측값
+
+## 2015년 4분기 수익은 NA로 표시되어 있으므로, 명시적 결측값임
+## 2016년 1분기 수익은 데이터셋이 존재하지 않으므로, 암묵적 결측값임
+stocks <- tibble(
+  year   = c(2015, 2015, 2015, 2015, 2016, 2016, 2016),
+  qtr    = c(   1,    2,    3,    4,    2,    3,    4),
+  return = c(1.88, 0.59, 0.35,   NA, 0.92, 0.17, 2.66))
+
+stocks %>%
+  pivot_wider(names_from = year,                      # year를 열로 pivot하여 명시적으로 만듦
+              values_from = return) %>%
+  pivot_longer(cols = c(`2015`, `2016`),              # 명시적 결측값이 중요하지 않다면
+               names_to = "year",                     # 암묵적으로 만듬(NA 제거)
+               values_to = "return",
+               values_drop_na = TRUE) ## 결측값 제거
+
+## 결측값 명시화
+stocks %>%
+  pivot_wider(names_from = year, values_from = return) %>%
+  pivot_longer(c(`2015`, `2016`), names_to = "year", values_to = "return") %>%
+  relocate(year, qtr) %>%
+  arrange(year, qtr)
+
+
+
+## 결측값 처리 함수
+
+### 명시적 결측값 생성 - complete()
+stocks %>%
+  complete(year, qtr) ## 원래 포맷을 유지시켜준다는 점에서 간결
+
+
+
+### 결측값이 포함된 행 제거 - drop_na()
+mytbl <- tibble(x = c(1, 2, NA), y = c("a", NA, "b"))
+mytbl %>% drop_na ## 행에 대하여 결측값이 하나라도 있으면 제거
+
+mytbl %>% drop_na(x) ## x 열에 대해서 결측값이 있는 행 제거
+
+
+### 결측값을 사용자가 지정한 값으로 대체 - replace_na()
+mytbl %>%
+  replace_na(list(x = 0, y = "unknown")) ## 딕셔너리로 명시
+
+mytbl %>%
+  replace_na(list(x = 0)) ## 단일 값도 그냥 이렇게...
+
+mytbl %>%
+  mutate(x = replace_na(x, 0))
+
+
+### 이월된 값으로 NA 대체 - fill
+### 값을 하나만 사용해서 넓게 묶는 상황으로 사용함
+tibble(person = c("Derrick Whitmore", NA, NA, "Katherine Burke"),
+       treatment = c(1, 2, , 1), response = c(7, 10, 9, 4)) %>% 
+  fill(person) ## 데릭으로 NA가 전부 채워짐
