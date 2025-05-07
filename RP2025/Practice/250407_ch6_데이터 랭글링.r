@@ -554,3 +554,113 @@ mytbl %>%
 tibble(person = c("Derrick Whitmore", NA, NA, "Katherine Burke"),
        treatment = c(1, 2, , 1), response = c(7, 10, 9, 4)) %>% 
   fill(person) ## 데릭으로 NA가 전부 채워짐
+
+
+#----------4. stringr----------#
+library(tidyverse)
+setwd("C:/Users/default.DESKTOP-VHFHFGU/Downloads")
+
+
+
+##---------A. 문자열 기초----------##
+str = c("a", "R for data science", NA)
+str_length(str) ## 벡터 기반으로 함수 적용
+
+str_mat = matrix(as.character(1:10), 5, 2)
+str_length(str_mat) ## 행렬도 됨
+
+str_length(123) ## 문자열 아닌것도 됨
+
+###----------str_length()----------###
+
+## 미국의 아기 이름들(적어도 5명 이상 쓰는 경우)
+install.packages("babynames")
+library(babynames)
+
+babynames
+
+### 이름 길이의 분포 파악 - 해당 이름을 가진 인구수 기준
+babynames %>%
+  mutate(name_length = str_length(name), .after = name) %>%
+  count(name_length, wt = n)
+
+
+babynames %>%
+  count(name_length = str_length(name), wt = n) ## 아예 열을 만들어서 넣을 수 있음
+
+### 이름 길이가 15인 이름 추출 + 몇명이 해당 이름을 가지는지
+babynames %>%
+  filter(str_length(name) == 15) %>% ## str_length(name)은 n으로 생성됨
+  count(name, wt = n)
+
+
+### str_length(col) 자체는 열처럼 바로 쓸 수 있음
+
+
+###----------str_sub----------###
+### sub string
+### 1번째 문자부터 3번째 문자까지 추출
+x <- c("Apple", "Banana", "Pear")
+
+str_sub(x, 1, 3) ## x의 1번째 문자부터 3번째 문자까지 추출
+
+str_sub(x, -3, -1) ## 끝에서 3번째 문자부터 마지막 문자까지 추출 - 파이썬 인덱싱?
+
+
+### 첫 번째 / 마지막 문자 추출
+babynames %>%
+  mutate(first = str_sub(name, 1, 1),
+         last = str_sub(name, -1, -1))
+
+
+###----------lower/upper----------###
+### 대소문자 변환
+str_to_lower(c("Apple", "Banana", "Pear"))
+str_to_upper(c("Apple", "Banana", "Pear"))
+
+
+##----------B. 데이터에서 문자열 생성----------##
+
+###----------str_c----------##
+### combine string
+letters
+LETTERS
+
+str_c("Letter: ", letters)
+str_c("Letter: ", LETTERS)
+
+str_c("Letter", letters, sep = ": ") ## 구분자 생성
+
+str_c(letters[-26], " comes before ", letters[-1])
+
+### 벡터를 단일 문자열로 결합
+str_c(letters, collapse = "")
+str_c(letters, collapse = ", ")
+
+
+### 결측값이 있는 경우
+x <- c("a", NA, "b")
+str_c(x, "-d") ## NA의 전염성
+
+
+### str_replace_na(NA) : 결측값을 "NA" 그대로 출력
+str_c(str_replace_na(x), "-d")
+
+
+### 테이블에서의 사용
+info <- tibble(name = c("Kim", "Lee", "Park"))
+info %>%
+  mutate(greeting = str_c("Hi, ", name, "!"))
+
+
+###----------str_glue----------##
+### 그냥 f-string임
+name <- "Park"
+
+str_c("Hello, ", name, "!")
+str_glue("Hello, {name}!")
+str_glue("2 + 3 = {2 + 3}")
+str_glue("Today is {str_to_upper('monday')}") ## 내부는 다른 따옴표로...
+str_glue('Today is {str_to_upper("monday")}')
+
+str_glue("asdf \{\}") ## 근데 이런건 안됨...
