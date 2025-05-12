@@ -664,3 +664,221 @@ str_glue("Today is {str_to_upper('monday')}") ## 내부는 다른 따옴표로..
 str_glue('Today is {str_to_upper("monday")}')
 
 str_glue("asdf \{\}") ## 근데 이런건 안됨...
+
+
+
+## Date : 2025-05-12
+## Author : 강신성
+## Student code : 202014107
+## Title : 데이터 랭글링
+
+#----------4. stringr----------
+library(tidyverse)
+setwd("C:/Users/default.DESKTOP-VHFHFGU/Downloads")
+
+
+
+##------------str_glue()--------------##
+name = "Kim"
+str_glue("Hello, {name}!\nWelcome to the team")
+
+## 줄바꿈이나 탭도 개행문자 없이 반영됨
+str_glue("Hello,  {name}!
+         Welcome to the team")
+
+
+## 결측값 개별 처리 가능
+name <- c("Kim", NA, "Park")
+str_glue("HI, {name}", .na = "Friend") ## NA를 문자열로 대체
+
+str_glue("Hi, {replace_na(name, 'Friend')}")
+
+
+## str_glue_data() : 데이터프레임 처리 전용
+info <- tibble(name = c("Kim", "Lee", "Park"),
+               age = c(25, 30, 42),
+               city = c("Seoul", "Jeonbuk", "Gwangju"))
+
+### 각 행별로 적용
+info %>% str_glue_data("{name} is {age} years old and lives in {city}.")
+
+
+### 결측값 처리
+info2 <- tibble(name = c("Kim", NA, "Park"),
+               age = c(25, 30, NA),
+               city = c("Seoul", "Jeonbuk", "Gwangju"))
+#info2 <- info
+#info2[2, 1] <- NA
+
+info2 %>% str_glue_data("{name} lives in {city}.", .na = "Unknown")
+
+
+### mutate와 결합하여 새로운 열 생성
+info %>%
+  mutate(message = str_glue_data(info,
+                                 "{name} ({age} year old) lives in {city}."))
+
+
+##----------str_flatten()----------
+str_flatten(c("x", "y", "z"), collapse = ", ")
+str_c(c("x", "y", "z"), collapse = ", ") ## 똑같음
+
+### 마지막 원소는 다르게 결합
+str_flatten(c("x", "y", "z"), collapse = ", ", last = ", and ")
+str_c(c("x", "y", "z"), collapse = ", ", last = ", and ") ## 얜 안됨
+
+
+### 하나의 셀에 여러 개의 데이터가 들어가도록............
+mytbl <- tibble(name = c("Carmen", "Carmen", "Marvin", "Terence", "Terence", "Terence"),
+                fruit = c("banana", "apple", "nectarine", "cantaloupe", "papaya", "madarine"))
+
+mytbl %>%
+  group_by(name) %>%
+  summarise(fruits = str_flatten(fruit, ", "))
+
+
+
+##-----------정규 표현식 / str_view-------------
+### 기초 매칭 : .
+x <- c("apple", "banana", "pear")
+
+str_view(x, "a") ## 일치하는 문자 표시
+str_view(x, ".a.") ## 앞뒤에 아무 문자나 존재, 중복으로 매칭 불가
+
+str_view("aa \na \ta", ".a") ## 줄바꿈만 안되고, 탭은 됨
+
+
+### 앵커 : ^ - 맨 처음, $ - 맨 끝
+str_view(x, "^a") ## 약간 문자열 자체가 "^ ... $"로 만들어졌다고 생각하면 편함
+str_view(x, "a$")
+
+str_view("aba", "^a$")
+str_view("a", "^a$")
+str_view("", "^$") ## 문자열이 "^ ... $"로 이뤄져 있으니까... "^$"만 들어가있으면 빈거
+
+
+### 반복
+x <- "1888 is the longest year in Roman numerals: MDCCCLXXXVIII"
+
+str_view(x, "CC?") ## C 또는 CC를 찾음
+str_view(x, "C?") ## 이렇게만 쓰면 앞에 있는 C가 0번이니까... 그냥 다 호출
+str_view(x, "C*") ## 이것도 앞에 있는 C가 0번 이상 있는거니까... 다 호출
+
+str_view(x, "CC+") ## CC, CCC, CCCC ...
+str_view(x, "CC*") ## C, CC, CCC, CCCC ...
+
+#### n회 반복하도록
+str_view(x, "C{2}") ## 2번만 반복하는 경우 탐색
+str_view(x, "C{2,}") ## 2번 이상 반복
+str_view(x, "C{2,5}") ## 2번 이상, 5번 이하 반복
+
+
+### 실제 사용 예시
+x <- c("color", "colour")
+str_view(x, "colou?r") ## u가 없거나 한 번 있거나 -> color or colour
+
+
+### 그룹화
+x <- c("gray", "grey")
+str_view(x, "gr(a|e)y")
+
+x <- c("summarize", "summarise")
+str_view(x, "summari(z|s)e")
+
+x <- c("mamama", "mamasdf")
+str_view(x, "(ma){3}")
+
+
+### escape 문자열 : \
+writeLines("a\\b") ## \를 쓰기 위해 escape 문자열을 사용
+str_view("a\\b", "\\\\") ## \\\\ -> "\\" -> \ (output)
+
+str_view(c("abc", "a.c", "bef"), "a.c") ## 정규 표현식으로 먹힘
+str_view(c("abc", "a.c", "bef"), "a\\.c") ## \\. -> "\." -> .
+
+
+### character class
+names <- c("Hadley", "Mine", "Garrett")
+
+#### 모음이 있는 것
+str_view(names, "[aeiou]")
+str_view(names, "a|e|i|o|u") ## 일단 이거랑 똑같긴 함
+
+
+#### 자음이 있는 것
+str_view(names, "[^aeiou]") ## []안에 있는 것 제외하고 일치
+
+
+#### 자음이 연달아 있는 것
+str_view(names, "[^aeiou]+") ## 하나 이상
+
+#### 이건 뭐임? 애매함
+str_view(names, "[^aeiou]*") ## 자음이 0개 이상...
+str_view(names, "[^aeiou]?") ## 자음이 0개 또는 1개 이상
+
+
+#### 자주 사용되는 문자 클래스
+text <- "The total cost is  29 dollars\nand 99 cents."
+
+writeLines(text)
+
+str_view(text, "\\d") ## \\d -> "\d" : 숫자
+str_view(text, "\\s") ## \\s -> "\s" : 여백 문자(공백, 줄바꿈, 탭)
+
+
+
+##----------정규 표현식을 활용한 문자열 패턴 매칭-----------
+### str_detect() : 문자열에 특정 패턴이 존재하는지 확인
+x <- c("apple", "banana", "pear")
+
+str_detect(x, "e$")
+
+
+### words data
+words
+
+#### "t"로 시작하는 단어 개수
+str_detect(words, "^t") %>% sum()
+
+#### "t"로 시작하는 단어 추출
+words[str_detect(words, "^t")] ## 어우야 복잡하다
+
+
+### str_subset() : 패턴이 일치하는 문자열 벡터를 반환
+str_subset(words, "^t")
+
+
+#### 모음으로 끝나는 단어의 비율
+mean(str_detect(words, "(a|e|i|o|u)$"))
+mean(str_detect(words, "[aeiou]$"))
+
+
+
+library(babynames)
+
+
+#### "x"로 끝나는 이름...?
+babynames %>%
+  filter(str_detect(name, "x$")) ## 필터링 / 열을 점검
+
+
+#### 연도별로 "x"로 끝나는 고유한 이름의 비율
+babynames %>%
+  group_by(year) %>%
+  summarize(
+    rate = mean(str_detect(name, "x$"))
+  )
+
+
+### str_count() : 문자열별로 패턴이 일치하는 경우가 몇 번 있는지 벡터로 반환
+x <- c("apple", "banana", "pear")
+str_count(x, "p")
+
+
+#### 이름에서 자음의 개수와 모음의 개수 출력
+babynames %>%
+  count(name) %>%
+  mutate(vowels = str_count(name, "[AEIOUaeiou]"),
+         consonants = str_count(name, "[^AEIOUaeiou]"))
+
+####### 대소문자 자세히 봐야 함! ########
