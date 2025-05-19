@@ -882,3 +882,362 @@ babynames %>%
          consonants = str_count(name, "[^AEIOUaeiou]"))
 
 ####### 대소문자 자세히 봐야 함! ########
+
+
+## Date : 2025-05-14
+## Author : 강신성
+## Student code : 202014107
+## Title : 데이터 랭글링
+
+#---------------------------------------#
+library(tidyverse)
+setwd("C:/Users/default.DESKTOP-VHFHFGU/Downloads")
+
+
+##----------str_extract()----------
+sentences ## 720개의 문장 제공
+
+colors <- c("red", "orange", "yellow", "green", "blue", "purple") # ^red$로 하는 게 아니라, " red"이렇게 해야 하는 거 아닌가...
+
+### 문자열 벡터에서 하나의 정규 표현식으로 변환
+str_c(colors, collapse = "|")
+str_flatten(colors, "|")
+
+color_match <- str_flatten(colors, "|")
+
+
+### 색상 문자열을 포함하는 문장 - 원소를 통째로 추출
+has_color <- str_subset(sentences, color_match)
+
+
+### 처음 일치하는 텍스트만 추출
+str_extract(has_color, color_match) ## 없으면 NA
+
+more <- sentences[str_count(sentences, color_match) > 0]
+str_view(more, color_match)
+str_extract(more, color_match)
+
+### 일치하는 텍스트 여러 개 반환
+str_extract_all(more, color_match) ## 리스트로 반환
+str_extract_all(has_color, color_match, simplify = TRUE)
+
+
+##-------------str_replace()-------------
+### 일치하는 문자열 변환
+x <- c("apple", "banana", "pear")
+str_replace(x, "[aeiou]", "-") ## 처음 하나만 변환
+str_replace_all(x, "[^aeiou]", "-") ## 전부 변환 - 이쪽이 더 유용할듯
+
+
+### 벡터를 이용해서 여러 패턴을 한번에 변경 가능
+x <- c("1 house", "2 cars", "3 people")
+str_replace_all(x, c("1" = "one", "2" = "two", "3" = "three"))
+
+
+
+##------------str_split()---------------
+### 파이썬의 "txt".split()처럼 쓰면 됨
+sentences %>% head(5) %>%
+  str_split(" ")
+
+
+### 행렬 형태로 반환
+sentences %>% head(5) %>%
+  str_split(" ", simplify = TRUE)
+
+
+### 대체 불가능할듯 왠만해선
+x <- "This is a sentence. This is another sentence."
+str_view(x, boundary("word")) ## 단어 인식 -> " "
+str_view(x, boundary("sentence")) ## 문장 인식 -> "\\."?
+str_view(x, boundary("line_break")) ## 형태소? 어간?이었나
+str_view(x, boundary("character")) ## 글자 인식
+
+?boundary()
+
+
+#------------------forcats------------------#
+gss_cat
+
+
+##-----------levels reorder----------
+fct1 <- factor(c("b", "b", "a", "c", "c", "c"))
+fct1 ## 기본적으로 사전순으로 나옴
+
+
+### levels를 처음 나타나는 순서대로 - 입력순으로 재정렬
+fct_inorder(fct1) ## in order
+
+
+### 각 수준의 빈도가 큰 순서대로 재정렬
+table(fct1) ## c, b, a
+
+fct_infreq(fct1) ## in frequency
+
+
+### 레벨 자체를 수치값으로 나타낼 수 있을 때, 그 순서대로 정렬(ASC)
+fct2 <- factor(1:3, levels = c("2", "3", "1"))
+fct2
+
+tmp <- factor(1:3, levels = c(2, 3, 1)) ## 이렇게 하면 안되나...?
+levels(tmp) ## 문자열로 먹음
+
+
+fct_inseq(fct2)
+fct_inseq(tmp)
+
+
+### 레벨을 뒤바꿈
+levels(fct1)
+fct_rev(fct1)
+fct_rev(fct2)
+
+
+
+## gss_cat 예제
+### 결혼 상태에서 수준은 각 수준의 빈도에 오름차순 재정렬
+gss_cat %>%
+  mutate(marital = marital %>% fct_infreq() %>% fct_rev()) %>%
+  ggplot(aes(marital)) + geom_bar()
+
+
+## Date : 2025-05-19
+## Author : 강신성
+## Student code : 202014107
+## Title : 데이터 랭글링
+
+#----------forcats----------#
+library(tidyverse)
+
+## fct_reorder : 특정 변수를 기준으로 팩터 수준을 재정렬 - .desc
+summary1 <- gss_cat %>%
+  group_by(marital) %>%
+  summarise(tvhours = mean(tvhours, na.rm = TRUE),
+            n = n()) %>% # .$marital %>% levels
+  mutate(marital = fct_reorder(marital, tvhours)) # %>% .$marital %>% levels
+
+summary1$marital %>% levels
+gss_cat$marital %>% levels
+
+
+### 그래프를 통한 확인 - ASC로 정렬되었음을 알 수 있음
+library(ggplot2)
+ggplot(summary1, aes(tvhours, marital)) +
+  geom_point(size = 3) +
+  theme(axis.title = element_text(size = 15),
+        axis.text = element_text(size = 15))
+
+
+
+## fct_relevel : 지정한 수준을 앞쪽(처음)으로 이동하여 재정렬
+### 소득에 따른 평균 연령
+gss_cat %>% count(rincome) ## rincome별 빈도수
+
+summary2 <- gss_cat %>%
+  group_by(rincome) %>%
+  summarize(age = mean(age, na.rm = TRUE),
+            n = n())
+
+#### 소득구간 자체가 순서형 자료이기 때문에 연령별로 reorder하면 틀림...
+ggplot(summary2, aes(x = rincome, y = age)) +
+  geom_bar(stat = "identity") +
+  coord_flip() +
+  theme(axis.text = element_text(size = 15))
+
+### Not applicable도 아래(맨 처음)로 옮기고 싶다...
+ggplot(summary2, aes(x = fct_relevel(rincome, "Not applicable"), y = age)) +
+  geom_bar(stat = "identity") +
+  coord_flip() +
+  theme(axis.text = element_text(size = 15))
+
+
+##------------3. 팩터 수준 levels 변경-------------
+gss_cat %>% count(partyid) ## 민주당 / 공화당
+
+
+## fct_recode() : 일일히 변경, 명시적으로 언급되지 않은 수준은 유지
+### 기존 팩터 이름만 변경... 명시하지 않은 레벨은 그대로...
+gss_cat %>%
+  mutate(partyid = fct_recode(partyid,
+                              "Republican, strong"    = "Strong republican",
+                              "Republican, weak"      = "Not str republican",
+                              "Independent, near rep" = "Ind,near rep",
+                              "Independent, near dem" = "Ind,near dem",
+                              "Democrat, weak"        = "Not str democrat",
+                              "Democrat, strong"      = "Strong democrat")) %>%
+  count(partyid)
+
+
+### 몇개를 병합... (나머지를 Other로 통합)
+gss_cat %>%
+  mutate(partyid = fct_recode(partyid,
+                              "Republican, strong"    = "Strong republican",
+                              "Republican, weak"      = "Not str republican",
+                              "Independent, near rep" = "Ind,near rep",
+                              "Independent, near dem" = "Ind,near dem",
+                              "Democrat, weak"        = "Not str democrat",
+                              "Democrat, strong"      = "Strong democrat",
+                              "Other"                 = "No answer",
+                              "Other"                 = "Don't know",
+                              "Other"                 = "Other party")) %>%
+  count(partyid)
+
+
+## fct_collapse : 여러 수준을 한번에 병합 가능, 명시하지 않은 레벨은 그대로, 문자열이 아닌 변수처럼 입력
+gss_cat %>%
+  mutate(partyid = fct_collapse(partyid,
+                                other = c("No answer", "Don't know", "Other party"),
+                                rep = c("Strong republican", "Not str republican"),
+                                ind = c("Ind,near rep", "Independent", "Ind,near dem"),
+                                dem = c("Not str democrat", "Strong democrat"))) %>%
+  count(partyid)
+
+
+## fct_lump : 상대적으로 빈도가 낮은 수준을 묶어 "Other"로 병합
+gss_cat %>% count(relig, sort = TRUE)
+
+### 빈도가 가장 높은 상위 10개의 종교만 남김
+gss_cat %>%
+  mutate(relig = fct_lump(relig, n = 10)) %>%
+  count(relig, sort = TRUE) ## 기존에 Other가 이미 있어서 10개만
+
+
+### Other 대신 다른 표현으로
+gss_cat %>%
+  mutate(relig = fct_lump(relig, n = 10, other_level = "Others...")) %>%
+  count(relig, sort = TRUE) ## 11개 나옴
+
+
+### 점유율이 0.05 미만인 종교만 남김
+gss_cat %>%
+  mutate(relig = fct_lump(relig, prop = 0.05)) %>%
+  count(relig, sort = TRUE)
+
+
+
+
+#----------lubridate----------#
+# library(lubridate) ## 안해도 되는 걸 보니, 구버전 오류인가봄
+today()
+now()
+
+
+##----------문자열로부터 생성 - 그냥 dmy 세 문자 조합 다됨-----------
+### 연-월-일
+dt <- ymd("2017-01-31")
+class(dt)
+
+### 월-일-년
+dt2 <- mdy("January 31st, 2017")
+class(dt2)
+
+### 일-월-년
+dt3 <- dmy("31-Jan-2017")
+class(dt3)
+
+
+## 시각을 넣을 경우에도 dmy 세 문자 조합 다됨...
+### 시:분:초까지
+dttm1 <- ymd_hms("2017-01-31 20:11:59")
+class(dttm1) ## POSIXct / POSIXt - KST 이런건가
+
+### 시:분까지
+dmy_hm("31/01/2017 08:11")
+
+
+##--------------make_datetime : 티블에서 <dttm> 시간 추출하기--------
+library(nycflights13)
+flights %>% glimpse()
+
+
+### 굳이굳이 str_glue 활용
+flights %>%
+  select(year, month, day, hour, minute) %>%
+  mutate(departure = str_glue("{year}-{month}-{day}")) %>%
+  mutate(departure = ymd(departure))
+
+### 간단히...
+flights %>%
+  select(year, month, day, hour, minute) %>%
+  mutate(departure = make_datetime(year, month, day, hour, minute))
+
+
+### hour와 minute를 각각 분리하여 추출한 후, date-time 생성
+time <- 815
+time %/% 100
+
+make_datetime_100 <- function(year, month, day, time) {
+  return(make_datetime(year, month, day, time %/% 100, time %% 100))
+}
+
+flights_dt <- flights %>%
+  filter(!is.na(dep_time), !is.na(arr_time)) %>% ## 결측치 제거
+  mutate(dep_time = make_datetime_100(year, month, day, dep_time),
+         arr_time = make_datetime_100(year, month, day, arr_time),
+         sched_dep_time  = make_datetime_100(year, month, day, sched_dep_time),
+         sched_arr_time = make_datetime_100(year, month, day, sched_arr_time)
+         )
+
+flights_dt
+
+
+## as_datetime / as_date : 상호 전환(정보 손실 발생)
+as_datetime(today())
+as_date(now())
+
+
+
+
+##----------날짜/시간 유형 확인-----------
+td <- "2025-05-19 17:32:55"
+year(td)
+month(td, label = TRUE)
+month(td, label = TRUE, abbr = FALSE)
+
+day(td)
+hour(td)
+minute(td)
+second(td)
+
+yday(td)
+mday(td) ## 사실상 day(td)임
+wday(td)
+wday(td, label = TRUE)
+wday(td, label = TRUE, abbr = FALSE)
+
+
+wday("2001-02-27 01:00:00", label = TRUE, abbr = FALSE)
+
+
+
+##----------시간 범위----------
+## duration
+dday = today() - ymd(20250302)
+as.duration(dday) ## 78일을 초단위로 변환
+
+
+### 특정 단위를 duration으로 변환
+dseconds(15)
+dminutes(10)
+dhours(c(12, 24))
+ddays(0:5)
+dweeks(3)
+dmonths(1:6)
+dyears(1)
+
+
+### 산술연산
+dyears(0.5) + dweeks(12) + dhours(15)
+dyears(0.5) - ddays(182)
+2*dyears(1)
+tomorrow <- today() + ddays(1) ## duration을 더하면 dttm이 됨
+tomorrow
+
+last_year <- today() - dyears(1)
+now() - dyears(1) ## 1년을 뺐을 때, 정확히 지금이 안나옴 : 생각한 거랑 조금 다르게 나올 수 있음
+
+
+### 일광 절약 시간제
+one_pm <- ymd_hms("2025-03-08 13:00:00", tz = "America/New_York") ## time zome?
+one_pm ## EST
+one_pm + ddays(1) ## 하루만 더했는데 1시간 더 증가
