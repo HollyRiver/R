@@ -1241,3 +1241,88 @@ now() - dyears(1) ## 1년을 뺐을 때, 정확히 지금이 안나옴 : 생각�
 one_pm <- ymd_hms("2025-03-08 13:00:00", tz = "America/New_York") ## time zome?
 one_pm ## EST
 one_pm + ddays(1) ## 하루만 더했는데 1시간 더 증가
+
+
+
+## Date : 2025-05-21
+
+##----------------period--------------------
+## period - duration이 초단위로 나타나는 것과 달리 ymdhms로 표시됨
+### period 생성 : duration에서 d만 빼면 됨 <- 거꾸로 기억하는 게 나을 듯
+seconds(15)
+minutes(10)
+hours(c(12, 24))
+days(0:5)
+weeks(3)
+months(1:6)
+years(1)
+
+
+### 덧셈, 뺄셈, 곱셈 연산
+10 * (months(6) + days(1))
+days(50) + hours(25) + minutes(2)
+
+
+### 윤년
+ymd("2024-01-01") + dyears(1) ## 2024-12-31
+ymd("2024-01-01") + years(1)  ## 2025-01-01
+
+
+### 일광 절약 시간제
+one_pm <- ymd_hms("2025-03-08 13:00:00", tz = "America/New_York")
+one_pm                                  # "2025-03-08 13:00:00 EST"
+one_pm + days(1)                        # "2025-03-09 13:00:00 EDT" -> 유동적으로 23시간을 더함
+
+
+
+## 예정된 도착 일시, 실제 출발 일시, 실제 도착 일시를 date-time 형식으로 생성
+## → sched_arr_time, dep_time, arr_time은 HHMM 또는 HMM 형식으로 되어 있어,
+##   시(hour)와 분(minute)을 각각 분리하여 추출해야 함
+library(nycflights13)
+
+### 주어진 열들을 이용하여 dttm을 만드는 함수
+make_datetime_100 <- function(year, month, day, time) {
+  make_datetime(year, month, day, time %/% 100, time %% 100)
+}
+
+### 각 시간들을 dttm 형식으로 변환
+flights_dt <- flights %>% 
+  filter(!is.na(dep_time), !is.na(arr_time)) %>% 
+  mutate(dep_time = make_datetime_100(year, month, day, dep_time),
+         arr_time = make_datetime_100(year, month, day, arr_time),
+         sched_dep_time = make_datetime_100(year, month, day, sched_dep_time),
+         sched_arr_time = make_datetime_100(year, month, day, sched_arr_time)) %>% 
+  select(origin, dest, ends_with("delay"), ends_with("time"))
+
+flights_dt %>%
+  select(dep_time, arr_time) %>%
+  filter(arr_time < dep_time) ## 있으면 안될 것이 있음 -> 아님
+
+### 출발일만 지정되어 있을 뿐 도착일은 따로 없기 때문에 문제가 발생함
+### 다음날에 도착한 항공편(심야 항공편)의 도착 일시에는 하루를 더해줘야 함
+flights_dt %>%
+  mutate(overnight = arr_time < dep_time) %>%
+  select(dep_time, arr_time, overnight)
+
+
+flights_dt %>%
+  mutate(overnight = arr_time < dep_time,
+         arr_time = arr_time + days(overnight*1)) %>% ## 하루를 더해줌
+  select(dep_time, arr_time) %>%
+  filter(arr_time < dep_time)
+
+
+
+##----------------interval--------------------
+## interval 생성
+library(lubridate)
+next_year = today() + years(1)
+interval(today(), next_year)
+
+## interval 기간
+years(1) / days(1) ## 소수점이 나옴 365.25
+dyears(1) / ddays(1)
+
+
+(today() %--% next_year) / ddays(1)                   # 365
+(ymd("2024-01-01") %--% ymd("2025-01-01")) / ddays(1) # 366(윤년)
