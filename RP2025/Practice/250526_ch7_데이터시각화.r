@@ -184,3 +184,103 @@ penguins %>%
   drop_na() %>%
   ggplot(aes(x = body_mass_g)) +
   geom_boxplot()
+
+
+## Date : 2025-05-28
+## Author : 강신성
+## Student code : 202014107
+## Title : 데이터 시각화
+
+#----------ggplot2----------#
+setwd("C:/Users/default.DESKTOP-VHFHFGU/Downloads")
+library(tidyverse)
+
+##----------C. 상자 그림----------
+library(palmerpenguins)
+
+
+## EX1. 품종에 따른 상자 그림
+penguins %>%
+  drop_na() %>%
+  ggplot(aes(x = species, y = body_mass_g)) +
+  geom_boxplot(aes(fill = species), ## 여기서도 aes 그대로 사용 가능
+               width = 0.5) + ## 상자의 너비 조정
+  labs(title = "Boxplot of Body Mass by Species", x = "", y = "Weight (g)") +
+  theme_classic() +
+  theme(plot.title = element_text(size = 20, margin = margin(b = 15)),
+        axis.title.y = element_text(size = 15, margin = margin(r = 10)),
+        axis.text = element_text(size = 12),
+        legend.position = "none")
+
+
+## EX2. facet_grid를 이용 : 서식지, 성별
+fig <- penguins %>%
+  drop_na() %>%
+  ggplot(aes(x = island, y = body_mass_g, fill = island)) +
+    geom_boxplot(width = 0.5) +
+    facet_grid(sex ~ species) +
+    labs(x = "", y = "Weight (g)") +
+    theme_bw() +
+    theme(axis.title.y = element_text(size = 15, margin = margin(r = 15)),
+          axis.text = element_text(size = 12),
+          strip.text = element_text(size = 15, face = "bold"), ## 내부 타이틀
+          legend.position = "none",
+          panel.grid.major.x = element_blank(), ## x 그리드 없앰
+          panel.grid.minor = element_blank() ## 자잘한 눈금 없앰
+          )
+
+fig
+
+### 상자별 분포 파악하기
+fig + geom_point(color = "steelblue", alpha = 0.5)
+fig + geom_jitter(color = "steelblue", alpha = 0.5, width = 0.2) ## 지터링
+
+
+
+##----------D. 산점도-----------
+
+## EX1. 날개 길이와 몸무게 간 산점도
+penguins %>%
+  drop_na() %>%
+  ggplot(aes(x = flipper_length_mm, y = body_mass_g)) +
+  geom_point(size = 4, color = "forestgreen", pch = 17, alpha = 0.5) +
+  labs(x = "Flipper Length", y = "Weight (g)",
+       title = "펭귄 지느러미 길이와 몸무게 간 산점도") +
+  theme_bw() +
+  theme(plot.title = element_text(size = 15, hjust = 0.5),
+        axis.title.x = element_text(size = 12, margin = margin(t = 10)),
+        axis.title.y = element_text(size = 12, margin = margin(r = 10))) +
+  geom_smooth(method = lm, color = "red") +
+  geom_rug() ## 데이터의 단변량 분포 느낌...
+
+
+tmp <- penguins %>% drop_na()
+cor(tmp$flipper_length_mm, tmp$body_mass_g)
+model <- lm(body_mass_g ~ flipper_length_mm, penguins)
+summary(model)
+
+
+## EX2. 날개 길이와 체중에 대한 산점도 + 품종별 색상 및 모양 구분
+penguins %>%
+  drop_na() %>%
+  ggplot(aes(x = flipper_length_mm, y = body_mass_g)) +
+  geom_point(aes(color = species, pch = species), size = 4, alpha = 0.5)
+
+
+## EX3. 날개 길이와 체중에 대한 산점도 + 부리 길이 색상 구분 -> 클수록 부리길이도 김
+penguins %>%
+  drop_na() %>%
+  ggplot(aes(x = flipper_length_mm, y = body_mass_g)) +
+  geom_point(aes(color = bill_length_mm), size = 4, alpha = 0.6) +
+  scale_color_gradient(low = "cyan", high = "red") ## 그라데이션 설정
+
+
+## EX4. 날개 길이와 체중에 대한 산점도 + 부리 길이 크기 구분 + 성별 색상 구분
+penguins %>%
+  drop_na() %>%
+  ggplot(aes(x = flipper_length_mm, y = body_mass_g, color = sex, size = bill_length_mm)) +
+  geom_point(alpha = 0.6)
+
+##
+## 두 개 이상의 집단으로 나뉜 것 같고, 집단에 따라 암컷의 부리 길이가 짧음
+##
