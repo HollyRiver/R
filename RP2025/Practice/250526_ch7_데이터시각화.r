@@ -4,6 +4,7 @@
 ## Title : 데이터 시각화
 
 #----------ggplot2----------#
+setwd("C:/Users/default.DESKTOP-VHFHFGU/Downloads")
 
 ##----------A. 막대 그래프-----------
 library(tidyverse)
@@ -284,3 +285,58 @@ penguins %>%
 ##
 ## 두 개 이상의 집단으로 나뉜 것 같고, 집단에 따라 암컷의 부리 길이가 짧음
 ##
+
+
+## Date : 2025-05-26
+## Author : 강신성
+## Student code : 202014107
+## Title : 데이터 시각화
+
+#----------ggplot2----------##
+setwd("C:/Users/default.DESKTOP-VHFHFGU/Downloads")
+library(tidyverse)
+library(lubridate)
+
+
+##----------지난 시간에 왜 이렇게 그렸대 했던 것----------
+library(palmerpenguins)
+penguins %>%
+  drop_na() %>%
+  ggplot(aes(x = species, y = body_mass_g)) +
+  geom_boxplot(aes(fill = species), width = 0.5) +
+  coord_flip() ## 다 하고 축을 바꿀 때 사용
+
+##----------G. 선그래프----------
+## 시간에 따른 이름에 "x"가 포함되는 아이의 비율 변화
+library(babynames)
+
+babynames %>%
+  group_by(year) %>%
+  summarize(prop_x = mean(str_detect(name, "x"))) %>%
+  ggplot(aes(x = year, y = prop_x)) +
+    geom_line(size = 1, color = "steelblue") +
+    labs(x = "Year", y = "Prop", title = "시간별 이름에 \"x\"가 포함되는 아이의 비율 변화") +
+    theme_bw() +
+    theme(plot.title = element_text(hjust = 0.5))
+
+
+## 시간에 따른 대륙별 기대 수명의 중앙값 변화
+install.packages("wesanderson") ## 다채로운 컬러 팔레트
+install.packages("gapminder") ## 데이터
+library(wesanderson)
+library(gapminder)
+
+gapminder %>%
+  group_by(year, continent) %>%
+  summarise(LifeMedian = median(lifeExp)) %>%
+  ggplot(aes(x = year, y = LifeMedian, color = continent)) +
+    geom_line(size = 1) +
+    geom_point(size = 4, pch = 21, fill = "white") + ## 레이어 방식이므로 순서 중요
+    labs(x = "Year", y = "Median of Life Expectation", title = "연도에 따른 대륙별 기대 수명의 중앙값") +
+    theme_bw() + ## 테마 프리셋 적용 시 커스텀보다 먼저 와야 함
+    theme(plot.title = element_text(size = 15, hjust = 0.5, face = "bold"),
+          axis.title.x = element_text(margin = margin(t = 10)),
+          axis.title.y = element_text(margin = margin(r = 10))
+          ) +
+    # theme_bw() ## 이러면 위에 썼던 테마 설정 다 덮어씌워짐
+    scale_color_manual(values = wes_palette("Darjeeling1", 5)) ## 팔레트 프리셋
