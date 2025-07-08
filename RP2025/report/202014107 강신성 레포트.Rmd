@@ -1,0 +1,760 @@
+---
+title: "도시와 지방의 동물병원 소재 현황과 비교"
+author: "202014107 통계학과 강신성"
+date: "2025-06-14"
+output: html_document
+---
+
+<style type="text/css">
+h1.title {text-align: center;}
+h4.author {text-align: right;}
+h4.date {text-align: right;}
+</style>
+
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(lubridate)
+library(RColorBrewer)
+library(wesanderson)
+library(knitr)
+setwd("C:\\Users\\hollyriver\\Desktop\\RP2025") ## 작업공간 설정
+
+## 부가 메시지 미표기, 경고 미표기, 그래프 가운데 정렬
+knitr::opts_chunk$set(message = FALSE, warning = FALSE, fig.align = "center")
+```
+
+## 1. 개요
+
+---
+
+&nbsp;반려동물에게 정기적인 검진과 적절한 의료적 처치는 상당히 중요하다. 물론 사람에게서도 마찬가지이나, 동물은 원활한 소통이 불가능하다는 점과 자신의 의사를 명확히 표현하지 못한다는 점에서 그 중요성은 더 크게 작용한다. 하지만 시골이라 불리는 지방의 경우 동물병원의 절대적인 수가 적고, 그마저도 가축을 전문으로 하는 경우가 많기에 의료지원에 대한 접근성이 떨어진다. 강아지를 키웠었고, 진안군에 거주중인 입장에서 검진이나 처치가 필요할 때는 맘을 졸이며 먼 거리에 있는 전주의 병원까지 이동해야만 했다. 이러한 문제는 지방의 사람들이 반려동물을 키우기 어렵게 만들며, 양육 환경을 열악하게 만드는 원인이 되기도 한다.
+
+&nbsp;해당 보고서에서는 상기한 문제를 정량적 데이터로서 구체화하고자 한다. 행정안전부에서 제공한 [지역별 동물병원 데이터](https://www.data.go.kr/data/15045050/fileData.do)^[1]^를 골자로 하여 지역별 동물병원의 수를 비교 및 파악할 것이다. 단순히 지역별 병원의 수만 비교하는 것은 진료 대상의 수를 고려하지 않는다는 한계가 있으므로, 농림축산식품부에서 제공한 [지역별 반려동물 등록 개체수 데이터](https://www.data.go.kr/data/15125454/fileData.do)^[2]^를 추가적으로 고려했다. 지방의 동물의료시설 실태를 명확히 파악하여, 이를 기반으로 현 상황을 개선할 수 있는 방법이 마련되었으면 좋겠다.
+
+
+<br><br>
+
+## 2. 본문
+
+---
+
+
+&nbsp;본문에서는 데이터를 요약 및 분석하고, 적절한 도표와 시각화를 제시하여 이해하고자 한다. 아래에선 데이터 소개, 도수분포표, 시각화의 순서대로 진행될 것이다. 데이터 소개 과정에서는 분석에 사용할 데이터를 불러오고, 분석에 필요한 최소한의 전처리를 수행할 것이다. 다음으로 데이터에 나타나는 여러 범주형 변수를 이용하여 도수분포표를 산출하고, 이를 범주별로 비교하고자 한다. 마지막은 이를 기반으로 다양한 시각화를 수행하여 문제 상황에 대해 심층적으로 이해할 수 있도록 만든다. 처음 데이터 소개 과정 이후에도 추가적인 전처리가 필요하면 각 단계에서 수행하도록 한다. 
+
+<br>
+
+### A. 데이터 소개
+
+```{r data_import}
+## 데이터 불러오기
+hospital <- read_csv("animal_hospital.csv", locale = locale(encoding = "CP949"))
+pets <- read_csv("pet_registration.csv", locale = locale(encoding = "CP949"))
+```
+
+
+`-` **동물병원 데이터**
+
+* 동물병원 데이터는 CP949 인코딩 방식을 가지는 `.csv` 확장자의 데이터셋으로, 국내에서 영업이 허가된 동물병원에 대한 정보를 가지고 있다. 이는 2025년 5월 14일에 갱신되었다.
+* 해당 데이터는 `r nrow(hospital)`개의 샘플과 `r ncol(hospital)`개의 변수로 구성되어 있다. 즉, 데이터 등록 시점을 기준으로 전국에서 영업이 허가된 동물병원이 `r nrow(hospital)`개 만큼 존재한다고 볼 수 있다.
+
+
+* 각 변수에 대한 설명은 다음과 같다.
+
+|***변수***|***자료형***|***설명***|
+|:-:|:-:|:---------|
+|번호|`<dbl>`|데이터 인덱스|
+|개방서비스명|`<chr>`|업장이 제공하는 서비스|
+|개방서비스아이디|`<chr>`|서비스별 고유하게 할당된 아이디|
+|개방자치단체코드|`<dbl>`|지방자치단체별 할당된 코드|
+|관리번호|`<dbl>`|개방자치단체코드와 일대일로 매핑되는 관리번호|
+|인허가일자|`<date>`|영업 허가 일자|
+|인허가취소일자|`<date>`|영업 허가 취소 일자|
+|영업상태명|`<chr>`|데이터 제공 시점 당시 영업 상태의 네 가지 구분|
+|영업상태구분코드|`<chr>`|각 영업상태명에 고유하게 매핑되는 네 가지 코드|
+|상세영업상태명|`<chr>`|데이터 제공 시점 당시 영업 상태의 상세 구분|
+|상세영업상태코드|`<chr>`|각 상세영업상태명에 고유하게 매핑되는 여섯 가지 코드|
+|폐업일자|`<date>`|폐업 상태일 경우의 폐업일자|
+|휴업시작일자|`<date>`|휴업을 한 적이 있을 경우 그 시작일자|
+|휴업종료일자|`<date>`|휴업을 한 적이 있고, 현재 휴업을 종료한 경우 그 종료일자|
+|재개업일자|`<date>`|기타 사유로 영업 중단 후 재개업한 일자|
+|소재지전화|`<chr>`|소재지 전화번호|
+|소재지면적|`<dbl>`|업장 소재지의 면적|
+|소재지우편번호|`<chr>`|업장 소재지의 구우편번호|
+|소재지전체주소|`<chr>`|업장 소재지의 구주소|
+|도로명전체주소|`<chr>`|업장 소재지의 도로명주소|
+|도로명우편번호|`<chr>`|업장 소재지의 우편번호|
+|사업장명|`<chr>`|업장의 상호|
+|최종수정시점|`<dttm>`|해당 업장에 대한 정보의 최종 수정 시점|
+|데이터갱신구분|`<chr>`|"U" : 기존 데이터에서 변경된 데이터<br>"I" : 신규 생성된 데이터|
+|데이터갱신일자|`<dttm>`|데이터 공유 페이지에 해당 업장에 대한 정보가 갱신된 시점|
+|업태구분명|`<chr>`|업태의 구분|
+|좌표정보x(epsg5174)|`<dbl>`|EPSG:5174 좌표계 기반 업장의 x좌표값|
+|좌표정보y(epsg5174)|`<dbl>`|EPSG:5174 좌표계 기반 업장의 y좌표값|
+|업무구분명|`<chr>`|업장의 업무 구분|
+|상세업무구분명|`<chr>`|업장의 상세업무 구분|
+|권리주체일련번호|`<chr>`|업장의 권리 형태에 매핑되는 코드값|
+|총직원수|`<dbl>`|업장에 근무하는 총 직원 수|
+|...33|`<lgl>`|열이 끝났음을 알리는 변수(총 열의 개수 : `r ncol(hospital)`개)|
+
+
+```{r hospital_tidy}
+## 열별 고유한 값의 수가 2개 이하인 변수와 그 고유 변수값 출력
+col_nunique <- hospital %>% sapply(n_distinct)
+
+for (col in (col_nunique[col_nunique <= 2] %>% names)) {
+  if (col != "...33") {
+    print(str_glue("변수명 : {col}{ifelse(str_length(col) <= 6, '\t\t', '\t')}{str_dup(' ', 8-str_length(col))}고유 변수값 : {hospital[col] %>% unique()}"))
+  } else {
+    print(str_glue("변수명 : {col}\t\t\t\t고유 변수값 : {hospital[col] %>% unique()}"))
+  }
+}
+```
+
+* 위는 분석에 유의미한 변수들을 추리기 위해 고유한 값의 수가 2개 이하인 것들만 정리한 것이며, 기본적으로 아래와 같은 변경사항이 존재한다.
+  * 하나의 값만 가지는 변수는 의미가 없으므로 분석시 제거한다.
+  * 업무구분명, 총직원수의 경우 `NA`를 포함하여 두 개의 값을 가지는 것이고, 총직원수는 전부 0명으로서 제대로 기입된 정보가 아니라고 판단되기 때문에 분석시 제거한다.
+  * 두 개의 값을 가지는 데이터갱신구분은 신규 입력 데이터와 기존 데이터에서의 변경을 의미한다. 해당 변수는 분석에 영향을 주지 않으므로 제거한다.
+* 따라서 위에 출력된 변수들은 전부 제거하였으며, 추가적으로 번호 변수는 단순 인덱스로서 유의미한 정보를 제공하지 못하고, 관리번호, 영업상태구분코드, 상세영업상태코드는 중복된 정보를 저장하고 있는 열이므로 제거하였다.
+
+<br>
+
+* 데이터의 업장이 제공하는 서비스는 전부 동물병원이지만, 실제로 업장명이 가축병원으로 되어있는 경우에는 개와 고양이에 대한 전문적인 진료를 제공하지 않는 경우가 많다. 이에 따라 해당 영업장의 가축병원 여부를 나타내는 `for_cattle` 변수를 추가하였다.
+* 따라서 아래와 같이 `hospital` 데이터를 재정의할 수 있었다.
+
+```{r hospital_redefine}
+## 의미없는 변수 제거, for_cattle 변수 추가
+hospital <- hospital %>%
+  select(-c(번호, 개방서비스명, 개방서비스아이디, 인허가취소일자, 소재지우편번호,
+            데이터갱신구분, 업태구분명, 업무구분명, 상세업무구분명, 총직원수, ...33,
+            관리번호, 영업상태구분코드, 상세영업상태코드)) %>%
+  mutate(for_cattle = str_detect(사업장명, "가축"))
+
+hospital %>% glimpse
+```
+
+<br>
+
+---
+
+`-` **지역별 반려동물 등록 개체수 데이터**
+
+* 지역별 반려동물 등록 개체수 데이터는 CP949 인코딩 방식을 가지는 `.csv` 확장자의 데이터셋으로, 국내의 시군구별 개와 고양이 등록 누계에 대한 정보를 가지고 있다. 이는 2023년 12월 11일에 갱신되었다.
+* 해당 데이터는 `r nrow(pets)`개의 행과 `r ncol(pets)`개의 열로 구성된 빈도표 형태의 데이터이다. 각 행은 전국의 시군구 단위이며, 시도 단위로 집계된 데이터를 포함한다.
+
+
+* 각 변수에 대한 설명은 다음과 같다.
+
+|***변수***|***자료형***|***설명***|
+|:-:|:-:|:---------|
+|시도|`<chr>`|시군구가 속하는 시도|
+|시군구|`<chr>`|전국의 시군구|
+|개등록 누계|`<dbl>`|시군구별 개의 등록 누계|
+|고양이등록 누계|`<dbl>`|시군구별 고양이의 등록 누계|
+|총 등록 누계|`<dbl>`|시군구별 개와 고양이 등록 누계의 합|
+
+
+* `개등록 누계`, `고양이등록 누계`, `총 등록 누계`의 경우 열이름에 띄어쓰기가 포함되어 있어 다루기 불편하므로, 아래와 같이 이름을 수정해주었다.
+* 이름 수정과 동시에, 분석을 용이하게 하기 위하여 누계에 해당하는 세 개 열들을 아래와 같이 long format으로 통합하였다.
+
+```{r pets_rename}
+## 이름 변경 및 long format으로 변경
+pets <- pets %>%
+  rename("개등록누계" = `개등록 누계`,
+         "고양이등록누계" = `고양이등록 누계`,
+         "총등록누계" = `총 등록 누계`) %>%
+  pivot_longer(ends_with("누계"), names_to = "type", values_to = "n")
+
+## 예외처리 샘플 표시
+pets %>%
+  pivot_wider(names_from = type, values_from = n) %>%
+  filter(str_detect(시도, "세종") | str_detect(시군구, "^창원")) %>% kable()
+```
+
+
+* 해당 데이터는 시군구별 누계와, 시군구들의 시도별 누계 총합을 같이 나타내고 있으므로, 이를 분리해줄 필요가 있었다. 따라서 누계 총합은 아래와 같이 `agg_pets`라는 테이블에 새로 정리하였다.
+* `pets` 데이터에서 시와 구는 도시 지역으로, 군은 지방으로 구분하고자 한다.
+* 세종시의 조치원읍의 경우 유일하게 읍으로 기재되었으며, 등록 누계가 0으로 표기되어 있으므로 유효하지 않다고 판단하여 분석시 제거하였다.
+* 경상남도 창원시의 경우에는 다른 특례시인 경우와 달리 세 개의 구가 분리되어 집계되었으므로, 데이터가 일관성을 가질 수 있도록 시 단위로 통합하여 분석하였다. 따라서 최종적으로 가공된 데이터의 형태는 아래와 같다.
+
+```{r pet_data_split}
+## 시도별 등록 수
+agg_pets <- pets %>%
+  filter((str_length(시도) != 2)) %>%
+  group_by(시도, type) %>%
+  summarise(n = sum(n))
+
+## 시군구별 등록 수
+pets <- pets %>%
+  filter(str_length(시도) != 2, 시군구 != "조치원읍") %>%
+  mutate(is_local = str_sub(시군구, -1) == "군", .before = 1,
+         시군구 = str_replace(시군구, "^창원.+$", "창원시")) %>%
+  group_by(시도, 시군구, type, is_local) %>%
+  summarise(n = sum(n))
+
+pets %>% head() %>% kable()
+```
+
+<br>
+
+---
+
+`-` **동물병원 데이터 전처리**
+
+* 분석을 위해서 동물병원의 주소를 시도와 시군구 단위로 정리하여 새로운 변수를 부여해줄 필요가 있었다.
+* 소재지전체주소(구주소)의 경우 결측치가 있는 행의 개수가 `r hospital %>% filter(is.na(소재지전체주소)) %>% nrow()`개였으며, 도로명전체주소는 `r hospital %>% filter(is.na(도로명전체주소)) %>% nrow()`개였다.
+* 두 개 변수 중 하나라도 결측치인 행의 개수는 `r hospital %>% filter(is.na(도로명전체주소) | is.na(소재지전체주소)) %>% nrow()`개로 위 두 경우의 개수 합과 동일하였다. 이를 종합하면 둘 모두 결측치인 행은 존재하지 않게 된다. 따라서 샘플 개수의 손실 없이 시도와 시군구를 추출할 수 있었다.
+* 시도와 시군구의 추출은 주소를 공백으로 구분했을 때 나오는 첫 번째와 두 번째 열을 골자로 하였다. 몇 개의 시도는 그 명칭이 일치하지 않아 지역별 반려동물 개체수 데이터를 기준으로 변경하였고, 시군구는 세종특별자치시의 하위 지역을 통합하는 것 이외에 전부 그 명칭이 일치하여 수정하지 않았다.
+
+```{r preprocessing, warning=FALSE}
+## 동물병원 데이터에서 지역정보 추출 및 예외처리 샘플 표시
+
+### 반려동물 등록 개체수 데이터의 명칭으로 시도명 통일을 위한 조인 테이블
+join_table <- hospital %>%
+  mutate(주소 = coalesce(소재지전체주소, 도로명전체주소)) %>%
+  .$소재지전체주소 %>% str_split(boundary("word"), simplify = TRUE) %>%
+  .[, 1:2] %>% unique() %>% as_tibble() %>%
+  rename("기존시도" = "V1", "시군구" = "V2") %>%
+  .[1] %>% unique() %>% arrange(기존시도) %>% drop_na() %>%
+  cbind((pets[1] %>% unique()))
+
+
+### 시도 및 시군구 열만 추출 및 변환
+bind_table <- hospital %>%
+  mutate(주소 = coalesce(소재지전체주소, 도로명전체주소)) %>%
+  .$주소 %>%  str_split(boundary("word"), simplify = TRUE) %>%
+  .[, 1:2] %>% as_tibble() %>%
+  rename(기존시도 = "V1", 기존시군구 = "V2") %>%
+  mutate(시군구 = case_when(
+    기존시도 == "세종특별자치시" ~ 기존시도, ## 세종시는 광역시도가 아님
+    TRUE ~ 기존시군구
+  )) %>%
+  left_join(join_table)
+
+### 예외처리 샘플 표시
+bind_table[3:4] %>% unique() %>%
+  full_join((pets[1:2] %>% unique())) %>%
+  mutate(merge = str_c(시도, 시군구, sep = " ")) %>%
+  filter(!(merge %in% as.vector(unite((pets[1:2] %>% unique()), "merge", 시도, 시군구, sep = " "))$merge)) %>%
+  kable()
+```
+
+* 단, 위에 표시된 대구광역시 군위군의 경우 지역별 반려동물 등록 개체수 데이터에 포함되지 않는 지역이므로, 이를 포함하면 분석을 진행할 수 없어 제거하였다. 총 제거된 행의 개수는 `r bind_table %>% filter(시군구 == "군위군") %>% nrow()`개이다.
+* 따라서 아래와 같이 `hospital` 데이터셋을 재정의하였다. 이 때, 해당 시군구가 지방인지에 대한 변수 `is_local`또한 조인을 통해 추가해주었다.
+
+```{r hospital_redefine2}
+## 시도 및 시군구 변수, 사용 불가 데이터 제거 및 지방 여부를 나타내는 변수 추가
+hospital <- hospital %>%
+  cbind(bind_table[3:4]) %>% filter(!(시군구 == "군위군")) %>%
+  left_join((pets[c(1, 2, 4)] %>% unique())) %>% relocate(시도, 시군구, is_local) %>%
+  select(-c(소재지전체주소, 도로명전체주소))
+```
+
+<br>
+
+### B. 도수분포표
+
+
+`-` **동물병원의 현재 영업 상태**
+
+```{r detail_state, echo=FALSE}
+## 상세영업상태명 동물병원 수 빈도표 산출
+hospital %>%
+  group_by(상세영업상태명) %>%
+  summarise(동물병원수 = n()) %>% arrange(desc(동물병원수)) %>% kable(align = "c")
+```
+
+* `hospital` 데이터셋에 입력된 모든 동물병원이 데이터 수정 시점인 2025년 5월 14일을 기준으로 영업상태인 것은 아니다. `상세영업상태명` 변수에는 `r hospital$상세영업상태명 %>% unique %>% str_replace_na %>% str_flatten(collapse = ", ", last = "와 결측값 ")`가 포함되어 있다.
+  * 정상 영업 상태인 동물병원이 5313건으로 가장 많으나, 폐업 상태인 동물병원도 4878건으로 유사했다. 즉, 현재 시점에서 실질적으로 다룰 수 있는 동물병원의 수는 전체 데이터의 절반보다 조금 많은 상황이다.
+  * 단, 현재 영업 상태가 아닌 동물병원 또한 이후 연도별 실황을 분석할 때 사용될 수 있기 때문에 전처리 과정에서 제거하진 않았다.
+  
+<br>
+
+---
+  
+`-` **영업중인 동물병원이 평균적으로 부담하는 반려동물의 수**
+  
+```{r detail_table, echo=FALSE}
+## 영업중인 동물병원의 유형별 수와 평균 부담하는 반려동물 수
+hospital %>%
+  filter(상세영업상태명 == "정상") %>%
+  select(is_local, for_cattle) %>%
+  mutate(is_local = if_else(is_local, "지방", "도시"),
+         for_cattle = if_else(for_cattle, "가축병원", "동물병원")) %>%
+  table() %>% as_tibble() %>% pivot_wider(names_from = for_cattle, values_from = n) %>%
+  inner_join(pets %>%
+               filter(type == "총등록누계") %>%
+               group_by(is_local) %>%
+               summarize(n = sum(n), `소속 시군구` = n()) %>%
+               mutate(is_local = if_else(is_local, "지방", "도시"))) %>%
+  mutate(`병원 당 평균 반려동물 수` = round(n/동물병원, 2),
+         `지역 당 평균 동물병원 수` = round(동물병원/`소속 시군구`, 2)) %>%
+  rename("지역 구분" = `is_local`,
+         "반려동물 등록 수" = n) %>%
+  relocate(`소속 시군구`, `반려동물 등록 수`, `지역 당 평균 동물병원 수`, .after = 3) %>%
+  kable(align = "r")
+```
+
+* 데이터 수정 시점에서 영업상태인 병원을 기준으로 도시와 지방의 여러 도수와 비율을 표시하였다.
+  * 도시로 분류된 시군구는 147개, 지방으로 분류된 시군구는 85개이다.
+  * 지방의 동물병원의 수가 도시보다 적었지만, 가축병원의 수는 오히려 많았다.
+  * 도시의 평균 동물병원의 수가 지방의 4배 가까이 달한다. 하지만 병원 하나가 감당하는 반려동물의 수는 지방이 더 적어 각각의 동물이 받는 의료 서비스의 밀도 측면에서는 지방이 더 쾌적할 수 있다. 하지만 해당 분석에서는 등록되지 않은 반려동물을 고려하지 못하므로, 사각지대를 반영할 수 없다는 한계가 있다.
+  
+<br>
+
+---
+
+`-` **동물병원이 없는 시군구**
+
+```{r no_hospital_regions}
+### 범주형 변수 팩터화 -> 시군구별 종합 및 정렬을 위해 필요
+hospital <- hospital %>%
+  mutate(시도 = as.factor(시도),
+         fct_region = (str_c(시도, 시군구, sep = " ") %>% as_factor()))
+
+
+### 동물병원이 없는 시군구 정리
+no_hospital_regions <- c()
+
+### 현재 영업중인 동물병원이 하나라도 존재하는 시군구
+open_region <- hospital %>%
+  filter(상세영업상태명 == "정상") %>%
+  .$fct_region %>% unique()
+
+for (region in pets %>% mutate(fct_region = str_c(시도, 시군구, sep = " ")) %>% .$fct_region %>% unique()) {
+  if (region %in% open_region) {next} else {
+    no_hospital_regions = c(no_hospital_regions, region)
+  }
+}
+
+str_glue("동물병원이 없는 시군구 : {str_flatten(no_hospital_regions, ', ')}")
+```
+* 데이터 수정 시점에서 정상영업 상태인 동물병원만을 대상으로 집계하였을 때, 총 232개 시군구 중 동물병원이 없는 시군구가 다섯 개 존재하였다.
+  * 위는 모두 군에 해당하는 지방으로써, 도시와 지방의 동물의료 격차를 극단적으로 보여주는 예시이다.
+  * 해당 지역에는 동물병원이 위치하지 않으므로 진료가 필요할 시 다른 지역으로 이동하여야 한다.
+  * 지역별 동물병원이 평균적으로 감당하는 반려동물의 수를 산출할 때 분모가 0이 되므로, 관련 분석 시 해당 지역을 적당히 처리할 필요가 있다.
+
+<br>
+
+---
+
+### C. 시각화
+
+
+`-` **동물병원 데이터의 시도별 빈도 분석**
+
+* `hospital` 데이터셋의 시도 변수에 대한 시각화를 진행하였다. 데이터 수정 시점인 2025년 5월 14일을 기준으로 영업 상태인 동물병원만을 대상으로 분석을 진행하였다. 아래는 그 코드와 결과이다.
+
+```{r hospital_bar, fig.width=8}
+### 데이터 수정 시점 기준 동물병원 데이터 시도별 막대 그래프
+hospital %>%
+  filter(상세영업상태명 == "정상") %>%
+  mutate(시도 = fct_rev(fct_infreq(시도))) %>%
+  count(시도) %>%
+  ggplot(aes(x = n, y = 시도, fill = 시도, label = n)) +
+  geom_bar(stat = "identity") +
+  geom_text(size = 3, hjust = -0.1) +
+  labs(x = "동물병원 수", y = "", title = "전국 광역시도별 영업중인 동물병원의 수") +
+  theme_classic() +
+  theme(plot.title = element_text(size = 15, face = "bold", hjust = 0.5),
+        axis.title.x = element_text(size = 12, face = "bold", margin = margin(t = 10)),
+        legend.position = "none")
+```
+
+* 전국 총 `r hospital$시도 %>% n_distinct()`개의 광역시도별 동물병원의 수를 막대그래프로 시각화하였다.
+  * 경기도, 서울특별시의 동물병원이 가장 많았으며, 해당 두 시도는 그 다음으로 많은 경상남도의 두 배가 넘는 수를 가지고 있었다.
+  * 서울과 경기의 토지 면적을 고려한다면, 공간에 대한 밀집도 또한 가장 높다고 판단된다. 이를 기반으로 수도권의 동물의료 인프라 수요 및 공급이 가장 활성화되어 있다고 말할 수 있다.
+
+<br>
+
+---
+
+`-` **동물병원 데이터의 시군구별 빈도 분석**
+
+* 같은 데이터셋에 대해서 시군구별로 시각화를 진행하였다. 마찬가지로 데이터 수정 시점에서 영업상태인 동물병원만을 대상으로 하였다.
+
+```{r hospital_region_bar, fig.height=4.5}
+### 박스 및 히스토그램 테마 적용 함수
+strip_hist_theme <- function(fig, y_lim) {
+  return(fig +
+           geom_histogram() +
+           geom_boxplot(aes(y = for_align), width = 5, fill = NA, outliers = FALSE) +
+           geom_jitter(aes(y = for_align), color = "steelblue", width = 0.2, height = 1.5, alpha = 0.2) +
+           coord_cartesian(ylim = c(0, y_lim)) +
+           facet_grid(is_local~., labeller = labeller(is_local = c("TRUE" = "지방", "FALSE" = "도시"))) +
+           theme_classic() +
+           theme(plot.title = element_text(size = 15, face = "bold", hjust = 0.5, margin = margin(b = 10)),
+                 axis.title.x = element_text(size = 12, face = "bold", margin = margin(t = 10)),
+                 axis.title.y = element_text(size = 12, face = "bold", margin = margin(r = 10)),
+                 strip.text = element_text(size = 12, face = "bold"),
+                 legend.position = "none"))
+}
+
+### 동물병원이 없는 시군구 시군구별 도수 산출 후 시각화
+no_hospital_table <- tibble(fct_region = no_hospital_regions,
+                            is_local = FALSE,
+                            n = 0)
+
+hospital %>%
+  filter(상세영업상태명 == "정상") %>%
+  group_by(fct_region, is_local) %>%
+  summarise(n = n()) %>%
+  ### 레벨 추가를 위한 문자열 파싱
+  mutate(fct_region = as.character(fct_region)) %>%
+  ### 현재 동물병원이 없는 시군구를 집계 데이터에 추가
+  rbind(no_hospital_table) %>%
+  mutate(for_align = 32) %>%
+  ggplot(aes(x = n, fill = is_local)) %>%
+  strip_hist_theme(35) +
+  labs(x = "시군구 내 동물병원 수", y = "시군구의 수", title = "시군구별 동물병원 수의 분포")
+```
+
+* 시군구의 경우 그 수가 `r hospital$시군구 %>% n_distinct()`개로 전체 범주가 매우 많아, 히스토그램과 박스플롯을 사용해 시각화하였다. 박스플롯은 이상치를 표시하는 대신 지터링된 산점도를 추가하여 각각의 시군구를 의미하는 데이터 포인트가 두드러지도록 만들었다. 나아가 도시와 지방의 차이를 강조하기 위해 `is_local`변수를 기준으로 그래프를 분할하였다.
+  * 도시와 지방 모두 오른쪽으로 기울어진 모양을 띄고 있으나, 도시는 오른쪽 꼬리가 상당히 두꺼웠다. 수도권 과밀화 현상으로 이를 설명할 수 있다.
+  * 상자 그림으로 볼 때, 평균적으로 도시 지역이 지방보다 동물병원이 2배 이상 많은 것을 알 수 있다.
+  * 해당 그래프는 범주형 변수의 빈도 자체를 히스토그램으로 표현했다는 점에서 해석에 유의할 필요가 있다.
+  * 히스토그램과 상자그림만으로는 실제로 어떤 구역이 상위권에 위치하는지 알기 어렵기 때문에 추가적인 시각화를 실시할 필요가 있었다.
+  
+```{r clinic_type_bar, fig.width=10}
+### 전국 시군구별 동물병원과 가축병원 보유 개수 상위 열 다섯 시군구 추출
+top15 <- hospital %>%
+  filter(상세영업상태명 == "정상") %>%
+  group_by(fct_region, for_cattle, is_local) %>%
+  summarize(n = n()) %>%
+  ungroup() %>%
+  pivot_wider(names_from = for_cattle, values_from = n, values_fill = 0) %>%
+  rename("pets" = `FALSE`, "cattle" = `TRUE`) %>%
+  
+  ### 상위 15개만 입력된 순서대로 추출
+  mutate(pets_rank = row_number(desc(pets)), ## 중복이 발생하여도 순차적 순위 부여
+         cattle_rank = row_number(desc(cattle)),
+         pets_rank = if_else(pets_rank <= 15, pets_rank, NA),
+         cattle_rank = if_else(cattle_rank <= 15, cattle_rank, NA)) %>%
+  filter(!is.na(pets_rank) | !is.na(cattle_rank)) %>%
+  pivot_longer(c(pets, cattle), names_to = "type", values_to = "n")
+
+
+### 병원 종류별 시각화
+top15 %>%
+  ### 두 동물병원 종류 중 순위를 매길 때 사용했던 종류만 사용
+  filter((type == "pets" & !is.na(pets_rank)) | (type == "cattle" & !is.na(cattle_rank))) %>%
+  select(-c(pets_rank, cattle_rank)) %>%
+  mutate(fct_region = fct_reorder(fct_region, n),
+         type = fct_relevel(type, "pets")) %>%
+  ggplot(aes(x = n, y = fct_region, fill = type)) +
+  geom_bar(stat = "identity") +
+  labs(x = "병원의 수", y = "", title = "동물병원 보유 수의 상위 열 다섯 개 시군구") +
+  facet_wrap(.~type, scale = 'free',
+             labeller = labeller(type = c("cattle" = "가축병원", "pets" = "동물병원"))) +
+  theme_bw() +
+  theme(legend.position = "none",
+        axis.title = element_text(size = 12, face = "bold"),
+        plot.title = element_text(size = 15, face = "bold", hjust = 0.5),
+        strip.text = element_text(size = 12, face = "bold"),
+        panel.grid.minor.x = element_blank(),
+        panel.grid.major.y = element_blank())
+```
+
+* 병원을 동물병원과 가축병원으로 나누었을 때, 각 구분별 병원이 많이 소재한 있는 상위 열다섯 시군구를 막대 그래프로 시각화하였다. 지역명과 가축병원 여부, 지방인지의 여부를 기준으로 그룹화한 후 각각의 수를 집계, 병원 종류별 상위 열다섯 개의 행들을 추출하는 형태이다.
+  * 경기도 고양시에 시군구 중 가장 많은 동물병원이 소재했으며, 가축병원은 경주시와 횡성군이 다섯 개로 가장 많이 소재했다.
+  * 동물병원 보유수 상위 열다섯 시군구에는 지방으로 분류된 군이 하나도 포함되지 않았으나, 가축병원 보유수 상위 열다섯 시군구에는 지방이 일곱 구역 포함되었다.
+
+
+```{r clinic_type_fill_bar}
+## 가축병원 보유수 상위 열다섯 시군구의 재시각화
+top15 %>%
+  ### 동물병원 보유수 순위로 기재된 행 제거
+  drop_na(cattle_rank) %>%
+  select(-c(pets_rank, cattle_rank)) %>%
+  
+  ### 동물 병원 보유수로 재정렬, 메인이 되는 "동물 병원"을 상위 레벨로 이동
+  mutate(fct_region = fct_reorder(fct_region, n),
+         type = fct_recode(type, "동물병원" = "pets", "가축병원" = "cattle"),
+         type = fct_relevel(type, "동물병원")) %>%
+  ggplot(aes(x = n, y = fct_region, fill = type)) +
+  geom_bar(stat = "identity") +
+  labs(x = "병원의 수", y = "", title = "가축병원 보유 상위 열다섯 시군구의 병원 수", fill = "병원의 종류") +
+  facet_grid(is_local~., scale = "free", labeller = labeller(is_local = c(`FALSE` = "도시", `TRUE` = "지방"))) +
+  theme_bw() +
+  theme(axis.title.x = element_text(size = 12, face = "bold"),
+        plot.title = element_text(size = 15, face = "bold", hjust = 0.5),
+        strip.text = element_text(size = 12, face = "bold"),
+        legend.title = element_text(size = 11, face = "bold", hjust = 0.5),
+        panel.grid.major.y = element_blank())
+```
+
+* 위 그래프의 오른쪽에 해당하는 가축병원이 많은 열다섯 지역의 구체적인 특징을 파악하기 위해 동물병원을 종류에 따라 색으로 나눠 새로 막대 그래프를 산출하였다.
+  * 가축병원을 많이 보유한 열다섯 지역 중에서 도시는 지방보다 일괄적으로 더 많은 병원을 보유하였다.
+  * 경상남도 남해군의 경우 동물병원과 가축병원이 각각 세 개 존재하여 전체 병원 대비 가축병원의 비중이 0.5로 가장 높았다.
+  * 전체 동물병원 대비 가축병원의 비중을 고려할 때, 지방의 경우 도시보다 가축병원의 중요성이 더 높다고 말할 수 있다.
+
+<br>
+
+---
+
+`-` **연도별 동물병원의 수 시각화**
+
+* 동물병원의 수가 시간에 따라 어느 정도의 차이가 있는지 확인하고자 한다. 이를 위해 각 동물병원이 영업한 시간 범위를 나타내는 `interval` 열을 생성하였다. 해당 코드는 아래와 같다.
+
+```{r TimeSeries_handling}
+## 영업한 기간을 나타내는 interval 열의 생성 -> long format으로 변환
+hospital_interval <- hospital %>%
+  mutate(
+    ## 첫 번째 영업기간
+    start1 = 인허가일자,
+    end1 = case_when(
+      ## 휴업시작일자가 있고, 폐업일자가 없거나 휴업시작일자보다 큼 -> 휴업시작일자까지는 영업
+      !is.na(휴업시작일자) & (is.na(폐업일자) | 폐업일자 >= 휴업시작일자) ~ 휴업시작일자,
+      
+      ## 위가 아닌데 폐업일자는 있음 -> 폐업일자까지 영업
+      !is.na(폐업일자) ~ 폐업일자,
+      
+      ## 휴업/폐업한 적 없음 -> 정보 수집일까지는 영업
+      TRUE ~ ymd_hms("2025-05-14 00:00:00")
+    ),
+    
+    ## 휴업을 하고 재영업하는 병원, 두 번째 영업기간
+    start2 = if_else(!is.na(휴업종료일자) & (is.na(폐업일자) | 폐업일자 > 휴업종료일자),
+                    휴업종료일자, NA),
+    end2 = case_when(
+      ## 재영업을 했는데 폐업도 함 -> 폐업일자까지 영업
+      !is.na(start2) & !is.na(폐업일자) ~ 폐업일자,
+      
+      ## 재영업을 했고, 폐업 안함 -> 정보 수집일까지는 영업
+      !is.na(start2) ~ ymd_hms("2025-05-14 00:00:00"),
+      
+      ## 재영업한적 없음 -> long_format 될 때 개수가 늘어나지 않음
+      TRUE ~ NA),
+    
+    ## 시간 범위로 저장
+    interval1 = start1 %--% end1,
+    interval2 = start2 %--% end2
+  ) %>%
+  pivot_longer(c(interval1, interval2), names_to = "open_times", names_prefix = "interval", values_to = "interval") %>%
+  filter(!is.na(interval)) %>%
+  select(-c(start1, start2, end1, end2))
+```
+
+* 데이터의 동물병원들은 시간에 따라 휴업, 재개업, 폐업 등 여러 상태를 거친다. 한 번 휴업한 후 재개업한 경우 운영 기간이 두 개로 나뉘기 때문에 열을 생성한 이후 long format으로 변환해줄 필요가 있었다.
+  * 해당 데이터 테이블의 행 개수는 기존 `r hospital %>% nrow()`개에서 `r hospital_interval %>% nrow()`개로 증가하였고, 더이상 각 열은 하나의 동물병원을 의미하지 않는다.
+  * 이론상 한 병원이 여러번 재개업하여 운영기간이 두 개를 넘길 수 있으나, 해당 데이터에서는 그것까지 기재되어 있지 않아 분석에서 고려하지 않는다. 재개업한 동물병원 자체가 전체에 비해 적은 관계로 결과에 큰 영향을 끼치지 않을것으로 생각된다.
+  
+<br>
+  
+* 추가된 시간 범위 변수를 이용하여 연도별 동물병원의 수가 어떻게 변하는지 확인하고자 한다. 연말인 12월 31일을 기준으로 최근 15년 간 단순 빈도수와 증가율을 순서대로 시각화하였다.
+
+```{r hospital_count_LinePlot}
+### 해당 날짜가 포함되는 interval이 데이터에 얼마나 존재하는지 집계
+date_in_interval_global <- function(x) {x %within% hospital_interval$interval %>% sum()}
+date_in_interval_local <- function(x) {x %within% (hospital_interval %>% filter(is_local))$interval %>% sum()}
+
+### 연말 기준으로 연도별 영업중인 동물병원 집계 후 시각화
+tibble(years = ymd(str_c(2010:2024, "-12-31", sep = "")),
+       전국 = sapply(years, date_in_interval_global),
+       지방 = sapply(years, date_in_interval_local),
+       도시 = 전국 - 지방) %>%
+  pivot_longer(c(전국, 지방, 도시), names_to = "type", values_to = "n") %>%
+  mutate(type = as_factor(type) %>% fct_relevel(c("전국", "도시"))) %>%
+  ggplot(aes(x = years, y = n, color = type)) +
+  geom_line(size = 0.8) +
+  geom_point(size = 2) +
+  labs(x = "연도", y = "병원 수", color = "구분", title = "연도별 동물병원의 수(2010 ~ 2024)") +
+  scale_color_manual(values = brewer.pal(3, "Set1")) +
+  coord_cartesian(ylim = c(250, 5600)) +
+  theme_bw() +
+  theme(plot.title = element_text(size = 15, face = "bold", hjust = 0.5),
+        axis.title.x = element_text(size = 12, face = "bold"),
+        axis.title.y = element_text(size = 12, face = "bold", margin = margin(r = 10)),
+        legend.title = element_text(size = 11, face = "bold", hjust = 0.5))
+```
+
+* 2010년 12월 31일부터 2024년 12월 31일까지 연도별 영업 상태인 동물병원의 수를 시각화하였다.
+  * 국내 동물병원의 수는 시간에 따라 지속적으로 증가하고 있다. 이는 도시와 지방 모두에게서 해당한다.
+  * 지방의 동물병원 수가 도시의 절반에도 미치지 못하기 때문에 전국 동물병원 수의 증가에 기여하는 정도는 다소 미미하다. 이에 따라 전국과 도시의 추세선은 y축으로 평행이동한 것과 유사한 형태를 띄고 있다.
+
+
+```{r hospital_increase_rate_LinePlot}
+### 2009년부터 추출하고, 2010년 12월 31일부터 집계 후 시각화
+tibble(years = ymd(str_c(2009:2024, "-12-31", sep = "")),
+       전국 = sapply(years, date_in_interval_global),
+       지방 = sapply(years, date_in_interval_local),
+       도시 = 전국 - 지방) %>%
+  ### 1년전 대비 동물병원 수의 증가율 계산
+  mutate(
+    전국1 = lag(전국),
+    지방1 = lag(지방),
+    도시1 = lag(도시),
+    rate전국 = (전국 - 전국1) / 전국1,
+    rate지방 = (지방 - 지방1) / 지방1,
+    rate도시 = (도시 - 도시1) / 도시1
+  ) %>%
+  select(years, starts_with("rate")) %>%
+  pivot_longer(c(rate전국, rate지방, rate도시), names_to = "type", names_prefix = "rate", values_to = "n") %>%
+  ### 결측치인 2009년도 제외
+  filter(!is.na(n)) %>%
+  mutate(type = as_factor(type) %>% fct_relevel(c("전국", "도시"))) %>%
+  ggplot(aes(x = years, y = n, color = type)) +
+  geom_line(size = 0.8) +
+  geom_point(size = 2) +
+  labs(x = "연도", y = "증가율", color = "구분", title = "연도별 동물병원 수 증가율(2010 ~ 2024)") +
+  scale_color_manual(values = c("red", "yellow", "skyblue")) +
+  theme_bw() +
+  theme(plot.title = element_text(size = 15, face = "bold", hjust = 0.5),
+        axis.title.x = element_text(size = 12, face = "bold"),
+        axis.title.y = element_text(size = 12, face = "bold", margin = margin(r = 10)),
+        legend.title = element_text(size = 11, face = "bold", hjust = 0.5))
+```
+
+* 절대적인 수의 비교로는 개선 상황을 비율로 보기 어렵기 때문에 연도별 영업 상태인 동물병원 수의 증가율을 선 그래프로 시각화하였다. 1년간 영업중인 동물병원 수가 얼마나 차이가 나는지를 기준으로 비율을 산출하였으며, 마찬가지로 2010년 12월 31일부터 2024년 12월 31일까지 시각화하였다.
+  * 도시의 동물병원이 많기 때문에 전국 단위 증가율은 도시의 증가율과 유사하게 움직인다.
+  * 초기에는 지방의 동물병원 증가율이 상대적으로 저조하였으나, 2018년 이후로는 도시의 증가율을 역전하기도 하면서 그 양상이 변화하고 있다.
+  * 전반적으로 지방의 동물의료 인프라 개선률이 높다고 말할 수 있다.
+  
+<br>
+
+---
+
+`-` **지역별 반려동물 등록 개체수 데이터와의 연계**
+
+* 단독 데이터셋만으로는 개별 반려동물의 수혜 정도를 판단하기 어렵다. 이에 따라 반려동물 등록 개체수 데이터와의 연계를 통해 상황을 구체화하고자 한다.
+
+```{r pets_univariate_vis}
+## 시군구별 반려동물 등록수의 단변량 분석
+pets %>%
+  filter(type == "총등록누계") %>%
+  mutate(for_align = 45) %>%
+  ggplot(aes(x = n, fill = is_local)) %>%
+  strip_hist_theme(50) +
+  labs(x = "반려동물 등록 누계(개, 고양이)", y = "시군구의 수", title = "시군구별 반려동물 등록 수")
+```
+
+* 먼저 동물병원과 비교하기 위해 지역별 반려동물 데이터를 히스토그램과 박스 플롯으로 시각화하였다.
+  * 해당 데이터는 2023년 12월 11일 갱신되었다는 점에서 동물병원 수 데이터와 완전히 동일선상에 둘 수는 없으나, 오른쪽으로 기울어졌으며 지방의 평균이 현저히 낮다는 점에서 비슷한 양상을 가진다.
+  * 지방의 경우 등록수가 일만건 미만인 지역이 거의 대부분이었으며, 가장 높은 등록수 또한 2만건을 넘기지 못했다.
+  
+  
+
+```{r scatter_plot_by_species, fig.width=10}
+## 개, 고양이별 병원수와 등록 누계간 산점도 산출
+pets %>%
+  ### 총등록누계 제외
+  filter(type != "총등록누계") %>%
+  mutate(fct_region = str_c(시도, 시군구, sep = " ")) %>%
+  rename("누계" = n) %>%
+  select(fct_region, 누계, is_local) %>%
+  ### 2023년 12월 11일 기준으로 영업중인 동물병원 집계 후 조인
+  left_join(hospital_interval %>%
+              mutate(fct_region = as.character(fct_region)) %>%
+              filter(ymd("2023-12-11") %within% interval) %>%
+              group_by(fct_region, is_local) %>%
+              summarise(병원수 = n())) %>%
+  ### 병원수가 특정되지 않은 경우 0으로 설정
+  mutate(병원수 = replace_na(병원수, 0),
+         누계 = replace_na(누계, 0),
+         is_local = if_else(is_local, "지방", "도시")) %>%
+  ggplot(aes(x = 누계, y = 병원수, color = is_local)) +
+  geom_point(alpha = 0.5) +
+  facet_wrap(.~type, scales = "free") +
+  geom_smooth(method = "lm", color = "red") +
+  geom_rug() +
+  labs(title = "동물별 병원수와 등록 누계간 산점도") +
+  theme_bw() +
+  theme(axis.title.x = element_text(size = 12, face = "bold"),
+        axis.title.y = element_text(size = 12, face = "bold", margin = margin(r = 10)),
+        plot.title = element_text(size = 15, face = "bold", hjust = 0.5),
+        strip.text = element_text(size = 11, face = "bold"))
+```
+
+* 다음으로 고양이와 개의 등록누계가 병원수와 결합하였을 때 다른 형태를 띄는지 확인하고자 산점도를 그려보았다.
+  * 고양이와 개의 등록누계는 표상적으로 볼때 이질적인 것처럼 보인다. 하지만 고양이 등록누계 측면에서 이상치 하나를 제외하면 둘은 비슷한 형태로 판단될 수 있다.
+  * 실제로 고양이등록누계가 가장 많은 지역은 제주시의 2499건인데, 이는 제주시의 반려동물 등록 장려 정책과 등록 수수료 면제 정책에 의한 현상일 수 있다. 아래는 정책과 관련한 발언을 인용한 것이다.
+  
+  > <p align="center">“동물등록은 동물의 보호, 유기‧유실 방지를 위한 선택이 아닌 법적 의무사항이므로, 성숙한 반려동물 문화 조기 정착을 위해 기간 내에 등록 또는 변경신고 해주시길 당부드린다”</p>
+  >
+  > <span style="color:grey"><p align="right">제주시청 축산과<sup>[3]</sup></p></span>
+  
+  * 따라서 이 경우를 이상치로 제거한다면, 고양이와 개를 총 누계로 통합하여 분석하여도 큰 문제가 없을 것이라 기대된다.
+
+
+```{r scatter_plot_total, fig.width=10}
+### 232개 시군구 동물병원수 종합
+pets %>%
+  filter(type == "총등록누계") %>%
+  mutate(fct_region = str_c(시도, 시군구, sep = " ")) %>%
+  rename("총등록누계" = n) %>%
+  select(fct_region, 총등록누계, is_local) %>%
+  ### 2023년 12월 11일 기준으로 영업중인 동물병원 집계 후 조인
+  left_join(hospital_interval %>%
+              mutate(fct_region = as.character(fct_region)) %>%
+              filter(ymd("2023-12-11") %within% interval) %>%
+              group_by(fct_region, is_local) %>%
+              summarise(병원수 = n())) %>%
+  ### 로그변환 추가, long format으로 변환을 위한 변수 결합
+  mutate(log병원수 = log2(병원수) %>% round(2),
+         log누계 = log2(총등록누계) %>% round(2),
+         병원수 = replace_na(병원수, 0),
+         총등록누계 = replace_na(총등록누계, 0),
+         원자료 = str_c(병원수, 총등록누계, sep = "/"),
+         로그자료 = str_c(log병원수, log누계, sep = "/")) %>%
+  select(-c(log병원수, 병원수, log누계, 총등록누계)) %>%
+  pivot_longer(c(원자료, 로그자료), names_to = 'logtype', values_to = "values") %>%
+  separate(values, into = c("병원수", "총등록누계"), sep = "/") %>%
+  mutate(병원수 = parse_double(병원수),
+         총등록누계 = parse_double(총등록누계),
+         logtype = fct_relevel(logtype, "원자료"),
+         logtype = fct_recode(logtype, "로그자료 (log2)" = "로그자료"),
+         is_local = if_else(is_local, "지방", "도시")) %>%
+  ### 병원수가 0개여서 로그 변환 시 NA인 행의 제거
+  drop_na(병원수) %>%
+  ggplot(aes(x = 총등록누계, y = 병원수, color = is_local)) +
+  geom_point(alpha = 0.5) +
+  facet_wrap(.~logtype, scales = "free") +
+  geom_smooth(method = "lm", color = "red") +
+  labs(color = "지역 구분", title = "시군구 단위 병원수와 총등록누계간 산점도") +
+  scale_color_manual(values = wes_palette(2, name = "AsteroidCity1", type = "discrete")) +
+  theme_bw() +
+  theme(axis.title.x = element_text(size = 12, face = "bold"),
+        axis.title.y = element_text(size = 12, face = "bold", margin = margin(r = 10)),
+        legend.title = element_text(size = 11, face = "bold", hjust = 0.5),
+        plot.title = element_text(size = 15, face = "bold", hjust = 0.5))
+```
+
+* 시군구 단위로 병원수와 총등록누계를 산점도로 시각화하였다. 원자료의 경우 각 관측값이 작은 수준에 몰려있고, 분산이 상당히 크기 때문에 둘 모두 이진 로그로 변환한 로그자료도 같이 시각화해주었다. 병원의 수가 0개인 경우는 로그변환할 수 없어 제거하였다.
+  * 지방과 도시에 해당하는 점이 분리되어있는 것을 확인할 수 있다. 이는 로그 척도로 변환한 자료에서 두드러진다. 두 집단을 분리할 수 있다는 사실은 집단간 분포가 다르다는 주장을 지지한다.
+  * 총등록누계가 증가할수록 병원수 또한 증가하는 형태이다. 다만 지방의 경우 회귀직선의 위쪽에 데이터가 많이 위치하여 총등록누계가 병원수에 미치는 효과가 과소평가되었을 수 있다.
+
+
+<br><br>
+
+## 3. 결론
+
+---
+
+&nbsp;여러가지 시각화를 진행한 결과, 동물병원의 양적 차원에서 지방이 도시에 비해 상당히 뒤떨어짐을 알 수 있었다. 동물병원 자체가 소재하지 않아 취약점에 있는 시군구도 몇몇 존재했으며, 소수의 동물병원이 소재한다고 하더라도 지역의 면적에 비해 약소한 수이고 해당 병원들도 가축병원이 적지않은 비중을 차지하고 있어 의료 접근성이 떨어진다.
+
+&nbsp;다만, 예상과 달리 대부분의 지방이 취약한 수준은 아닌 것으로 판단된다. 오히려 병원 하나가 감당하는 반려동물의 수는 지방이 더 적기 때문에 쾌적한 진료 환경을 제공받을 수 있다. 적당한 수의 동물병원이 존재하는 지방이라면 도시보다 더 유리할 수 있다. 따라서 다음과 같은 해결책을 제시한다.
+
+1. 지방에 소재하는 동물병원이 있다면, 해당 병원을 적극적으로 이용하여 활성화시켜야 한다.
+  * 사람들이 지방에 소재하는 동물병원을 사용하지 않고, 외래 진료를 나간다면 지방 동물병원의 수익 감소로 동물의료 환경 격차는 심화될 것이다. 더불어 이는 수요의 감소로 받아들여져 새로운 병원의 유입을 저지하고 기존 병원을 폐업하게 만드는 원인이 되어 지방과 도시 간 양극화를 가속할 우려가 있다.
+  * 따라서 지방에서 반려동물을 양육하는 사람이 지방의 동물병원이 존재함을 인지하고, 이를 이용하도록 한다면 점차 지방의 동물의료 환경은 개선될 것으로 기대된다.
+  
+
+2. 반려동물의 건전한 양육환경을 권장하고, 홍보하여 사회‧문화적인 발전을 이룩해야 한다.
+  * 지방의 동물병원 수가 적은 이유는 결정적으로 진료할 반려동물의 수가 적은 것에 있을 것이다. 지방의 반려동물 등록 수는 대부분 일만건 미만으로 병원을 이용하는 동물 자체의 파이가 도시보다 적다. 이는 실제로 해당 지역의 반려동물 수가 적은 것도 있으나, 제주시의 경우에서 볼 수 있듯이 지역별 정책과 사람들의 가치관이 다름으로써 생기는 문제일 수 있다. 반려동물을 키움에도 불구하고 이를 등록하지 않는 경우가 지방에 더욱 빈번한 것이다.
+  * 이러한 근본적인 문제를 해결하는 것이 가장 좋은 해결책이라고 생각된다. 마당에 묶어 방치하던 동물을 진정 반려동물로써 받아들이게 된다면, 지방에서 동물복지 시장의 파이가 커질 것이고, 환경의 개선은 뒤따라올 것이다. 따라서 이를 위한 정부와 사회단체등의 역할이 중대할 것이다.
+
+<br>
+
+&nbsp;현재 지방의 동물의료 환경은 많이 바뀌고 있는지도 모른다. 연도별 시각화 결과에서 보았듯이 동물병원 수의 증가율이 높아지고 있는 모습에서 이를 엿볼 수 있다. 물론 동물의료 환경을 병원의 수로만 평가할 수는 없을 것이다. 또한 각 지역의 면적이나 병원 접근 방식, 미등록 반려동물 수, 병원의 전문성 등 여러가지 요인을 분석에 반영할 수 없었다는 점에서 한계가 있다. 차후 동물복지와 관련된 여러 분석을 통해 이러한 상황이 사람들에게 인지되고, 개선하고자 하는 요구가 많아지기를 기대하는 바이다.
+
+<br><br>
+
+## 4. 자료 출처
+
+---
+
+[1] 행정안전부. (2025년 5월 14일). 행정안전부_동물병원. *공공데이터 포털*. https://www.data.go.kr/data/15045050/fileData.do
+
+[2] 농림축산식품부. (2023년 12월 11일). 농림축산식품부 농림축산검역본부_행정구역별 반려동물등록 개체 수 현황. *공공데이터 포털*. https://www.data.go.kr/data/15125454/fileData.do
+
+[3] 이승록, "반려동물 등록하세요"...자진신고 기간 운영, 수수료 면제, 제주의소리, 2024.08.05. https://www.jejusori.net/news/articleView.html?idxno=429046
